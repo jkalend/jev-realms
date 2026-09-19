@@ -1,0 +1,23 @@
+# Rust
+/target/
+debug/
+release/
+**/*.rs.bk
+
+# Environment / secrets
+.env
+.env.*
+*.key
+
+# AI artifacts
+replay_logs/
+*.replay.jsonl
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
