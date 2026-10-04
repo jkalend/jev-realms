@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://laya-realms.local/schemas/3d-asset-manifest.schema.json",
+  "title": "Laya Realms 3D asset bake manifest",
+  "description": "Source-side contract for authored 3D assets and their offline directional renders.",
+  "type": "object",
+  "required": ["version", "assets"],
+  "properties": {
+    "version": { "const": 1 },
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/asset" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "asset": {
+      "type": "object",
+      "required": [
+        "id", "kind", "source", "render_root", "cell_size", "directions",
+        "animations", "uvs", "materials", "rig", "pivot"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_]*$" },
+        "kind": { "enum": ["actor", "player", "boss", "prop"] },
+        "source": { "type": "string", "pattern": "\\.glb$" },
+        "render_root": { "type": "string", "minLength": 1 },
+        "cell_size": {
+          "type": "object",
+          "required": ["width", "height"],
+          "properties": {
+            "width": { "type": "integer", "minimum": 16 },
+            "height": { "type": "integer", "minimum": 16 }
+          },
+          "additionalProperties": false
+        },
+        "directions": {
+          "type": "array",
+          "minItems": 8,
+          "maxItems": 16,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" }
+        },
+        "animations": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "type": "integer", "minimum": 1 }
+        },
+        "action_profile": { "$ref": "#/$defs/action_profile" },
+        "uvs": { "const": true },
+        "materials": { "const": true },
+        "rig": { "const": true },
+        "pivot": { "enum": ["feet_center", "ground_center"] },
+        "metadata": { "type": "object" }
+      },
+      "additionalProperties": false
+    },
+    "action_profile": {
+      "type": "object",
+      "required": ["id", "weapon", "default_action", "clips"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_]*$" },
+        "weapon": { "type": "string", "minLength": 1 },
+        "default_action": { "type": "string", "minLength": 1 },
+        "clips": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          }
+        },
+        "boss": {
+          "type": "object",
+          "required": ["signature", "phase_actions"],
+          "properties": {
+            "signature": { "type": "string", "minLength": 1 },
+            "phase_actions": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "minLength": 1 }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

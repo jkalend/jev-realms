@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "keepwardenfemale-baked",
+    "file": "keepwardenfemale-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "KeepwardenFemale": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "KeepwardenFemale": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "KeepwardenFemale.attack.front.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/attack/front/000.png",
+      "source_sha256": "07b6bd98636410ec7c5086c6933c598053734cc7ba01ab58c130e0b03365cb15",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.front.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/attack/front/001.png",
+      "source_sha256": "56a81b604f4eef8a2cd2fd6dd9c37efec36214d821fff1d1ba1930b58df74c58",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.front.002",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/KeepwardenFemale/attack/front/002.png",
+      "source_sha256": "1b0c7c6e9d78a6d66043cbdac790bdb8c225730f355e8359dc7a321c1307cf30",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.front_right.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/attack/front_right/000.png",
+      "source_sha256": "aa75c45366e24f24d139a4ab735f59fd1dfe7c0bc5f3457216faeebfd89ca772",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.front_right.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/attack/front_right/001.png",
+      "source_sha256": "550d65a9a488dc6f8c628df56402cce882b307de19aba87eaacd4736354b2a25",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.front_right.002",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/KeepwardenFemale/attack/front_right/002.png",
+      "source_sha256": "2e4bc8361b1e7a48d61c5b369b15fdc9ebf6f2a39ccd948bd3e6fc5ca61a9450",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.right.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/attack/right/000.png",
+      "source_sha256": "bbb8b028769c81e606bba5cb8a05c0a94c3f448e8d16794cca667994613dd70d",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.right.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/attack/right/001.png",
+      "source_sha256": "28d375690f5b24ff7f18f7d624afea542101e5ad750ea1eca506187a30484a27",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.right.002",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/KeepwardenFemale/attack/right/002.png",
+      "source_sha256": "43c63281dcbc0d0a288cfe52f287bab2516935f8316640a46d54569b55b6ed80",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.back_right.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/attack/back_right/000.png",
+      "source_sha256": "7d9ce931f95ca1cbd12cddbd0a1d220df7fca5b37403e5537b344e3c017de56a",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.back_right.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/attack/back_right/001.png",
+      "source_sha256": "8e3f69ebe07cac43b497bfcbef8b14443798d18da9e8883b987824e6148e76d4",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.back_right.002",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/KeepwardenFemale/attack/back_right/002.png",
+      "source_sha256": "e2cd8c6ecbb5e6661b195515b52997c44799cf39da067091eb225a5b4a97583d",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.back.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/attack/back/000.png",
+      "source_sha256": "044ecc2a8c9bfa96c6017d33c8ec5c09439261d29c4f0b2cca1dfe99ced12d67",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.back.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/attack/back/001.png",
+      "source_sha256": "ed7a17648e013a3802d92c0c2f86c2929ec8d4b0915d8a9c1b2d4da94136aab4",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.back.002",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/KeepwardenFemale/attack/back/002.png",
+      "source_sha256": "a790009952c5ec13a579812db5a5695629fff9fa1a162e5a953a8d20c47b8439",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.back_left.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/attack/back_left/000.png",
+      "source_sha256": "53c39673cfe78bf9a823276f16e6ccee05c8e393fb3d3692054f8821a3a62578",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.back_left.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/attack/back_left/001.png",
+      "source_sha256": "cf34eb215d1e7c50ca62a297fb8255357dd01b3a071629c1ef1836182e0f500e",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.back_left.002",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/KeepwardenFemale/attack/back_left/002.png",
+      "source_sha256": "1a8a41af3d64b0487e5fc9cf45edaab2c45d3954ecb435428f24b0f72bb59d97",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.left.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/attack/left/000.png",
+      "source_sha256": "d0d304a71ba38898bc0e6ee7ec8d567b2056442267494c52d0db7f19a9db5803",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.left.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/attack/left/001.png",
+      "source_sha256": "deb18360403bad429ab6739789e87bc9ce12f0b87d005e58253d2ce9cae4734d",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.left.002",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/KeepwardenFemale/attack/left/002.png",
+      "source_sha256": "013beaef3f19facca84df32a25bb4fb8b25ee39d37dd05ddd483e4718bb94395",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.front_left.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/attack/front_left/000.png",
+      "source_sha256": "4baa05db51b955e9e6f8603f281cb7b17211f63dd701daa5d44adf963cb85284",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.front_left.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/attack/front_left/001.png",
+      "source_sha256": "3fc022da261cb31dfb3dbbf996e9a52878f3e0c05ba229c6de9f170ed8f0100e",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.attack.front_left.002",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/KeepwardenFemale/attack/front_left/002.png",
+      "source_sha256": "eed64e42bdc2ee4a1d8bc334930acdc63d5a90dd39f9eb92cd36b1ae5f9dbe2f",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.front.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/hit/front/000.png",
+      "source_sha256": "9053b58bc28aa9292d524e4c2297c90ce50ee4c539b70ae7e214bb1f6b7a93f6",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.front.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/hit/front/001.png",
+      "source_sha256": "9dacff88dce9ae4ca7e6bd11d71fb8bef6841d75cd53638c6215828a5c008157",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.front_right.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/hit/front_right/000.png",
+      "source_sha256": "ab0a1fc2f3708a8026452bc4ad8f3602a572933c27200f7322ae6ac7f7731419",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.front_right.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/hit/front_right/001.png",
+      "source_sha256": "3f57e0b1bf5a0257b133185089e5dff17727d2967fcb9c86c3fbf97d0a9b4d2d",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.right.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/hit/right/000.png",
+      "source_sha256": "6fc7e360e4744dc275ee2daeb990c0f6331ab59396ea9ab9121d9eb30e4c69b1",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.right.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/hit/right/001.png",
+      "source_sha256": "1d71e116151561fe317fdcd3fd8f6a6353c997501f4bf22fcd1346f76cd56879",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.back_right.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/hit/back_right/000.png",
+      "source_sha256": "5c59e6cef93a215005c1f8d9cdf345dc645cdaa12673dfcd169ebe32c46cbe83",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.back_right.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/hit/back_right/001.png",
+      "source_sha256": "e90f2ae612fc10a9c2097e1b13179926ec3f20276d839213543678b7cf88f8e0",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.back.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/hit/back/000.png",
+      "source_sha256": "d7d2f0c5985a7ac3e7bf2bed05e7f3cada8a176f016b7dabd10263bc38a1b74c",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.back.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/hit/back/001.png",
+      "source_sha256": "1947f347786a6662a4a24042e7d67598791f0f14671dc1ae001064c295d5f8df",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.back_left.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/hit/back_left/000.png",
+      "source_sha256": "f64a66b74ec8569bf1a28b70068d7c6f55cff4c5dc4dadb964d626aeefcc100c",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.back_left.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/hit/back_left/001.png",
+      "source_sha256": "f9639a4d068d63f530f08cc65b0d320a5ff68cf0480c97a4327af449a7a3fcf5",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.left.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/hit/left/000.png",
+      "source_sha256": "d82a2411b0987e5c2041d5a94eaf1f48ab29040e96a0ac4ea3341e3e718ff80f",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.left.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/hit/left/001.png",
+      "source_sha256": "6eee2859d97413548af24e4e47d43877623493238bd17ae2771fa9806c09ee1c",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.front_left.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/hit/front_left/000.png",
+      "source_sha256": "7076634d8123491b2e91827c99d9e1802fce40e6f5009aa62e13e34748a88bf6",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.hit.front_left.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/hit/front_left/001.png",
+      "source_sha256": "78ea3dbca2b26a5c9811353e026d62ce567f75ff6fbb208e99265ec9d54b4859",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.front.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/idle/front/000.png",
+      "source_sha256": "7f3f73cf87ec9ecddd0db0764ed343698a5e0e2e28ca5e9efca8bc1cef58bd6c",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.front.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/idle/front/001.png",
+      "source_sha256": "fe94bc54fd8de91fae008f1fc610a6a1d82a731ea4b5c568249639c0af2dce66",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.front_right.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/idle/front_right/000.png",
+      "source_sha256": "6340e246018be4a986910e410576293c2d86fba706bfc95362476c1861ed528d",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.front_right.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/idle/front_right/001.png",
+      "source_sha256": "d6e0171f5609ac3599d46503d7d8646eeea04330504213c2a194afa8f6bbd906",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.right.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/idle/right/000.png",
+      "source_sha256": "5f1f24696160f5a038c49309505793b570d7712fe3f9713b3b5d9d12bedde397",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.right.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/idle/right/001.png",
+      "source_sha256": "accb5b9bafadc88a002e9b29c969e93b888ee7b3d37a53fdf59106ad612ac867",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.back_right.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/idle/back_right/000.png",
+      "source_sha256": "ecaf17065090dd84cd4bb3aa446ef6138b7ac8a71a1f4940abb292fd953cd0d8",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.back_right.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/idle/back_right/001.png",
+      "source_sha256": "778904a334b26c72e9fc9479772a0344eb6dc6c0303da2e8cfe5e220a3a61060",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.back.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/idle/back/000.png",
+      "source_sha256": "7ed3488e0d0209d976aa76019bab189540ce66cf6b2bb6d3c0c653e795cc7ed6",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.back.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/idle/back/001.png",
+      "source_sha256": "96c88009147f7d719d4eca656f2a34e91bc08c79b560d19d831efaf34f3a5bc9",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.back_left.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/idle/back_left/000.png",
+      "source_sha256": "7459db9c457ddd11903d0ce4b5ac8b91d78b13a90b9fbacd7d8565efed6b56cd",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.back_left.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/idle/back_left/001.png",
+      "source_sha256": "c44292aaacea409fa888b4f7e4f82e17d49562eae98c6222fe2871f2d66146ae",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.left.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/idle/left/000.png",
+      "source_sha256": "e00b0141df991ace134e6a8bc19ffbdb064bc277c0d512f638b7b6d0ca9757c9",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.left.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/idle/left/001.png",
+      "source_sha256": "8f4f62253ed469a3b014be56fd1a723c124148041028efc5ad7fa706733fa616",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.front_left.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/idle/front_left/000.png",
+      "source_sha256": "7cf5e2a25de6afa7dc9b8594c279f330aebcf31a07b61c019047ad39e3936944",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.idle.front_left.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/idle/front_left/001.png",
+      "source_sha256": "a2334f79ab62144943e75a87ade27ae2fd54be4a13764d091a802fd3ff5ee1f1",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.front.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/walk/front/000.png",
+      "source_sha256": "239478c0c6e2876838bbb1364f4e6a202dfc5879b9ba577a56daeec4efc59387",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.front.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/walk/front/001.png",
+      "source_sha256": "681d1d1e9e9b580e481038aa4f146c680db7d73311de34993eec0c0beafaa8e4",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.front_right.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/walk/front_right/000.png",
+      "source_sha256": "6d29b237ca958eebf7205a4da5f4bae2e3cd51cee6461c6df09bccee6e66212a",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.front_right.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/walk/front_right/001.png",
+      "source_sha256": "a0e82bba8d7fdf09fa2b8a84da76fb27bc0e1825679825ed6f876e55afa85698",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.right.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/walk/right/000.png",
+      "source_sha256": "1a194a71eef0799207990b9e94155a1fa5d59feb78c2a320a2edb5b361e1523d",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.right.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/walk/right/001.png",
+      "source_sha256": "61258dda3f45a7e58aa0b9d3149810914b5243f62459bafce11895514420dba5",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.back_right.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/walk/back_right/000.png",
+      "source_sha256": "16209b5cb35c6b7690000c6be88748e91d6285e76da6ab094223e1bf489de02a",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.back_right.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/walk/back_right/001.png",
+      "source_sha256": "f2a4f037df68176763f5e50fcd25da08ba70f5870a8f5e631451e702a39aa0d1",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.back.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/walk/back/000.png",
+      "source_sha256": "7ecabd8c24850d45be5198fbb64f7a3f8dc0a2d44fbe918b62073efae1ece9cb",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.back.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/walk/back/001.png",
+      "source_sha256": "cccb05f6f49f0fc689005826bdceca4dfdc0ddc5e61245c2e29fef33f8560fee",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.back_left.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/walk/back_left/000.png",
+      "source_sha256": "02bdecf81da6d02534741015af300b5a7a4a437ebf69b0315d19776bd1c25caa",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.back_left.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/walk/back_left/001.png",
+      "source_sha256": "d8f101fb370335a182da7f65a828ae2b2116af607ed98b463d1f475bfd403015",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.left.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/walk/left/000.png",
+      "source_sha256": "804812723793b306789737ec445d70f20830940ccfaaccb0837d73d6d28ceef8",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.left.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/walk/left/001.png",
+      "source_sha256": "ebe7553a10d3bd247c03148521a1652575eb11312132a3cff19f61454445e730",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.front_left.000",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/KeepwardenFemale/walk/front_left/000.png",
+      "source_sha256": "9ad67e4847761ebed71f104e1c6e352be0cef945935f73dd437a74f9c1843b52",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenFemale.walk.front_left.001",
+      "asset_id": "KeepwardenFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/KeepwardenFemale/walk/front_left/001.png",
+      "source_sha256": "1f617870b736b85df8f3776f3d25935fdc587797f96d38eba99aeee3f08f8d9e",
+      "glb_sha256": "b14a02522892fb4f421ee5c2276fe77c984a94fd2c56ba57b613d6427b48aa79",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

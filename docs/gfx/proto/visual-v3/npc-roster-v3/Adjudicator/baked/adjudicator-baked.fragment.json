@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "adjudicator-baked",
+    "file": "adjudicator-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "Adjudicator": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Adjudicator": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Adjudicator.attack.front.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Adjudicator/attack/front/000.png",
+      "source_sha256": "444b64478d98a59688fcb78d3d64b8eff0b41d9ec644cbad80ee9afe8d4c9603",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.front.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Adjudicator/attack/front/001.png",
+      "source_sha256": "ac3982bbaa649821d43960539270971bff705beac77d2cb6e6937d0be118aa74",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.front.002",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Adjudicator/attack/front/002.png",
+      "source_sha256": "46a088ec7de5a243dcfb9f2eebace32356dac75ae297fe67279c83825e766e70",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.front_right.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Adjudicator/attack/front_right/000.png",
+      "source_sha256": "639185eb89eb296bbdee95b5b2e3f55c0ffffef909e4e4b98210cdf0e1573042",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.front_right.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Adjudicator/attack/front_right/001.png",
+      "source_sha256": "c2af4bdbad9f32da6a6bc657eb0fa171367469e2bed5262f67e82f2c59b8aa10",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.front_right.002",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Adjudicator/attack/front_right/002.png",
+      "source_sha256": "5e24c5cac85cc49e0b7971c964e0c9f55a21fb933760aaa824ea460c69926a3f",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.right.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Adjudicator/attack/right/000.png",
+      "source_sha256": "2cfaa9f60a3c290d0c868814e2ca541bbee657a9aeaff6543b4c2f283610519c",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.right.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Adjudicator/attack/right/001.png",
+      "source_sha256": "227816310a57c65e968a2bc138532899739942faaa76244ae977d37dc60b5eb9",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.right.002",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Adjudicator/attack/right/002.png",
+      "source_sha256": "6b75eb0b5b9cf11b5b8a128bc1c0040403671393989637dae2cdb181056c89d9",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.back_right.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Adjudicator/attack/back_right/000.png",
+      "source_sha256": "7a4718d83f04b73c84135ce26bfd81eb4c49aa678454b17fa012a32df41d08c6",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.back_right.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Adjudicator/attack/back_right/001.png",
+      "source_sha256": "5499bf0ebd38752f389534a37e09cd7f1f0a6c6396355519ec9cff3d0a2f8ffa",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.back_right.002",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Adjudicator/attack/back_right/002.png",
+      "source_sha256": "54b1a398f1377a06f5a41ab2d5dba3e370c31d05c563976d6526eedf2714a7d8",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.back.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Adjudicator/attack/back/000.png",
+      "source_sha256": "465c0d47386853f328463fd4dbe70a2037fa66a756e42870d7a67a8810b0e538",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.back.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Adjudicator/attack/back/001.png",
+      "source_sha256": "62ce99e99f48487dfe76e337d4f214e7407a0d21d62048cc11f58d5465f5b2d9",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.back.002",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Adjudicator/attack/back/002.png",
+      "source_sha256": "4181a23b177716f2433da0c332ac52eb700cab17c43fb82f3305265aad4e7514",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.back_left.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Adjudicator/attack/back_left/000.png",
+      "source_sha256": "d9736abc6e94cca8a397f9901a68696d8825819e6b7aef27f2ca4f2cb464f128",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.back_left.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Adjudicator/attack/back_left/001.png",
+      "source_sha256": "aa62de4e5c41f9f998835e213fa0015a418a02d7e60484425f5866abc47fa312",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.back_left.002",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Adjudicator/attack/back_left/002.png",
+      "source_sha256": "3ad8b925bc6ab01c75eeb072a642372ff5e43d5ecbd6791effc6d28aa4c4e26d",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.left.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Adjudicator/attack/left/000.png",
+      "source_sha256": "be6ff75dcdb3fb09fe3084092d11bdfc1d5499c2faf32e1a5fab19ce07f3d519",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.left.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Adjudicator/attack/left/001.png",
+      "source_sha256": "8731e1a9373b72a22d3f8130b2947ef6dda8b1dd099f27243e8836da092bde49",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.left.002",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Adjudicator/attack/left/002.png",
+      "source_sha256": "724ee7f18346f54707ab75854ce4515ec0233c3783902734f19be087c7a52da6",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.front_left.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Adjudicator/attack/front_left/000.png",
+      "source_sha256": "a62339b57d1b10ed6d8a9c4cfda0bd8b6ab9b0e5de896f65b68d55dc0d512ae9",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.front_left.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Adjudicator/attack/front_left/001.png",
+      "source_sha256": "e06e12616b781688f38b32880a93bcff3ade3cedf1db5fd29712babf0bab85aa",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Adjudicator.attack.front_left.002",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Adjudicator/attack/front_left/002.png",
+      "source_sha256": "b906a7bf5a9bd49a186ad0c239206704c71fd1a79caf6b85daa582ab92e68620",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.front.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Adjudicator/hit/front/000.png",
+      "source_sha256": "adce9ad6c19a1236efe2c229387473aa6730e62177aad89f2469b7a5920962eb",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.front.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Adjudicator/hit/front/001.png",
+      "source_sha256": "4a754a487005c57e1316cbd05835ea70e0998607d6ad97c1f1e82f3fab70f788",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.front_right.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Adjudicator/hit/front_right/000.png",
+      "source_sha256": "6714df8b32ff64c0054838c9449eac8fd676486428951c399e827a5dc66f8d1a",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.front_right.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Adjudicator/hit/front_right/001.png",
+      "source_sha256": "92270d6563000e88dafb8f1f726a4e1fdda72471213af42f337b7198e0f8b6e3",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.right.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Adjudicator/hit/right/000.png",
+      "source_sha256": "7ef998671ec27ff6a5ddc1ccc1ca7aa8d1aa7dff080b579ae890f0f8af5469d3",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.right.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Adjudicator/hit/right/001.png",
+      "source_sha256": "c1adace156bab4b9794951d906a23d876d4016af8aaf9f4927a2fb82634a79de",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.back_right.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Adjudicator/hit/back_right/000.png",
+      "source_sha256": "c45210a6e88beea2d6c98cf627ebcac1f571be7921efe209938b3aa18522391c",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.back_right.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Adjudicator/hit/back_right/001.png",
+      "source_sha256": "bad417e5bc247aa299908766cb3f5d70f3a1dc48642641772e3657e57f69bc8a",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.back.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Adjudicator/hit/back/000.png",
+      "source_sha256": "6a5bf0cffab828e65cf1c55ecc266e098827df7cf05fa704ba17b286d9b7e61b",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.back.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Adjudicator/hit/back/001.png",
+      "source_sha256": "504158be061fc7bd7757bd72ba765db3b9ea6b4bf5473b3f5865fcacc1a4cc91",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.back_left.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Adjudicator/hit/back_left/000.png",
+      "source_sha256": "31ec9f35a3bd60f1fa0e4ccb5098b853a4ca72af2057b1c59c4a023fc81d20ba",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.back_left.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Adjudicator/hit/back_left/001.png",
+      "source_sha256": "5fe4dbfc6a61b60155b93b0ca8b78a382adde84e7ec69d9368d6b0a712f84bbe",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.left.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Adjudicator/hit/left/000.png",
+      "source_sha256": "d83d859653a1fd0462e6393cd021ccd7c971bb6c3da4c3d8619fb4d8ac7d1643",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.left.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Adjudicator/hit/left/001.png",
+      "source_sha256": "2d3df491c31c5d143dec2f3a297bc594244e91ac23e3f953e7bda71982e2086b",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.front_left.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Adjudicator/hit/front_left/000.png",
+      "source_sha256": "b06513fa6db50077f41eef5ab6ddf4a9381c55f573b0bdd4741482ce999f06fd",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Adjudicator.hit.front_left.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Adjudicator/hit/front_left/001.png",
+      "source_sha256": "332d50524f09a79602fe9a22a5cb9ff917430acc791495122aea9a2777d54f01",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.front.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Adjudicator/idle/front/000.png",
+      "source_sha256": "331745c2e41567d7726352ea8367662ad5002b5f98c89d663dc0d1ade20ac4b2",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.front.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Adjudicator/idle/front/001.png",
+      "source_sha256": "921665e27cbfe61f791d5ed3e30630190b0b2946275a7b9b75d7bfe26a9b80c1",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.front_right.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Adjudicator/idle/front_right/000.png",
+      "source_sha256": "9e9b7cd99bfd1c1edf2eea5996cf57528a9d80f7e31e780d0d27ff052df7cbc4",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.front_right.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Adjudicator/idle/front_right/001.png",
+      "source_sha256": "9e4e23dcdf7b73261f4686feb781ecac542f640b4c0d73c53f079496ac2a3521",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.right.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Adjudicator/idle/right/000.png",
+      "source_sha256": "689b0ab2f7296918d7018f01304f844fae8d5c932959248c0efbd306d26e1d19",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.right.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Adjudicator/idle/right/001.png",
+      "source_sha256": "6abc92c0ff1a3318105c0a8502da12c5ae773132cdf1f1282c3c4a6034f37035",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.back_right.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Adjudicator/idle/back_right/000.png",
+      "source_sha256": "6d2b8eb79f049d8fb057277ebf3fa22a73a30946dbe8aedb3cc8669ec1a2c21a",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.back_right.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Adjudicator/idle/back_right/001.png",
+      "source_sha256": "317cb0fb63d49e36ea6ffc1500d04d639426b4b1e69d4756c3427bc5ba604bef",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.back.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Adjudicator/idle/back/000.png",
+      "source_sha256": "2a42bb024ee59f05cca2493c634d88c91f29b3c026095bd906f35f744dfc98ba",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.back.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Adjudicator/idle/back/001.png",
+      "source_sha256": "09b9da24340334f0096a34ac86b0825ce5097c140835122e5691dfea37f13f6a",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.back_left.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Adjudicator/idle/back_left/000.png",
+      "source_sha256": "fa0eff3c3dc64c01fd2b8a3952b8c3f0c871b9dcb6169e7e0824491b9fe5e993",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.back_left.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Adjudicator/idle/back_left/001.png",
+      "source_sha256": "056792bb52383e508b7b8eef1a72e33c8e5357bce462909ca54ba295eb4a2a45",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.left.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Adjudicator/idle/left/000.png",
+      "source_sha256": "6a65c8a33552382c9f6cac5d5fb2dc68a4923a388df49ebb58cdfb98fdd6a9c5",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.left.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Adjudicator/idle/left/001.png",
+      "source_sha256": "c12c15ec038f700854d78c6fcd0a54d1ef1968ce39f0328a44c68eedbf2e39fb",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.front_left.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Adjudicator/idle/front_left/000.png",
+      "source_sha256": "5307630f957c93495a6ea2e67768bc589f496b9285df0b888c195e1ade4686cc",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Adjudicator.idle.front_left.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Adjudicator/idle/front_left/001.png",
+      "source_sha256": "f8e75748546556e896b9bfbca5dd1f107b271b3a19a7b66aa5a7167c9ee808ce",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.front.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Adjudicator/walk/front/000.png",
+      "source_sha256": "3de6313d06b0b365fcc97566502152f9ef04817392115ca6f6beac78f1155604",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.front.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Adjudicator/walk/front/001.png",
+      "source_sha256": "32aeb067ab8bd4b536ad3a6ca499f217f5d91d967bc82dd6c69b162d109acdf7",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.front_right.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Adjudicator/walk/front_right/000.png",
+      "source_sha256": "ea7c664110f88a4d075d3822c6a803aaeb2d8365ebebcaa0cc7413ac87aebf60",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.front_right.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Adjudicator/walk/front_right/001.png",
+      "source_sha256": "58164561e2292cedd48aa53fb6e726f03684d70016f56bf2a94a090060608d0e",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.right.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Adjudicator/walk/right/000.png",
+      "source_sha256": "f92baa23782c23d3d78b18814d1a15cc5e49aec8f08f7f5adf3dd123d096f53f",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.right.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Adjudicator/walk/right/001.png",
+      "source_sha256": "ebdb0c8ff95ae3194430ceec22676f6afab59f27504061901412c582c150b94b",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.back_right.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Adjudicator/walk/back_right/000.png",
+      "source_sha256": "1c172794bfbfa6d46746998db3618e88afa27327b9479ba8083e8f70ed7d6d3b",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.back_right.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Adjudicator/walk/back_right/001.png",
+      "source_sha256": "b585859b1d1c4a4807bdfa65d0b5b41f4c638b0b374c85e4cac08d6458e00af9",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.back.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Adjudicator/walk/back/000.png",
+      "source_sha256": "8988ed7555708af9ebf01a81f015e86a2cdefd46e8decfb73167c71b6da0c847",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.back.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Adjudicator/walk/back/001.png",
+      "source_sha256": "6f59c3443173793adfe8520b8cc707ce1d20d11f277931212ebf5562bb0f2c46",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.back_left.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Adjudicator/walk/back_left/000.png",
+      "source_sha256": "9c056a93de8f622e2c9d544087fc58c16dc1c09b26eb83a79e1b7e3d9ed46f91",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.back_left.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Adjudicator/walk/back_left/001.png",
+      "source_sha256": "645177b0a3839e53b5bbbee71f635d4a96754081476744dc926e4c4bd0d52ea8",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.left.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Adjudicator/walk/left/000.png",
+      "source_sha256": "30ec00a38b2e26a97b761a626a08f1e03b251835bd5e95930888f815b0696cc9",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.left.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Adjudicator/walk/left/001.png",
+      "source_sha256": "015557da5ccf3f090f206e3f636946a47ee83cde40c70dda25e652aeb5f5fb0e",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.front_left.000",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Adjudicator/walk/front_left/000.png",
+      "source_sha256": "1b16a9e20cafef121bba3402dc18c2719e0274e5dc583f8eed02cd75bd487e61",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "Adjudicator.walk.front_left.001",
+      "asset_id": "Adjudicator",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Adjudicator/walk/front_left/001.png",
+      "source_sha256": "529a97c7f0d64753b2a7811bed664c3cf59e25c933005e821b498ec5c2bef55c",
+      "glb_sha256": "7670c6409049937695e4b8fd83d911dfab9e7819fa398b80c14c0764cb26f099",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

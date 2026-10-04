@@ -8,10 +8,18 @@ release/
 .env
 .env.*
 *.key
+laya_key.txt
+
+# Local scratch
+laya-venv/
+.tmp-*/
 
 # AI artifacts
 replay_logs/
 *.replay.jsonl
+
+# Saves
+saves/
 
 # Editor
 .idea/

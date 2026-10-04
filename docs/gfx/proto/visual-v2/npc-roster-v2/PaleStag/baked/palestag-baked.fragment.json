@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "palestag-baked",
+    "file": "palestag-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "PaleStag": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "PaleStag": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "PaleStag.attack.front.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/PaleStag/attack/front/000.png",
+      "source_sha256": "7382292053cfad28396f92ce77ca6b25de1bbbb398ff932e627b0f349eff36ed",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "PaleStag.attack.front.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/PaleStag/attack/front/001.png",
+      "source_sha256": "1045fbd52c25157d6012722e5a0d872d6aeef013578a8bfa366420cea97d5e61",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "PaleStag.attack.front.002",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/PaleStag/attack/front/002.png",
+      "source_sha256": "8fa45ff59ae2a7e92ec26a39e990cf942d51209d10a704a37c9ae52ad245d5fe",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "PaleStag.attack.front_right.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/PaleStag/attack/front_right/000.png",
+      "source_sha256": "fdfdbe5399149cec2c44d035686481ef6e7bdc6955da00998678455235b05307",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "PaleStag.attack.front_right.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/PaleStag/attack/front_right/001.png",
+      "source_sha256": "b4b417a281db18c7e5306c057e821ceead5210012599e69873526805d986b6f8",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "PaleStag.attack.front_right.002",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/PaleStag/attack/front_right/002.png",
+      "source_sha256": "1f72bd085a2680154039f1b2ed7584072dffdad5917ed043bfe4f94bc52eca6e",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "PaleStag.attack.right.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/PaleStag/attack/right/000.png",
+      "source_sha256": "ab82e8eb83f758c122bfd304b54feae20557a70c17709b771f23b0cf05659bed",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "PaleStag.attack.right.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/PaleStag/attack/right/001.png",
+      "source_sha256": "e296b645a433a2f652df464834ce517a6fbf0082e79eee19ad7644e23a382bb4",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "PaleStag.attack.right.002",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/PaleStag/attack/right/002.png",
+      "source_sha256": "f38c786e1831bd8a10fa00e34d13bcbec8327a97b5284ea9f8305d6edb133bdc",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "PaleStag.attack.back_right.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/PaleStag/attack/back_right/000.png",
+      "source_sha256": "cdc04953aa65f9dfa48aaeed14f39fd81b099870a0f0a3955292d1259203df8c",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "PaleStag.attack.back_right.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/PaleStag/attack/back_right/001.png",
+      "source_sha256": "4b7b242f8f32e32ffdb3320a5531539358ac080f1a93caa57d21c76c15748a65",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "PaleStag.attack.back_right.002",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/PaleStag/attack/back_right/002.png",
+      "source_sha256": "43792127d2460a2b4b10c67b3227fcc17b44a705db11ce9d38bc0db2716b4d81",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "PaleStag.attack.back.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/PaleStag/attack/back/000.png",
+      "source_sha256": "31b7d2da30796677d49de5bba2c363313b3cf4cba3deb886418503c5225b9564",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "PaleStag.attack.back.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/PaleStag/attack/back/001.png",
+      "source_sha256": "0d4232f2194b6c88049e88d38dd9febd4f29109739a796bd2e949c1b7ea84d53",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "PaleStag.attack.back.002",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/PaleStag/attack/back/002.png",
+      "source_sha256": "5659690e94a6603e6653f7f9526016356abc5251001b2e9200f692f39b6e99b0",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "PaleStag.attack.back_left.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/PaleStag/attack/back_left/000.png",
+      "source_sha256": "78c85c12f080b3b850031f7fb83b232ff28061188f5117ec7adfd4822b2fd27a",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "PaleStag.attack.back_left.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/PaleStag/attack/back_left/001.png",
+      "source_sha256": "13a922c516cf703195564618109cd3bfdeef3554cc251f0a90bab62dda16930c",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "PaleStag.attack.back_left.002",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/PaleStag/attack/back_left/002.png",
+      "source_sha256": "d46a4da85139a1dc46da903c43a3322d715f399fe634b9a5c39341ed42a22e3f",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "PaleStag.attack.left.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/PaleStag/attack/left/000.png",
+      "source_sha256": "cd75c980b6a0bc13c6e2cd2c7831974934ef11446d7ae0f911586e416933f81b",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "PaleStag.attack.left.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/PaleStag/attack/left/001.png",
+      "source_sha256": "fafd31fc9263fa7c6d4aa31a0f519bd89037ff7bba098a7867ff75234ba45b0a",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "PaleStag.attack.left.002",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/PaleStag/attack/left/002.png",
+      "source_sha256": "2da044d81673d3ff77fb3503458caccbc6e57ffbcd195b0cfc1c2cc6477fb216",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "PaleStag.attack.front_left.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/PaleStag/attack/front_left/000.png",
+      "source_sha256": "97901cbd70730d6d9d5cc10cae034d8f9c4998ca1307ddb750d4249a1c8b8399",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "PaleStag.attack.front_left.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/PaleStag/attack/front_left/001.png",
+      "source_sha256": "66437fbaa20019be5f8593c52f7b710a27604c532e2eec6f8eb12d0b6c1cf6f9",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "PaleStag.attack.front_left.002",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/PaleStag/attack/front_left/002.png",
+      "source_sha256": "2f81d9e20165183de866f57a02c9cc474dcc9e27c5dc768c45b77aa9fc3a9a97",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "PaleStag.hit.front.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/PaleStag/hit/front/000.png",
+      "source_sha256": "d3a0a9fbb6f88bedd88a3e43236aa34e8779c4be5d52f92f6e81b14fe47107d3",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "PaleStag.hit.front.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/PaleStag/hit/front/001.png",
+      "source_sha256": "1af6e19293d574ccb5749ea448eda692e8b58363ea1975867f963c482a4b123e",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "PaleStag.hit.front_right.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/PaleStag/hit/front_right/000.png",
+      "source_sha256": "5faf09cfd5149441a82b9046c61b8c65f1baac2190d80eab4b1c130a128bcfd6",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "PaleStag.hit.front_right.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/PaleStag/hit/front_right/001.png",
+      "source_sha256": "eea58319a05099d3720c19a79e7368cffa9918262543f64d3a32f24b272f1d16",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "PaleStag.hit.right.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/PaleStag/hit/right/000.png",
+      "source_sha256": "e171f28b2ca0c11065ccbfc5de35777dec8e098d96642c43fafbd0da70f8ca4c",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "PaleStag.hit.right.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/PaleStag/hit/right/001.png",
+      "source_sha256": "626bea15f3974a16828d8d25760fda09847c50be9d0305dd26d7a4a32dd0545e",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "PaleStag.hit.back_right.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/PaleStag/hit/back_right/000.png",
+      "source_sha256": "614a9d29f494449c9ef0864356294c534390c81d14297daa2aca0e3764c57983",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "PaleStag.hit.back_right.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/PaleStag/hit/back_right/001.png",
+      "source_sha256": "554001869fcce0b994dbbbea39d4b150f23858061e083068b8ec080d8bcad0bc",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "PaleStag.hit.back.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/PaleStag/hit/back/000.png",
+      "source_sha256": "7abf742a45b28d4d57283d2e668186d8be9678e6eeffaf5975297c6846046906",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "PaleStag.hit.back.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/PaleStag/hit/back/001.png",
+      "source_sha256": "558e8ec7fc1d1d8cdd72dc3efbfc1035db5976077e5f98cabb8a39e8d28d0e19",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "PaleStag.hit.back_left.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/PaleStag/hit/back_left/000.png",
+      "source_sha256": "27fc4c45880839516c65a208a18ecd5b254707be869db92539d77d1fe6cac501",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "PaleStag.hit.back_left.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/PaleStag/hit/back_left/001.png",
+      "source_sha256": "f0cb75354918bb8380f5f5fb60c0f4149b385c412e39895d82d41b1ec2a17093",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "PaleStag.hit.left.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/PaleStag/hit/left/000.png",
+      "source_sha256": "f0606ec41c908dc214cfbf04f5c2eea6f58dc8522ec7f958a13ca22733a261eb",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "PaleStag.hit.left.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/PaleStag/hit/left/001.png",
+      "source_sha256": "7f243e701305c25191e54b1109dd4d23a29593553d3d15218234b8416596262b",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "PaleStag.hit.front_left.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/PaleStag/hit/front_left/000.png",
+      "source_sha256": "26473e84582df492a3c06e33de046bff659e4a5b57357fc77cc24ad01bfc82f3",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "PaleStag.hit.front_left.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/PaleStag/hit/front_left/001.png",
+      "source_sha256": "e8df0d336792f11609e6b3701af1be71ae0cd0be62cdb47504d2a3c14818ef06",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "PaleStag.idle.front.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/PaleStag/idle/front/000.png",
+      "source_sha256": "a6b0388aea1b5a23b80e2d9c843c6cc37fff145dfb1742eb30554ca3ffe08a1e",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "PaleStag.idle.front.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/PaleStag/idle/front/001.png",
+      "source_sha256": "2bb92dae0b947d2b3a2572565ffd3a90a1015e4d414c958e360f66136f5960d7",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "PaleStag.idle.front_right.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/PaleStag/idle/front_right/000.png",
+      "source_sha256": "92295ea775c02f9da06dbe4c62f1013fb449c70ab5967803668a3b35bc087318",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "PaleStag.idle.front_right.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/PaleStag/idle/front_right/001.png",
+      "source_sha256": "be04b7fad8be549f352cfa333482709dc7f75a3438f365c56ae5f97a511e4c0c",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "PaleStag.idle.right.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/PaleStag/idle/right/000.png",
+      "source_sha256": "a586f7cee2bf4b6ff6c56b9299c64590caa749cef1a90615721c9b5b6f6efb48",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "PaleStag.idle.right.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/PaleStag/idle/right/001.png",
+      "source_sha256": "7e40fa07ac99f53c9acad5a8604f3acd0b9ea24defefbd8ead6f9773f23b8650",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "PaleStag.idle.back_right.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/PaleStag/idle/back_right/000.png",
+      "source_sha256": "c62ce0e7503c353da8918e75f4e8d25343a27c7356652082a0c7ac612cf6a609",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "PaleStag.idle.back_right.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/PaleStag/idle/back_right/001.png",
+      "source_sha256": "58c36712ccf819169c2c2fa3140881e0ef14bb10f3ccbeb34a4014cae2321ab0",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "PaleStag.idle.back.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/PaleStag/idle/back/000.png",
+      "source_sha256": "09df6eb581cb932b2f6d696093cfe17725232ac9e2f681f6411eb5a90c79b1a7",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "PaleStag.idle.back.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/PaleStag/idle/back/001.png",
+      "source_sha256": "8d84fa61eac3d04caf128077d57d8f8ce56d8193045e06afb51d6e897328a274",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "PaleStag.idle.back_left.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/PaleStag/idle/back_left/000.png",
+      "source_sha256": "b24b47bfd62be6ca341dd2df5f468e4810809a6f2f861d567fb107d86d930652",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "PaleStag.idle.back_left.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/PaleStag/idle/back_left/001.png",
+      "source_sha256": "86dd99df3c706b6a0dcdb5a35b4568127f6e2f3d7e304b1cdf8f23c0f8834e51",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "PaleStag.idle.left.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/PaleStag/idle/left/000.png",
+      "source_sha256": "452e614b2ace0c915d769e5a29e214544dc43e806f7dc9f950eb4cb35f079512",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "PaleStag.idle.left.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/PaleStag/idle/left/001.png",
+      "source_sha256": "e26707f76191f8ea44cc2d42005e5bcb83b18a7269d5a4471ba5f859b3af9335",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "PaleStag.idle.front_left.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/PaleStag/idle/front_left/000.png",
+      "source_sha256": "b4bd42206753df007ab4b4e35d80572344ef78b7422b801e0795510d50a3ee25",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "PaleStag.idle.front_left.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/PaleStag/idle/front_left/001.png",
+      "source_sha256": "0d5946a3efe7c273721d82e0400f45f614aabc78d13061a8297838778eaa5514",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "PaleStag.walk.front.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/PaleStag/walk/front/000.png",
+      "source_sha256": "78e6b84605b649950f1fa77cbef632d7e7e5d6daf35759701a6ef4631fd3234d",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "PaleStag.walk.front.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/PaleStag/walk/front/001.png",
+      "source_sha256": "bab0da23b52a35498290fab56fbbcd1b2dc018676e7773d8a3655a85a126232a",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "PaleStag.walk.front_right.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/PaleStag/walk/front_right/000.png",
+      "source_sha256": "23d939b7fecfa0506ba2e82972bb5d934c746ccac019d97db6a542d7d7845b99",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "PaleStag.walk.front_right.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/PaleStag/walk/front_right/001.png",
+      "source_sha256": "f8f9caa57d29f86fc6ecfdad3afecc595332ab393b9ebadd98ccab5fac22f464",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "PaleStag.walk.right.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/PaleStag/walk/right/000.png",
+      "source_sha256": "1e2c6e6f36b9444354542de0ad7d8282ac4d45b233d52200faa782ab4a81feb3",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "PaleStag.walk.right.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/PaleStag/walk/right/001.png",
+      "source_sha256": "584ad436438644bd8dd3e5a42d33ba0ec3f3a9302c90bbccd1dd9e94e8f377b6",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "PaleStag.walk.back_right.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/PaleStag/walk/back_right/000.png",
+      "source_sha256": "644025f2ec532f6588f05e429b45f086186ca06272e968525d5de144c15aa6a3",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "PaleStag.walk.back_right.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/PaleStag/walk/back_right/001.png",
+      "source_sha256": "bf0377e8317795aa089b25e0deeeae06d650c6d26e37d6a64cbf9339307e73a1",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "PaleStag.walk.back.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/PaleStag/walk/back/000.png",
+      "source_sha256": "db0b1a7349f15c135b6e8e989669f7b60c4e47f5da717067afa45b6cce0434ca",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "PaleStag.walk.back.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/PaleStag/walk/back/001.png",
+      "source_sha256": "f8747e22d7e7ae103d87d2a0d4347ba2f088179e1091bf4a1115ac94117721a3",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "PaleStag.walk.back_left.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/PaleStag/walk/back_left/000.png",
+      "source_sha256": "66b443ac5fa9eadc064d2436d6b9e9864b9ef3fb8d80d2aadd3442e069f0300f",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "PaleStag.walk.back_left.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/PaleStag/walk/back_left/001.png",
+      "source_sha256": "eb2326f14ca3c1dced6a31f1fefe5c7aba709d79979d88f1db9abe71bd88a64e",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "PaleStag.walk.left.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/PaleStag/walk/left/000.png",
+      "source_sha256": "11dcacb66d8490c0853389c069a4bbf97c0a402e97e2b9ee9b32a73eb403a29b",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "PaleStag.walk.left.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/PaleStag/walk/left/001.png",
+      "source_sha256": "278ae1bcd7e19f8990a47877dc3116280cc22d492fcff4c23053c0fc10295ac1",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "PaleStag.walk.front_left.000",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/PaleStag/walk/front_left/000.png",
+      "source_sha256": "b4168bd69face5a3b26cc0d510df91efd4bccfde46f9bc5ca0c00b43f6d3caaa",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "PaleStag.walk.front_left.001",
+      "asset_id": "PaleStag",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/PaleStag/walk/front_left/001.png",
+      "source_sha256": "239e00d33eec89e0fc5c74a68d1399c51decddd0869940a1b2fd59f7e997fe92",
+      "glb_sha256": "8c019e103bf850fac5d7e8ed9522ccdbc8815bf03063714ff126d4678d094e51",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

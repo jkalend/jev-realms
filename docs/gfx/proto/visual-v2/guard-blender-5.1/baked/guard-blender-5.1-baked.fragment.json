@@ -1,0 +1,1005 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "guard-blender-5.1-baked",
+    "file": "guard-blender-5.1-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "Guard": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Guard": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            0,
+            3
+          ],
+          "front_right": [
+            1,
+            3
+          ],
+          "right": [
+            2,
+            3
+          ],
+          "back_right": [
+            3,
+            3
+          ],
+          "back": [
+            4,
+            3
+          ],
+          "back_left": [
+            5,
+            3
+          ],
+          "left": [
+            6,
+            3
+          ],
+          "front_left": [
+            7,
+            3
+          ]
+        },
+        "idle": {
+          "front": [
+            0,
+            4
+          ],
+          "front_right": [
+            1,
+            4
+          ],
+          "right": [
+            2,
+            4
+          ],
+          "back_right": [
+            3,
+            4
+          ],
+          "back": [
+            4,
+            4
+          ],
+          "back_left": [
+            5,
+            4
+          ],
+          "left": [
+            6,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Guard.attack.front.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Guard/attack/front/000.png",
+      "source_sha256": "a296b9ebdfe528d45443b0559366abe4e1018f147a826c0e75b95108b645edf9",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Guard.attack.front.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Guard/attack/front/001.png",
+      "source_sha256": "13f8b2f5d5d43aabf15f2c09e2c7ee908e02fda5011a64c007f257eee6bbd535",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Guard.attack.front.002",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Guard/attack/front/002.png",
+      "source_sha256": "d7dc8cf624bf98862653b0a9614e48cc4b002171c44f124fbcd3079b7b881178",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Guard.attack.front_right.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Guard/attack/front_right/000.png",
+      "source_sha256": "bcb248a3250df18e44a85b53ee9cbc632b4d99f4036a0291b5b238378a59927d",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Guard.attack.front_right.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Guard/attack/front_right/001.png",
+      "source_sha256": "655972a3c7f03a76588d6f0a5ae3d7757a9251a2bd1afa86fe2d39ccefe9a55e",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Guard.attack.front_right.002",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Guard/attack/front_right/002.png",
+      "source_sha256": "dc05af68426383dcd058fcbca3235c0973c2280018e9912e18400af1e1eac037",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Guard.attack.right.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Guard/attack/right/000.png",
+      "source_sha256": "edc330352e2ce39d5df2b2d3870b335a443268c39c827e500e8f2fc8abf70334",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Guard.attack.right.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Guard/attack/right/001.png",
+      "source_sha256": "689b2cb90c5ef4211e2ba6c65ab2a6218a16bf5ba2c5d93ebb30f64de1905fb5",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Guard.attack.right.002",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Guard/attack/right/002.png",
+      "source_sha256": "8fdd5d82316187a760b0983a0ace1b3507d9729f0c72cca8c6b7df6a2fa14a52",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Guard.attack.back_right.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Guard/attack/back_right/000.png",
+      "source_sha256": "746f705e3a1feb7aa0332bc2e147425f0f7f909ea1084bb5df958518084a1bdd",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Guard.attack.back_right.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Guard/attack/back_right/001.png",
+      "source_sha256": "fc9b7241efe93cecff5bba2323a41523482d8c35184382981bd6c4a10575a612",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Guard.attack.back_right.002",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Guard/attack/back_right/002.png",
+      "source_sha256": "93b45be4d6ea9217d0e5b687e00afc287fe4e0ed40d25c4ca84d203d19737f1a",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Guard.attack.back.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Guard/attack/back/000.png",
+      "source_sha256": "54f0912cfa173f5716b774fa50fbc48714e747aaefb1ef41f926f738006b8c3f",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Guard.attack.back.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Guard/attack/back/001.png",
+      "source_sha256": "65954a23e8844e6a113993d42c1ffe509105feaf2b6c1f15b998b0261e42115e",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Guard.attack.back.002",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Guard/attack/back/002.png",
+      "source_sha256": "59d6394ca8f46bd335fcb88fb4f2683acb324f31ec0c9cd5429f1cbc705dcb97",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Guard.attack.back_left.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Guard/attack/back_left/000.png",
+      "source_sha256": "dd17e16e3203e4de895ed732aa5dde3e4f31c476746497775cfa456766f44067",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Guard.attack.back_left.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Guard/attack/back_left/001.png",
+      "source_sha256": "b2ce1ac23fb552399beee6f9ab85a4728fde827f7d204d37603d85967734446e",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Guard.attack.back_left.002",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Guard/attack/back_left/002.png",
+      "source_sha256": "212b1b624c7356272133f1e55219729ef736f62c83d151d1f82a5a782d6cdd33",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Guard.attack.left.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Guard/attack/left/000.png",
+      "source_sha256": "59571a0b7254bda35bac0b17caede648fe4a5c9a19635ae693ec935004262abd",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Guard.attack.left.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Guard/attack/left/001.png",
+      "source_sha256": "f7228c475466bff86a3c0f63cbcb7c01b7857504e16ade4ef2753ec7386474bc",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Guard.attack.left.002",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Guard/attack/left/002.png",
+      "source_sha256": "b9792ac84f7511243098ae3312d762bd6f3ed689f2082543bb59eacead74d9fb",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Guard.attack.front_left.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Guard/attack/front_left/000.png",
+      "source_sha256": "a314331a6a335ceb97966c4e681e5fb9b0a1fcc5aa6af03545e39b7e33b39812",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Guard.attack.front_left.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Guard/attack/front_left/001.png",
+      "source_sha256": "54e6b2abd33bdf23c632a55843efffc5dfef913a8be75b6462f3cf5a4fd14676",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Guard.attack.front_left.002",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Guard/attack/front_left/002.png",
+      "source_sha256": "8cc2509e3a3b5fef0aae1e13668db923a8aab5d5d19c45c1101ebdba30e9ace7",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Guard.hit.front.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Guard/hit/front/000.png",
+      "source_sha256": "3fecd5454e785f83412000292cd621e7feef3e0c21059d1352e792a35b96f827",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Guard.hit.front_right.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Guard/hit/front_right/000.png",
+      "source_sha256": "8bd6094366cd62fbf759b27c29049eb5080b2810edf493c8a1726f1b44aadc72",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Guard.hit.right.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Guard/hit/right/000.png",
+      "source_sha256": "e7bbbd9d8a5185f1104d3f93fa3c2e5d750bc36e0318f108d88bbec7d1304377",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Guard.hit.back_right.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Guard/hit/back_right/000.png",
+      "source_sha256": "06ee65e47ed373bf381dbd3380cc8189140f8e2fca036e0a2690aeecdcaf9c65",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Guard.hit.back.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Guard/hit/back/000.png",
+      "source_sha256": "c6042304de9d213159b5917aaeb63ac6ae3dc1b5b329a8e66d999739db0562c1",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Guard.hit.back_left.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Guard/hit/back_left/000.png",
+      "source_sha256": "c3f745469046f7d6fbe90a27e09ed64ceeefd412d228acc5e1e157bd9f00d9b5",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Guard.hit.left.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Guard/hit/left/000.png",
+      "source_sha256": "3ad17fe671b3fb19374c6c011093a8237ee94b23e37bbb32d0454c3e2de4633a",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Guard.hit.front_left.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Guard/hit/front_left/000.png",
+      "source_sha256": "4516acbcff6696f22f91c5db01855c0a67e28e646f6f14faf5f8e5adfb0dd33c",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Guard.idle.front.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Guard/idle/front/000.png",
+      "source_sha256": "9772ad0e28381b94fe46874dfaa46224f6264c10aca5d11f225e555347291ec0",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Guard.idle.front_right.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Guard/idle/front_right/000.png",
+      "source_sha256": "4d4a7fcffafdcd6e659fca97e384c7772ed749e60b8769bbb001ee80b2a7dd52",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Guard.idle.right.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Guard/idle/right/000.png",
+      "source_sha256": "2bde09abea8cc76afb56ca00a1a6bc4f9be6e00b186df7bec68ff5a5b7b830bd",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Guard.idle.back_right.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Guard/idle/back_right/000.png",
+      "source_sha256": "db57d14ba3633fe62126498c9c9e27cad5b325e6936c13c4f403121d78c09c1a",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Guard.idle.back.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Guard/idle/back/000.png",
+      "source_sha256": "bcb165e0825509de9b2659a510c2f4964c9d957fe797a7a0d87b37a475bd0948",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Guard.idle.back_left.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Guard/idle/back_left/000.png",
+      "source_sha256": "22b95bd847176f776c492e2edd69caf33dce3171b932b3a39f5fccbaeef17c6d",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Guard.idle.left.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Guard/idle/left/000.png",
+      "source_sha256": "8b6ce5db3bc7e211ba7c2ebd5b9afd839f47ca1805abb51c130169529e7cd3c3",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Guard.idle.front_left.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Guard/idle/front_left/000.png",
+      "source_sha256": "1a08e2cc11e468abaa835a453b31d290e56e9133a36b20c6276617c305e9be11",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Guard.walk.front.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Guard/walk/front/000.png",
+      "source_sha256": "da4d799f67586451f89e9c24670c091ae715f245b04cdc9ec18053942e372966",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Guard.walk.front.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Guard/walk/front/001.png",
+      "source_sha256": "7ee2704f4894c21e4e23114e854e6e1ce1f8b4741a31b3f4ebc43359150dbb9b",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Guard.walk.front_right.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Guard/walk/front_right/000.png",
+      "source_sha256": "6d4facc70b3b7ae380e4bea6185ce8a0c4c99074208e96bf505147fc17f557d6",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Guard.walk.front_right.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Guard/walk/front_right/001.png",
+      "source_sha256": "b825da63c166f7517e64c6d217c192a897884f53c052c05f1d46ec31d0a1afa4",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Guard.walk.right.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Guard/walk/right/000.png",
+      "source_sha256": "366596bddc35ee47f339eda4a996b61c8b7af231286e88462ad45665939793a7",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Guard.walk.right.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Guard/walk/right/001.png",
+      "source_sha256": "e0d3560efd085b2d6fafeaad7edcb78125951afc54e13da7db66723e2eff7f06",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Guard.walk.back_right.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Guard/walk/back_right/000.png",
+      "source_sha256": "b40109d67cc99fc0f2da773c73256b56ddfcab2f4ac12e491ba38e89e3928234",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Guard.walk.back_right.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Guard/walk/back_right/001.png",
+      "source_sha256": "b08f66f3ff5f76bb76b5b37c42b895b64ecfd17762516baedd20dde21c7f3d63",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Guard.walk.back.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Guard/walk/back/000.png",
+      "source_sha256": "7811008a90228fb04ef613489aabd7fffa76332028d4566722e98b0bfadb21ba",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Guard.walk.back.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Guard/walk/back/001.png",
+      "source_sha256": "7e3868376c1c5036dd6cbe1be2ff75db44e9dfcebf09bfc55740841070b70f9c",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Guard.walk.back_left.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Guard/walk/back_left/000.png",
+      "source_sha256": "85f4662f58c43387b38474dc38b4e9ea10e586ae45985611e8eea2a5c8ee436d",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Guard.walk.back_left.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Guard/walk/back_left/001.png",
+      "source_sha256": "d4e6bcbc443693fa56ff9d68b679b50c9b148d6170dd0b8204cd13fb4571abd1",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Guard.walk.left.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Guard/walk/left/000.png",
+      "source_sha256": "756d2957ab8c5ae7d0e671d385dac75421ba642cfacc6fd0b6668b86158d828b",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Guard.walk.left.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Guard/walk/left/001.png",
+      "source_sha256": "ab8c1b96420cfc1e29201f9b0fbbf23be9b1a9a5d520970d1211f0a760bc97dc",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Guard.walk.front_left.000",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Guard/walk/front_left/000.png",
+      "source_sha256": "3cf0f164f55d485e8e8e055ff219e65e221f6c0bdf5bc1c28a678f3bfccebaa5",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Guard.walk.front_left.001",
+      "asset_id": "Guard",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Guard/walk/front_left/001.png",
+      "source_sha256": "1b6aeb6e8715df3b7e55eb8b288ead7d0eee1d97495f371ac6d5a05fabd6c095",
+      "glb_sha256": "deed018a4a289e28184dcd3bb833041a390214159289105ad0397b04f2b77df3",
+      "cell": [
+        7,
+        6
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 56,
+    "file_checked": true
+  }
+}

@@ -1,0 +1,1005 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "thief-baked",
+    "file": "thief-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "Thief": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Thief": {
+        "attack": {
+          "front": [
+            0,
+            0
+          ],
+          "front_right": [
+            1,
+            0
+          ],
+          "right": [
+            2,
+            0
+          ],
+          "back_right": [
+            3,
+            0
+          ],
+          "back": [
+            4,
+            0
+          ],
+          "back_left": [
+            5,
+            0
+          ],
+          "left": [
+            6,
+            0
+          ],
+          "front_left": [
+            7,
+            0
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            1
+          ],
+          "front_right": [
+            3,
+            1
+          ],
+          "right": [
+            5,
+            1
+          ],
+          "back_right": [
+            7,
+            1
+          ],
+          "back": [
+            1,
+            2
+          ],
+          "back_left": [
+            3,
+            2
+          ],
+          "left": [
+            5,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Thief.attack.front.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Thief/attack/front/000.png",
+      "source_sha256": "057411e4c054acc6e4aa484df69c1100a20ac9e3aad93aefc6c956c42347f919",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Thief.attack.front_right.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Thief/attack/front_right/000.png",
+      "source_sha256": "172adde834767311d65f4780954210d47da7f7ab265df92cda2a595bb40d02fb",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Thief.attack.right.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Thief/attack/right/000.png",
+      "source_sha256": "dc8631ff44f7bba5f6a6c3f3f00a07beb4d600f5cea52f93d85b2c95b36258bd",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Thief.attack.back_right.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Thief/attack/back_right/000.png",
+      "source_sha256": "94eb92da47a14470e36076836ba946f144e63fd0e3df45d0e31cc28f08c79006",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Thief.attack.back.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Thief/attack/back/000.png",
+      "source_sha256": "fb1ce7a79bce7df7df98f4fa603c6d3c44d086be2f9b22ee1f76075ead6721fb",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Thief.attack.back_left.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Thief/attack/back_left/000.png",
+      "source_sha256": "940df54000bf385266fddcc7eeb960c364fcf6f06a5de0788bea3fec31f31cba",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Thief.attack.left.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Thief/attack/left/000.png",
+      "source_sha256": "4c659990e94179b5cbccc103c9a05258accd8386a6505d48689f8dfadc850e64",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Thief.attack.front_left.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Thief/attack/front_left/000.png",
+      "source_sha256": "388d2c2ac77aebeca6b560a764a39331b599521221099b767e62a870181f3b48",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Thief.hit.front.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Thief/hit/front/000.png",
+      "source_sha256": "2487aac9f373e77513ad9e7f71f1f681f3e8c57e2a940528346b652a86cb216a",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Thief.hit.front.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Thief/hit/front/001.png",
+      "source_sha256": "ac2aa10af3837349a49c044e30c3082da6d17bb3fe84ac5978049faf937ac679",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Thief.hit.front_right.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Thief/hit/front_right/000.png",
+      "source_sha256": "e6f2429ad0f7dfd8e8980ac7793cd18c53f06d2ae0c071c905ea62dffd7ada98",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Thief.hit.front_right.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Thief/hit/front_right/001.png",
+      "source_sha256": "af0e131450e9dc11a4ff97159e914e82db869c68381a5b214b78f2ff10a706d7",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Thief.hit.right.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Thief/hit/right/000.png",
+      "source_sha256": "ac2f2a7558228a9a05aa00bb97ab807ebd34fc61a27e390e1736a47df03fdc03",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Thief.hit.right.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Thief/hit/right/001.png",
+      "source_sha256": "a1ad21d9c50e92042931c015bd9ffd2efefaa4f4420ab620dea73d162bdd7742",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Thief.hit.back_right.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Thief/hit/back_right/000.png",
+      "source_sha256": "8a7d484fb3eaf9ef6d5a96eb3ad3e46e5bafafac3b5135588f26bc00704441df",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Thief.hit.back_right.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Thief/hit/back_right/001.png",
+      "source_sha256": "fffbd9afcaa9b8aaa07ea61e932a4c19645020807738e4abeddaa2590de5bef2",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Thief.hit.back.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Thief/hit/back/000.png",
+      "source_sha256": "ddcbde39f40721a2ae3d50ab5198dffd26228fa5784214441f87185fee022a18",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Thief.hit.back.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Thief/hit/back/001.png",
+      "source_sha256": "26c0088252720ea74669f0554f436c45080628dc2fccad1bee8729c34900655c",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Thief.hit.back_left.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Thief/hit/back_left/000.png",
+      "source_sha256": "a1717e825a0ed2040b27dc9e257c42384990252113d576f96cdce5b1239ae377",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Thief.hit.back_left.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Thief/hit/back_left/001.png",
+      "source_sha256": "09a3a110a0b4d7770f41940c0eb6ac196fbd074d2cdfde2f6a77482af15ce94f",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Thief.hit.left.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Thief/hit/left/000.png",
+      "source_sha256": "1bc43622fd34db69575725e1b407d2cdf450664aa5bbd82133c1309b6ea17cbc",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Thief.hit.left.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Thief/hit/left/001.png",
+      "source_sha256": "fa540d416fe6f696817d1d608d9380d8a5d7b60a0ccb50bad7689430a15c4da2",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Thief.hit.front_left.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Thief/hit/front_left/000.png",
+      "source_sha256": "8bd26bad56a4e1b2973576f517d4d379de01988d4565e4b0dbfd255a41b407df",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Thief.hit.front_left.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Thief/hit/front_left/001.png",
+      "source_sha256": "43dc03a8ac6fc53b28224a985008ecb9bdaaf55184079480724fdcf957a3936a",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Thief.idle.front.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Thief/idle/front/000.png",
+      "source_sha256": "91d43ecd5345b4a1fcae017c9424f48a33e8b7bf50cbe611976e1398de75c3b6",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Thief.idle.front.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Thief/idle/front/001.png",
+      "source_sha256": "69ef8c9309506a0df3c2b380723d624440d9de01ef85c53bbe42c7848738c152",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Thief.idle.front_right.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Thief/idle/front_right/000.png",
+      "source_sha256": "6d71fabc0e20d4c556489f1a02395b0be372922dbf05902d8a1dd727c69c59e6",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Thief.idle.front_right.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Thief/idle/front_right/001.png",
+      "source_sha256": "4c9978b10df4df3dc0a090e4d0d9c5f79454b8e866e95c40791880e4d31ae046",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Thief.idle.right.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Thief/idle/right/000.png",
+      "source_sha256": "64378da1900360cd6e8678ec56c35ad1ec8f5d939b151ae385d85a913fc3d31b",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Thief.idle.right.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Thief/idle/right/001.png",
+      "source_sha256": "d5f70612d910929fa93b602f88b19e4cfe90e2fef5af92d47601bfec8e50905a",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Thief.idle.back_right.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Thief/idle/back_right/000.png",
+      "source_sha256": "e91c9535f7d466487108ca2078ea9e25916e3d7b5c85b3d5386ccc9dc796af82",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Thief.idle.back_right.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Thief/idle/back_right/001.png",
+      "source_sha256": "e18c22cae24ffe6610185274eaaa93ba4c00fdad684fbf74a7e4f9181bbf7ae2",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Thief.idle.back.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Thief/idle/back/000.png",
+      "source_sha256": "35f8d8397e995df90cf9b572f6b8b2cd6db2f398ec5e30f4070860ba32be4a83",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Thief.idle.back.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Thief/idle/back/001.png",
+      "source_sha256": "5c4774dda54b442d64dbb67d65ce64ed9c989289feac5b19eb9215ef3546c9af",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Thief.idle.back_left.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Thief/idle/back_left/000.png",
+      "source_sha256": "840accc85ed2a1803faf5e7fd1fe8a57d110554bafde3b503798e39a435d5453",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Thief.idle.back_left.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Thief/idle/back_left/001.png",
+      "source_sha256": "6b3bbebe406f19a0a878b443082d412075b0f0fda54a3691b72b693d779d6a7f",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Thief.idle.left.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Thief/idle/left/000.png",
+      "source_sha256": "91398c1de8bfa7265d6c9cbc6929b2ece2d3363c524e3ab1d2cc1c5bca58cf17",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Thief.idle.left.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Thief/idle/left/001.png",
+      "source_sha256": "c4cc62ab7686313b004193f0cc00b592a9ecce0c1eec4528827adc3c5701e02b",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Thief.idle.front_left.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Thief/idle/front_left/000.png",
+      "source_sha256": "8bf70c28f750b41a4b42122aa91c985de35d4568d6fb168b06d84099cdd78006",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Thief.idle.front_left.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Thief/idle/front_left/001.png",
+      "source_sha256": "42be254bbfe1fcb79e696d0bb213653bfbe0d1a87618442cc2b77fe63acd6f3a",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Thief.walk.front.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Thief/walk/front/000.png",
+      "source_sha256": "cc6b4d41f97df943db0a3813de5e92bfd6bef1e186a444d7ce60efd8089991b2",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Thief.walk.front.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Thief/walk/front/001.png",
+      "source_sha256": "93a7b3b4669a6aece81e3960c2c0082ac9e8c157cf123690d73ae2cd81a1ea85",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Thief.walk.front_right.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Thief/walk/front_right/000.png",
+      "source_sha256": "302f689ec69bca6ab10a8c64ec7ab32e0779c3ff51f212270ce2432aaa6bdeb0",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Thief.walk.front_right.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Thief/walk/front_right/001.png",
+      "source_sha256": "0c7f0ccf57dab007a71be509166fd455e48da9f5e16ad73a18a2923fd464d87e",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Thief.walk.right.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Thief/walk/right/000.png",
+      "source_sha256": "c66827b643f0a0ab0afa91c724623d846d88b239087da34b1d7353fdc5efad57",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Thief.walk.right.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Thief/walk/right/001.png",
+      "source_sha256": "53cfc50cf93abdc129fd96c62e3c2b58e616bc01d55d9d1fa70f7d5c54548e93",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Thief.walk.back_right.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Thief/walk/back_right/000.png",
+      "source_sha256": "07810719f94ec2cbf62e959781af8e8b8d36a9c56477df452cc6a75d90c8b1fe",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Thief.walk.back_right.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Thief/walk/back_right/001.png",
+      "source_sha256": "095f24d09c01777e3ead491929751013d5f8d6016cbc6be36b3301ccb26656b0",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Thief.walk.back.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Thief/walk/back/000.png",
+      "source_sha256": "f9597fd66802f1ad2ee67df5de0d4189f588fe786cbcac4af9f64d82c5c5c3b0",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Thief.walk.back.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Thief/walk/back/001.png",
+      "source_sha256": "115e39889dfc8345db79ab02c33229af5fb84ccb9ec1e2d4bc8fc82b43e36492",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Thief.walk.back_left.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Thief/walk/back_left/000.png",
+      "source_sha256": "b01f0971bacd238b4c6f9f0044fec58b21492ff1e91e1a741bd075dd62e73dbb",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Thief.walk.back_left.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Thief/walk/back_left/001.png",
+      "source_sha256": "74a2697ef502f23d00e768f0a986bb0a46ac56333dc03ec2d93c95b8a71b014f",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Thief.walk.left.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Thief/walk/left/000.png",
+      "source_sha256": "964600ee7531931c26eee6b0764e111ad9844eea29b677e559035b0b1216583c",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Thief.walk.left.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Thief/walk/left/001.png",
+      "source_sha256": "15d9f3d320361028db082bee062c5e557aca6ec6396e29d3020f22c0bac4671a",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Thief.walk.front_left.000",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Thief/walk/front_left/000.png",
+      "source_sha256": "09d1f44f6b7d45958901fb56cf77f8cf38052109d7d8d7d439b503f75e7f86c8",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Thief.walk.front_left.001",
+      "asset_id": "Thief",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Thief/walk/front_left/001.png",
+      "source_sha256": "cf15ce0e597b481424f5a11d1341bb3933bae7bcba192983aca8242041b492fd",
+      "glb_sha256": "e9792028fae0f4940dfaee334bba7029e9972e632aa287734aad016a955fbf2d",
+      "cell": [
+        7,
+        6
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 56,
+    "file_checked": true
+  }
+}

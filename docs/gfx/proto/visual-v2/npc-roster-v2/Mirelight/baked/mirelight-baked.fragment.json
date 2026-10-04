@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "mirelight-baked",
+    "file": "mirelight-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "Mirelight": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Mirelight": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Mirelight.attack.front.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Mirelight/attack/front/000.png",
+      "source_sha256": "7cebab450b4b328efb2af5f2fea0e470b9623c3a65bb89809ccafe76b18fd71d",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Mirelight.attack.front.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Mirelight/attack/front/001.png",
+      "source_sha256": "ae040806a7069be0affa445e81eb763909001ec5db82b8dafb4dca2b6d67a698",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Mirelight.attack.front.002",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Mirelight/attack/front/002.png",
+      "source_sha256": "a733b48e066c5511b7358ca1d6d1a3386ae289c9e42ab49ad65c73fa3f6ac032",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Mirelight.attack.front_right.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Mirelight/attack/front_right/000.png",
+      "source_sha256": "f99950df5bba2ba428d8a925c03111264aba6aa54b25ce32b10eae4529e1c811",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Mirelight.attack.front_right.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Mirelight/attack/front_right/001.png",
+      "source_sha256": "45a4fd438d35fed847bb9af92428face1ab3562daa7470584a2b3c528b7f8814",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Mirelight.attack.front_right.002",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Mirelight/attack/front_right/002.png",
+      "source_sha256": "168d49287de1bb025dbb106a072b2f53be6f404b7d8a8a896fcddbb74a994e9c",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Mirelight.attack.right.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Mirelight/attack/right/000.png",
+      "source_sha256": "8d9fffcb4d48a763c845c99713558ea9221d0c82bcbf7a62bf1fe9e26c35122f",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Mirelight.attack.right.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Mirelight/attack/right/001.png",
+      "source_sha256": "c450364338eced81e4579eaebbccb54438f2b945cd61ad92da2e34c164d47534",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Mirelight.attack.right.002",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Mirelight/attack/right/002.png",
+      "source_sha256": "9d9ae17bf14588b1e8d192a9c8211c992eca76bf3254ea0aa03a93b3bfd56a05",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Mirelight.attack.back_right.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Mirelight/attack/back_right/000.png",
+      "source_sha256": "0d48d15b3c0e749e4f09f544eaacf074cc626ceee380cfc41d04c6ae7d08f262",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Mirelight.attack.back_right.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Mirelight/attack/back_right/001.png",
+      "source_sha256": "2f474fa15016983896a78960f467bde1d7471a73b180d375dc61c1321557019b",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Mirelight.attack.back_right.002",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Mirelight/attack/back_right/002.png",
+      "source_sha256": "e6770315026679bf122d7e8e6bde8c7b79fe3fa9c5dbc277e510ced7bef0915f",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Mirelight.attack.back.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Mirelight/attack/back/000.png",
+      "source_sha256": "239f75119cd3bd01e85a95d3433b3e4eecded9f3201207f95a5b2cb62e055b0a",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Mirelight.attack.back.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Mirelight/attack/back/001.png",
+      "source_sha256": "c6068ee103291a4fd4e7aed55b0c4412ee683a63ba576298a472740f24adc968",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Mirelight.attack.back.002",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Mirelight/attack/back/002.png",
+      "source_sha256": "a0a1752776f3d5d39f2cdb4c5bf6e7bad257191c01436948657d7eb2ab4ae264",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Mirelight.attack.back_left.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Mirelight/attack/back_left/000.png",
+      "source_sha256": "66f929c1a76e1313d832f3997b6458cb1d7c7505c30e7c32f47366c162387df1",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Mirelight.attack.back_left.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Mirelight/attack/back_left/001.png",
+      "source_sha256": "e5c9aee480dbb6c666537defdb818f30e89f35ded612811609cb52adb4f8371a",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Mirelight.attack.back_left.002",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Mirelight/attack/back_left/002.png",
+      "source_sha256": "2526a2b98f9227f4b2facf66416424c25018abdc6e29e5579e6995cb9c2413eb",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Mirelight.attack.left.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Mirelight/attack/left/000.png",
+      "source_sha256": "41e1406dceed291a76e712615fad173b57b03869aa3a7f8cdd1dc688fb2d5e12",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Mirelight.attack.left.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Mirelight/attack/left/001.png",
+      "source_sha256": "a6cba7a5c1601460fca75d4b3ae7bfc6d250c9b2ccaa3b84edaab4d6a79040f1",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Mirelight.attack.left.002",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Mirelight/attack/left/002.png",
+      "source_sha256": "44e3f53bd56898f3f9cc550856e1a72eb5c33ac52d0ad09858764449d2389803",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Mirelight.attack.front_left.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Mirelight/attack/front_left/000.png",
+      "source_sha256": "71e02136465ff45bb9d8886958b072e4046bb91eedb5f6eeee932fc7c90a55db",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Mirelight.attack.front_left.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Mirelight/attack/front_left/001.png",
+      "source_sha256": "5b4d70a950cdf2e8c72ea8d7679f15a617bd5f3204a53b05dcfb4b7efbca4cde",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Mirelight.attack.front_left.002",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Mirelight/attack/front_left/002.png",
+      "source_sha256": "a10ab5d625c634ef1b480ec1c3847fe51b10ce54fabb32f5945a123da7068299",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Mirelight.hit.front.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Mirelight/hit/front/000.png",
+      "source_sha256": "f394353b64c8fb5af6131ef3d65e4436dfa08c04c77a8c36107a0ee194c60d36",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Mirelight.hit.front.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Mirelight/hit/front/001.png",
+      "source_sha256": "114378a62c5a549db56f0ee5d8d09a1061d4006445ec9ce9819de7f55bf5291f",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Mirelight.hit.front_right.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Mirelight/hit/front_right/000.png",
+      "source_sha256": "d7dd59a7e2cbb2d7fa8d87e6c3d49ec7117fb0439c62465fc284133175d0aa54",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Mirelight.hit.front_right.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Mirelight/hit/front_right/001.png",
+      "source_sha256": "e1453f625f218172dcc543c3f1a898c2dce650a13e07020476c8361ef4d6304f",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Mirelight.hit.right.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Mirelight/hit/right/000.png",
+      "source_sha256": "b1ef25a16471ccd336d92d278cbd5dd9e7b9a74e38c141285a33780aaa5afb80",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Mirelight.hit.right.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Mirelight/hit/right/001.png",
+      "source_sha256": "ad0a60dcead817c5aca999bca340d3b6519e94226472f0015d16fe7e1d8b9603",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Mirelight.hit.back_right.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Mirelight/hit/back_right/000.png",
+      "source_sha256": "a41787d48dabbfe0e43620af28020870a31c7122221c6e60820d82c50ff32d53",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Mirelight.hit.back_right.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Mirelight/hit/back_right/001.png",
+      "source_sha256": "dba159c039346af00d78608f8d337c8d0ededb864c12852238706ebb3719cff2",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Mirelight.hit.back.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Mirelight/hit/back/000.png",
+      "source_sha256": "506f60c2a89e306e95fd311f1baf5a5f0952a534c6e29d339070f18772eae229",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Mirelight.hit.back.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Mirelight/hit/back/001.png",
+      "source_sha256": "c39a6872e8c213e53697d0376e0dfe8800aff5e351db0617e1b543379e3a39bc",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Mirelight.hit.back_left.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Mirelight/hit/back_left/000.png",
+      "source_sha256": "333f7b63659994e3bbf5f487ac525d08dd497fee76d82bcfafb452d1cca6f958",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Mirelight.hit.back_left.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Mirelight/hit/back_left/001.png",
+      "source_sha256": "5f8a8286350913f5ee2bd8eeeff575442f501e620782cb27255b6c8710c291b9",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Mirelight.hit.left.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Mirelight/hit/left/000.png",
+      "source_sha256": "db5a5083346c54874c8986439fee9e85b90ed86e35b680362694941e99e91869",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Mirelight.hit.left.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Mirelight/hit/left/001.png",
+      "source_sha256": "1cfd45b0de71d6643d30dffd82a536c0aea147b9fe26a7650b649fb8d39eb983",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Mirelight.hit.front_left.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Mirelight/hit/front_left/000.png",
+      "source_sha256": "318de60049ab4f0fff7ae3fc6368467c6a083abfd9dfa0fc0cd6cd355af74b67",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Mirelight.hit.front_left.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Mirelight/hit/front_left/001.png",
+      "source_sha256": "260b97c5ebb5532120e44ea2097aee6fe8e6f2d5a618c0f893d47d87e2c5f833",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Mirelight.idle.front.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Mirelight/idle/front/000.png",
+      "source_sha256": "a222df723b2832fa02e5ecb1c2981769e4500b30382f83395b107fe6b55729e1",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Mirelight.idle.front.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Mirelight/idle/front/001.png",
+      "source_sha256": "c0ae6361f68b9543b46bd44973ff159322f64a824b35d1aa35628e0be40a9447",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Mirelight.idle.front_right.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Mirelight/idle/front_right/000.png",
+      "source_sha256": "071c69de64572edcfbce63ee457c054a9a4046dd684c4a131b6c8d9298ace768",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Mirelight.idle.front_right.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Mirelight/idle/front_right/001.png",
+      "source_sha256": "a05697eda69960a7ebaaad3d23e6856d4db73bc03d943bb6c8d58f9660e94518",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Mirelight.idle.right.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Mirelight/idle/right/000.png",
+      "source_sha256": "cb1dff846c65c026b99cfb564ea7307d6ce582776f66fa15b2490f6f26550d96",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Mirelight.idle.right.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Mirelight/idle/right/001.png",
+      "source_sha256": "a6c0b9df3759aa5be3e0255cd93cc8d604fecb96771140747156e645af0020d2",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Mirelight.idle.back_right.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Mirelight/idle/back_right/000.png",
+      "source_sha256": "ceccb88c928637f9ee43c55daadc395405f0c5ff862ca560964383a991717953",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Mirelight.idle.back_right.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Mirelight/idle/back_right/001.png",
+      "source_sha256": "a90633fbc5e7a5dfff3ed91b6955d1830852c209c53f47cc2d6c628af0ca700c",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Mirelight.idle.back.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Mirelight/idle/back/000.png",
+      "source_sha256": "5d9444c6b6c13c8272b52eb74fecaf3f8eea6098022aea3343acb9556c389f7b",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Mirelight.idle.back.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Mirelight/idle/back/001.png",
+      "source_sha256": "8e4355d735d9dce16ce19f9e0d5055d0477dac90a8d373c7d39a7a340818cd99",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Mirelight.idle.back_left.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Mirelight/idle/back_left/000.png",
+      "source_sha256": "448d9c596b0907a5d9590534f71460ab3f4fead58660a32eaf16d5174637dc13",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Mirelight.idle.back_left.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Mirelight/idle/back_left/001.png",
+      "source_sha256": "367524c51822dae07a44c28339b74befdcc1c12f5b714be6a444740050fdc82d",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Mirelight.idle.left.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Mirelight/idle/left/000.png",
+      "source_sha256": "e37d32968a6f01a3dbf19d47a7342762201ee87fab12e93634383bd1b79b3a37",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Mirelight.idle.left.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Mirelight/idle/left/001.png",
+      "source_sha256": "a564dba5dd59ff5a3e36955fcb62e9344455123e186799330b40f51efc4bc3f6",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Mirelight.idle.front_left.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Mirelight/idle/front_left/000.png",
+      "source_sha256": "72b6715fe99f88b5b8e9f94b580690d9bf16ef8b9104ee7f7b59326545c971e0",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Mirelight.idle.front_left.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Mirelight/idle/front_left/001.png",
+      "source_sha256": "26e7476225f6296c53d4c628b29b9a2563b2f40b9a51b68de5ee835c9ebfa503",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "Mirelight.walk.front.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Mirelight/walk/front/000.png",
+      "source_sha256": "c0967ed192a55f63f6605acb0cf7f6406755232b0ade018d992011475ab0e7ee",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "Mirelight.walk.front.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Mirelight/walk/front/001.png",
+      "source_sha256": "373fc5360a518a213abbbac4d4a303e926c5f0b02e61357ad674d93239617ea3",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "Mirelight.walk.front_right.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Mirelight/walk/front_right/000.png",
+      "source_sha256": "4e5c3b58c4382db2b2115991680ab87d1d7905f0b7ee0d8cf869b8cae0cb6f6e",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "Mirelight.walk.front_right.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Mirelight/walk/front_right/001.png",
+      "source_sha256": "c7cfdf1d030c0d0295cfee4a16b478c2dd507883ed7514ee00bd9ab13579321a",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "Mirelight.walk.right.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Mirelight/walk/right/000.png",
+      "source_sha256": "ce044592f2637b1146f4332e0a93823b61817218e28a22e36ec570eed46ab82e",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "Mirelight.walk.right.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Mirelight/walk/right/001.png",
+      "source_sha256": "4d14ded645359638b81d3061e416d96e83a86f8a3653c80f50754715f28cbfcf",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "Mirelight.walk.back_right.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Mirelight/walk/back_right/000.png",
+      "source_sha256": "020d0189bad5ca260469720c381e8a7921a4c656ffc05080f7f56c09593788b9",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "Mirelight.walk.back_right.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Mirelight/walk/back_right/001.png",
+      "source_sha256": "83070ad2ad85d64d7106691c7f1cb2e627297ad1190ef6baed1aaefa8253da44",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "Mirelight.walk.back.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Mirelight/walk/back/000.png",
+      "source_sha256": "18348fab6e966c68c9607975ddd7d79497020e759fab47d35afed53888cfb7a0",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "Mirelight.walk.back.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Mirelight/walk/back/001.png",
+      "source_sha256": "2fd9fab119266665ec452c2f4a80962d4044bbcfe74995ea1a12b1b8bd2d95f4",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "Mirelight.walk.back_left.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Mirelight/walk/back_left/000.png",
+      "source_sha256": "d109bde11c0db4162d5ca8d23a24976a6fa6728b66891c3b86fef34247f1be2e",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "Mirelight.walk.back_left.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Mirelight/walk/back_left/001.png",
+      "source_sha256": "32986fac697894688c96fb5bbf31b6048d0333de5a109651a74f570c7b179056",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "Mirelight.walk.left.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Mirelight/walk/left/000.png",
+      "source_sha256": "31f38d6ceeb82b8a5ccfb268c851f15ce8baa9fbd0d428c67d817342772c5310",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "Mirelight.walk.left.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Mirelight/walk/left/001.png",
+      "source_sha256": "5f6f6974446d0023c5e61b68b749d7969ea1c5b73b020f51d287265370d25756",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "Mirelight.walk.front_left.000",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Mirelight/walk/front_left/000.png",
+      "source_sha256": "44d1f2050eb7d2e53e97d5cb1870c1bdabcadcea42c621522f47b4cd782b3423",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "Mirelight.walk.front_left.001",
+      "asset_id": "Mirelight",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Mirelight/walk/front_left/001.png",
+      "source_sha256": "b6be9f7a80dda5042286724f04e9b18ebbee2aea1b6f79e2550330bd315a9817",
+      "glb_sha256": "aef6bb77eca088cd1d192ced64b8406d3c981cf69f2be7d15317d8bdb44782a0",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

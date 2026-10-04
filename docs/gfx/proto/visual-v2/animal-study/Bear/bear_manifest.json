@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Bear",
+      "kind": "actor",
+      "source": "source/Bear.glb",
+      "render_root": "render/Bear",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "npc_bear_claws",
+        "weapon": "claws",
+        "default_action": "bear_idle",
+        "clips": {
+          "idle": [
+            "bear_idle"
+          ],
+          "walk": [
+            "bear_walk_a",
+            "bear_walk_b"
+          ],
+          "attack": [
+            "bear_slam",
+            "bear_swipe",
+            "bear_recover"
+          ],
+          "hit": [
+            "bear_hit_recoil"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

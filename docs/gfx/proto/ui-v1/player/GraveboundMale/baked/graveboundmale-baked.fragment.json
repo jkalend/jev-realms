@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "graveboundmale-baked",
+    "file": "graveboundmale-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "GraveboundMale": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "GraveboundMale": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "GraveboundMale.attack.front.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/GraveboundMale/attack/front/000.png",
+      "source_sha256": "54e720ea18a620b0af9b9d5a59593fb7684bb42c7c802d3f09e567aadc406bb8",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.front.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/GraveboundMale/attack/front/001.png",
+      "source_sha256": "eb118b142ec5d5b0b70fbf13046cc08fafc0b8870a45a6cb9d03e2edebbc731b",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.front.002",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/GraveboundMale/attack/front/002.png",
+      "source_sha256": "14ac8e6cc4a5285aa377e676488a1ce23d2145fdd363820697c11b01ef2a1bc7",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.front_right.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/GraveboundMale/attack/front_right/000.png",
+      "source_sha256": "3302dc35ee9cef17ca23f4b14276fd8ad63564daf0f1424a2aaa0d29bcef2fae",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.front_right.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/GraveboundMale/attack/front_right/001.png",
+      "source_sha256": "8645d2acb41ea95a70a6ed4ee50fa1c0901d6ecb202284c5b97ba1bd6a3a76e0",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.front_right.002",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/GraveboundMale/attack/front_right/002.png",
+      "source_sha256": "055fcec47ce64abfa22adfed12ae5ea3a9a7c614c442001831c3b1b41d646cee",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.right.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/GraveboundMale/attack/right/000.png",
+      "source_sha256": "54dfd22a875f888969c7d1699481c5cf56bb2c2359899bf3cfcaf951bfffb5d7",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.right.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/GraveboundMale/attack/right/001.png",
+      "source_sha256": "40fa28691d2fcd20e8c03a797f64d237aa966249172f0dcff1a619bec8445804",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.right.002",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/GraveboundMale/attack/right/002.png",
+      "source_sha256": "6138c84c5c5b24462e3a70f3964e0cf87304ee5d56ea36b9b58f958e7bf258f4",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.back_right.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/GraveboundMale/attack/back_right/000.png",
+      "source_sha256": "64ce7db3b35cd6b01e711e46c7b833699b1d0434a3a63de867bb8c4145037fcf",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.back_right.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/GraveboundMale/attack/back_right/001.png",
+      "source_sha256": "51ef0c98a7ed8ddc3ca42688067956fbce8e37fdfb254724f636a8ceb15a1400",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.back_right.002",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/GraveboundMale/attack/back_right/002.png",
+      "source_sha256": "7c709abe780e73660cc16b0c257933d12bf5a679c091b874ecaec4294c991348",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.back.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/GraveboundMale/attack/back/000.png",
+      "source_sha256": "f170e4d58e78e2d07f03ad252d4f6194208c8c5d62b3a95f07d75ef2a23d8814",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.back.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/GraveboundMale/attack/back/001.png",
+      "source_sha256": "66c1e3fdf37d39d4dbbcc4522b0e26c3287a2b21258b268bc4d58d4896492b1e",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.back.002",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/GraveboundMale/attack/back/002.png",
+      "source_sha256": "0b0dd614c69d12bb80bb43118cb5210148b283bf92db209018d519b9abdc1548",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.back_left.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/GraveboundMale/attack/back_left/000.png",
+      "source_sha256": "3e27d92c747d8a0e7b4192d4178c0f563915b942fc01fc523bd86118527a89de",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.back_left.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/GraveboundMale/attack/back_left/001.png",
+      "source_sha256": "8078714c7eeb59699c299115207a729a9dd97eb3e255d0d5345d040556587797",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.back_left.002",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/GraveboundMale/attack/back_left/002.png",
+      "source_sha256": "e9184030dc62c087df76bc6b740cfb55d66568ac0db2ecc4c9379114843feb9c",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.left.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/GraveboundMale/attack/left/000.png",
+      "source_sha256": "cc0554227e4d3fff281787b75bf4729471bf5b88ea2d97589c2513064a1e3628",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.left.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/GraveboundMale/attack/left/001.png",
+      "source_sha256": "d5c134f75d864993f9730869e9746d26948410a627a7c860a5f849dd71f678de",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.left.002",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/GraveboundMale/attack/left/002.png",
+      "source_sha256": "df26abd4a2bfe599b960475542e90d3aa84c887e86afab59126b52172ed1c845",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.front_left.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/GraveboundMale/attack/front_left/000.png",
+      "source_sha256": "aaeef26895972fc7b4ec6dd6e9de7127f3ab8b35ce4c17aab5f8cd269dca09f3",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.front_left.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/GraveboundMale/attack/front_left/001.png",
+      "source_sha256": "9e64b124b8be0202b6021923940ed4aa9d22e4ac7a13b22b4f846ea3a30d8100",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundMale.attack.front_left.002",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/GraveboundMale/attack/front_left/002.png",
+      "source_sha256": "16aab36d60911a22c7dac07fe9ca875880b7813d6792b33269fc291be0d4dfb8",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.front.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/GraveboundMale/hit/front/000.png",
+      "source_sha256": "2901c44c2828b8bbf8fb021324f4205c22ea817ef19247d95df9e94f742b6793",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.front.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/GraveboundMale/hit/front/001.png",
+      "source_sha256": "3a800aee4e7401ea37d79f21014124ec41511e8bf66dd7a4a8ba1bc857840ae9",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.front_right.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/GraveboundMale/hit/front_right/000.png",
+      "source_sha256": "5deaddcab8b112692f96351f4d261546563b466abc8c48cef644f788d315223f",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.front_right.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/GraveboundMale/hit/front_right/001.png",
+      "source_sha256": "1df971f6eb717289328f26c0466e49402264a5d711aaf6097e2d9e2a322f83bb",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.right.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/GraveboundMale/hit/right/000.png",
+      "source_sha256": "d2117a243c99ac2621b3eacc60d8a560a4c757d892bfce46ec7a0b8f1cd36274",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.right.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/GraveboundMale/hit/right/001.png",
+      "source_sha256": "fcda54ab4329ae78a1ebff82c6975d8f8879cacc772683bf19a6b256407400e6",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.back_right.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/GraveboundMale/hit/back_right/000.png",
+      "source_sha256": "28d6b5d934408f577c28506024ce5b195925a4c4019b5219c9d07a8a3e318052",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.back_right.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/GraveboundMale/hit/back_right/001.png",
+      "source_sha256": "67ddbb6bc6a794d40371af8651c980ae4bbe1774c8193badffac5b49fb39e1de",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.back.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/GraveboundMale/hit/back/000.png",
+      "source_sha256": "5e155b6807c122c335b6d3bc752dabf97de709030823caf389d34e6ce780c02f",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.back.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/GraveboundMale/hit/back/001.png",
+      "source_sha256": "15182299e50f0ccdd60e46bab61baf38b83eb4ec6fa1f83c3a066023a09ae290",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.back_left.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/GraveboundMale/hit/back_left/000.png",
+      "source_sha256": "454452742eb148a4eea48862eb8f027d4a12b74dad98078ac1b8f6c413452d94",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.back_left.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/GraveboundMale/hit/back_left/001.png",
+      "source_sha256": "63b806367fa50122f5e3d263a7cc327e8076e4aee4ec675b21c085ff13dcdf21",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.left.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/GraveboundMale/hit/left/000.png",
+      "source_sha256": "7c1a58e14d0435995c2ae5bc08f916457fb65cb9be5dd0cae6600a152bd14227",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.left.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/GraveboundMale/hit/left/001.png",
+      "source_sha256": "d2cb7a61e77c1aa079c6b06312554b97796bcee9335ebb62f3ddc033f5329389",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.front_left.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/GraveboundMale/hit/front_left/000.png",
+      "source_sha256": "1d605a2d96893b35215fe5364c5362259b084c01e210cd45daba17be72ce5967",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundMale.hit.front_left.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/GraveboundMale/hit/front_left/001.png",
+      "source_sha256": "2406fc9db5e4f69811fedf57422b442564caf40b63602b5734be429c04cb0883",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.front.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/GraveboundMale/idle/front/000.png",
+      "source_sha256": "84bd2ca834e483066ae9a2499c7c531ce2e5c943843b347be0fb60a43062dc37",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.front.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/GraveboundMale/idle/front/001.png",
+      "source_sha256": "f203632bc443e2fe3d12040a273de10622eb62acccc2fb568732d205a2f485de",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.front_right.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/GraveboundMale/idle/front_right/000.png",
+      "source_sha256": "792a6242bf5ac43226d53c2cd2057cb0111a4f0c1eb7f43c8e613e8ce4ea755a",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.front_right.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/GraveboundMale/idle/front_right/001.png",
+      "source_sha256": "edf56ffc4bbdc9e54782d9ae3560263ffc8770d3f40fb9f21cbbf5d67907a470",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.right.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/GraveboundMale/idle/right/000.png",
+      "source_sha256": "f90c93b100afbd156c8483f439b266afe48eb9279e1d0e2ae15feaea8b13095f",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.right.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/GraveboundMale/idle/right/001.png",
+      "source_sha256": "74cd1fe51c2a524e58c22e1d44c6bb572962b499c8cb8f912fd53f699c494d0f",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.back_right.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/GraveboundMale/idle/back_right/000.png",
+      "source_sha256": "cc729caaefd68ec67012741e6f3159d3dbf939063cbf55bf72c49b745861d769",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.back_right.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/GraveboundMale/idle/back_right/001.png",
+      "source_sha256": "06d4f76cd112239cf115f2a7ef38c12c4ac330b2ce2dc13a96a85107e700f819",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.back.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/GraveboundMale/idle/back/000.png",
+      "source_sha256": "70d4420af6c9bebcb9d83044467bea239398dac5fd92834054eea53c054dae8e",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.back.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/GraveboundMale/idle/back/001.png",
+      "source_sha256": "7cc4a145aae72397eafb84a0d136d3ced7adc465b759a3ca449d5e5108d4054e",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.back_left.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/GraveboundMale/idle/back_left/000.png",
+      "source_sha256": "444778e616f7f858a8c22947c330619018edd593cc909982501f90f85daecbe3",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.back_left.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/GraveboundMale/idle/back_left/001.png",
+      "source_sha256": "4c06b17fbbb4f45bfae18a4624518c06e92646e786b75b1c77f719019ac0f194",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.left.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/GraveboundMale/idle/left/000.png",
+      "source_sha256": "b4e7d1cecf19c9746091b81b6a952781d7e3ae3997c1dd66a3565ce8bbc401a9",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.left.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/GraveboundMale/idle/left/001.png",
+      "source_sha256": "d5278f0a85f6a3252c4546ad517c69f4e5f6cb5a1383aea2e0d7706aa7fd1445",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.front_left.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/GraveboundMale/idle/front_left/000.png",
+      "source_sha256": "f8272202f14549b93cd6f74955f5ac41b43dc53f7e67c6d6e31f728f4b7f6d63",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundMale.idle.front_left.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/GraveboundMale/idle/front_left/001.png",
+      "source_sha256": "0bb531e76c6f7f9b37d862bfda60a06411fcd15969593aaa1027dc951e74c304",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.front.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/GraveboundMale/walk/front/000.png",
+      "source_sha256": "e4ff09fca9a56de2c1a1af8e8fb624ca8ece97d25c88365881396d95dcf9f4e7",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.front.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/GraveboundMale/walk/front/001.png",
+      "source_sha256": "33733a1ba8cc6c634515e8c9005cfe3d63d0c116a40f31808c150f0c44e085b9",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.front_right.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/GraveboundMale/walk/front_right/000.png",
+      "source_sha256": "7274f6fb336f54d7cb78cd6f39b1caaf9958a84a02d311da9490866567c71781",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.front_right.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/GraveboundMale/walk/front_right/001.png",
+      "source_sha256": "599d7f7bf05264b80e9b441f61f2a6c741c964802661daff63ac01d3c45880ef",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.right.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/GraveboundMale/walk/right/000.png",
+      "source_sha256": "ef9de8dfb641bb41a29457b29fd117499daaf2d2ca65abe7d1d8fea5dfba22c7",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.right.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/GraveboundMale/walk/right/001.png",
+      "source_sha256": "3c522b17b9f364c908417176396ecbb5ca273f72d5860936bcb546115ecbdd04",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.back_right.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/GraveboundMale/walk/back_right/000.png",
+      "source_sha256": "8a55d9a59f84efd2fecec27996b8e8e5c48002cf54c7b0f1d12afce43655e02c",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.back_right.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/GraveboundMale/walk/back_right/001.png",
+      "source_sha256": "40e9740771cbee0d1b13ce5b9b160c7bd056e87d4c2a0965f3dd662ec3c351ac",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.back.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/GraveboundMale/walk/back/000.png",
+      "source_sha256": "e59c7e52d21fbe028bc4461855deb2139b98568ddf0542bfd6314ea95e5cbc38",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.back.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/GraveboundMale/walk/back/001.png",
+      "source_sha256": "1b965304aeac205a022c0afadf230329e95ea0ecbde67a0e59628490e36a6521",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.back_left.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/GraveboundMale/walk/back_left/000.png",
+      "source_sha256": "376188ac76636367050276630e873a32274f07371abc9b4328c310c0e31c35a9",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.back_left.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/GraveboundMale/walk/back_left/001.png",
+      "source_sha256": "fb40007acaafb0b4537b1426847a4178fc5abf971e5cccd08d79ee0f3f4965fd",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.left.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/GraveboundMale/walk/left/000.png",
+      "source_sha256": "9d2e6cb1d779b93d80bb66c3cb57f10063685c49d797b2bbf0e31b4074f82f95",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.left.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/GraveboundMale/walk/left/001.png",
+      "source_sha256": "26f376ff863162b110a2be69f65e26ab19ac897c5d9f69e39e47780eb442f36c",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.front_left.000",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/GraveboundMale/walk/front_left/000.png",
+      "source_sha256": "7d16436f659dff1183b12f73a86b554677520195f8de3d663a71f278e08c849a",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundMale.walk.front_left.001",
+      "asset_id": "GraveboundMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/GraveboundMale/walk/front_left/001.png",
+      "source_sha256": "1219a3e96a47dbdd3c7f29610764c05bd5e0fdf6dc095b69e71f80718666ff48",
+      "glb_sha256": "fb0485fb854890f3536594f10d6e0a4be9bfd9bd1f72a4a0f9e86815f47975d7",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

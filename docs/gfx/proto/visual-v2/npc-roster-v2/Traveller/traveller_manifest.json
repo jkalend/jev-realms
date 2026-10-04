@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Traveller",
+      "kind": "actor",
+      "source": "source/Traveller.glb",
+      "render_root": "render/Traveller",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 1
+      },
+      "action_profile": {
+        "id": "npc_traveller_staff",
+        "weapon": "staff",
+        "default_action": "traveller_idle",
+        "clips": {
+          "idle": [
+            "traveller_idle"
+          ],
+          "walk": [
+            "traveller_walk_a",
+            "traveller_walk_b"
+          ],
+          "attack": [
+            "traveller_staff_jab"
+          ],
+          "hit": [
+            "traveller_hit_recoil"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

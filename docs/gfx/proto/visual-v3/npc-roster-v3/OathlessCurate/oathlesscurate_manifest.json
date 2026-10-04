@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "OathlessCurate",
+      "kind": "boss",
+      "source": "source/OathlessCurate.glb",
+      "render_root": "render/OathlessCurate",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "boss_oathlesscurate_page",
+        "weapon": "page",
+        "default_action": "curate_idle",
+        "clips": {
+          "idle": [
+            "curate_idle"
+          ],
+          "walk": [
+            "curate_walk_a",
+            "curate_walk_b"
+          ],
+          "attack": [
+            "curate_page_fold",
+            "curate_binding",
+            "curate_recover"
+          ],
+          "hit": [
+            "curate_hit_recoil"
+          ]
+        },
+        "boss": {
+          "signature": "unfinished_page",
+          "phase_actions": [
+            "curate_phase_fold",
+            "curate_phase_unwrite"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v3",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

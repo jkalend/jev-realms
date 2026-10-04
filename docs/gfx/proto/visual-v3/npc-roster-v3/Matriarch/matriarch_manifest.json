@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Matriarch",
+      "kind": "boss",
+      "source": "source/Matriarch.glb",
+      "render_root": "render/Matriarch",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "boss_matriarch_claws",
+        "weapon": "claws",
+        "default_action": "matriarch_idle",
+        "clips": {
+          "idle": [
+            "matriarch_idle"
+          ],
+          "walk": [
+            "matriarch_walk_a",
+            "matriarch_walk_b"
+          ],
+          "attack": [
+            "matriarch_claw_combo",
+            "matriarch_brood_cast",
+            "matriarch_recover"
+          ],
+          "hit": [
+            "matriarch_hit_recoil"
+          ]
+        },
+        "boss": {
+          "signature": "brood_mother",
+          "phase_actions": [
+            "matriarch_phase_spawn",
+            "matriarch_phase_rage"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v3",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

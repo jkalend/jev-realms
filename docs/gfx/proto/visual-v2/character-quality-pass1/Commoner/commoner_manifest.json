@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Commoner",
+      "kind": "actor",
+      "source": "source/Commoner.glb",
+      "render_root": "render/Commoner",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 1
+      },
+      "action_profile": {
+        "id": "npc_commoner_unarmed",
+        "weapon": "unarmed",
+        "default_action": "commoner_idle",
+        "clips": {
+          "idle": [
+            "commoner_idle"
+          ],
+          "walk": [
+            "commoner_walk_a",
+            "commoner_walk_b"
+          ],
+          "attack": [
+            "commoner_shoulder_check"
+          ],
+          "hit": [
+            "commoner_hit_recoil"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "oathlesscurate-baked",
+    "file": "oathlesscurate-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "OathlessCurate": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "OathlessCurate": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "OathlessCurate.attack.front.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/OathlessCurate/attack/front/000.png",
+      "source_sha256": "12c8dbb81f427a1cd0b4d340888b2789431a5ab01b494556899806f60e1327f5",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.front.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/OathlessCurate/attack/front/001.png",
+      "source_sha256": "5c63f0a7fdb6ab3e11f4a72f729e5a19af1a921382da5ebc0d74a9b00684da2e",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.front.002",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/OathlessCurate/attack/front/002.png",
+      "source_sha256": "cee664199394fca6cfe91cbe5a5852da08d496a33798d606a2959a17f424d1b2",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.front_right.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/OathlessCurate/attack/front_right/000.png",
+      "source_sha256": "fcfd74dd09ee72f24b435d82b89bdf35f862553e8198eec48b22a8bd6da9997f",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.front_right.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/OathlessCurate/attack/front_right/001.png",
+      "source_sha256": "9662db0f49a96f4f4bfed2660742808382fe62421b1bc9fefa5bbc2b8e466314",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.front_right.002",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/OathlessCurate/attack/front_right/002.png",
+      "source_sha256": "1b46554eb0f3f57a2d2d9586a84eb5f241b31ea4461ba6ed2ebddeed0055af2f",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.right.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/OathlessCurate/attack/right/000.png",
+      "source_sha256": "1d0e0d726bdbb8ec913ad37c9e0a0ce703b3bfe2d73aa07115a2399464c42265",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.right.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/OathlessCurate/attack/right/001.png",
+      "source_sha256": "381b5a760e96f873dbb2822c3a66c506af2c77327b8e271d32f4198df3509023",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.right.002",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/OathlessCurate/attack/right/002.png",
+      "source_sha256": "5db301e02908cd72a82c81b9813c764b6d2891bf3ddc72b990ac11eba9be9a3b",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.back_right.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/OathlessCurate/attack/back_right/000.png",
+      "source_sha256": "aed5124567b02e07bda1728a66f9251372c13855c6aa50f51f98c15101c3fe57",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.back_right.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/OathlessCurate/attack/back_right/001.png",
+      "source_sha256": "3b8ab01a64270ca0d39ad7906c3bbc893ad80578bfe7d56b84e461869cb97896",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.back_right.002",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/OathlessCurate/attack/back_right/002.png",
+      "source_sha256": "b82d61c79333cbc5ca630f799db82508df64050a98888586aa83a90e7e777394",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.back.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/OathlessCurate/attack/back/000.png",
+      "source_sha256": "cb9da94021a8d0323db2be64157e50c257acdbcca479e67724c63a5206d907b8",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.back.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/OathlessCurate/attack/back/001.png",
+      "source_sha256": "3376bb47f2cedb945921a75c633af2491359d6b995656614954fa12a1e20a8e8",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.back.002",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/OathlessCurate/attack/back/002.png",
+      "source_sha256": "0288d391d0e1fc6e9f63892fc3be2d248e9926da0dd480aca7a05c8c05a888db",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.back_left.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/OathlessCurate/attack/back_left/000.png",
+      "source_sha256": "7aadb3ac595a4e72120abeacca39db7da82cd035c30ac3cedfa2c466bc57d620",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.back_left.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/OathlessCurate/attack/back_left/001.png",
+      "source_sha256": "aad161829bd4c81b9436f244ee787f5dd48fbd6ee72620dd3042c53b27d01944",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.back_left.002",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/OathlessCurate/attack/back_left/002.png",
+      "source_sha256": "6dd735efcc3bfbbb3db70e4fbd520fa47b92dc76dca8ed7cac453c3de68c6855",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.left.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/OathlessCurate/attack/left/000.png",
+      "source_sha256": "c30dd6ce3dd4f99a561f65398c48dd02b7fcdd0b2a36df028689ff2d24d05a2c",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.left.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/OathlessCurate/attack/left/001.png",
+      "source_sha256": "31c2fe477b1fb99ed863471bef016cf3df3e0dbbe6de143444cbe0efea301c2b",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.left.002",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/OathlessCurate/attack/left/002.png",
+      "source_sha256": "66da23fe5fae568dbb4fac0f0412388f9307e015c3e4882827febc957b352688",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.front_left.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/OathlessCurate/attack/front_left/000.png",
+      "source_sha256": "0d32b6273f1bed53aaef9bf1da6bff6ff631eb5875d9701820e3dd9cae0d220d",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.front_left.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/OathlessCurate/attack/front_left/001.png",
+      "source_sha256": "2f3f01db2834a2319dd562396e2a04402a65e947d8972c2828b1bfbe299651df",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "OathlessCurate.attack.front_left.002",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/OathlessCurate/attack/front_left/002.png",
+      "source_sha256": "5c6781054ada81ebc382631ea1759fc2fc429dccd9f98b42d9683b28897fcf25",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.front.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/OathlessCurate/hit/front/000.png",
+      "source_sha256": "c28dbe6e328358325f32d174315597f23c28ec8937068e654c99103b07c3f422",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.front.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/OathlessCurate/hit/front/001.png",
+      "source_sha256": "775aea8b664076b1e4733fa89d2ce12a72a43e36d687310024fb4427ded5a6f7",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.front_right.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/OathlessCurate/hit/front_right/000.png",
+      "source_sha256": "eeded3e112f8cb311014fc53a7a9418cc245bc024eee67b2807a5fe1d87b924a",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.front_right.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/OathlessCurate/hit/front_right/001.png",
+      "source_sha256": "e3249518ad0a5683ea271144472a647ac993c62e2d7420711dbfd38d83d261a6",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.right.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/OathlessCurate/hit/right/000.png",
+      "source_sha256": "bb758243d2c31622d184b529a20395d431f07a68b5cc7d3c78344b1f4628f0fb",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.right.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/OathlessCurate/hit/right/001.png",
+      "source_sha256": "53d8c4b4d2db71c9be59de0d78b070bbd2dd514ebf02d00284230c5b24e7fb6e",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.back_right.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/OathlessCurate/hit/back_right/000.png",
+      "source_sha256": "3f99337d7d300bc81ddf44e7340441e5e8c4edc0da77826d1e6caf51b43020de",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.back_right.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/OathlessCurate/hit/back_right/001.png",
+      "source_sha256": "12a312df1ba0b08057e8a3e146cbf8e08333229d14302fe4da3da87dab7d5a3d",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.back.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/OathlessCurate/hit/back/000.png",
+      "source_sha256": "b579a1f01bf1d65548bebb579bb05d91889664ca3568c1ec79e898c37b0b80b2",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.back.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/OathlessCurate/hit/back/001.png",
+      "source_sha256": "61e1786d88e187e572fec1fdc4683e7f2feb0f2829886c46c28a14d08194e42e",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.back_left.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/OathlessCurate/hit/back_left/000.png",
+      "source_sha256": "8e8fe2300384ddbf789ea40ce99583a6b649e45236c96dae55b6a5e5bf1c90e7",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.back_left.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/OathlessCurate/hit/back_left/001.png",
+      "source_sha256": "6cb3a0387caa4c4423a511859538f97d704f885326a6ff8a0d1624ad95e87230",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.left.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/OathlessCurate/hit/left/000.png",
+      "source_sha256": "361dbf1badbfdea9ca1e0fcbe44a7da6b73aa8792b304d3ba78d749f127461f3",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.left.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/OathlessCurate/hit/left/001.png",
+      "source_sha256": "4e031d0a2c233859afaa37382ee1a8091fd4c30602b4fbafff044fa20c2f823c",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.front_left.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/OathlessCurate/hit/front_left/000.png",
+      "source_sha256": "28ca2b22b9f7a09dd5e59a21853c4125dd7e9c16688b9f932be48a15ee5f4ea8",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "OathlessCurate.hit.front_left.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/OathlessCurate/hit/front_left/001.png",
+      "source_sha256": "37a6b2fd7d2dcb7e84ad2596fe12aa924f125c564f1aff242ad5a70c42aa71db",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.front.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/OathlessCurate/idle/front/000.png",
+      "source_sha256": "d794f7c5e0d36cf48953b4b291a8a4aa2d80882fcc0dda1dff4c4028da439890",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.front.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/OathlessCurate/idle/front/001.png",
+      "source_sha256": "302a30c11b24d56ba62628cb667c45aa5ecccbacacf323d5266eac7805de5508",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.front_right.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/OathlessCurate/idle/front_right/000.png",
+      "source_sha256": "dec21f0e44c50f85c28fcb64b45922e4d583e5df1b6bf2c7f5982ad91397ee29",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.front_right.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/OathlessCurate/idle/front_right/001.png",
+      "source_sha256": "709db149c4c20329eeaa9557b3ff642aebf3f6e9745ee3f3ad7a1cc6fc28e46b",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.right.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/OathlessCurate/idle/right/000.png",
+      "source_sha256": "15f9efa1435f89ff260c5936392a96d45b2d8850caf86db6266321d2fb41aedf",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.right.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/OathlessCurate/idle/right/001.png",
+      "source_sha256": "b8b02fe9fe7adaa82045b5273532be0581d9701b87f3d671b7fd74b80dc1fe86",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.back_right.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/OathlessCurate/idle/back_right/000.png",
+      "source_sha256": "4422488120763b944757eb86f225057df55955231886a697f911dbcbca0dc55e",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.back_right.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/OathlessCurate/idle/back_right/001.png",
+      "source_sha256": "7fa67869dd41886e6906d6b9473b75d26f00690848652e23fe94f0d25e82f8e2",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.back.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/OathlessCurate/idle/back/000.png",
+      "source_sha256": "d85efaf9c81f2423d5c6daed73fb43159349768ead860ded6dc13515d49c90a3",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.back.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/OathlessCurate/idle/back/001.png",
+      "source_sha256": "fcda75379eaab8ec4516c8ad8f428832f9c39c0aaf6942aca541c8991c07ba77",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.back_left.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/OathlessCurate/idle/back_left/000.png",
+      "source_sha256": "77ccc646cfbd3030737c2840955cd9352a99b7f0419f4c286497b1c0c063b6c6",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.back_left.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/OathlessCurate/idle/back_left/001.png",
+      "source_sha256": "80a81e5a37530e678a345918edd07b24daf1015298309d35c00ff4e2058cb6a4",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.left.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/OathlessCurate/idle/left/000.png",
+      "source_sha256": "bb18a418ff66789d0ad2564adf681d59f312b59f7ee912646959b6baadfb2fe5",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.left.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/OathlessCurate/idle/left/001.png",
+      "source_sha256": "c057c232c6f6f78f0fee9df272866ea5bf25202118252b1e9a3ba1e7e5f5ed99",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.front_left.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/OathlessCurate/idle/front_left/000.png",
+      "source_sha256": "e3fe869b4c88c5c5205ab5eb26f1d10fb7af8eb7da5ffb9e48c0015e31ce3e3b",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "OathlessCurate.idle.front_left.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/OathlessCurate/idle/front_left/001.png",
+      "source_sha256": "c01332b7977870335e57b3187870d16d059eb13d9c78006ae31e5eaae43b5283",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.front.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/OathlessCurate/walk/front/000.png",
+      "source_sha256": "2701eaf1da0e9a4c8f40da4334b0e20d1511c2a09257dd3277a92629b618303b",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.front.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/OathlessCurate/walk/front/001.png",
+      "source_sha256": "d05d2d6da8ad7aecd1b843e61417a7530582533fea693cb2c0e37cb2baad4b9c",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.front_right.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/OathlessCurate/walk/front_right/000.png",
+      "source_sha256": "fe398bf9958d82df9a96db23491a6a16fa1d3e3cdc2f4680202cf3820862e2dd",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.front_right.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/OathlessCurate/walk/front_right/001.png",
+      "source_sha256": "57cc1519796875a126548f0d8bdb1bbf503da6ddc23aa25fd79ce2d22d41fa71",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.right.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/OathlessCurate/walk/right/000.png",
+      "source_sha256": "7e9bef4a73b36449c1a8eb387777d030cbb9280f4a808e30ef54734297794278",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.right.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/OathlessCurate/walk/right/001.png",
+      "source_sha256": "c091011ba9927de2005d1f85c3886a68e4d3bfc56315f6995f3989ec57d81de0",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.back_right.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/OathlessCurate/walk/back_right/000.png",
+      "source_sha256": "66532d0b5564422130b1dc32073e11ed6db4450f454d02506aaafd9983370244",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.back_right.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/OathlessCurate/walk/back_right/001.png",
+      "source_sha256": "0838578e90e666391af22f9cf94f9e543d7b7dc06e926dde9b6e073839f68ef2",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.back.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/OathlessCurate/walk/back/000.png",
+      "source_sha256": "43f40ff15c319d2344a6a1dcd0a0ad7e8f3330eac1955b1c370c427055f45fbb",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.back.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/OathlessCurate/walk/back/001.png",
+      "source_sha256": "f01b3acbed3961d4ed3a1f416a0926f8840e39d56a7ee923ca4c139427a308aa",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.back_left.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/OathlessCurate/walk/back_left/000.png",
+      "source_sha256": "a3e79c434fbe1dbe59ffd6df5408e4203b112ebb100fea4a6265f31b9ecb0adc",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.back_left.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/OathlessCurate/walk/back_left/001.png",
+      "source_sha256": "3181fca2d7c38ae551176a2d0a40a2aba8872e2a43747b1823625011d2894b73",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.left.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/OathlessCurate/walk/left/000.png",
+      "source_sha256": "adcaa945e006a01d78e973c748e3729dcb79bb4010200664b29dc3c69303362d",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.left.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/OathlessCurate/walk/left/001.png",
+      "source_sha256": "390daded95c51108d34b7a1a679562861bebbb1d51efc184e516d3bb5dabb3f6",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.front_left.000",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/OathlessCurate/walk/front_left/000.png",
+      "source_sha256": "e9ae1b074b9e44d5c02402c511a5ef1d2117ebb4d3e7c6b43f8e2f95b83c4bb2",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "OathlessCurate.walk.front_left.001",
+      "asset_id": "OathlessCurate",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/OathlessCurate/walk/front_left/001.png",
+      "source_sha256": "e71e3608df288a10a68d469f0537f432a2d7e7bbf7252b502863bfa1e1a022b2",
+      "glb_sha256": "5a6adf9d7a8810b9ababcbe4227a0b110fa0a5c2be14b52a5f55e4c2023f324c",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

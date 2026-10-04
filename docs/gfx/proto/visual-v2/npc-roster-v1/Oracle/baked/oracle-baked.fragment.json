@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "oracle-baked",
+    "file": "oracle-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "Oracle": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Oracle": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Oracle.attack.front.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Oracle/attack/front/000.png",
+      "source_sha256": "1c59999e15030ad4ceb27674a1aca0444679366a425e9fb5dd45aaff934e9c15",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Oracle.attack.front.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Oracle/attack/front/001.png",
+      "source_sha256": "846a7e3d82339bf9ba046c14630f2efc105ba72cd7320345a084bdd07bf4f872",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Oracle.attack.front.002",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Oracle/attack/front/002.png",
+      "source_sha256": "e3d917183c0be3040f1bdea605821d8348af111a5212be8038a3c2e52d55e878",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Oracle.attack.front_right.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Oracle/attack/front_right/000.png",
+      "source_sha256": "41ba64f5c6699744a5837dc8d52b9b2e543ff3bec9d9cf63d8a3299443a047e4",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Oracle.attack.front_right.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Oracle/attack/front_right/001.png",
+      "source_sha256": "af061afb620c18e32ae696bc76febccb682604868f504f8666fbb795dff5015d",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Oracle.attack.front_right.002",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Oracle/attack/front_right/002.png",
+      "source_sha256": "5dd68dd975fdd129a739f99eb304d5fc3c3b24c5642ac472aa51e0d8d0f895e4",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Oracle.attack.right.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Oracle/attack/right/000.png",
+      "source_sha256": "2ee9c7a5e2162fcdd6cd2b99960c448c73def8fcf679a3cdc7a58c23363551a9",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Oracle.attack.right.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Oracle/attack/right/001.png",
+      "source_sha256": "881b98d020a0d72bb3ed325860b1a4298574075935ad14396d6a01df6d8ba641",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Oracle.attack.right.002",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Oracle/attack/right/002.png",
+      "source_sha256": "29ddabd8fb484614c2afa52c1f087c3950a89c95e072ea46ab74a408ecc50a1e",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Oracle.attack.back_right.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Oracle/attack/back_right/000.png",
+      "source_sha256": "bee299c44a21729d6a197ff0f795d23e00e7a28657d40a08096cea8cd063ae89",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Oracle.attack.back_right.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Oracle/attack/back_right/001.png",
+      "source_sha256": "acebc6a40c3ee4fe4ea418c1228e5b33cd8bf98e99d7a272edf7d96343ed7a32",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Oracle.attack.back_right.002",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Oracle/attack/back_right/002.png",
+      "source_sha256": "a0e1c9061ebc6f69c93fc5ab98bd65a5934732b9128be732205cf6dbebf7da29",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Oracle.attack.back.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Oracle/attack/back/000.png",
+      "source_sha256": "812c5982654366c496fc655ddd530659bcb43abdb64e3feddaebe5d75ccdbf79",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Oracle.attack.back.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Oracle/attack/back/001.png",
+      "source_sha256": "e521cbaaa0e4a7ca899c557d173176096439d6e93f7a444254e851e8cea7c09b",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Oracle.attack.back.002",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Oracle/attack/back/002.png",
+      "source_sha256": "11667b294af7a584186b3554fc7b5768e9fc4798ad842593bf76433342b9af7b",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Oracle.attack.back_left.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Oracle/attack/back_left/000.png",
+      "source_sha256": "7b1fee65beaddf42e3fa47614e753d8cbbe94d2336d2364b81e153c805694731",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Oracle.attack.back_left.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Oracle/attack/back_left/001.png",
+      "source_sha256": "89a00618e04103f673eaa40d3b896eca8a45f1eb7d42da25f495e21b6526627f",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Oracle.attack.back_left.002",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Oracle/attack/back_left/002.png",
+      "source_sha256": "872dfeed960efb2c05f9fb519868dfacdee0a92d0705de9eda2149950bfa5c92",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Oracle.attack.left.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Oracle/attack/left/000.png",
+      "source_sha256": "6cb4b408b8039b7fb611d1da9258a9973ee7f8705cbdea23c1e6a8549bd7bdaa",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Oracle.attack.left.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Oracle/attack/left/001.png",
+      "source_sha256": "2adf05c54d1ee03c23fa9766ee54ba3332fe6d497f81c31d0741ee89e3eabf6c",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Oracle.attack.left.002",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Oracle/attack/left/002.png",
+      "source_sha256": "e30ec0f3cc2659bd360470c67edcb51e654188756d18266428f0414fd52ba826",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Oracle.attack.front_left.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Oracle/attack/front_left/000.png",
+      "source_sha256": "510835dc853dceb605add9761baa122468e7a3725eae0d5b5d1f38cacedb9c6c",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Oracle.attack.front_left.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Oracle/attack/front_left/001.png",
+      "source_sha256": "7636443489e3aa1cc1b7de1dd3b19ab261a796d2ad298765ea5fb2d92c5524d6",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Oracle.attack.front_left.002",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Oracle/attack/front_left/002.png",
+      "source_sha256": "82d683681e28c1a959146bc832bf13b78bdd68c2f952a0d473d591f828f8584c",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Oracle.hit.front.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Oracle/hit/front/000.png",
+      "source_sha256": "9319f4a25f64107657b7fcbfbd63bc7a63e71dada9c80de4accf36e7322173cf",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Oracle.hit.front.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Oracle/hit/front/001.png",
+      "source_sha256": "f3c673dccbe363cdf4908de1c744c16109ddd45e1ea7b49e0af521d8a25327f6",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Oracle.hit.front_right.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Oracle/hit/front_right/000.png",
+      "source_sha256": "e4e0e8e67a09d04cee3c9b740acfc8c984ab80a4daa13471c9fc496499558572",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Oracle.hit.front_right.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Oracle/hit/front_right/001.png",
+      "source_sha256": "c0cdf585d6d9c9a8aa41e6f31376f9b985d6038ed472b14686c2ff9c7d9ae5ff",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Oracle.hit.right.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Oracle/hit/right/000.png",
+      "source_sha256": "badf3d40f3b3055944448e89a4412b5a6fc591876b1d7e73c7b49255252ea106",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Oracle.hit.right.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Oracle/hit/right/001.png",
+      "source_sha256": "cd4d665f103d195617141f8f8b2c905e7218a7e864886dba68b9f0e6ad0925f4",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Oracle.hit.back_right.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Oracle/hit/back_right/000.png",
+      "source_sha256": "b9e714892752a1a23ae6e51faa62d15b3d3a9ac816719acf4fdf510e3f795b95",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Oracle.hit.back_right.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Oracle/hit/back_right/001.png",
+      "source_sha256": "47cf8cbc75f0c19b2c44e9090328c7b57d5121d382e019c8f2935de945bc06c6",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Oracle.hit.back.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Oracle/hit/back/000.png",
+      "source_sha256": "0db1849cc1f9223e46c3d569311248547cdbf52a1f61b12b8ae3974dfc19c190",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Oracle.hit.back.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Oracle/hit/back/001.png",
+      "source_sha256": "433cf9fa032d50d14fdfb45c321ffaf0ac70dd4537c05a9fcccd3a5c74655c75",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Oracle.hit.back_left.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Oracle/hit/back_left/000.png",
+      "source_sha256": "03540c848d54d784db8f72002c7ee8ceb316f5befda4c2e95edd7c6f9918ed71",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Oracle.hit.back_left.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Oracle/hit/back_left/001.png",
+      "source_sha256": "520416a64d2a712efcacb86eb96c4c028970cccb524eb2b226c0da5a8b715c4d",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Oracle.hit.left.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Oracle/hit/left/000.png",
+      "source_sha256": "4993ba75fba7a12315ce5fa3cc9b3b88da5727ba05a1d88ac45d79b2ad325688",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Oracle.hit.left.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Oracle/hit/left/001.png",
+      "source_sha256": "149e156af1fdcaf935ebbf3b4a506e6f3b00f13dcc13dcaf4897208eba9b5bf5",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Oracle.hit.front_left.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Oracle/hit/front_left/000.png",
+      "source_sha256": "97965f6897853b7ae98151ff26cf25a27c25e39d5fef77a9e7bc35c84af2d8bd",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Oracle.hit.front_left.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Oracle/hit/front_left/001.png",
+      "source_sha256": "5c90fbc86c5f774533331b2acaba27f4dbe0cac24fb247a71f710bfd15b86ef2",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Oracle.idle.front.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Oracle/idle/front/000.png",
+      "source_sha256": "c3204bf3b4ce2809d2a72903ba920eea6d4465a995939a08a6108aa9240d6d9c",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Oracle.idle.front.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Oracle/idle/front/001.png",
+      "source_sha256": "bf58741a7a76ec5cb16c9fd3fc205836b376149d34c8da4d7c467c16b305fc90",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Oracle.idle.front_right.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Oracle/idle/front_right/000.png",
+      "source_sha256": "a53797c173d1829e312b68a31fdc5570a1535ff7f1c8a07f31afc382b0d9970b",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Oracle.idle.front_right.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Oracle/idle/front_right/001.png",
+      "source_sha256": "9523bfef4b6dc3a90a6bdcb45b7d2cc281e58e824671bb6ec0fb379396d77c7b",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Oracle.idle.right.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Oracle/idle/right/000.png",
+      "source_sha256": "c4a8ae23ea296f41fe8b24bb0344d8a129a62dcffe4790fb486d9e38140cf0de",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Oracle.idle.right.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Oracle/idle/right/001.png",
+      "source_sha256": "1247a2cd857c70fda3228c6bc080dd6f59f45c51b605d86c332dce1f28ed0fd4",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Oracle.idle.back_right.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Oracle/idle/back_right/000.png",
+      "source_sha256": "a97075d1b6099a3953d13e341367406fdd3f62eeebbe0df91bea9659d34c6cff",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Oracle.idle.back_right.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Oracle/idle/back_right/001.png",
+      "source_sha256": "e7da900a60afdcb6a76d0ca0c7131c14f4b2ba1ca02f9d3e32039758a13426e8",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Oracle.idle.back.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Oracle/idle/back/000.png",
+      "source_sha256": "eaa370225efb351d57ba7d998bd2328f2dc2d1dfbff327479ca5232c97862621",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Oracle.idle.back.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Oracle/idle/back/001.png",
+      "source_sha256": "df4138c72160a8da5a759ff9af8727c14657cf62b6d330dec92a1cc4ba162373",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Oracle.idle.back_left.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Oracle/idle/back_left/000.png",
+      "source_sha256": "dd44a22785f51c18cafcc2a39ce782eba78c0c97886129a8894591af6f9b0f19",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Oracle.idle.back_left.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Oracle/idle/back_left/001.png",
+      "source_sha256": "c4111ffe9d775df3fa0e0ae11a17a0af676deedb3c2b5734bbeccab7a5244692",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Oracle.idle.left.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Oracle/idle/left/000.png",
+      "source_sha256": "f36e63135d8f811b1d50bb69b935e969bfdf0824cb3fbfded40cfddbad569bc0",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Oracle.idle.left.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Oracle/idle/left/001.png",
+      "source_sha256": "636e2eb6844472e3a17ad7a92e01b4418460369713f6b1437474cd0148af3fda",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Oracle.idle.front_left.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Oracle/idle/front_left/000.png",
+      "source_sha256": "825aa6a3e5a42d4c9b9432aadbc28f3ccd1e917fb7a97c0c517e24fe053a9cfe",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Oracle.idle.front_left.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Oracle/idle/front_left/001.png",
+      "source_sha256": "47fb4f7a483787a4ed5938ba01959c747863a56e9d32dcb3b1d0a768077eba96",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "Oracle.walk.front.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Oracle/walk/front/000.png",
+      "source_sha256": "677b955c4c221b7d54ac89d0c89734aef81d5ed16f128c6b101f9df6dc4f74a6",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "Oracle.walk.front.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Oracle/walk/front/001.png",
+      "source_sha256": "dfe47c867843bfd1957b65140c7d79cf0a6d54375a9644cffd2c4cc337b19971",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "Oracle.walk.front_right.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Oracle/walk/front_right/000.png",
+      "source_sha256": "31ac02a091fbc749c4ad3a2f12e2518c1e70ea02d344c91887e0347d630910d0",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "Oracle.walk.front_right.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Oracle/walk/front_right/001.png",
+      "source_sha256": "5c1cd9d59a8af7ffbee49c405101457326bdb77f9f72749723a47c2f1bd9cbe7",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "Oracle.walk.right.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Oracle/walk/right/000.png",
+      "source_sha256": "9a49d28576821625a38e62341e53e9bb92b4f7d6f1df8024022c87ae5acb6807",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "Oracle.walk.right.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Oracle/walk/right/001.png",
+      "source_sha256": "927af182408b4811759156f78e96bcb32ba683093109e882552234f8ec682cda",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "Oracle.walk.back_right.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Oracle/walk/back_right/000.png",
+      "source_sha256": "d6b3107054ebd044cbcd02aa617f3fd08be52cc5a0c0c2d34d5f7ba463b24aa3",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "Oracle.walk.back_right.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Oracle/walk/back_right/001.png",
+      "source_sha256": "2c2ab259e8c7a3e47af7ac305d460143147efe766ce57d695a36408db62ffc92",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "Oracle.walk.back.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Oracle/walk/back/000.png",
+      "source_sha256": "35911d4cbf88c27cb161d2f55e1bce109af3aae6b10cc332b3d341da8a3bb7ad",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "Oracle.walk.back.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Oracle/walk/back/001.png",
+      "source_sha256": "70289c1fb467bcb36b56b28b57ec259746cc24f1fd079aac7c841ba77b01656f",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "Oracle.walk.back_left.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Oracle/walk/back_left/000.png",
+      "source_sha256": "e474ec87829cb3fbddef2f9fc0312a26f0d92fecf272d1d35e1a9394c6661e20",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "Oracle.walk.back_left.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Oracle/walk/back_left/001.png",
+      "source_sha256": "060c70d6957dfaaaa9b1e1395f869b4e403fa756fd6ec5a879e557f0fd8c7e36",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "Oracle.walk.left.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Oracle/walk/left/000.png",
+      "source_sha256": "bbc94725b2c2d1876994c40cdd9c4d2d4ab56f140c35acb406f848c85efc5f6d",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "Oracle.walk.left.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Oracle/walk/left/001.png",
+      "source_sha256": "dbf03e0b6d297d10d34c6d15d2695ab34da75aae14c02a022690cfa6b3bb3f3c",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "Oracle.walk.front_left.000",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Oracle/walk/front_left/000.png",
+      "source_sha256": "a860c52ecb6c023aa5c7ecd69e940c2c3999a85cfcb9574e4a1c570fe3a9caa1",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "Oracle.walk.front_left.001",
+      "asset_id": "Oracle",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Oracle/walk/front_left/001.png",
+      "source_sha256": "0f916ed0a4a5429c0e31bec00d06b2908c14982cd40ce30598aec156e3b75139",
+      "glb_sha256": "eaef5452a09d0612366dade00fe6dd62bd08cc4f8e39c4113bb8042f66e08b40",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

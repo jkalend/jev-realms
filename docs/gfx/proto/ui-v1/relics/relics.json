@@ -1,0 +1,81 @@
+{
+  "sheet": "player_relics.png",
+  "cell_size": {
+    "width": 64,
+    "height": 64
+  },
+  "mapping": {
+    "Player.Relic.Rallybreaker.Male": [
+      0,
+      0
+    ],
+    "Player.Relic.Fangmantle.Male": [
+      1,
+      0
+    ],
+    "Player.Relic.Graveglass.Male": [
+      2,
+      0
+    ],
+    "Player.Relic.Saltcrown.Male": [
+      3,
+      0
+    ],
+    "Player.Relic.Stoneheart.Male": [
+      4,
+      0
+    ],
+    "Player.Relic.GnawboneCrown.Male": [
+      5,
+      0
+    ],
+    "Player.Relic.TollcoinCharm.Male": [
+      6,
+      0
+    ],
+    "Player.Relic.WisplightLantern.Male": [
+      7,
+      0
+    ],
+    "Player.Relic.Hartshorn.Male": [
+      8,
+      0
+    ],
+    "Player.Relic.Rallybreaker.Female": [
+      0,
+      1
+    ],
+    "Player.Relic.Fangmantle.Female": [
+      1,
+      1
+    ],
+    "Player.Relic.Graveglass.Female": [
+      2,
+      1
+    ],
+    "Player.Relic.Saltcrown.Female": [
+      3,
+      1
+    ],
+    "Player.Relic.Stoneheart.Female": [
+      4,
+      1
+    ],
+    "Player.Relic.GnawboneCrown.Female": [
+      5,
+      1
+    ],
+    "Player.Relic.TollcoinCharm.Female": [
+      6,
+      1
+    ],
+    "Player.Relic.WisplightLantern.Female": [
+      7,
+      1
+    ],
+    "Player.Relic.Hartshorn.Female": [
+      8,
+      1
+    ]
+  }
+}

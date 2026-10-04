@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Mirelight",
+      "kind": "boss",
+      "source": "source/Mirelight.glb",
+      "render_root": "render/Mirelight",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "boss_mirelight_orb",
+        "weapon": "orb",
+        "default_action": "mirelight_idle",
+        "clips": {
+          "idle": [
+            "mirelight_idle"
+          ],
+          "walk": [
+            "mirelight_walk_a",
+            "mirelight_walk_b"
+          ],
+          "attack": [
+            "mirelight_orb_pulse",
+            "mirelight_phase_shift",
+            "mirelight_recover"
+          ],
+          "hit": [
+            "mirelight_hit_recoil"
+          ]
+        },
+        "boss": {
+          "signature": "hollow_glow",
+          "phase_actions": [
+            "mirelight_phase_fade",
+            "mirelight_phase_return"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

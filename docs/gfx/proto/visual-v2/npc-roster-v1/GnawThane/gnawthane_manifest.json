@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "GnawThane",
+      "kind": "boss",
+      "source": "source/GnawThane.glb",
+      "render_root": "render/GnawThane",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "boss_gnawthane_claws",
+        "weapon": "claws",
+        "default_action": "gnawthane_idle",
+        "clips": {
+          "idle": [
+            "gnawthane_idle"
+          ],
+          "walk": [
+            "gnawthane_walk_a",
+            "gnawthane_walk_b"
+          ],
+          "attack": [
+            "gnawthane_pounce",
+            "gnawthane_swipe",
+            "gnawthane_recover"
+          ],
+          "hit": [
+            "gnawthane_hit_recoil"
+          ]
+        },
+        "boss": {
+          "signature": "shard_crown",
+          "phase_actions": [
+            "gnawthane_phase_swarm",
+            "gnawthane_phase_enrage"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_v1",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

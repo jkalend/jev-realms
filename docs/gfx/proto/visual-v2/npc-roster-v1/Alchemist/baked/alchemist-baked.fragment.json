@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "alchemist-baked",
+    "file": "alchemist-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "Alchemist": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Alchemist": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Alchemist.attack.front.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Alchemist/attack/front/000.png",
+      "source_sha256": "30aa7dcdb982359dda95e35166bf7b269a7f29f5848496b12a45d29879d3f81f",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Alchemist.attack.front.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Alchemist/attack/front/001.png",
+      "source_sha256": "d2739260d84c8541fe37799fdb77d1dcf1b5754e46526bb1ed35c39ac86820b0",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Alchemist.attack.front.002",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Alchemist/attack/front/002.png",
+      "source_sha256": "40861c46361a6b460fa2be7c0da7d58c625e89fa8949be32d9abeeefba15b15f",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Alchemist.attack.front_right.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Alchemist/attack/front_right/000.png",
+      "source_sha256": "db8fd2f1af3fe55adbed89e4fa4aa550b2b4d4a5e01171eaa6353b53b9963dc4",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Alchemist.attack.front_right.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Alchemist/attack/front_right/001.png",
+      "source_sha256": "1d217d28866efa3e400580228e8a589201c979ba7dc25c08cb16adb6db2040e7",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Alchemist.attack.front_right.002",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Alchemist/attack/front_right/002.png",
+      "source_sha256": "430d04e33340810bfdb0c42bf2a63864f334d45f59695fcf1b8e03e710ae5bac",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Alchemist.attack.right.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Alchemist/attack/right/000.png",
+      "source_sha256": "121178108c3653b70828205e74a4601bc558ccb3516f8e25ceb60b041f52f6ba",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Alchemist.attack.right.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Alchemist/attack/right/001.png",
+      "source_sha256": "2df856ae103ba22531bbd27eb41acb5f99210c82c4ba6d5122d23dad4ff9efe8",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Alchemist.attack.right.002",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Alchemist/attack/right/002.png",
+      "source_sha256": "9c8de32b4052ed1e51c077c48447baa6d8984fa1bf9e8567806b8071672bbddb",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Alchemist.attack.back_right.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Alchemist/attack/back_right/000.png",
+      "source_sha256": "837b018d94dabf50c9a12f2f5afddc33c2f2fd0bdc00f542e59814d7c7909f4c",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Alchemist.attack.back_right.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Alchemist/attack/back_right/001.png",
+      "source_sha256": "35026cc1621b9e09e5d9821f57fbaa09b336bf20ee1711a57e7177eef7ca41d8",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Alchemist.attack.back_right.002",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Alchemist/attack/back_right/002.png",
+      "source_sha256": "03ae3133ea0441122a141d1a25b54252963c6bc0be8be465a8bf4627bc9e0024",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Alchemist.attack.back.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Alchemist/attack/back/000.png",
+      "source_sha256": "e552dc2ffa9cfe36e78ecb4a06141997c0258601bab3da6a63770a4ed681dd57",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Alchemist.attack.back.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Alchemist/attack/back/001.png",
+      "source_sha256": "bc06302f562d47b29eea79e025079db99070e43a4387ddbf61c906175702ee04",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Alchemist.attack.back.002",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Alchemist/attack/back/002.png",
+      "source_sha256": "89f1cba2bfdc47cdefbedb9851316d25ffde80669227431d97a02e35ca64c9fc",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Alchemist.attack.back_left.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Alchemist/attack/back_left/000.png",
+      "source_sha256": "64667ac8bc45402646136781712f1deef077fc8f2e42752667a01226ceceda2a",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Alchemist.attack.back_left.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Alchemist/attack/back_left/001.png",
+      "source_sha256": "a63c111624b795b8d804ff96e56338b4f1bf8e66e54fc2fe09f4a3a4e5e18b0e",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Alchemist.attack.back_left.002",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Alchemist/attack/back_left/002.png",
+      "source_sha256": "e2cc02e726e2749348274e908b07b457629bc49dc59d31bc8355e3d179ac62cf",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Alchemist.attack.left.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Alchemist/attack/left/000.png",
+      "source_sha256": "b423f6bf1dce353ebef253e23bf0ee60b41c355d6e2fe9d8bffc459ddf6e6868",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Alchemist.attack.left.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Alchemist/attack/left/001.png",
+      "source_sha256": "a8cd30ac046d0ef87975a7e7678b131e397a61f6dbd4f7092bd06983e2a1b520",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Alchemist.attack.left.002",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Alchemist/attack/left/002.png",
+      "source_sha256": "42d1b108e4033775014bcdccc29716d29e543ad5661a7a7d44110fad9bfb886c",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Alchemist.attack.front_left.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Alchemist/attack/front_left/000.png",
+      "source_sha256": "017d95bc041932b41f113bb6cf569bb2e87a262d2717f154278e4adc80f64f34",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Alchemist.attack.front_left.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Alchemist/attack/front_left/001.png",
+      "source_sha256": "11b4cf620dffb8554c76d9bf84491eeea1b218b01fa56333ed752b2f5a767999",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Alchemist.attack.front_left.002",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Alchemist/attack/front_left/002.png",
+      "source_sha256": "0b1934133038f5760a91ca0ff21031df130cf628f8f79a14f950d8cdfabee2e3",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Alchemist.hit.front.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Alchemist/hit/front/000.png",
+      "source_sha256": "90811d202cb06be04f5a655d2edc7e7f9cab18c9b9d629d585489ec0dc1904f1",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Alchemist.hit.front.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Alchemist/hit/front/001.png",
+      "source_sha256": "9a266465e584fc7db1512b8600d5ee6c7710625fb856240cbb6b43e13e9bf9cc",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Alchemist.hit.front_right.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Alchemist/hit/front_right/000.png",
+      "source_sha256": "d1611021917d6f2927868d0a5a8badd04193bc2834bece40552af91387c24013",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Alchemist.hit.front_right.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Alchemist/hit/front_right/001.png",
+      "source_sha256": "a26b5c873ed30ac026509bb231735f7e496b866c8584cbc3a2359a2f5b6886a5",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Alchemist.hit.right.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Alchemist/hit/right/000.png",
+      "source_sha256": "013f755f0dcbf74f18d558276a2ae2b558bb004b05df1e2d3ad9fd2150f0c8c2",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Alchemist.hit.right.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Alchemist/hit/right/001.png",
+      "source_sha256": "364cc4fdde9ffdc56def7c1a9063808f039ca33718aa2bf6cc6f799096de7c41",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Alchemist.hit.back_right.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Alchemist/hit/back_right/000.png",
+      "source_sha256": "7209ea4204c4625eec93969c16bd7525818c69a1c6d18f5b7544c7a30c9edff3",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Alchemist.hit.back_right.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Alchemist/hit/back_right/001.png",
+      "source_sha256": "e28136f7cd08951f79d4d36765ee1f6a3a0587090f315d2754de781720c221cc",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Alchemist.hit.back.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Alchemist/hit/back/000.png",
+      "source_sha256": "5487ec06531cc3b138d30f4094729013f500f9442f11d5f6eb573501669d4342",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Alchemist.hit.back.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Alchemist/hit/back/001.png",
+      "source_sha256": "696614b63a2eb3a606bf3546a8277161c3c5531baffc94b74dc8beff229dbdfd",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Alchemist.hit.back_left.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Alchemist/hit/back_left/000.png",
+      "source_sha256": "de6c5a9624712825dadd3350ad12a013c954c036f06e1551de9b5c90887c310d",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Alchemist.hit.back_left.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Alchemist/hit/back_left/001.png",
+      "source_sha256": "38f9bc3f0fe97b57dea1d95a93902901d0c246db8dbbd7ae58e8a69736938f42",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Alchemist.hit.left.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Alchemist/hit/left/000.png",
+      "source_sha256": "7b7918534639e69e7e99a9946bcf5464e0a01bfd232dab9af1ae9ac0f4717c20",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Alchemist.hit.left.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Alchemist/hit/left/001.png",
+      "source_sha256": "8d317e12fd10767bbb3cbbb79ef11056becba11d27de725b5760c31769e81138",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Alchemist.hit.front_left.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Alchemist/hit/front_left/000.png",
+      "source_sha256": "7d52c088226ee5ecefcabd5f8a46f3521353534dc7112f8e145359aaa13abb75",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Alchemist.hit.front_left.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Alchemist/hit/front_left/001.png",
+      "source_sha256": "a51b2c54f958ebfe9a602f2b3362ac82217dedf3ef72afcfa9dc1dab20c4e62e",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Alchemist.idle.front.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Alchemist/idle/front/000.png",
+      "source_sha256": "df0e4a5e82da702a0757f1a71ec7ba83031c3892e85a6c7f919ec10a93286107",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Alchemist.idle.front.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Alchemist/idle/front/001.png",
+      "source_sha256": "07a642b492c759f0531008a3f5a3724390a9132e64e409013ecc4d65d90ecd03",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Alchemist.idle.front_right.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Alchemist/idle/front_right/000.png",
+      "source_sha256": "bcec333d192bbe848617e7a9f80946b8214ab54e13408cec4194adaead868ce7",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Alchemist.idle.front_right.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Alchemist/idle/front_right/001.png",
+      "source_sha256": "1f02d5066e92e0af0257404552090fe055c47fa1b485f2759a34ed41799b1e65",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Alchemist.idle.right.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Alchemist/idle/right/000.png",
+      "source_sha256": "fdb5f5deceda28adc97d1837990f9452790048c17733c215cc342b1d0f2b54f4",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Alchemist.idle.right.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Alchemist/idle/right/001.png",
+      "source_sha256": "b611e15388640315800522194c9a3f53bddb4e3cc41ece0f7e2455cee64cd597",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Alchemist.idle.back_right.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Alchemist/idle/back_right/000.png",
+      "source_sha256": "12690013dadf7a59d12bd7e9aba12771072852834bcd926774f8e178cc02241f",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Alchemist.idle.back_right.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Alchemist/idle/back_right/001.png",
+      "source_sha256": "d9f6ee11364efb6dc9585be6ec2c3be297f6500ef88b80ce3dcd203e91f3bd5a",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Alchemist.idle.back.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Alchemist/idle/back/000.png",
+      "source_sha256": "b36961725d0e8e8afef06b03f9195aa9bc9376decaa697e485802d1dc32f8639",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Alchemist.idle.back.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Alchemist/idle/back/001.png",
+      "source_sha256": "34ee4faf0e46965db7091596e9b60999899e804ff47db8b1564edac627b15f81",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Alchemist.idle.back_left.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Alchemist/idle/back_left/000.png",
+      "source_sha256": "f1666ab0eeb1ecfff200854095ab4a0233fa1f73a59d3d34652563d56953b2a9",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Alchemist.idle.back_left.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Alchemist/idle/back_left/001.png",
+      "source_sha256": "a05637aaf79e0d193794fc0a172e892210b040167da4dbe24ed6b0259e305635",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Alchemist.idle.left.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Alchemist/idle/left/000.png",
+      "source_sha256": "8457223dd22eb08aa4e9dac08503c63598436e839cad5424a2bc977e927b81cd",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Alchemist.idle.left.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Alchemist/idle/left/001.png",
+      "source_sha256": "b2b3f17ac1e7786a501e309803217ef0e8dd8a2c3ba298d8ab84fc4ef1807918",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Alchemist.idle.front_left.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Alchemist/idle/front_left/000.png",
+      "source_sha256": "6775385bbff6e59748c4c7387ae75992ea0b295a818246ee7d5b7ed447af4f27",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Alchemist.idle.front_left.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Alchemist/idle/front_left/001.png",
+      "source_sha256": "464d57cfdf8545f68e00db4626733d3f81be71f145b8e283d09e28cd8bc11e11",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "Alchemist.walk.front.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Alchemist/walk/front/000.png",
+      "source_sha256": "e75fb299a1c431fb3c5abf9ab0ed80fae2de475f9ba32f21f4d596ca51228313",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "Alchemist.walk.front.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Alchemist/walk/front/001.png",
+      "source_sha256": "1dd82be22ac6c461cf4e65d7239421e620d3f4d2aec270ca8b29f8d79ec9b968",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "Alchemist.walk.front_right.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Alchemist/walk/front_right/000.png",
+      "source_sha256": "7edd39953511607cf5f562dd4a4342fa8015281ef55da2da1a0e889e1abdeba7",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "Alchemist.walk.front_right.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Alchemist/walk/front_right/001.png",
+      "source_sha256": "5954b9b4b3872f969c7e62640084ac2cea132e28188b482635e0f27130ef1507",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "Alchemist.walk.right.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Alchemist/walk/right/000.png",
+      "source_sha256": "dee4509505fbf06dc30f7098a23d926d3016529cb9348792277f71ef0967997e",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "Alchemist.walk.right.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Alchemist/walk/right/001.png",
+      "source_sha256": "fa7c5001967effcf0296e495b9e6b5b3fa30998ff27540204f4615c8365bde2f",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "Alchemist.walk.back_right.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Alchemist/walk/back_right/000.png",
+      "source_sha256": "7fd9223c9f0aa77588d9f5ad2625339050243961c219f3eb286e1c3c47651e8e",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "Alchemist.walk.back_right.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Alchemist/walk/back_right/001.png",
+      "source_sha256": "67c74062198a2af88819584f79fc86b155f75e5e7c6aeb09fbe2cc2b72017af6",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "Alchemist.walk.back.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Alchemist/walk/back/000.png",
+      "source_sha256": "190cb3c64672a49902071d8467e27686a9faa02f57bb30e6bc72b9e6ffd9981d",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "Alchemist.walk.back.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Alchemist/walk/back/001.png",
+      "source_sha256": "f93e7c6854b06e8983778eb4887f359b626a0f55460b3114a0d2fff3f062524a",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "Alchemist.walk.back_left.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Alchemist/walk/back_left/000.png",
+      "source_sha256": "cf8a409b52db68aaa74b41efdfe56de99daabc4a43e1bb1b0b6f6215f94b1b13",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "Alchemist.walk.back_left.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Alchemist/walk/back_left/001.png",
+      "source_sha256": "19fb2b74c511e5a41758eecf31ffa2ceb7e7ed23ca4f8df339a8d8281c54dd7c",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "Alchemist.walk.left.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Alchemist/walk/left/000.png",
+      "source_sha256": "7f90f5087bc514175a3abbf44af348a4db7e2bb9a97b397253e40a2f9f392cdc",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "Alchemist.walk.left.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Alchemist/walk/left/001.png",
+      "source_sha256": "f8450954514720c872afada6155d190282271e8ff423472bbc73f92c841348e2",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "Alchemist.walk.front_left.000",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Alchemist/walk/front_left/000.png",
+      "source_sha256": "43b03d730d56536f4024f19527f69dd98e67d0596d404e2ff4436cc2d59e4bec",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "Alchemist.walk.front_left.001",
+      "asset_id": "Alchemist",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Alchemist/walk/front_left/001.png",
+      "source_sha256": "e2cd7bcb95949b96b69862336e858bed6d5d61800cafe8f80051c23cd209b46a",
+      "glb_sha256": "49a395de0450ef63b70181497fecf5f9d276f3c1239b912f30dbe4a7f95acf7e",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

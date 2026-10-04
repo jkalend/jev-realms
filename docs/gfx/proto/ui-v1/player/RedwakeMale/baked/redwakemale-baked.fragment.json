@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "redwakemale-baked",
+    "file": "redwakemale-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "RedwakeMale": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "RedwakeMale": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "RedwakeMale.attack.front.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/RedwakeMale/attack/front/000.png",
+      "source_sha256": "28db18875a847cf360d6360c142cb77857e38b20f4a51cc8af0b1e961e21d64e",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.front.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/RedwakeMale/attack/front/001.png",
+      "source_sha256": "939cfcd9535294e77782d032fe98d3c7de5f80249a1bdc39010406c97e992161",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.front.002",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/RedwakeMale/attack/front/002.png",
+      "source_sha256": "6c396182491ec2950b973726f6027b81155ba567edac12251bdee6596e2b24b2",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.front_right.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/RedwakeMale/attack/front_right/000.png",
+      "source_sha256": "f8539a478f314ca7808ca5796d2b83e5b773b847be75c9450f9a81222c0a3bcb",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.front_right.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/RedwakeMale/attack/front_right/001.png",
+      "source_sha256": "f481f24e42bfad2487e1fd55bf04870a88d26713452773ab47f78f64b44ff86c",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.front_right.002",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/RedwakeMale/attack/front_right/002.png",
+      "source_sha256": "76ea038181bfc77b3b000ade64e76da44fe8584e43f690f3ba270b28f0ea6889",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.right.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/RedwakeMale/attack/right/000.png",
+      "source_sha256": "23b9dae71d0103f4b551d43b7d8e8832164be184d3a3dbcba20f2d1ebd750564",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.right.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/RedwakeMale/attack/right/001.png",
+      "source_sha256": "4fd3774c0f550de2ca350f59fed110ebf8282039a0b184ff19c72f7fb4abf06a",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.right.002",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/RedwakeMale/attack/right/002.png",
+      "source_sha256": "46e357cb4017fcbd295a5f8299ab3304d680f8bf51167261c14fb1ea4605f615",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.back_right.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/RedwakeMale/attack/back_right/000.png",
+      "source_sha256": "c468c2ed10f04bc9ba39eae242ad7548ae34a0998a3ef7f8ed432ccecbdb4619",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.back_right.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/RedwakeMale/attack/back_right/001.png",
+      "source_sha256": "a24a1a48fb3a1afa676297000e66312b9b99a5016ffe553000067a705d67001e",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.back_right.002",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/RedwakeMale/attack/back_right/002.png",
+      "source_sha256": "1398278c9745e1e6980cffea75a5ba24cfd1d25fcca5ae5d857ee164357591e7",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.back.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/RedwakeMale/attack/back/000.png",
+      "source_sha256": "7f8dd1cd55a350031a567e46675feebee0aa4ab85a5485c44c56b67c99e6de9b",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.back.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/RedwakeMale/attack/back/001.png",
+      "source_sha256": "e4fbf8d0f788873a1330c988e74a409460681d00c2898edbfcc11c38885132ae",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.back.002",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/RedwakeMale/attack/back/002.png",
+      "source_sha256": "35ddacec850cf4c41080ad7d40f848d30079b66d68035989fd0173155dc55ca0",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.back_left.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/RedwakeMale/attack/back_left/000.png",
+      "source_sha256": "ccb587809908953839a3d55366ff59815ec68a3705b39995f7e15a16fc7296c0",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.back_left.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/RedwakeMale/attack/back_left/001.png",
+      "source_sha256": "873847f088d52c7d9e488a1e26469c8548fd89397881da9249f99a7baeefa06f",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.back_left.002",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/RedwakeMale/attack/back_left/002.png",
+      "source_sha256": "68f27a4b05fdb400d53ec7dda21702154f467bf19a0842bb011c67c0c4b55fee",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.left.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/RedwakeMale/attack/left/000.png",
+      "source_sha256": "7163f50c73b4a3f70cfb21544caec6436b461f0e0c4d0e223ee29331c481a86c",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.left.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/RedwakeMale/attack/left/001.png",
+      "source_sha256": "f6f34462a344e70c5f1c896a13e476ebea6730f685e58b4e9c0725cd2fab5f66",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.left.002",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/RedwakeMale/attack/left/002.png",
+      "source_sha256": "3352d67a1cac387f148cd3e1371b9f0acb930a56dc9591e93a480c588494d2c3",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.front_left.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/RedwakeMale/attack/front_left/000.png",
+      "source_sha256": "ecf9a31813d47f4bd0b9aa2817ba707e8399c68ebcc95d745a81ad57c95bede6",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.front_left.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/RedwakeMale/attack/front_left/001.png",
+      "source_sha256": "28fdb73ed757f45a972a4675c69d26ef32e6ee00375b480bbcf83f03e0116b1f",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeMale.attack.front_left.002",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/RedwakeMale/attack/front_left/002.png",
+      "source_sha256": "843ab901f9f7a13fc352bd60b62e48c078f5b9101bd91fa16ec9c6279d1eca8d",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.front.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/RedwakeMale/hit/front/000.png",
+      "source_sha256": "054c0d058644322fcea8bc0faa7c1966b59e26d99f1c9001f30eb144547ad9ad",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.front.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/RedwakeMale/hit/front/001.png",
+      "source_sha256": "ce8babf037c9db4dabe11b1abc8c9c2a1546dc50775394966e5219e8fd2998bc",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.front_right.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/RedwakeMale/hit/front_right/000.png",
+      "source_sha256": "184d09d37884a14595f87a83eee62be11178ce9794342d471e5b9b350adde295",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.front_right.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/RedwakeMale/hit/front_right/001.png",
+      "source_sha256": "8476c69be78bdc526a45789ce32f96b33aab3bed761cd59f43024b454dd2d6d8",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.right.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/RedwakeMale/hit/right/000.png",
+      "source_sha256": "60b8c3bcdf5fa1bf73c4e996e834c5d4575f757d2d8b719fbaf030106c923f19",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.right.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/RedwakeMale/hit/right/001.png",
+      "source_sha256": "9cdd3e56a39620f97ac44501b49e7b9858481780678a78bdb4d764b72e9c4fd5",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.back_right.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/RedwakeMale/hit/back_right/000.png",
+      "source_sha256": "c2688421a7c633944f1d6f9e0bc5bb06dd6eb4b28d72b666aba99cc51cb81bde",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.back_right.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/RedwakeMale/hit/back_right/001.png",
+      "source_sha256": "196750adf129481189e1d4bfcc897b4aa296bf8906d67379966ff9d6eb3f38d0",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.back.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/RedwakeMale/hit/back/000.png",
+      "source_sha256": "fcd6286d897f36410167e5e1a0563fbd0c99c38a8c7cdd34e57e8d47af7fbf41",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.back.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/RedwakeMale/hit/back/001.png",
+      "source_sha256": "fe58ebd3ee94f9b632107cbc5e83aa0a1c89f2d6ce21426296906a7e0a538ffd",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.back_left.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/RedwakeMale/hit/back_left/000.png",
+      "source_sha256": "5cd85deaef6e0f4ba12fe82786f74ff5f4257bbca58a55caa196c4e35b31f486",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.back_left.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/RedwakeMale/hit/back_left/001.png",
+      "source_sha256": "bbd47c1748c22b07b5c275d09832922291befb405127a6415e40b0eebcc88482",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.left.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/RedwakeMale/hit/left/000.png",
+      "source_sha256": "708fd4613340002e8fb1a6529debee77f702b1564a144ba9f50b49c1a3dc1d42",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.left.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/RedwakeMale/hit/left/001.png",
+      "source_sha256": "ae3303dfc9c3ed501c7e5dfeee42c631a78a9f2d58874925c167694d42cbc503",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.front_left.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/RedwakeMale/hit/front_left/000.png",
+      "source_sha256": "13cdf2f67ef80a8dc445ac81316a873dec2845c7907169edc2c9a2b90e49c06b",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeMale.hit.front_left.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/RedwakeMale/hit/front_left/001.png",
+      "source_sha256": "1c7c8b9605a74e0960d37a440fe53ddbc55c1493abcf36ce51502d7da16d1811",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.front.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/RedwakeMale/idle/front/000.png",
+      "source_sha256": "f248e3a377d1383c006d0458c5a1490dfdadac5d390e70dd10831b3a9e7cb135",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.front.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/RedwakeMale/idle/front/001.png",
+      "source_sha256": "afa883ce46b09c803fc5711c725e6b7167bd1237e95b800fa279966e3a447cf0",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.front_right.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/RedwakeMale/idle/front_right/000.png",
+      "source_sha256": "5eed796f68c1ef1f6c7cb7cc587b2b43737b2d9a04754d16db303a174b9d5d38",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.front_right.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/RedwakeMale/idle/front_right/001.png",
+      "source_sha256": "dac6d7f79f1a1bdf7e4eee296b749c9e882a6a0f5a436d7c30c1def3e2ea424d",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.right.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/RedwakeMale/idle/right/000.png",
+      "source_sha256": "759078026989d546361638b6603f26d73b6130b501556578128fedf56a0ee105",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.right.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/RedwakeMale/idle/right/001.png",
+      "source_sha256": "cf830f2b0dad0f47bdb2b93a3d948898955c2b8f62981b021a9ed642c80c7331",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.back_right.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/RedwakeMale/idle/back_right/000.png",
+      "source_sha256": "b8ce5583c9b1bcc7446bc2812c66ddb7df15b44d519dd0c9cf34cb97fec0b6f4",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.back_right.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/RedwakeMale/idle/back_right/001.png",
+      "source_sha256": "ceef74a933ad94a0d86706c6eae050d491ad5d12552263454b355d9a94c9bb50",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.back.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/RedwakeMale/idle/back/000.png",
+      "source_sha256": "07137d292518cece96da028bdc65dd32e29fb5d31901fb946f6421071c5cd381",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.back.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/RedwakeMale/idle/back/001.png",
+      "source_sha256": "57002e8c3867252bc0997888e03ab0369cbab0913a552d6c1418ba355309ffab",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.back_left.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/RedwakeMale/idle/back_left/000.png",
+      "source_sha256": "5013484bcd0305e336aa319d050fc3c26ef61db8d0039c45bc39b43c456e4905",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.back_left.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/RedwakeMale/idle/back_left/001.png",
+      "source_sha256": "7378cc75738d6b2c0a9eb0f891257d38407002c2fc8d4b8d6309eee1bc7bf1bc",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.left.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/RedwakeMale/idle/left/000.png",
+      "source_sha256": "52303c4df9231f2a003eb2cd98b957aaa45f1a0e72203b0f54f2b76b977e66fb",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.left.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/RedwakeMale/idle/left/001.png",
+      "source_sha256": "f6b09ca7a57a48fdeb298a6918568b9b52f877509f04dd25db829605fab95ea0",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.front_left.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/RedwakeMale/idle/front_left/000.png",
+      "source_sha256": "950c7f2cf896133a6c4fae5cb82e0abf50fbbaff8703af11ade93c03f43a2569",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeMale.idle.front_left.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/RedwakeMale/idle/front_left/001.png",
+      "source_sha256": "00e93d795b39171a3756df0a6c64b1d1704e284e89334d13712228206775c035",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.front.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/RedwakeMale/walk/front/000.png",
+      "source_sha256": "de8ca3fe2eded12918ebcf1663d9047a501c7245688ca3dbf434aeaec27f7f16",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.front.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/RedwakeMale/walk/front/001.png",
+      "source_sha256": "9a95ff0d106cea0f9448bff8f91af6b47435957fd0a3fb89a92b1392ea13f058",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.front_right.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/RedwakeMale/walk/front_right/000.png",
+      "source_sha256": "0b317943bcf5e0bd49452cfba5668274445c1694b4df04f4c211047c7cadb408",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.front_right.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/RedwakeMale/walk/front_right/001.png",
+      "source_sha256": "6231f311c86d4a98186a84b9c60c2ce6a4f2bb5efa02d8a03c096e1c2033dddd",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.right.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/RedwakeMale/walk/right/000.png",
+      "source_sha256": "173fdeec4220b2475c317d72a095d0276a8fd6be5c1e66c1bc63124446b8f92e",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.right.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/RedwakeMale/walk/right/001.png",
+      "source_sha256": "b70d57f10c0776dade6df46191ce3f39060474b792d0558d0933faadb4b3c89b",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.back_right.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/RedwakeMale/walk/back_right/000.png",
+      "source_sha256": "dae05bd37992e47600eaac533263d1ce0808fc60243d126ec6392503f73a7049",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.back_right.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/RedwakeMale/walk/back_right/001.png",
+      "source_sha256": "412de2f90cceaf968668de03335839962dbb5c5dcbc16507821c9a89849fb2ee",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.back.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/RedwakeMale/walk/back/000.png",
+      "source_sha256": "b9a7a7ed792ae4368e38f2993226aaf45c999ddbda0d6ac1a71998a1c6c57963",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.back.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/RedwakeMale/walk/back/001.png",
+      "source_sha256": "f8d5c2cee288d6545a2ca31a9fc1930446b367a6686ce979f7f56d01fb9410ad",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.back_left.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/RedwakeMale/walk/back_left/000.png",
+      "source_sha256": "21e4a3cd2fe5a238d474faec8c0dd91f4201fd8c10214524712dacdd719544d9",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.back_left.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/RedwakeMale/walk/back_left/001.png",
+      "source_sha256": "fd0e1053e23a0c6c17fbf79c8d2585470369c6e5e88720f50a226f56ae796adf",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.left.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/RedwakeMale/walk/left/000.png",
+      "source_sha256": "9a5600f82f8c3f3c50fa8dda968f35a30c80d95f2a1b0c31bd71940ffa748d47",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.left.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/RedwakeMale/walk/left/001.png",
+      "source_sha256": "504bd254ac2474e67ce61b86c117851907bccd02521c1b4885ec06be890b70ed",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.front_left.000",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/RedwakeMale/walk/front_left/000.png",
+      "source_sha256": "b043cfa4c9c1154c0975263e3d191f409d637e3f13cdedac546c56dfee22ad98",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeMale.walk.front_left.001",
+      "asset_id": "RedwakeMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/RedwakeMale/walk/front_left/001.png",
+      "source_sha256": "eff7ea58e9123f102659d987583c6a49ab03df7789a3b6e08ee62e4c2944016b",
+      "glb_sha256": "22ec5a8aa6bc7d789ff0e403922635b05ac933089567d488f233e61d5492b541",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

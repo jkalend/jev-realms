@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Bandit",
+      "kind": "actor",
+      "source": "source/Bandit.glb",
+      "render_root": "render/Bandit",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 1
+      },
+      "action_profile": {
+        "id": "npc_bandit_knife",
+        "weapon": "knife",
+        "default_action": "bandit_idle",
+        "clips": {
+          "idle": [
+            "bandit_idle"
+          ],
+          "walk": [
+            "bandit_walk_a",
+            "bandit_walk_b"
+          ],
+          "attack": [
+            "bandit_slash"
+          ],
+          "hit": [
+            "bandit_hit_recoil"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_v1",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

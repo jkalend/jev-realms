@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "redwakefemale-baked",
+    "file": "redwakefemale-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "RedwakeFemale": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "RedwakeFemale": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "RedwakeFemale.attack.front.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/RedwakeFemale/attack/front/000.png",
+      "source_sha256": "4fdc418f8f856fff69ae0874268ed3a5571650abd988e7c08d6cf6d63d3c0357",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.front.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/RedwakeFemale/attack/front/001.png",
+      "source_sha256": "41e44e472e65634906e4fc8f640e20bdd9b48f016342c602b36e2436a58efc8e",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.front.002",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/RedwakeFemale/attack/front/002.png",
+      "source_sha256": "3432eff1dd4b6878594c4e8fd6384e5e8fc644e251c43aa677a5211a4019b9f8",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.front_right.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/RedwakeFemale/attack/front_right/000.png",
+      "source_sha256": "9b9811c6b61fd5e171c42472d8aebef965dda2fca0c637079d061774724f8d25",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.front_right.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/RedwakeFemale/attack/front_right/001.png",
+      "source_sha256": "fc78e7e58fd802ded407b7ea73dd3d4f6bef62cd1ddebf6f1b988f9a7e0a12b1",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.front_right.002",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/RedwakeFemale/attack/front_right/002.png",
+      "source_sha256": "fbf6f3f1ad2fc7eb424be3cbcb06cfad9a08699d5c13357fda5304c2b4cceedf",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.right.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/RedwakeFemale/attack/right/000.png",
+      "source_sha256": "51a2d6a82919bed45a5b9ea3a408df281ae64189039ba82af580c4068bdcb650",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.right.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/RedwakeFemale/attack/right/001.png",
+      "source_sha256": "69b18575a54f927b51cd0e1f4102ed4095d85204a6966a4a1110f08a2aa22bbb",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.right.002",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/RedwakeFemale/attack/right/002.png",
+      "source_sha256": "0f7c3205f1fe4f8e21795c77fc918c92f301e7d8f69fc4b7b8c10f834f97a147",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.back_right.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/RedwakeFemale/attack/back_right/000.png",
+      "source_sha256": "7834ebbbff9d26c28c3e12c1e4a94442d872d4e6271d40fd8743e66673f6a0d5",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.back_right.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/RedwakeFemale/attack/back_right/001.png",
+      "source_sha256": "64caa752e11b6156cc5b2eb4d1e72b07f682caf8725fbb5ca1c0139bc5e4b376",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.back_right.002",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/RedwakeFemale/attack/back_right/002.png",
+      "source_sha256": "60cdac85199fe6a3024623434641945e6d9f00cc12734a493281c50538c0bb17",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.back.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/RedwakeFemale/attack/back/000.png",
+      "source_sha256": "af58c8bdb0baa2b3301fcb1d6a727890e3d20107bd998ab6c8767e482d364d8a",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.back.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/RedwakeFemale/attack/back/001.png",
+      "source_sha256": "31e9bf4ad64e244b81caa75e642543a4e915d5a1c51b78d3eafc21e523464eb1",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.back.002",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/RedwakeFemale/attack/back/002.png",
+      "source_sha256": "46c5ee1073d6cebbd2b982a2f806b427939ef48aef4b57730ec638192b20073d",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.back_left.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/RedwakeFemale/attack/back_left/000.png",
+      "source_sha256": "83be90cf12c58c603635a857b1c05142d1e5ee804850529345cf3bb4200d6dc9",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.back_left.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/RedwakeFemale/attack/back_left/001.png",
+      "source_sha256": "5a59eba4325eff0ff45df1a5f479bb91ea0d9cd790cda9840a7df11270626ccd",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.back_left.002",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/RedwakeFemale/attack/back_left/002.png",
+      "source_sha256": "b6c6371f0185c47cb0647e1864f8723a4c241290620bd1a061d5c18c6e0c3a0c",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.left.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/RedwakeFemale/attack/left/000.png",
+      "source_sha256": "06de6f78b10ce1cb99276f23eea62d36eec0caa4bbd3f986c4781d57c991d244",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.left.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/RedwakeFemale/attack/left/001.png",
+      "source_sha256": "137322ca1f317f9f0909479beadc4e58ffc005352da53545cc6963f31345ad2c",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.left.002",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/RedwakeFemale/attack/left/002.png",
+      "source_sha256": "72e1577527c61ecfa0e44a71b091429909edb7eb31ef110a407c7624fba3cb4a",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.front_left.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/RedwakeFemale/attack/front_left/000.png",
+      "source_sha256": "79dd22f406f4568a40b15e27eb2ba4cf32276e484251008d032f8008eac55e44",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.front_left.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/RedwakeFemale/attack/front_left/001.png",
+      "source_sha256": "1f803b5baa30f830d23fcae7d8e4519e21fc9d862bdddafebb2be7f30be056de",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeFemale.attack.front_left.002",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/RedwakeFemale/attack/front_left/002.png",
+      "source_sha256": "a77a2960bfdd241c77529419073a0ae3fee1c41ccdb06dc9f1708f5e6616c7ca",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.front.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/RedwakeFemale/hit/front/000.png",
+      "source_sha256": "a5b47603a4d6c58ea64e50f48bb8c2f80472d894079c764a02868c0885a09c66",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.front.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/RedwakeFemale/hit/front/001.png",
+      "source_sha256": "6eb9ae20aa116b0bae9cbd1c2558591acdd34d829b63abca653c255e0ce80269",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.front_right.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/RedwakeFemale/hit/front_right/000.png",
+      "source_sha256": "09715349a25e5f75d7a2199591f8817e409c1e65336088e0c85c2fe5a2810a51",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.front_right.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/RedwakeFemale/hit/front_right/001.png",
+      "source_sha256": "fd01c94d54c9a5407c70e677c35cc195182c2f26805faf4fcb2cef830cb23b33",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.right.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/RedwakeFemale/hit/right/000.png",
+      "source_sha256": "23d9cf169700ad5774bb2a4ed6da9c77edb1adfa2023d7837c22f6ace95cea8b",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.right.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/RedwakeFemale/hit/right/001.png",
+      "source_sha256": "18648da5684e984218b6dc1475b6e9249051951d71cac75a2799ad1459fa70dc",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.back_right.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/RedwakeFemale/hit/back_right/000.png",
+      "source_sha256": "2deb415993710f8da04b87c951f7d22ecc08e8f2488e0f1544ef6540de189d75",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.back_right.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/RedwakeFemale/hit/back_right/001.png",
+      "source_sha256": "5dd9b20de0be8e6024da616182dcf42a4290ae183ed1344d4df65ccc8bec0e65",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.back.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/RedwakeFemale/hit/back/000.png",
+      "source_sha256": "47f9a95f7fe6550d8f24c88241f5c379f1141d8292c635b2623c24d1e8252da0",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.back.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/RedwakeFemale/hit/back/001.png",
+      "source_sha256": "e03ba12ec9146aa293e15aa5e583d40a92055dcd17c853f8004f5e2a11d3644d",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.back_left.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/RedwakeFemale/hit/back_left/000.png",
+      "source_sha256": "6bc1af0da4b921282d4737ed7d781cb53a25039945651279a24cd1feed341367",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.back_left.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/RedwakeFemale/hit/back_left/001.png",
+      "source_sha256": "6384d91a4c5620c7b35dfc00cdc1b9c7c544bea355add3935d4a1ca5721d9662",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.left.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/RedwakeFemale/hit/left/000.png",
+      "source_sha256": "65dd61ea4c97e04b8a600230513a6e4d3da2b45edca7be3c6ad95bbef4375ac9",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.left.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/RedwakeFemale/hit/left/001.png",
+      "source_sha256": "1d34ea59900bf7a2ee7fe0557d7b247e1fabdb3105a140e1a3609ab825e2bb57",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.front_left.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/RedwakeFemale/hit/front_left/000.png",
+      "source_sha256": "bfcf7fd5a102a47959c12f1c86181174c15340a8ad6b488b5f5907baab61d59b",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeFemale.hit.front_left.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/RedwakeFemale/hit/front_left/001.png",
+      "source_sha256": "d94a43fa4bd1535d7bbd6a446c0ea4caab247fa960a47a8b5becdcd8d247082b",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.front.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/RedwakeFemale/idle/front/000.png",
+      "source_sha256": "646d86b543eaafde644e1078df27831f657fa3d9af955c146a11febb9002ac94",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.front.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/RedwakeFemale/idle/front/001.png",
+      "source_sha256": "4250b0eccb2fef8775e7ce135008be8a2765700fff4038c4c0e145f32f7dee9e",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.front_right.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/RedwakeFemale/idle/front_right/000.png",
+      "source_sha256": "9c14b49d3fb608ea4c30599c0beefcc33e6d34bb611dcccddb8e1306154c0940",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.front_right.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/RedwakeFemale/idle/front_right/001.png",
+      "source_sha256": "af8f7f125b1db16698f5cd95de3030b04934d61d70fae06f50e6807395dd39fe",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.right.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/RedwakeFemale/idle/right/000.png",
+      "source_sha256": "7b1692d2e4aad676da84e96323efc5d191d0926078f8211c87d86fcfb4eb6f3a",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.right.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/RedwakeFemale/idle/right/001.png",
+      "source_sha256": "dbce8374598090aaffaca94eb5b1e6a18975b8f0203748427ebfee5c3894de78",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.back_right.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/RedwakeFemale/idle/back_right/000.png",
+      "source_sha256": "94bc61e78f9f09186567a0738df086babdaafb0c4d2089be225f9fe6f7544a38",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.back_right.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/RedwakeFemale/idle/back_right/001.png",
+      "source_sha256": "05152184fbae22ecdb50716239fcb08be6386edd4639abf7c116ed6308f64791",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.back.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/RedwakeFemale/idle/back/000.png",
+      "source_sha256": "5a7b3a3b75ff25bed633643a70685e0091dfbb7b3d3ae32bfeecebd88587b2bf",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.back.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/RedwakeFemale/idle/back/001.png",
+      "source_sha256": "0a06cb9df6731d6f83129427e115e151cb0eba7228ea17b12ad03d5589a932ea",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.back_left.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/RedwakeFemale/idle/back_left/000.png",
+      "source_sha256": "a38dab080bfee980b90214cbcfc533c75a00888549c5ab198b6276ed35e0f33f",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.back_left.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/RedwakeFemale/idle/back_left/001.png",
+      "source_sha256": "4803e081f5d0484d89a95b4500f2e6d9d8e4d1bf6fb11cc6d91016029bbd7fed",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.left.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/RedwakeFemale/idle/left/000.png",
+      "source_sha256": "0d68c0d6b27ea27460951791555c49a539cf694eb8b80ddb8a93ea873cefa821",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.left.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/RedwakeFemale/idle/left/001.png",
+      "source_sha256": "3cb3ac4afb0112ddb6e1707d8ccaa0f701c75c9a3700852fc6050dbaad626a29",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.front_left.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/RedwakeFemale/idle/front_left/000.png",
+      "source_sha256": "fb606f77d7a46fb1fb3b4f8f93fdadaf2370005bcb8035714baaa66ea309935e",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeFemale.idle.front_left.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/RedwakeFemale/idle/front_left/001.png",
+      "source_sha256": "cd231566511a1d12059016d74745ca18096591e35d54df499b942a5e37293b6d",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.front.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/RedwakeFemale/walk/front/000.png",
+      "source_sha256": "b000c0cb80608d4b9c7a9aebb2d09a486bb1b3cb80c1fd8b7b229fa9f86f9287",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.front.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/RedwakeFemale/walk/front/001.png",
+      "source_sha256": "a0e9647177afa7e8c5a3b43014d8f36130b662f7c0fae4890fbf17951cd88ef9",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.front_right.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/RedwakeFemale/walk/front_right/000.png",
+      "source_sha256": "baec860b258338c4ec8d5a836465f7d14ea0aa30ad99206b617acaef7704efd1",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.front_right.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/RedwakeFemale/walk/front_right/001.png",
+      "source_sha256": "227c3b090d7e747b12221658dd5189266a7b9601f804149853e259e94f06a341",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.right.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/RedwakeFemale/walk/right/000.png",
+      "source_sha256": "266b1d3c0d6f50c64f16ed098f6d75d54eea8f9bfd82c3a280a1ba5d19b00e1d",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.right.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/RedwakeFemale/walk/right/001.png",
+      "source_sha256": "f21e7632a8951975d7320287d8d572da78d7b24940d9930ba1a1112e414ffbf2",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.back_right.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/RedwakeFemale/walk/back_right/000.png",
+      "source_sha256": "7a09b5434754f4f81f32fbc712cabb6d497011d788acc9e2459d17c089ad2130",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.back_right.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/RedwakeFemale/walk/back_right/001.png",
+      "source_sha256": "2702375d9a76ef51058e928cc0ef9e9517ddcf399b915d3a16c4fdfce586227c",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.back.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/RedwakeFemale/walk/back/000.png",
+      "source_sha256": "de41246ec32374b70db5a2b2c50262c2fc5ccb08e9697c27d88ca84ae45f52a0",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.back.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/RedwakeFemale/walk/back/001.png",
+      "source_sha256": "85b412e661964ed4335fc791f8e7ace9aadee98ac21a1a8f3284eae37aeabeb0",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.back_left.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/RedwakeFemale/walk/back_left/000.png",
+      "source_sha256": "c2874eaf0a75f85ad139d7569ab5472f970452bfe1afc00f7002b8439b3d9c4f",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.back_left.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/RedwakeFemale/walk/back_left/001.png",
+      "source_sha256": "b01149175790ed384c7c1257b6040f2a4d26e4a352a873cd58b2ec2bbc3d3171",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.left.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/RedwakeFemale/walk/left/000.png",
+      "source_sha256": "d281c90cb4e31d30af8d1e4abe5ed33d9c092182e281915653d75b6c7e77b47f",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.left.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/RedwakeFemale/walk/left/001.png",
+      "source_sha256": "9ffffce08da0953056b75c0fa0367f9e7b85cc5e7cd31caaf578bee16cadd700",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.front_left.000",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/RedwakeFemale/walk/front_left/000.png",
+      "source_sha256": "695f5057267f1a11e553056f28e7d56e1dc019c9ee5c0ba1cf71c073c1c2408b",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "RedwakeFemale.walk.front_left.001",
+      "asset_id": "RedwakeFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/RedwakeFemale/walk/front_left/001.png",
+      "source_sha256": "c28697d9918193c51fb8aee357929113e72c85ae3ea7e4eb7c6a91d5ccb582d8",
+      "glb_sha256": "2aeb58e0257eebbdb7003f3f32cdb21488530498d703149fafc812a22ba02551",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

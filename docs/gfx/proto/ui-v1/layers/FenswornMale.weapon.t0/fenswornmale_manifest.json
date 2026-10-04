@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "FenswornMale",
+      "kind": "player",
+      "class": "Fensworn",
+      "build": "Male",
+      "sprite_key": "Player.Fensworn.Male",
+      "calling": "Speaker",
+      "source": "source/FenswornMale.glb",
+      "render_root": "render/FenswornMale",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "player_fensworn_fenward",
+        "weapon": "fenward",
+        "default_action": "fensworn_idle",
+        "clips": {
+          "idle": [
+            "fensworn_idle"
+          ],
+          "walk": [
+            "fensworn_walk_a",
+            "fensworn_walk_b"
+          ],
+          "attack": [
+            "fensworn_pack_call",
+            "fensworn_glaive_sweep",
+            "fensworn_recover"
+          ],
+          "hit": [
+            "fensworn_hit_recoil"
+          ]
+        },
+        "build": "Male"
+      },
+      "equipped": {
+        "weapon": "fenward",
+        "tier": 0,
+        "layer": "weapon",
+        "relic": null
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_player_v1",
+        "front_axis": "-Y",
+        "sockets": [
+          "weapon.R",
+          "chest",
+          "relic"
+        ]
+      }
+    }
+  ]
+}

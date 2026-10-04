@@ -1,0 +1,101 @@
+Stone Soup 0.7 (20100724)
+-------------------------
+Balance fixes
+* Monster double actions due to energy randomisation always include a move.
+* Greatly accelerate armour training when armour is heavy relative to skill.
+* Make heavy armour guaranteed damage reduction percentage independent of
+  armour skill.
+* Heavy armour doesn't affect weapon speed anymore.
+* Shields reduce attack speed.
+* Nagas and worshippers of Cheibriados don't suffer from as much hunger.
+
+Unsorted:
+* New mini-game, Dungeon Sprint.
+* New tutorial, old tutorial is now a hints mode.
+* Aptitudes now on a scale +5 to -5.
+* Track the source of poison for death messages.
+* Magic mapping and Lugonu's self-banishment now work in Pandemonium.
+* Ghouls can no longer starve; they just rot faster.
+
+Interface:
+* New starting menus, mouse-operable in tiles builds.
+* New tiles monster list tab.
+* Swap water and disturbance glyphs ('~' and '{').
+* Show effective weapon speed in '@' character info.
+* Player body size is now described on the "A" screen.
+
+Game:
+* Walls in the Slime Pits are acidic.
+* Changed shop distribution between branches.
+* Removed instant stat death.
+* Monster silence.
+* Monster halos.
+* New demonspawn mutations.
+* Make Shoals monsters generate on land.
+* Reduced missile enchantment effect on mulching.
+* New maps.
+* Fix old player ghost speech, and add player ghost speech fitting the
+  ghost.
+* Monster equipment can be corroded by acid.
+* Lost stats are now recovered one point at a time.
+* Magic contamination effects are more than twice as harsh.
+* The Abyss may now include hand-made structures.
+
+Gods:
+* Zin no longer objects to deaths of non-sentient allies, and takes
+  collateral kills of unclean and chaotic monsters.
+* Zin has a new power: Imprison.
+* Elyvilon's Divine Vigour scales better in terms of power.
+* Yredelemnul no longer gifts vampires.
+* Sif Muna's piety is no longer unfair to skilled species.
+* Nemelex no longer takes gold sacrifices.
+* Fedhas can now evolve ballistomycetes into hyperactive ballistomycetes.
+* Jiyva now gives the player conservation and unique slime-related
+  mutations, and produces temporary friendly slimes instead of permanent
+  neutral ones via the royal jelly effect.
+
+Items:
+* Scrolls of holy word do more damage to susceptible monsters.
+* Blowguns no longer show damage, as they do none; accordingly, scrolls of
+  enchant weapon II no longer work on them.
+* Flame- and frost-branded darts no longer always mulch, and the steel brand
+  is properly applied for thrown weapons.
+* Demon tridents can be blessed by TSO.
+
+Backgrounds:
+* Thieves and Death Knights are no more.
+* Warpers receive darts of dispersal.
+
+Monsters:
+* Anacondas are now amphibious.
+* Skeletal dragons are renamed to bone dragons.
+* Manes are now iron imps, with stat tweaks.
+* Imps lose see invisible while shadow imps gain it, and white imps resist
+  poison but are vulnerable to fire.
+* (Very) ugly things are no longer amphibious.
+* Glyph change for demonic crawlers.
+* Orange demons' poison can now drain any stat.
+* Hell hounds, hell hogs and demonic crawlers now leave corpses.
+* Hell knights have more HP and do more damage.
+* Blink frogs have phase shift.
+* New monsters: elephant, dire elephant, hellephant, spriggan, spriggan
+  druid, spriggan firefly rider.
+* New unique: Grinder the shadow imp.
+* Wayne is now capable of laying a major smackdown.
+
+Spells:
+* Call Imp is now level 2, takes spell power into account, and can summon
+  iron imps.
+* Call Canine Familiar replaces Summon Elemental in the book of Callings,
+  and is removed from the book of Summonings.
+* Summon Ugly Thing summons very ugly things less often at high power.
+* Invisibility no longer works on glowing monsters.
+* Extension only extends spells that you know.
+* Death's Door only blocks healing, paralysis only for Revivification.
+* Summon Ugly Things is level 6, Haunt is level 7.
+
+Technical:
+* LOS and areas recalculated on-demand.
+* Asserts are enabled by default.
+* Abstract tiles code from SDL and OpenGL.
+* Cleaned up game selection code.

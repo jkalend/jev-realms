@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Adjudicator",
+      "kind": "boss",
+      "source": "source/Adjudicator.glb",
+      "render_root": "render/Adjudicator",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "boss_adjudicator_gavel",
+        "weapon": "gavel",
+        "default_action": "adjudicator_idle",
+        "clips": {
+          "idle": [
+            "adjudicator_idle"
+          ],
+          "walk": [
+            "adjudicator_walk_a",
+            "adjudicator_walk_b"
+          ],
+          "attack": [
+            "adjudicator_gavel_raise",
+            "adjudicator_gavel_slam",
+            "adjudicator_gavel_recover"
+          ],
+          "hit": [
+            "adjudicator_hit_recoil"
+          ]
+        },
+        "boss": {
+          "signature": "judgement",
+          "phase_actions": [
+            "adjudicator_phase_declare",
+            "adjudicator_phase_seal"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

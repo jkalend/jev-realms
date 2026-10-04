@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Cragmother",
+      "kind": "boss",
+      "source": "source/Cragmother.glb",
+      "render_root": "render/Cragmother",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "boss_cragmother_fists",
+        "weapon": "fists",
+        "default_action": "cragmother_idle",
+        "clips": {
+          "idle": [
+            "cragmother_idle"
+          ],
+          "walk": [
+            "cragmother_walk_a",
+            "cragmother_walk_b"
+          ],
+          "attack": [
+            "cragmother_slam",
+            "cragmother_fissure",
+            "cragmother_recover"
+          ],
+          "hit": [
+            "cragmother_hit_recoil"
+          ]
+        },
+        "boss": {
+          "signature": "living_ridge",
+          "phase_actions": [
+            "cragmother_phase_brace",
+            "cragmother_phase_rend"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

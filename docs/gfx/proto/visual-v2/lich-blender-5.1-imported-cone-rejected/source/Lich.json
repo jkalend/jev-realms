@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "id": "Lich",
+  "kind": "boss",
+  "source": "Lich.glb",
+  "sha256": "ac4a6e0a16546e012468e0ba2f4c6c8eb660a9998ebc538ef6fe059909380db5",
+  "front_marker": "front",
+  "back_marker": "back",
+  "pivot": "feet_center",
+  "objects": [
+    "Lich_Mesh",
+    "Lich_Rig",
+    "Lich_back",
+    "Lich_front",
+    "Lich_pivot"
+  ]
+}

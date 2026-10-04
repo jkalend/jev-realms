@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Tidemother",
+      "kind": "boss",
+      "source": "source/Tidemother.glb",
+      "render_root": "render/Tidemother",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "boss_tidemother_kelp",
+        "weapon": "kelp",
+        "default_action": "tidemother_idle",
+        "clips": {
+          "idle": [
+            "tidemother_idle"
+          ],
+          "walk": [
+            "tidemother_walk_a",
+            "tidemother_walk_b"
+          ],
+          "attack": [
+            "tidemother_tide_sweep",
+            "tidemother_pull",
+            "tidemother_heal"
+          ],
+          "hit": [
+            "tidemother_hit_recoil"
+          ]
+        },
+        "boss": {
+          "signature": "tide_gown",
+          "phase_actions": [
+            "tidemother_phase_summon",
+            "tidemother_phase_flood"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

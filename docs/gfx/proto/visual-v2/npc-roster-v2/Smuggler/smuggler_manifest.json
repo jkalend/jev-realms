@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Smuggler",
+      "kind": "actor",
+      "source": "source/Smuggler.glb",
+      "render_root": "render/Smuggler",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 1
+      },
+      "action_profile": {
+        "id": "npc_smuggler_knife",
+        "weapon": "knife",
+        "default_action": "smuggler_idle",
+        "clips": {
+          "idle": [
+            "smuggler_idle"
+          ],
+          "walk": [
+            "smuggler_walk_a",
+            "smuggler_walk_b"
+          ],
+          "attack": [
+            "smuggler_cut"
+          ],
+          "hit": [
+            "smuggler_hit_recoil"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

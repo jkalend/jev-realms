@@ -1,0 +1,132 @@
+{
+  "Commoner": {
+    "kind": "actor", "form": "humanoid", "role": "civilian", "weapon": "unarmed", "head": "cap", "scale": 0.92, "garment": "apron",
+    "palette": {"skin": "#B97A57", "cloth": "#6F7C86", "accent": "#C9A227"},
+    "clips": {"idle": ["commoner_idle"], "walk": ["commoner_walk_a", "commoner_walk_b"], "attack": ["commoner_shoulder_check"], "hit": ["commoner_hit_recoil"]}
+  },
+  "Vendor": {
+    "kind": "actor", "form": "humanoid", "role": "civilian", "weapon": "pack", "head": "cap", "scale": 0.94, "garment": "apron",
+    "palette": {"skin": "#B97A57", "cloth": "#8A6A46", "accent": "#D8A72D"},
+    "clips": {"idle": ["vendor_idle"], "walk": ["vendor_walk_a", "vendor_walk_b"], "attack": ["vendor_push"], "hit": ["vendor_hit_recoil"]}
+  },
+  "Thief": {
+    "kind": "actor", "form": "humanoid", "role": "skirmisher", "weapon": "dagger", "head": "hood", "scale": 0.9, "garment": "cloak",
+    "palette": {"skin": "#A96C4E", "cloth": "#3C4652", "accent": "#7A4E8C"},
+    "clips": {"idle": ["thief_idle"], "walk": ["thief_walk_a", "thief_walk_b"], "attack": ["thief_dirk_slash"], "hit": ["thief_hit_recoil"]}
+  },
+  "Traveller": {
+    "kind": "actor", "form": "humanoid", "role": "wanderer", "weapon": "staff", "head": "hood", "scale": 0.96, "garment": "cloak",
+    "palette": {"skin": "#B67B58", "cloth": "#6C5A43", "accent": "#C2A35B"},
+    "clips": {"idle": ["traveller_idle"], "walk": ["traveller_walk_a", "traveller_walk_b"], "attack": ["traveller_staff_jab"], "hit": ["traveller_hit_recoil"]}
+  },
+  "Bandit": {
+    "kind": "actor", "form": "humanoid", "role": "skirmisher", "weapon": "knife", "head": "hood", "scale": 0.98, "garment": "brigandine",
+    "palette": {"skin": "#A76B4B", "cloth": "#7A3035", "accent": "#D3A13B"},
+    "clips": {"idle": ["bandit_idle"], "walk": ["bandit_walk_a", "bandit_walk_b"], "attack": ["bandit_slash"], "hit": ["bandit_hit_recoil"]}
+  },
+  "Smuggler": {
+    "kind": "actor", "form": "humanoid", "role": "skirmisher", "weapon": "knife", "head": "cap", "scale": 0.97, "garment": "cloak",
+    "palette": {"skin": "#A9704E", "cloth": "#2F5D63", "accent": "#C08A3E"},
+    "clips": {"idle": ["smuggler_idle"], "walk": ["smuggler_walk_a", "smuggler_walk_b"], "attack": ["smuggler_cut"], "hit": ["smuggler_hit_recoil"]}
+  },
+  "Skeleton": {
+    "kind": "actor", "form": "undead", "role": "undead", "weapon": "sword", "head": "skull", "scale": 1.0, "garment": "none",
+    "palette": {"skin": "#D2C9A9", "cloth": "#4A4038", "accent": "#8E2E2A"},
+    "clips": {"idle": ["skeleton_idle"], "walk": ["skeleton_walk_a", "skeleton_walk_b"], "attack": ["skeleton_chop"], "hit": ["skeleton_hit_recoil"]}
+  },
+  "Chief": {
+    "kind": "boss", "form": "humanoid", "role": "boss", "weapon": "greataxe", "head": "horned", "scale": 1.18, "garment": "brigandine",
+    "palette": {"skin": "#A96845", "cloth": "#5A3B2A", "accent": "#D6B15A"},
+    "clips": {"idle": ["chief_idle"], "walk": ["chief_walk_a", "chief_walk_b"], "attack": ["chief_axe_windup", "chief_axe_slam", "chief_axe_recover"], "hit": ["chief_hit_recoil"]},
+    "boss": {"signature": "horned_warlord", "phase_actions": ["chief_phase_rally", "chief_phase_sunder"]}
+  },
+  "Matriarch": {
+    "kind": "boss", "form": "humanoid", "role": "boss", "weapon": "claws", "head": "spines", "scale": 1.2, "garment": "robe",
+    "palette": {"skin": "#7C4A63", "cloth": "#4B2438", "accent": "#C8A0B8"},
+    "clips": {"idle": ["matriarch_idle"], "walk": ["matriarch_walk_a", "matriarch_walk_b"], "attack": ["matriarch_claw_combo", "matriarch_brood_cast", "matriarch_recover"], "hit": ["matriarch_hit_recoil"]},
+    "boss": {"signature": "brood_mother", "phase_actions": ["matriarch_phase_spawn", "matriarch_phase_rage"]}
+  },
+  "Adjudicator": {
+    "kind": "boss", "form": "humanoid", "role": "boss", "weapon": "gavel", "head": "crown", "scale": 1.2, "garment": "brigandine",
+    "palette": {"skin": "#C08A5A", "cloth": "#B08A32", "accent": "#F0D27A"},
+    "clips": {"idle": ["adjudicator_idle"], "walk": ["adjudicator_walk_a", "adjudicator_walk_b"], "attack": ["adjudicator_gavel_raise", "adjudicator_gavel_slam", "adjudicator_gavel_recover"], "hit": ["adjudicator_hit_recoil"]},
+    "boss": {"signature": "judgement", "phase_actions": ["adjudicator_phase_declare", "adjudicator_phase_seal"]}
+  },
+  "Oracle": {
+    "kind": "actor", "form": "humanoid", "role": "caster", "weapon": "ringstaff", "head": "hood", "scale": 0.98, "garment": "robe",
+    "palette": {"skin": "#B67C5A", "cloth": "#2C6D70", "accent": "#D6C07A"},
+    "clips": {"idle": ["oracle_idle"], "walk": ["oracle_walk_a", "oracle_walk_b"], "attack": ["oracle_read", "oracle_release", "oracle_recover"], "hit": ["oracle_hit_recoil"]}
+  },
+  "Companion": {
+    "kind": "actor", "form": "humanoid", "role": "support", "weapon": "swordshield", "head": "cap", "scale": 0.98, "garment": "brigandine",
+    "palette": {"skin": "#B47852", "cloth": "#2E5A78", "accent": "#D0A24A"},
+    "clips": {"idle": ["companion_idle"], "walk": ["companion_walk_a", "companion_walk_b"], "attack": ["companion_slash", "companion_bash", "companion_recover"], "hit": ["companion_hit_recoil"]}
+  },
+  "Tidemother": {
+    "kind": "boss", "form": "humanoid", "role": "boss", "weapon": "kelp", "head": "crown", "scale": 1.15, "garment": "robe",
+    "palette": {"skin": "#4E8A83", "cloth": "#1F5C68", "accent": "#9BD0B6"},
+    "clips": {"idle": ["tidemother_idle"], "walk": ["tidemother_walk_a", "tidemother_walk_b"], "attack": ["tidemother_tide_sweep", "tidemother_pull", "tidemother_heal"], "hit": ["tidemother_hit_recoil"]},
+    "boss": {"signature": "tide_gown", "phase_actions": ["tidemother_phase_summon", "tidemother_phase_flood"]}
+  },
+  "Cragmother": {
+    "kind": "boss", "form": "humanoid", "role": "boss", "weapon": "fists", "head": "stone", "scale": 1.18, "garment": "vest",
+    "palette": {"skin": "#77725F", "cloth": "#4B5148", "accent": "#A9A47D"},
+    "clips": {"idle": ["cragmother_idle"], "walk": ["cragmother_walk_a", "cragmother_walk_b"], "attack": ["cragmother_slam", "cragmother_fissure", "cragmother_recover"], "hit": ["cragmother_hit_recoil"]},
+    "boss": {"signature": "living_ridge", "phase_actions": ["cragmother_phase_brace", "cragmother_phase_rend"]}
+  },
+  "GnawThane": {
+    "kind": "boss", "form": "rat", "role": "boss", "weapon": "claws", "head": "shards", "scale": 1.25, "garment": "none",
+    "palette": {"skin": "#6C463C", "cloth": "#3C2A2A", "accent": "#C24A3C"},
+    "clips": {"idle": ["gnawthane_idle"], "walk": ["gnawthane_walk_a", "gnawthane_walk_b"], "attack": ["gnawthane_pounce", "gnawthane_swipe", "gnawthane_recover"], "hit": ["gnawthane_hit_recoil"]},
+    "boss": {"signature": "shard_crown", "phase_actions": ["gnawthane_phase_swarm", "gnawthane_phase_enrage"]}
+  },
+  "Tollmaster": {
+    "kind": "boss", "form": "humanoid", "role": "boss", "weapon": "flail", "head": "helm", "scale": 1.16, "garment": "brigandine",
+    "palette": {"skin": "#9B6A46", "cloth": "#4A4038", "accent": "#C39A47"},
+    "clips": {"idle": ["tollmaster_idle"], "walk": ["tollmaster_walk_a", "tollmaster_walk_b"], "attack": ["tollmaster_chain_windup", "tollmaster_chain_sweep", "tollmaster_hook", "tollmaster_recover"], "hit": ["tollmaster_hit_recoil"]},
+    "boss": {"signature": "toll_hook", "phase_actions": ["tollmaster_phase_collect", "tollmaster_phase_enshrine"]}
+  },
+  "Mirelight": {
+    "kind": "boss", "form": "wisp", "role": "boss", "weapon": "orb", "head": "wisp", "scale": 1.0, "garment": "none",
+    "palette": {"skin": "#A9D7C4", "cloth": "#2C5D5C", "accent": "#7BE0C4"},
+    "clips": {"idle": ["mirelight_idle"], "walk": ["mirelight_walk_a", "mirelight_walk_b"], "attack": ["mirelight_orb_pulse", "mirelight_phase_shift", "mirelight_recover"], "hit": ["mirelight_hit_recoil"]},
+    "boss": {"signature": "hollow_glow", "phase_actions": ["mirelight_phase_fade", "mirelight_phase_return"]}
+  },
+  "PaleStag": {
+    "kind": "boss", "form": "stag", "role": "boss", "weapon": "antlers", "head": "antlers", "scale": 1.12, "garment": "none",
+    "palette": {"skin": "#B7C2B4", "cloth": "#3A5149", "accent": "#E0E3C4"},
+    "clips": {"idle": ["palestag_idle"], "walk": ["palestag_walk_a", "palestag_walk_b"], "attack": ["palestag_charge", "palestag_antler_thrust", "palestag_recover"], "hit": ["palestag_hit_recoil"]},
+    "boss": {"signature": "forking_antlers", "phase_actions": ["palestag_phase_gallop", "palestag_phase_bay"]}
+  },
+  "Alchemist": {
+    "kind": "actor", "form": "humanoid", "role": "support", "weapon": "vials", "head": "hood", "scale": 0.95, "garment": "robe",
+    "palette": {"skin": "#B57A57", "cloth": "#5E6A55", "accent": "#A8C46A"},
+    "clips": {"idle": ["alchemist_idle"], "walk": ["alchemist_walk_a", "alchemist_walk_b"], "attack": ["alchemist_vial_throw", "alchemist_brew", "alchemist_recover"], "hit": ["alchemist_hit_recoil"]}
+  },
+  "FalseGlow": {
+    "kind": "actor", "form": "wisp", "role": "spectral", "weapon": "orb", "head": "wisp", "scale": 0.82, "garment": "none",
+    "palette": {"skin": "#7FA6A0", "cloth": "#263C4A", "accent": "#5C8F9A"},
+    "clips": {"idle": ["falseglow_idle"], "walk": ["falseglow_walk_a", "falseglow_walk_b"], "attack": ["falseglow_pulse", "falseglow_fade", "falseglow_recover"], "hit": ["falseglow_hit_recoil"]}
+  },
+  "OathlessCurate": {
+    "kind": "boss", "form": "humanoid", "role": "boss", "weapon": "page", "head": "mitre", "scale": 1.08, "garment": "robe",
+    "palette": {"skin": "#A66C4E", "cloth": "#5C3B72", "accent": "#D5B15C"},
+    "clips": {"idle": ["curate_idle"], "walk": ["curate_walk_a", "curate_walk_b"], "attack": ["curate_page_fold", "curate_binding", "curate_recover"], "hit": ["curate_hit_recoil"]},
+    "boss": {"signature": "unfinished_page", "phase_actions": ["curate_phase_fold", "curate_phase_unwrite"]}
+  },
+  "Wolf": {
+    "kind": "actor", "form": "wolf", "role": "beast", "weapon": "claws", "head": "wolf", "scale": 0.9, "garment": "none",
+    "palette": {"skin": "#6E7174", "cloth": "#3B4144", "accent": "#C8D0C2"},
+    "clips": {"idle": ["wolf_idle"], "walk": ["wolf_walk_a", "wolf_walk_b"], "attack": ["wolf_lunge", "wolf_snap", "wolf_recover"], "hit": ["wolf_hit_recoil"]}
+  },
+  "Bear": {
+    "kind": "actor", "form": "bear", "role": "beast", "weapon": "claws", "head": "bear", "scale": 1.3, "garment": "none",
+    "palette": {"skin": "#4E3A30", "cloth": "#2A2320", "accent": "#A5794D"},
+    "clips": {"idle": ["bear_idle"], "walk": ["bear_walk_a", "bear_walk_b"], "attack": ["bear_slam", "bear_swipe", "bear_recover"], "hit": ["bear_hit_recoil"]}
+  },
+  "Rat": {
+    "kind": "actor", "form": "rat", "role": "beast", "weapon": "claws", "head": "rat", "scale": 0.72, "garment": "none",
+    "palette": {"skin": "#6B4A43", "cloth": "#33282A", "accent": "#B87C63"},
+    "clips": {"idle": ["rat_idle"], "walk": ["rat_walk_a", "rat_walk_b"], "attack": ["rat_nip", "rat_scuttle", "rat_recover"], "hit": ["rat_hit_recoil"]}
+  }
+}

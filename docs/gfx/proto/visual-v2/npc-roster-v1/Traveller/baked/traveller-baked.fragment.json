@@ -1,0 +1,1005 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "traveller-baked",
+    "file": "traveller-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "Traveller": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Traveller": {
+        "attack": {
+          "front": [
+            0,
+            0
+          ],
+          "front_right": [
+            1,
+            0
+          ],
+          "right": [
+            2,
+            0
+          ],
+          "back_right": [
+            3,
+            0
+          ],
+          "back": [
+            4,
+            0
+          ],
+          "back_left": [
+            5,
+            0
+          ],
+          "left": [
+            6,
+            0
+          ],
+          "front_left": [
+            7,
+            0
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            1
+          ],
+          "front_right": [
+            3,
+            1
+          ],
+          "right": [
+            5,
+            1
+          ],
+          "back_right": [
+            7,
+            1
+          ],
+          "back": [
+            1,
+            2
+          ],
+          "back_left": [
+            3,
+            2
+          ],
+          "left": [
+            5,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Traveller.attack.front.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Traveller/attack/front/000.png",
+      "source_sha256": "14b4628838cff18ec7d5086f5b961e3dcf9d1e4d0356f3713c021182dc81bee2",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Traveller.attack.front_right.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Traveller/attack/front_right/000.png",
+      "source_sha256": "8e516b4eada46211745d2ba2ce4975a92c040da0271191ad4759c0bb8672967e",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Traveller.attack.right.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Traveller/attack/right/000.png",
+      "source_sha256": "7a677ad6afe59df4357b477483a0aa1ac47527b79296066f223f006b474f3fea",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Traveller.attack.back_right.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Traveller/attack/back_right/000.png",
+      "source_sha256": "91b8ac0365ee0e5813c63d8a9ea79529ed73030bd3b5f48895278b93d36451e8",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Traveller.attack.back.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Traveller/attack/back/000.png",
+      "source_sha256": "87b54c924133b6c8141b8c6b212957d6b25e9a03a35df6c00bc783b721603025",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Traveller.attack.back_left.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Traveller/attack/back_left/000.png",
+      "source_sha256": "187e4ef0f71f7afc6848d8abeafdcb3d51a0e2779b568f8d75a3d86353098871",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Traveller.attack.left.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Traveller/attack/left/000.png",
+      "source_sha256": "23461af9028a82189d1e9a879fc0694c716f076b494aa17c7183e989b6d660f3",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Traveller.attack.front_left.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Traveller/attack/front_left/000.png",
+      "source_sha256": "3c20face77d6899fccef9e90bcca48fef2946c7b2fa5126d73a99f012462ad38",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Traveller.hit.front.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Traveller/hit/front/000.png",
+      "source_sha256": "a664c1353a61521cf3d3c6baf7942b5c530131428071db96157a12198632d62b",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Traveller.hit.front.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Traveller/hit/front/001.png",
+      "source_sha256": "71e94910adc9bf1ab54a4c2b781493f645825cdef0bb7a5dec7334f73fc01f29",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Traveller.hit.front_right.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Traveller/hit/front_right/000.png",
+      "source_sha256": "b6137b05aba8429e6f6d39bf983436851fe635e8d1dd552425ac3cc0e7afb21a",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Traveller.hit.front_right.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Traveller/hit/front_right/001.png",
+      "source_sha256": "fb6640ac4fc3c82aead614e41496705bbf00f4150bdb3cca5f1be78710ee6530",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Traveller.hit.right.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Traveller/hit/right/000.png",
+      "source_sha256": "71876e4f743c9d2e5ab722eaf2f79992570aa190bd54dd10a7bc3c24654d394e",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Traveller.hit.right.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Traveller/hit/right/001.png",
+      "source_sha256": "390bec54a72267d90cab43394de2ec5ed589c34c2d90aa449cc8b69e51e1db49",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Traveller.hit.back_right.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Traveller/hit/back_right/000.png",
+      "source_sha256": "79ee7e606c03c8615642122df64f5bc0a9744f2472d8fe3aa99b7450672bab4f",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Traveller.hit.back_right.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Traveller/hit/back_right/001.png",
+      "source_sha256": "c26be9ecb4c04623a3d50a521d5837ca6d2c721b6b028bee2a71deb63e24f764",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Traveller.hit.back.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Traveller/hit/back/000.png",
+      "source_sha256": "85b5e5bca7d38d6a404bdfd118562b1dc314a5756f0d8e7d953aac945df2f9f7",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Traveller.hit.back.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Traveller/hit/back/001.png",
+      "source_sha256": "a2860a9df728c8156d56932a489d6c9d5612b6990481b6a61c3c09b155a00dc8",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Traveller.hit.back_left.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Traveller/hit/back_left/000.png",
+      "source_sha256": "4469489cb9b6b42cbbd18f70ebda0699e3a70357bd2dc221e0468578a5f1ec03",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Traveller.hit.back_left.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Traveller/hit/back_left/001.png",
+      "source_sha256": "d2523418f4e2642ee3e3851ed5adb04cc8230f42d4cd429ecfe62489e2a5af92",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Traveller.hit.left.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Traveller/hit/left/000.png",
+      "source_sha256": "b74c257497094e183f8af91dfc48807d98b377b36380d690e45513f0ec21b0d4",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Traveller.hit.left.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Traveller/hit/left/001.png",
+      "source_sha256": "2ed9b0b4135786a2b99f9f7f570f534c92520154ddc34943464cc1ce4743cc20",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Traveller.hit.front_left.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Traveller/hit/front_left/000.png",
+      "source_sha256": "b1143b6fb7cfff0a1f3c3ccceaa24e04fedaba196788ee72159e7476c76512b1",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Traveller.hit.front_left.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Traveller/hit/front_left/001.png",
+      "source_sha256": "54bffd554e29019ff4fe8d86c01550c69c6331b45d3e42a290f29f14f389956d",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Traveller.idle.front.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Traveller/idle/front/000.png",
+      "source_sha256": "88678d1ddb1365bf019f352caf0c63d59dfe1962e0ddf30a04a2310d664adb84",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Traveller.idle.front.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Traveller/idle/front/001.png",
+      "source_sha256": "ac370d3ed9ba2789a603baa567a485699bb90416957edc51fa404aff374febb7",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Traveller.idle.front_right.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Traveller/idle/front_right/000.png",
+      "source_sha256": "e1f472046f584367ce781eeab535f6bdf0f199778f3248a3eabe5475d8658a3b",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Traveller.idle.front_right.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Traveller/idle/front_right/001.png",
+      "source_sha256": "b79ad05f494fd83c83bd504b363e23d24391c521fc31164577566c920a10c447",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Traveller.idle.right.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Traveller/idle/right/000.png",
+      "source_sha256": "a7ace804ead6ae28fcaa745167e3865176c5c17e48bf27b4e87fc8853fd4a4da",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Traveller.idle.right.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Traveller/idle/right/001.png",
+      "source_sha256": "2a391acd1d7d0ba0bc0cabd51da52159fdc497a3ed0e159619270200f95a1824",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Traveller.idle.back_right.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Traveller/idle/back_right/000.png",
+      "source_sha256": "9058f2da503a6a5c81ff5d7af205835af7a68fd150b07a786f8fb67cf87129c7",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Traveller.idle.back_right.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Traveller/idle/back_right/001.png",
+      "source_sha256": "40429f2913015c6d71b79da57e6f7eb43f8740ef8e59a8a156bb54eef41a1611",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Traveller.idle.back.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Traveller/idle/back/000.png",
+      "source_sha256": "a80bc400921e1048caac6320cadc174fa805d2749dd757d9869dfd3b00afa389",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Traveller.idle.back.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Traveller/idle/back/001.png",
+      "source_sha256": "c2391551750e98814d4de33d754412fe4fdf37898d2e334191264f9c4e269de2",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Traveller.idle.back_left.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Traveller/idle/back_left/000.png",
+      "source_sha256": "00ad8c437e1ef072f6bcaae7a0758593f576635ea6a8a108fe64ecc5db527225",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Traveller.idle.back_left.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Traveller/idle/back_left/001.png",
+      "source_sha256": "9b43108053e72bc9617036f9829179d35f5a84ebee17580dc7666cbbce5ccfd0",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Traveller.idle.left.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Traveller/idle/left/000.png",
+      "source_sha256": "6e07f61638338d88ced5c6fa74a4628b6da6ec35d03188265a27ff9a037a4b5a",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Traveller.idle.left.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Traveller/idle/left/001.png",
+      "source_sha256": "e9b3912499137fe99d0d431022d4cd4b06bb0c3d96890bdbc6d2dba090c13de3",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Traveller.idle.front_left.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Traveller/idle/front_left/000.png",
+      "source_sha256": "76ea7ef412c440d6a1346b768eb6247c205e885b593b02f4a058196cc2d2e5b4",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Traveller.idle.front_left.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Traveller/idle/front_left/001.png",
+      "source_sha256": "2fb88e30aad5b4265ab93d138d1179ca6a3136fb258dd0119e5aa9d7de0ea1b7",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Traveller.walk.front.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Traveller/walk/front/000.png",
+      "source_sha256": "706f62a3aff2e3d162f0d5e993d2a4932180c8d5d648a4a435c575f8cf31fb24",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Traveller.walk.front.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Traveller/walk/front/001.png",
+      "source_sha256": "022414c7f4bee6534ba997010ecd2b8ec8aab436940709f231b76258d84b92c3",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Traveller.walk.front_right.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Traveller/walk/front_right/000.png",
+      "source_sha256": "fc285c2b2f60163a925d3e7581db17121fccfc5af76184303eb20737ebe2677a",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Traveller.walk.front_right.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Traveller/walk/front_right/001.png",
+      "source_sha256": "2060af5720b4656662272170183c1973f52a94bb2a350bede38c1dd87cf88ed4",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Traveller.walk.right.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Traveller/walk/right/000.png",
+      "source_sha256": "d54d95042cb246ee28a1e613932ae201b0caba79645f5bf6165a4e3ff138b276",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Traveller.walk.right.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Traveller/walk/right/001.png",
+      "source_sha256": "e4c9bd772658de6c0352e98045f51b67719cd616ea265cd54a1f4e524d0ac2b8",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Traveller.walk.back_right.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Traveller/walk/back_right/000.png",
+      "source_sha256": "ec437f1423b433bfcfcc10973078b444194b7cc50cad264a59ab1072155bdb20",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Traveller.walk.back_right.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Traveller/walk/back_right/001.png",
+      "source_sha256": "c835686b370df7ce412b9edef0c64b1b794af955106e91c93c96246a20534ca4",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Traveller.walk.back.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Traveller/walk/back/000.png",
+      "source_sha256": "f8693de8c3215bb1b4a3848084dc5e31ac5171fa2c5c25ab5507ca5c86d28ee2",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Traveller.walk.back.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Traveller/walk/back/001.png",
+      "source_sha256": "44f5f4c24798eca42db8f6320035cd94c3583a1c4d896f9075c2e28dc8783b69",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Traveller.walk.back_left.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Traveller/walk/back_left/000.png",
+      "source_sha256": "57e2399a31208ed8fce29c5087efe1a857aa60e090a2df5a2c1538a8b8ff0938",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Traveller.walk.back_left.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Traveller/walk/back_left/001.png",
+      "source_sha256": "f835b4cf55192e5b7de08b8278d3f47584ba2757c8d1356731a42895655c0182",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Traveller.walk.left.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Traveller/walk/left/000.png",
+      "source_sha256": "335aee731cb1be862384640a30689ad53174be75b08d1cac32a1cf707f110092",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Traveller.walk.left.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Traveller/walk/left/001.png",
+      "source_sha256": "91fd04da229c519e233135ea86127f99027d958593252a65ab42a24968e2d1a8",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Traveller.walk.front_left.000",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Traveller/walk/front_left/000.png",
+      "source_sha256": "22075bce95a6b42965d4bc2861c1642205629b8c22165b3cd4ffa972a21a595f",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Traveller.walk.front_left.001",
+      "asset_id": "Traveller",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Traveller/walk/front_left/001.png",
+      "source_sha256": "8dbcf72cddcf335903003ca727b1b8e0dd6d276b9bff2e477980242084a6b151",
+      "glb_sha256": "7b7a5fe59d144f16e63966b4bacf5ff4808c678c64f88af01e941318a4374a90",
+      "cell": [
+        7,
+        6
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 56,
+    "file_checked": true
+  }
+}

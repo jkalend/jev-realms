@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "keepwardenmale-baked",
+    "file": "keepwardenmale-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "KeepwardenMale": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "KeepwardenMale": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "KeepwardenMale.attack.front.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/KeepwardenMale/attack/front/000.png",
+      "source_sha256": "8633366888ee5ef27ecb5d112b96b30aa2bae1fed7bc6f556d9268384e35dae5",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.front.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/KeepwardenMale/attack/front/001.png",
+      "source_sha256": "5f24ce27d925a61b5a74b3faecfc252807637ec943f655f56a0c6fb315ce3cbd",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.front.002",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/KeepwardenMale/attack/front/002.png",
+      "source_sha256": "e1c41dc929777f0f354f260244ffec1130548e80b7d0786eab2e021da5847aa7",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.front_right.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/KeepwardenMale/attack/front_right/000.png",
+      "source_sha256": "a758762a344d193fdfab83957e13297e0d0c77d70efabe1d569d8c3e80bae7fc",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.front_right.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/KeepwardenMale/attack/front_right/001.png",
+      "source_sha256": "14204959e4f4bee262ebba60d4ecdb0f5fb8909f48c1efe3aed4e0d9340db110",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.front_right.002",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/KeepwardenMale/attack/front_right/002.png",
+      "source_sha256": "cd6a56368f8acb9b38829cec73c3d7ce65151cc5098abb2b47768c03bbbe9e39",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.right.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/KeepwardenMale/attack/right/000.png",
+      "source_sha256": "ba5447540417dfd5646c1bd8d94269c0a9c9dfcc3a72fda6e58a483200147deb",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.right.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/KeepwardenMale/attack/right/001.png",
+      "source_sha256": "985b77f2a31860b802c8e94de74afc47eff126ccbd3e4ce39a7b14c24abe9aad",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.right.002",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/KeepwardenMale/attack/right/002.png",
+      "source_sha256": "51d498fecfe4581c3d30f7c0b88f870c0eb678d6c754d7a461bfc62d4ff90a3c",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.back_right.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/KeepwardenMale/attack/back_right/000.png",
+      "source_sha256": "d6fc66d8974daeadc9aa5dc9bd6071e15f2006e79e2c16e53960e0489a48e424",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.back_right.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/KeepwardenMale/attack/back_right/001.png",
+      "source_sha256": "31ce9c7f738e8855acdc57c4976bed093a7c441628ab3cad265e9ead0190a900",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.back_right.002",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/KeepwardenMale/attack/back_right/002.png",
+      "source_sha256": "8c8feb04d767c01e4db1d20d781cbc235e862cc4dd506a63e59ae5e74ae94033",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.back.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/KeepwardenMale/attack/back/000.png",
+      "source_sha256": "ff6e1af8a02d6c87a1f16a9f0221ee2dc3b255f83d4ce650f31557c39c8e328b",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.back.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/KeepwardenMale/attack/back/001.png",
+      "source_sha256": "5bec2e16c0f95753389d65ce5ed55d3624b276483fd05f159ad56e24eca3de5e",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.back.002",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/KeepwardenMale/attack/back/002.png",
+      "source_sha256": "c896e07fdc89fd62de6c1b416a490a7b5c922bbae1d4c169a350a9ef1dcc85c2",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.back_left.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/KeepwardenMale/attack/back_left/000.png",
+      "source_sha256": "5716036b54247e2a5db61c3f993ee3a447f6b07f5c8d7c7dc938a56aaded28fe",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.back_left.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/KeepwardenMale/attack/back_left/001.png",
+      "source_sha256": "ffaae68d38aa7087b2f3a139bc2a54f526ea1702f507ec75262e6e23b7354ff7",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.back_left.002",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/KeepwardenMale/attack/back_left/002.png",
+      "source_sha256": "54c913fe0a4972a32f5476514399764d2648faac6061d55a45c9df8985477588",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.left.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/KeepwardenMale/attack/left/000.png",
+      "source_sha256": "984a55b03a9c391ef7fc8e266af310ad0fe76dd8aa122ef8347d311bb3a9de1b",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.left.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/KeepwardenMale/attack/left/001.png",
+      "source_sha256": "464caaf232c01cefda9ce4292c3b8c3d230b0b458bb7d3b67143d1f95b05bcee",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.left.002",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/KeepwardenMale/attack/left/002.png",
+      "source_sha256": "3c0792395870a518f6daf0f0869c9f95368173329d3f1cdee7cbf5ac1e5c68c5",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.front_left.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/KeepwardenMale/attack/front_left/000.png",
+      "source_sha256": "125c8dcbd03542db147de72e3db4926e87c5b33e253c4af7e13433ff46769919",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.front_left.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/KeepwardenMale/attack/front_left/001.png",
+      "source_sha256": "131514a4f20ef0e91b9c804aefbca716c288bbd26eb52f779e6e53023d64bd2a",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenMale.attack.front_left.002",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/KeepwardenMale/attack/front_left/002.png",
+      "source_sha256": "e8354c831550e6c0f427f60075b7f8486efa848a658869e3cef8dec34917aeec",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.front.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/KeepwardenMale/hit/front/000.png",
+      "source_sha256": "c71234f770d133b064bc667c23f23792d930ae03f224f9d1dd573d9cacbf11b4",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.front.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/KeepwardenMale/hit/front/001.png",
+      "source_sha256": "2ffc21fe063bca3adb8e301dc99058c4e0da98ce3501abca03a33a51c03d76c9",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.front_right.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/KeepwardenMale/hit/front_right/000.png",
+      "source_sha256": "1a8b3f9feab9bf67206895b48441e08b8a94c9cacd4f3b0cdf59d914dd6966e7",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.front_right.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/KeepwardenMale/hit/front_right/001.png",
+      "source_sha256": "7433ac674c2833cbfcbcf4a29b1695a7c99b6c380bd350e1b8c0e1497956605d",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.right.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/KeepwardenMale/hit/right/000.png",
+      "source_sha256": "d667e9bde4adb9eaf53cfee26a4a8374503cd7e9aa4e337b0d2023702ce92da7",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.right.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/KeepwardenMale/hit/right/001.png",
+      "source_sha256": "e39948b8d8ea519f082ee8c25d745341890c131c9640eec29745e6e7b9cbeca0",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.back_right.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/KeepwardenMale/hit/back_right/000.png",
+      "source_sha256": "159845e8997ec4237d3a25bc305416c64dfa4c66b8e962639138e37ff56070a6",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.back_right.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/KeepwardenMale/hit/back_right/001.png",
+      "source_sha256": "cb9fce158cacb23dc36b941cd3545ea61925e419374bda07851b5b0b75d61b59",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.back.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/KeepwardenMale/hit/back/000.png",
+      "source_sha256": "92464e5c3633849f1c2505f284c5b388355eabbb704d6c49b213b26d33c242c8",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.back.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/KeepwardenMale/hit/back/001.png",
+      "source_sha256": "a83b202c9bad176bd76cac03820cebe188c5c6dc37152582fd2377e21a2ee7ec",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.back_left.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/KeepwardenMale/hit/back_left/000.png",
+      "source_sha256": "3da56f402215b862efb78f24c9af0ba016703db3c1b0f40c43c055a490c68637",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.back_left.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/KeepwardenMale/hit/back_left/001.png",
+      "source_sha256": "2e2fb7fc74fb404061e8a94ae1c17cf40d38fb99448dcf671f05ff11f5cbe06f",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.left.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/KeepwardenMale/hit/left/000.png",
+      "source_sha256": "71418e62a833547753b506bbac8d8b2f4b80a54bcafac0d386f9516a121252c9",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.left.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/KeepwardenMale/hit/left/001.png",
+      "source_sha256": "35b5053126759350ce74947181a5a89cd382b3c08c40d55e4ab92f372dfe067a",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.front_left.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/KeepwardenMale/hit/front_left/000.png",
+      "source_sha256": "f3ae48a8c17286f323e20333c25818d3e0621c187787ad4b7a43da7c8b28b009",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenMale.hit.front_left.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/KeepwardenMale/hit/front_left/001.png",
+      "source_sha256": "eea52c99d2f84597d811fdab5968a30e320a43863b58946ed6d538dc63b668cd",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.front.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/KeepwardenMale/idle/front/000.png",
+      "source_sha256": "c1a66849035f040f008e7b3ecaa7a65046ce75abf7b19b2f7e2b5a1f00597579",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.front.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/KeepwardenMale/idle/front/001.png",
+      "source_sha256": "56a766b3be7cf3a29924f14c6eb3188bd67329b0a954925fc867dc397722043b",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.front_right.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/KeepwardenMale/idle/front_right/000.png",
+      "source_sha256": "7e72b5f3af34ee6243029b6e9eb9f71a0b6b296dbab0e365242e486c546f1852",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.front_right.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/KeepwardenMale/idle/front_right/001.png",
+      "source_sha256": "922c0b72ae6eb447278a4fb29b865bdad4ca1d299c0940fb19f25f2c6cb9708f",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.right.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/KeepwardenMale/idle/right/000.png",
+      "source_sha256": "27896579c5f59a814c5307861e9b60f9d063914731201c12176e1b1c3d5e38a0",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.right.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/KeepwardenMale/idle/right/001.png",
+      "source_sha256": "5261f2928a4684f3fa77656e0ff300b30bc70f9b672809e8e8dfcfc6891870c2",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.back_right.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/KeepwardenMale/idle/back_right/000.png",
+      "source_sha256": "968cf278377ab39c6d00747ee5a5250a4f036530936fa5cd7049fae305f5ea63",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.back_right.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/KeepwardenMale/idle/back_right/001.png",
+      "source_sha256": "ae3331fbe7cb19b3df0d36dc6bd7dd92c87d9d8bcfc7da6c4279c176df6aa4f8",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.back.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/KeepwardenMale/idle/back/000.png",
+      "source_sha256": "a1ecf5fa87d36494ea02a6ebee30dc94e565113722275cd545c4fce7163a3c47",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.back.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/KeepwardenMale/idle/back/001.png",
+      "source_sha256": "64296e0399512219c1a2cf18c4e7a40a8f39c20bb4ca73ce79aad7808b458efd",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.back_left.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/KeepwardenMale/idle/back_left/000.png",
+      "source_sha256": "7b21451d10afeebf0ee690a3d11bab43ff98f0a120b496604312a5e70ba46ea0",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.back_left.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/KeepwardenMale/idle/back_left/001.png",
+      "source_sha256": "4860461eeab0ad24d142529f639a8bee853551ada6bef9c1f7ddc6934d87eb7d",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.left.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/KeepwardenMale/idle/left/000.png",
+      "source_sha256": "d47c4b9d09728be3178e1ea30c7143248b7ae543f0028e13d457972e89d91e8f",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.left.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/KeepwardenMale/idle/left/001.png",
+      "source_sha256": "f8c790ef62226c46445f34ad9c5bbe2056128977729cf3c0e9290a5958cd02ae",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.front_left.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/KeepwardenMale/idle/front_left/000.png",
+      "source_sha256": "5e57c93c64b0d2137dbabd9736bfa2b524ede1fa2a7c505c6cb50a11d716220c",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenMale.idle.front_left.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/KeepwardenMale/idle/front_left/001.png",
+      "source_sha256": "427a9a576c059943789780bedf96fa6919c6b984cd071639b3fea98e9c0cdd1f",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.front.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/KeepwardenMale/walk/front/000.png",
+      "source_sha256": "7999ce2b1f909ee8bab57046131a406779f11ff1a445b9b4a3982c77f901577f",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.front.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/KeepwardenMale/walk/front/001.png",
+      "source_sha256": "9c210d5248a9fee335442625319bcb8295830d87b35f5834488b9f4e55453e90",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.front_right.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/KeepwardenMale/walk/front_right/000.png",
+      "source_sha256": "ec02b570abdf5f0a92f506d5d876e4b7a82d5c906ec22d6f5aa5c68e2b9482c0",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.front_right.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/KeepwardenMale/walk/front_right/001.png",
+      "source_sha256": "73cfddeaddb83f27f964e35e755e34184df1882054d4ef66b2aa4788caabf2dc",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.right.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/KeepwardenMale/walk/right/000.png",
+      "source_sha256": "2a8242f45eea69c1f2ae0414aa59e249082bda12d83bfcc5c8c284cd761b1645",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.right.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/KeepwardenMale/walk/right/001.png",
+      "source_sha256": "77752910845897016e3b966dc0e0165c5da87b5bc1c7981c231c8020f2b4cbdb",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.back_right.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/KeepwardenMale/walk/back_right/000.png",
+      "source_sha256": "fa3b1c2923ab3b8332f7db20e08e8010174ea6a162b69b188d1af2f0741ba78a",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.back_right.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/KeepwardenMale/walk/back_right/001.png",
+      "source_sha256": "81b6adb2397af61680b666aaee83d7665448983974b994dffdcb77ea7a3d4878",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.back.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/KeepwardenMale/walk/back/000.png",
+      "source_sha256": "79314631996c02684590c78bbfb61b5f71777265d0b2530c3fb5c5ec93384e3b",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.back.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/KeepwardenMale/walk/back/001.png",
+      "source_sha256": "7b03539b5d8c7bb6d6337db991c9e43a939343872bf9837f6184c51fbfd4e530",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.back_left.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/KeepwardenMale/walk/back_left/000.png",
+      "source_sha256": "22ac2ce8b59552865c081b5cebac4897adb1f85f98dbb9f2ce8e188a12b3cd9a",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.back_left.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/KeepwardenMale/walk/back_left/001.png",
+      "source_sha256": "479c0ef2efa36378bf3bbaa3ded0df5803a17af7c3da00f697f52720141e43f0",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.left.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/KeepwardenMale/walk/left/000.png",
+      "source_sha256": "77cdfccd89871b2d3bbc427ff0d45519d0d259be531b110dd3ad96d314a82070",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.left.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/KeepwardenMale/walk/left/001.png",
+      "source_sha256": "cdaec558ccaf41a227b0c63a666a57d35e979bcd8465adac9add3e922fabbb5c",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.front_left.000",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/KeepwardenMale/walk/front_left/000.png",
+      "source_sha256": "e376a765bdac8b2dec822b57932ce539e2585efbe76c87bf4efd5454e9c7ded7",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "KeepwardenMale.walk.front_left.001",
+      "asset_id": "KeepwardenMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/KeepwardenMale/walk/front_left/001.png",
+      "source_sha256": "b9d7f2f937733e4b4931cff94b88fff5579df3e4766adeac0a4f4435852c69cf",
+      "glb_sha256": "705a828e8ff241d9b41c320e1928d816194fe192c586b99fe8373cf670147d5e",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

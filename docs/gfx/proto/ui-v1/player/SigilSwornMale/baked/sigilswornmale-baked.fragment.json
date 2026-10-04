@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "sigilswornmale-baked",
+    "file": "sigilswornmale-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "SigilSwornMale": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "SigilSwornMale": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "SigilSwornMale.attack.front.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/SigilSwornMale/attack/front/000.png",
+      "source_sha256": "ac2c048494cb3c6030a43deeaf4d779daaaf2293fb2aead9e48cad35fdebe189",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.front.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/SigilSwornMale/attack/front/001.png",
+      "source_sha256": "e8ab08fb4477b2ffd3d44e7d72212824d3d0cc8dfbd16e49c32669de9adacd71",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.front.002",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/SigilSwornMale/attack/front/002.png",
+      "source_sha256": "e7f6ae9309a3f8759be7fbd7288fc312459c32b1fe9d46c93ad34960b992b059",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.front_right.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/SigilSwornMale/attack/front_right/000.png",
+      "source_sha256": "824e859c3f2999cc4fc9d97c9e17af4d451ea30c16e3572803b8053340402f7d",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.front_right.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/SigilSwornMale/attack/front_right/001.png",
+      "source_sha256": "37be17bcc08d6e18f02cbb91d2166ae442912bbbb7fb4369197773cca42ae028",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.front_right.002",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/SigilSwornMale/attack/front_right/002.png",
+      "source_sha256": "c0fd672cf965cf6d2418a4af8e225e10bc5a4cb662a92ac5c93011a7ec4cc4d0",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.right.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/SigilSwornMale/attack/right/000.png",
+      "source_sha256": "e91d5e0633f03f7d961c0d2f67a29279b625648c35f3ca4171020c499222decb",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.right.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/SigilSwornMale/attack/right/001.png",
+      "source_sha256": "6fd7402afc78d6462a22c106aeaeca0dc6a2ea5c17af5e9376da15ec41d0d844",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.right.002",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/SigilSwornMale/attack/right/002.png",
+      "source_sha256": "5ec2b6230accf1d59c12cf9aa72bc1dc33718eed3b58277e572fbad5acac61f9",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.back_right.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/SigilSwornMale/attack/back_right/000.png",
+      "source_sha256": "bace6017aa251bc3e6576f87bd7b030840ed2599e9eb29b66ccd3fe33a44bd45",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.back_right.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/SigilSwornMale/attack/back_right/001.png",
+      "source_sha256": "24d680713b739506d6bcd0956de82ecbeeb81f5806aed8d045b7be94edec2b03",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.back_right.002",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/SigilSwornMale/attack/back_right/002.png",
+      "source_sha256": "0ab12e512c518b2e3fabc6907fa6763ebe6f0ddf976cee859c4d7199af4d7755",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.back.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/SigilSwornMale/attack/back/000.png",
+      "source_sha256": "db2cb6a1f620c2177ab2399818327ba621e0a7278074f9f101616ee583b402dd",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.back.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/SigilSwornMale/attack/back/001.png",
+      "source_sha256": "4e2517c3c452bb5cef4aad29756ed555f8bf12f4a4bb8589d6e5cfe2574b4412",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.back.002",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/SigilSwornMale/attack/back/002.png",
+      "source_sha256": "3fa4d3102098f8906cbe570d28242dbab26fa8845b50c73a891c1b0d8a61d62e",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.back_left.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/SigilSwornMale/attack/back_left/000.png",
+      "source_sha256": "cedebe93b976595f93bcc9001aa05bfab269b64c0d6f3102b1c0f5f5e9e838f0",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.back_left.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/SigilSwornMale/attack/back_left/001.png",
+      "source_sha256": "db49d1013aff15340d0726d2c30603d263968a217509478aca74f58fca0c92dd",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.back_left.002",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/SigilSwornMale/attack/back_left/002.png",
+      "source_sha256": "f51bd40335a314dce8413f4da051ccb76d7be4c94c6832d73c7617e0afb6267e",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.left.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/SigilSwornMale/attack/left/000.png",
+      "source_sha256": "7ccbcc728849f53f1beeb37d56e9a98d2f9933f3cb551898d1d51d8123cfb22e",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.left.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/SigilSwornMale/attack/left/001.png",
+      "source_sha256": "f3c49aa8d6edf03d3f0c1d11b612bbe03ba727c4fa9e56b792faa9fb5cbe8c6f",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.left.002",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/SigilSwornMale/attack/left/002.png",
+      "source_sha256": "f1370c6ea1bcad4eeef1057d0c83587c324ae98faad15285ba2c8f45e99e57d0",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.front_left.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/SigilSwornMale/attack/front_left/000.png",
+      "source_sha256": "dfe0f111a65ef14011d2f6b0246e2b715a88b010d2738a05b044e1a2f41710af",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.front_left.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/SigilSwornMale/attack/front_left/001.png",
+      "source_sha256": "cc32f8ca59660717a59ad5fc7e583ee95cc02edc50f2a3e8a5be08c50d12867c",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornMale.attack.front_left.002",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/SigilSwornMale/attack/front_left/002.png",
+      "source_sha256": "3a4b862b2747204ff8af6b79db88e182f93a5a76350ed3a87cdb12d605e7388e",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.front.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/SigilSwornMale/hit/front/000.png",
+      "source_sha256": "52d0c0da81911beffbdd2aa52bdbb3efaea473ef468dbad2c07ed4748e7e3179",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.front.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/SigilSwornMale/hit/front/001.png",
+      "source_sha256": "443e524c5d74e3e7e81b5ad57fe4256d42d23a320f3fada123b8665ba7c1ef27",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.front_right.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/SigilSwornMale/hit/front_right/000.png",
+      "source_sha256": "8af7ccd81417b14cbee4269759bd2b986b15a93d461f0f7bc6f91debace0e1bd",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.front_right.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/SigilSwornMale/hit/front_right/001.png",
+      "source_sha256": "a1b189590059faa5479656924d8be2dfc8a80416f876889ab91383af11bcca36",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.right.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/SigilSwornMale/hit/right/000.png",
+      "source_sha256": "f049efa15389fe3570fc1be2627c29b88dc7a26c5c4db7663e0f829008cd3715",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.right.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/SigilSwornMale/hit/right/001.png",
+      "source_sha256": "466ef55277b16a0fa39234eb7607842feb5d6e323300a236f3a217b5f071f6eb",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.back_right.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/SigilSwornMale/hit/back_right/000.png",
+      "source_sha256": "cef66931262bb71f1ed76b27d9dd40c526156ed3a47b4b8f372a7c5f9bcdac7b",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.back_right.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/SigilSwornMale/hit/back_right/001.png",
+      "source_sha256": "ec09923ecfa9dafecc1d6382a0225be92bd8dea789d581f8e67ea7feb04212e9",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.back.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/SigilSwornMale/hit/back/000.png",
+      "source_sha256": "f5161b059dd7b7d5e33fc41ab444e8c5ba063c3252f53a7626893b92ccdeafca",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.back.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/SigilSwornMale/hit/back/001.png",
+      "source_sha256": "3662ecc380c4ff0d2658501852e324e7bdb8f5dd70e306ef948d414e8b4b10a4",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.back_left.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/SigilSwornMale/hit/back_left/000.png",
+      "source_sha256": "6159d0c898448742e78425485ee0d46d9702f472bd53104a0332f6835e675faf",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.back_left.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/SigilSwornMale/hit/back_left/001.png",
+      "source_sha256": "634a22fb159c7b7e8eda8603d73e4147d413203dad3a4b15e3bcd0ffdb2fb5b9",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.left.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/SigilSwornMale/hit/left/000.png",
+      "source_sha256": "0f6df07a8d7185e9d648fd74ae4be39c53822d51ee8a39e31a6533acdb998c32",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.left.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/SigilSwornMale/hit/left/001.png",
+      "source_sha256": "bf15d1b143bd590741aa019689bc339112b49c22ffc6d0cae0f19fd40ac78945",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.front_left.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/SigilSwornMale/hit/front_left/000.png",
+      "source_sha256": "9bd2d0620030433df1938372cdb2863db2877dba4f63a16e11fa3a89e55d0560",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornMale.hit.front_left.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/SigilSwornMale/hit/front_left/001.png",
+      "source_sha256": "7dd87d13a50cf3af011a1108b563c822c1f3bc7e8ea4d362cb7ba57b1e2a70e7",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.front.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/SigilSwornMale/idle/front/000.png",
+      "source_sha256": "503ab241bf80af862c888afa8fe0c68cde7575ac5a6cbc151d6767fa230bc591",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.front.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/SigilSwornMale/idle/front/001.png",
+      "source_sha256": "5de510ee990393b193734ffd5efa2c36d18beb9af78b76bfdb97c79b37b15fbf",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.front_right.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/SigilSwornMale/idle/front_right/000.png",
+      "source_sha256": "6ea5c99228fa07cf2e3d6e55df0f95236942a74d809a3ea24ac3b1689474e125",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.front_right.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/SigilSwornMale/idle/front_right/001.png",
+      "source_sha256": "78beb2ddc39180516ac13844f4d598db5aa0c1a08f94a270cf92b0fd6856bdc3",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.right.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/SigilSwornMale/idle/right/000.png",
+      "source_sha256": "6a4670988fd502fa1d63afd10a110b731bb635d3a2347bd8f684039ee27046ee",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.right.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/SigilSwornMale/idle/right/001.png",
+      "source_sha256": "6a611c2404b280c4f2fcf1b8701f18f831570dbb2967e4f2b195c14304b41c04",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.back_right.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/SigilSwornMale/idle/back_right/000.png",
+      "source_sha256": "699b944c14d8c8b3efcb3ad14fa3a66f299273b615f7e5cbe34e6904dd11e728",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.back_right.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/SigilSwornMale/idle/back_right/001.png",
+      "source_sha256": "47996773fc3a2963c97b35af88dbf5efbb3622e4c1bead218a41e3109b74c8fa",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.back.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/SigilSwornMale/idle/back/000.png",
+      "source_sha256": "1ce56f19a3869ad1fc3403deed7c559467aeb7883dcf0ce7145db9fdedbea394",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.back.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/SigilSwornMale/idle/back/001.png",
+      "source_sha256": "01d7760b48f9e52174bf3b5bf229f121dc6c992c6b7ee56fee954bb217cf0e27",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.back_left.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/SigilSwornMale/idle/back_left/000.png",
+      "source_sha256": "10e4c48d5657394d8ad70b3917e1594f1d785ce60e121f2c299f15c53b03fad5",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.back_left.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/SigilSwornMale/idle/back_left/001.png",
+      "source_sha256": "caae37947bece601d94933823c03baea089261a67d4d372cd0490236226bae61",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.left.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/SigilSwornMale/idle/left/000.png",
+      "source_sha256": "6ab88b83201d92731beefecc9f3284529635f74c4e8faea029a14760bf2eccdd",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.left.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/SigilSwornMale/idle/left/001.png",
+      "source_sha256": "0950d10d5453c1f7fedc02cb0099a212106ba3b7e9e87711d6f6f5645e107435",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.front_left.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/SigilSwornMale/idle/front_left/000.png",
+      "source_sha256": "afea278e893e3ee8b1c0e0dffc30663cec7c3b2f26ce0f32e903560b9e7e2696",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornMale.idle.front_left.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/SigilSwornMale/idle/front_left/001.png",
+      "source_sha256": "8fe4a184feed2531f09c3da3babafbcf3fa27fce9095bd6834e0110a7b1eb034",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.front.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/SigilSwornMale/walk/front/000.png",
+      "source_sha256": "e1f2ed0eab6b1e2507985709f9902df5d0146e016c37d644ad567490a9e1c7db",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.front.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/SigilSwornMale/walk/front/001.png",
+      "source_sha256": "150e8f1a3c2bfdf9b8c3fe47bfed1a1e2f479e6c3d741cae634ebabaf4a40790",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.front_right.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/SigilSwornMale/walk/front_right/000.png",
+      "source_sha256": "0a7350470b6f1ba3775461c7a9b36634e0001c5f1a10074625eb5be2d807484d",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.front_right.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/SigilSwornMale/walk/front_right/001.png",
+      "source_sha256": "e85c882bfdb5e89d7080f7ce1bff70a6379d090a9f3d9423745f691bda9e9e4b",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.right.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/SigilSwornMale/walk/right/000.png",
+      "source_sha256": "6380a23b33f4889eaff87b0370a6cbaf67a6f7aa71e867e3b4ded1eaddc3abed",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.right.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/SigilSwornMale/walk/right/001.png",
+      "source_sha256": "5de8a25202d09f4a765e4dcdff9a975beca2f5f75ae2d3bc2feb8b196914a96c",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.back_right.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/SigilSwornMale/walk/back_right/000.png",
+      "source_sha256": "f7aed8c14dd7bafbb0581e619fd7cb219ca2a2b39fe82dd7c1bad88a8b1da835",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.back_right.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/SigilSwornMale/walk/back_right/001.png",
+      "source_sha256": "dbfca519fae6ed035e1da39ddc9f4042314904972232d04122809e219c3c6673",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.back.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/SigilSwornMale/walk/back/000.png",
+      "source_sha256": "15cf715260f52fb6fe3d48f1a46f32cde24e05f5796535d8acb6bbbe8c9b5b03",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.back.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/SigilSwornMale/walk/back/001.png",
+      "source_sha256": "a7b1044893485a000802a01d5c07a124438a31bf69afd04a2d1d5add09ee172e",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.back_left.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/SigilSwornMale/walk/back_left/000.png",
+      "source_sha256": "8c33d7f340a23012bbd16de3fc3bb5b7c7fce7ee277299704af6dbe6816c228b",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.back_left.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/SigilSwornMale/walk/back_left/001.png",
+      "source_sha256": "584180221118fa7518ec4bc91c12ebafb7bb1b62dbe4fa9075713fb0e5e08ac9",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.left.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/SigilSwornMale/walk/left/000.png",
+      "source_sha256": "1f3df3c518f23a1f9b87cd83351b669eb3e1dbf30ab750aae0aea01eeb7ae3da",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.left.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/SigilSwornMale/walk/left/001.png",
+      "source_sha256": "5548b20f8729558ae1e25d6a2855a1253c7be5a74da4651b176251b6db97f75e",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.front_left.000",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/SigilSwornMale/walk/front_left/000.png",
+      "source_sha256": "c78112c8fb4f31e1a87e1e17e5c015bb75793bece6c5824715902f8143ab9242",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornMale.walk.front_left.001",
+      "asset_id": "SigilSwornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/SigilSwornMale/walk/front_left/001.png",
+      "source_sha256": "15afc2231c30429a6ca60674eefedc671588393f87b35e708dcd98886fa929f3",
+      "glb_sha256": "cdc62795551a5b17fabd02b120d9bb4a5f8f4dc7b333bf43aec8a6742a158f18",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

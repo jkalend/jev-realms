@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laya Realms — UI candidate v1</title>
+  <style>
+    @font-face {
+      font-family: "Cinzel Local";
+      src: url("../../../assets/fonts/Cinzel-Regular.ttf") format("truetype");
+      font-display: swap;
+    }
+
+    :root {
+      color-scheme: dark;
+      --void: #090b0f;
+      --panel: #12151a;
+      --line: #4e422c;
+      --gold: #c5a45d;
+      --ivory: #e7dec6;
+      --muted: #999589;
+      --sea: #66d4c4;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(1200px 700px at 20% -10%, #1a1d24 0%, transparent 60%),
+        var(--void);
+      color: var(--ivory);
+      font: 15px/1.6 "Cinzel Local", Georgia, serif;
+      letter-spacing: 0.01em;
+    }
+
+    .shell { max-width: 1680px; margin: 0 auto; padding: 40px 28px 80px; }
+
+    header.top { border-bottom: 1px solid var(--line); padding-bottom: 26px; margin-bottom: 34px; }
+    h1 { font-size: 40px; margin: 0 0 6px; font-weight: 400; }
+    .sub { color: var(--muted); font-size: 15px; margin: 0; }
+
+    h2 { font-size: 26px; font-weight: 400; margin: 44px 0 4px; }
+    .lede { color: var(--muted); margin: 0 0 18px; max-width: 78ch; }
+
+    .plate {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 2px;
+      margin: 20px 0;
+      overflow: hidden;
+    }
+    .plate header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 12px 18px;
+      border-bottom: 1px solid var(--line);
+      font-size: 17px;
+    }
+    .plate header span { color: var(--muted); font-size: 13px; }
+    .plate img { display: block; width: 100%; height: auto; }
+
+    .download { color: var(--gold); text-decoration: none; border-bottom: 1px dotted var(--gold); }
+    .download:hover { color: var(--ivory); }
+
+    .notes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin: 14px 0 0; }
+    .note {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-left: 2px solid var(--sea);
+      padding: 12px 15px;
+      font-size: 14px;
+    }
+    .note b { display: block; color: var(--gold); font-weight: 400; margin-bottom: 5px; }
+    .note p { margin: 0; color: var(--muted); }
+    code { color: var(--sea); font-family: Consolas, monospace; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="top">
+      <h1>UI candidate v1</h1>
+      <p class="sub">Inventory, menu and NPC talk rebuilt as designed surfaces, plus the item plate set they consume. Review mocks — nothing here is wired into the runtime.</p>
+    </header>
+
+    <section>
+      <h2>What this replaces</h2>
+      <p class="lede">Every modal in <code>crates/view/src/modals.rs</code> is one flat list of <code>Line { text, role }</code> rendered into a single bordered pane. Inventory, pause menu and NPC talk share that one code path, so all three read as the same text box. These mocks split them into purpose-built surfaces and give the item system a visual language.</p>
+    </section>
+
+    <section>
+      <h2>Inventory</h2>
+      <p class="lede">Equipped column with a live swap preview, a 20-slot satchel grid, a transmute bench, and a detail pane whose actions grey out when the selected item cannot take them.</p>
+      <div class="plate">
+        <header><strong>Inventory / satchel, transmute bench, selected item</strong><span><a class="download" href="mockups/ui-inventory.png" download>PNG</a></span></header>
+        <img src="mockups/ui-inventory.png" alt="Inventory candidate: equipped column, 20-slot satchel grid with item icons, transmute bench and a selected-item detail pane">
+      </div>
+      <div class="notes">
+        <div class="note"><b>Three columns, three jobs</b><p>What you wear, what you carry, what the current item does. Nothing shares a pane with anything it is not related to.</p></div>
+        <div class="note"><b>Icons carry identity</b><p>Every slot is a painted plate keyed to a <code>core::model::Item</code> variant. The name lives in the detail pane, not under the icon.</p></div>
+        <div class="note"><b>Actions state their reason</b><p>Disabled actions keep their row and say why — “not a gear slot”, “2x Glyph Shard” — instead of vanishing.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Menu</h2>
+      <p class="lede">The campfire/pause surface: entries with their consequence on the row, and a run panel that reports the state the player would otherwise have to remember.</p>
+      <div class="plate">
+        <header><strong>Campfire / pause menu and run state</strong><span><a class="download" href="mockups/ui-menu.png" download>PNG</a></span></header>
+        <img src="mockups/ui-menu.png" alt="Pause menu candidate with entry list, run state panel and display toggles">
+      </div>
+      <div class="notes">
+        <div class="note"><b>Consequence on the row</b><p>“Abandon run” states what happens to progress in the row itself. Destructive entries never hide their cost in a confirmation the player may not read.</p></div>
+        <div class="note"><b>Run state, not run log</b><p>Seed, map, clock, class, sigils, gold — the numbers a player actually checks before saving.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>NPC talk</h2>
+      <p class="lede">Speaker plate with quest state, dialogue with reputation and deadline, choices on the right, and the reward spelled out before the quest is accepted.</p>
+      <div class="plate">
+        <header><strong>Mara / Millbrook provisioner</strong><span><a class="download" href="mockups/ui-talk.png" download>PNG</a></span></header>
+        <img src="mockups/ui-talk.png" alt="NPC dialogue candidate with speaker plate, dialogue, reputation bar, choices and reward breakdown">
+      </div>
+      <div class="notes">
+        <div class="note"><b>Rewards before the choice</b><p>What you get, what it costs and when it expires are on screen while the choice is still open, not after acceptance.</p></div>
+        <div class="note"><b>Thread stays visible</b><p>The road thread persists under the conversation so the player can see what this exchange unblocks.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Item plates</h2>
+      <p class="lede">45 painted plates at 48×48, one per reachable <code>Item</code> variant including the tiered weapon/armour sets, the three seals, the nine boss relics and the six seal-glyphs. Drawn on the UI chrome palette so they sit beside the panels rather than fight them.</p>
+      <div class="plate">
+        <header><strong>Item icon set / 45 plates</strong><span><a class="download" href="items/items-sheet.png" download>SHEET</a> · <a class="download" href="items/items.png" download>PLATES</a> · <a class="download" href="items/items.json" download>MANIFEST</a></span></header>
+        <img src="items/items-sheet.png" alt="Labelled contact sheet of all 45 item icons at 3x">
+      </div>
+    </section>
+
+    <section>
+      <h2>Items on the player</h2>
+      <p class="lede">The reason item art has to be authored rather than borrowed: an equipped item changes the character, not just a slot. The base sprite never changes — gear composites over it on the same 64-unit grid.</p>
+      <div class="plate">
+        <header><strong>Commoner base cell / six gear configurations</strong><span><a class="download" href="mockups/gear-on-player.png" download>PNG</a></span></header>
+        <img src="mockups/gear-on-player.png" alt="Six gear configurations composited over the same base player sprite: bare, worn blade, standard hauberk, masterwork set, held torch and an equipped relic">
+      </div>
+      <div class="notes">
+        <div class="note"><b>Tier reads at a glance</b><p>Blade length, guard width, pauldron mass, crest and gem all step with the tier, so gear quality is legible in the world and not only in the menu.</p></div>
+        <div class="note"><b>Held items light the scene</b><p>A torch is a light source as well as an icon; a relic is a visible aura. Both need the runtime to accept the item, not just draw it.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Player character</h2>
+      <p class="lede">The player was the one asset family with no art at all — <code>assets/atlas/actors.png</code> holds 26 NPC keys and no <code>Player.*</code> cell, so every class rendered as a flat quad. These are the six orders in both body builds, authored in Blender 5.1 with a piece of gear worn so the equipped-item contract is proved by the render.</p>
+      <div class="plate">
+        <header><strong>Player roster / 6 orders × 2 builds</strong><span><a class="download" href="player-roster.png" download>PNG</a> · <a class="download" href="player/KeepwardenMale/source/KeepwardenMale.glb" download>GLB</a></span></header>
+        <img src="player-roster.png" alt="Six player classes in masculine and feminine builds, each shown from front, three-quarter, side, back and two attack frames, wearing tier 2 gear">
+      </div>
+      <div class="notes">
+        <div class="note"><b>Two builds, one order</b><p>Creation is three beats now — order, body frame, boon. <code>model::Build</code> is presentation only: no stat reads it. It selects the model and the sprite key <code>Player.&lt;Class&gt;.&lt;Build&gt;</code>.</p></div>
+        <div class="note"><b>Equipment is part of the model</b><p>The rig carries three sockets — <code>weapon.R</code> in the right hand, <code>chest</code> for the plate, <code>relic</code> for the pendant. Gear authors in socket space and is rigid-weighted to the bone, so it swings with the arm instead of hanging off it.</p></div>
+        <div class="note"><b>Order identity</b><p>Each order owns a weapon family — sword, gravedigger, gutterblade, oathrod, sigil focus, fenward — plus a head, a garment and a palette. The two builds share the kit and differ in frame.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Equippable items as models</h2>
+      <p class="lede">Gear quality has to read in the world, not only in a menu, so every tier and every boss relic is its own model rather than a recolour of the last one.</p>
+      <div class="plate">
+        <header><strong>Gear ladder / weapon and plate tier 0–3 plus all nine boss relics</strong><span><a class="download" href="gear-ladder.png" download>PNG</a></span></header>
+        <img src="gear-ladder.png" alt="Keepwarden wearing tier 0 to 3 gear, and tier 2 with each of the nine boss relics">
+      </div>
+      <div class="notes">
+        <div class="note"><b>Tier is visible</b><p>Blade length, guard width, fuller and gem on one side; plate mass, pauldrons, belt and crest on the other. A Worn blade and a Masterwork blade do not look like the same object.</p></div>
+        <div class="note"><b>Nine relics, nine models</b><p>Rallybreaker through Hartshorn each have their own silhouette, hung from the chest socket so the plate cannot occlude them.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Regenerating</h2>
+      <p class="lede">All of it is code-baked, so the review images and the shipped art cannot drift apart.</p>
+      <div class="notes">
+        <div class="note"><b>Icons</b><p><code>python tools/asset3d/examples/paint_item_icons.py --output docs/gfx/proto/ui-v1/items/items.png</code></p></div>
+        <div class="note"><b>Icon sheet</b><p><code>python tools/asset3d/examples/make_item_icon_sheet.py docs/gfx/proto/ui-v1/items/items.png --output docs/gfx/proto/ui-v1/items/items-sheet.png</code></p></div>
+        <div class="note"><b>UI mocks</b><p><code>python tools/asset3d/examples/make_ui_mockups.py --items docs/gfx/proto/ui-v1/items/items.png --output docs/gfx/proto/ui-v1/mockups</code></p></div>
+        <div class="note"><b>Player gear</b><p><code>python tools/asset3d/examples/make_gear_on_player.py --class Keepwarden --build Male --output docs/gfx/proto/ui-v1/mockups/gear-on-player.png</code></p></div>
+        <div class="note"><b>Player models</b><p><code>render_player_roster.py --tier 2</code> then <code>--process</code>; sheet via <code>make_player_roster_sheet.py</code>. See <code>docs/PLAYER_PIPELINE.md</code>.</p></div>
+        <div class="note"><b>Gear ladder</b><p><code>python tools/asset3d/examples/make_gear_tier_sheet.py --class Keepwarden --build Male --output docs/gfx/proto/ui-v1/gear-ladder.png</code></p></div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

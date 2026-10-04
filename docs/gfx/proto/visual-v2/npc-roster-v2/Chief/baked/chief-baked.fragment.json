@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "chief-baked",
+    "file": "chief-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "Chief": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Chief": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Chief.attack.front.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Chief/attack/front/000.png",
+      "source_sha256": "4b2b108db67b619c85f5627bbcdf5cba79b7aa9686dc6630c25976903b0db913",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Chief.attack.front.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Chief/attack/front/001.png",
+      "source_sha256": "089ad98f5fc2c0f30feca5947a5bac63eaeae1193e0fc160a0616d4266f1d22f",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Chief.attack.front.002",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Chief/attack/front/002.png",
+      "source_sha256": "d1eed79f7e4df871ed3aad3b01e969f49f744d5b2ae2a368e2875e21a9ce28ea",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Chief.attack.front_right.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Chief/attack/front_right/000.png",
+      "source_sha256": "617e0ca2a29033600f152d87f7f86e6321b139e469756d6a3d8b744fc13e2911",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Chief.attack.front_right.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Chief/attack/front_right/001.png",
+      "source_sha256": "18a73990e9979fe2e65346525e8e1d974f901abdd012589653bdd596f4ea9a10",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Chief.attack.front_right.002",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Chief/attack/front_right/002.png",
+      "source_sha256": "35a7bd57cda90d50731ceb6ef1cfa48c3bbd4d00c7bda9fb536749c96d92565f",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Chief.attack.right.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Chief/attack/right/000.png",
+      "source_sha256": "00d0906935406c681569c42c6ab6cf441133a33cc0e80fce2c46d84decea4f9a",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Chief.attack.right.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Chief/attack/right/001.png",
+      "source_sha256": "dc1b1622926739973de2f4191c2d349713dfe56b5a44782f167069f55e6db045",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Chief.attack.right.002",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Chief/attack/right/002.png",
+      "source_sha256": "a08aff870fa759147c230d5e6f2d016433a43cdc396485d75fec45f7b650c75a",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Chief.attack.back_right.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Chief/attack/back_right/000.png",
+      "source_sha256": "ac52ba67ac364dcf1f13ded7f7e5a97e0c18885d98021e245056e989abdf7148",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Chief.attack.back_right.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Chief/attack/back_right/001.png",
+      "source_sha256": "ac535d3bb6b20ca897f461aafa7f7e4b31b1989a1f5fa2fd31cec2c5f68c5317",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Chief.attack.back_right.002",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Chief/attack/back_right/002.png",
+      "source_sha256": "0e0d65c5ff98a4fccd9ac8d74a7c78cba6b9b5fd8c215f8614140effb5b8e798",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Chief.attack.back.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Chief/attack/back/000.png",
+      "source_sha256": "59eed1a54a51e40c7f103ea7e5f2501f6e7409b28fa02db0eab9a912c630d167",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Chief.attack.back.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Chief/attack/back/001.png",
+      "source_sha256": "f92d3d3ce46ca2c1847dfecd23aef50867456b9295385a2d8ad48456ca8003a7",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Chief.attack.back.002",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Chief/attack/back/002.png",
+      "source_sha256": "9f41eaf4badcb253bac9866c32a3c3517282220efaf14b124ac22103b83654f3",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Chief.attack.back_left.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Chief/attack/back_left/000.png",
+      "source_sha256": "ac75e3e5dc9144d2b6526d0e7f31689a718915e95af63139d5faf4096b2d699d",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Chief.attack.back_left.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Chief/attack/back_left/001.png",
+      "source_sha256": "a90f42732b87236d4f9a0a25257babc0b56431a9cdf9fd09a3d97cb4214e7bac",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Chief.attack.back_left.002",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Chief/attack/back_left/002.png",
+      "source_sha256": "1bcc53ea0f28577a8fb87d3b520ae4dc04cf39f55d6a788099f3365f3fb107d4",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Chief.attack.left.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Chief/attack/left/000.png",
+      "source_sha256": "09ba3b364fdb4ad2a00cca7fef71eb3980ddb82d79bb7637c3d2530ff714832f",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Chief.attack.left.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Chief/attack/left/001.png",
+      "source_sha256": "3aadc91d3c8307f4349f98fb06f5b68c36f328ed564f50a5bafdc024c4e268ea",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Chief.attack.left.002",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Chief/attack/left/002.png",
+      "source_sha256": "66848a7d9a6586440d895adbbbac6f70c7125b3a15fbabdab41e9b736357e3df",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Chief.attack.front_left.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Chief/attack/front_left/000.png",
+      "source_sha256": "a9897d66ef64ae037da7f1f0af4b7171ae29ff9aa7f194df24c5394b174b67d0",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Chief.attack.front_left.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Chief/attack/front_left/001.png",
+      "source_sha256": "043dadc615140c52812d4299c76f6713f014a5965dbcdce12445f80117a87499",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Chief.attack.front_left.002",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Chief/attack/front_left/002.png",
+      "source_sha256": "e75dc8810886ae47b8003d0199d937f32f309dbace71734f01895dafa89da59e",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Chief.hit.front.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Chief/hit/front/000.png",
+      "source_sha256": "a69426bd4b715256007fac0ef1ae3e4c56679d23f1ae981b85763dfddaa53993",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Chief.hit.front.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Chief/hit/front/001.png",
+      "source_sha256": "cdee671acbdc429784c015368b242cd1fec0b466045c0d730431a6d376dd354f",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Chief.hit.front_right.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Chief/hit/front_right/000.png",
+      "source_sha256": "1a0cca275c0b1e4364077408061da9c4c4cb3abe4a7847ebbec59c4e41bd2527",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Chief.hit.front_right.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Chief/hit/front_right/001.png",
+      "source_sha256": "415d650002fc5785a2741f8ca57acc1d00ce9c7b5d5848f53f46f7445b422a97",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Chief.hit.right.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Chief/hit/right/000.png",
+      "source_sha256": "20623ab7d69ab0d8168f76ad8d5fb4b369854855e5e5324500511a2a189c3cd3",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Chief.hit.right.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Chief/hit/right/001.png",
+      "source_sha256": "929f29aae6a98f80f7777136d8d55edf8fadb0cbbbe1ad37132b2a9de040f493",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Chief.hit.back_right.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Chief/hit/back_right/000.png",
+      "source_sha256": "f3f517e9c7385be750ee9370dfff4c6cb1f22302ee7f12040cb6136cf65e44e1",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Chief.hit.back_right.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Chief/hit/back_right/001.png",
+      "source_sha256": "ca30d32a895bc7557a86cb1578eec014efdfc255c2cba86ee7582356aa12ed99",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Chief.hit.back.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Chief/hit/back/000.png",
+      "source_sha256": "2e9857d197a410f5667b878e4dceaade21fd95bc727b51574699e98aa9f3cdf3",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Chief.hit.back.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Chief/hit/back/001.png",
+      "source_sha256": "fa015aa98672dfbadc6ad4e97df4c8f912c2205a04132af4a5ac1f02904d7b97",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Chief.hit.back_left.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Chief/hit/back_left/000.png",
+      "source_sha256": "15bac5869dcdc5e327cdab837615527672422b5119fc54818769a17bd7b9bd51",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Chief.hit.back_left.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Chief/hit/back_left/001.png",
+      "source_sha256": "9c106231dac4729401f8c6c2c02edd0ed06a35acc57519784050c20aa3b52382",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Chief.hit.left.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Chief/hit/left/000.png",
+      "source_sha256": "d1bc3806fd2baa4790111d8e8bd21341333b1ecc12cf3cc1a01a94344278574f",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Chief.hit.left.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Chief/hit/left/001.png",
+      "source_sha256": "c4532f3ef99576983affdad11b79d7be8fd6f8d67c93bc873552976926e09721",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Chief.hit.front_left.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Chief/hit/front_left/000.png",
+      "source_sha256": "f612a64f06cb795a3cfee0f9be10bea4ef814ff32eb6dfdc49cee762ad23cff6",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Chief.hit.front_left.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Chief/hit/front_left/001.png",
+      "source_sha256": "9d9c7cc418dc5b4f56b2d248244a398abb85a96091f91d06fb562ecb936a05b9",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Chief.idle.front.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Chief/idle/front/000.png",
+      "source_sha256": "472e2ac46f7d24e561bc4ef48d819806db54702542d2fab9357ff25497f72fb5",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Chief.idle.front.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Chief/idle/front/001.png",
+      "source_sha256": "91badf35b3392a1967eb39d54c5da58b77cba9e86242c3de7bea47c50d0ae724",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Chief.idle.front_right.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Chief/idle/front_right/000.png",
+      "source_sha256": "fc00eba9f3c82746df77fd2343c1de78017e0040ad8c8bfdfe9b3edb2c3e6f79",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Chief.idle.front_right.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Chief/idle/front_right/001.png",
+      "source_sha256": "c5aac4c526e58bd8de8e634d43a1c6bf1b53d023f15adeac325e7d3878c8260c",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Chief.idle.right.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Chief/idle/right/000.png",
+      "source_sha256": "b2914832255f880bc6f135d3a03c622f7d18ac0475b14fd28270ed3153e0fb48",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Chief.idle.right.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Chief/idle/right/001.png",
+      "source_sha256": "7c7584464f1e791062abe2297223e3afb2996d5262181da4cf4e6a35609bb57b",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Chief.idle.back_right.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Chief/idle/back_right/000.png",
+      "source_sha256": "2df7059bf3decf5e85e77e021fb0d9c5bba5ac9c4347f134a755db07baa10dd8",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Chief.idle.back_right.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Chief/idle/back_right/001.png",
+      "source_sha256": "aa815b948d494e5ba43144b6818a99f38f1223c3fd26dafe6265a4bbeba1ff2f",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Chief.idle.back.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Chief/idle/back/000.png",
+      "source_sha256": "fe043d86adb3af0f8f93f6d5ae7110df26cc25739542eca6ad7560aef3925db7",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Chief.idle.back.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Chief/idle/back/001.png",
+      "source_sha256": "8c44ac82d37180d4ef98ee5b96b7a93c8b73deca694b20168eefb63741f5850c",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Chief.idle.back_left.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Chief/idle/back_left/000.png",
+      "source_sha256": "b93a39eaeaf72312cb86b0e166c2d76ca3a6c003cc920cc155d139ab35c99633",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Chief.idle.back_left.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Chief/idle/back_left/001.png",
+      "source_sha256": "864563cb758b3de9d1bf7526ce6f8d1cd966ef8ee70fe581de0175c89e6bd75f",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Chief.idle.left.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Chief/idle/left/000.png",
+      "source_sha256": "c5e42c0f145d0b538e0dd7540a356d2cd0ea5bfcd8a1de755173a4b0d1636c08",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Chief.idle.left.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Chief/idle/left/001.png",
+      "source_sha256": "6b4d2976d70bc9aeebd01cac28de87fb5e7dc784f0e134249cc90a7c6de703b9",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Chief.idle.front_left.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Chief/idle/front_left/000.png",
+      "source_sha256": "4c880c2a7360d931111f5611661178f8dd68f748fa4c627afa5396da8f600185",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Chief.idle.front_left.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Chief/idle/front_left/001.png",
+      "source_sha256": "986fdcf066af3db2097fa8ff66ea2bf6488088f45b24dc91945b8836adc50f5e",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "Chief.walk.front.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Chief/walk/front/000.png",
+      "source_sha256": "5f44cf5fbc4b73aeaa13018cb3bed6814b0726840c82f6ef493c1dd3fc728faf",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "Chief.walk.front.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Chief/walk/front/001.png",
+      "source_sha256": "7da0ed0f96840f018dd2aac7aa2c500b944801cc2351652b7ff0b0b9fb3d85f1",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "Chief.walk.front_right.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Chief/walk/front_right/000.png",
+      "source_sha256": "3cd78e194202057a3778f59abd4cd1dc3128586f85ff127d8a9e84be9fd1d4b3",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "Chief.walk.front_right.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Chief/walk/front_right/001.png",
+      "source_sha256": "64f80b392d4596fbd67d1e5c21488bcad72a9a9dd516b692122beef46d041794",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "Chief.walk.right.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Chief/walk/right/000.png",
+      "source_sha256": "587ec83d7600c3f2fa6608094c7235b0dfbfbfb75bd1276278716d68e43f37c7",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "Chief.walk.right.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Chief/walk/right/001.png",
+      "source_sha256": "c920570497d37003d93501cec987fbecee388fdfd9200803a81e81cb01447403",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "Chief.walk.back_right.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Chief/walk/back_right/000.png",
+      "source_sha256": "9e17c28dabe1ee5d2f192fbd070e0d2ec4fe2834bb33bb90a6e54fa9feefecfe",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "Chief.walk.back_right.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Chief/walk/back_right/001.png",
+      "source_sha256": "779fd3b2cda23bc3d8299ef5587ab292132e1fc665ba637366d37e0632170b93",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "Chief.walk.back.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Chief/walk/back/000.png",
+      "source_sha256": "9c384718759beb356108f1db2a9f6265ec1fada5f41cc3df25c40f4be237ce2f",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "Chief.walk.back.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Chief/walk/back/001.png",
+      "source_sha256": "0b8fc8d41d83b127129d74447dc6903bf17425217270e5f7d713be69d4084f92",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "Chief.walk.back_left.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Chief/walk/back_left/000.png",
+      "source_sha256": "fcb4d615517a4811a712a66dbc9c62eaff5d2cd1ef426c642fd8f7cdff9efa6a",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "Chief.walk.back_left.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Chief/walk/back_left/001.png",
+      "source_sha256": "f47591f27ba46769713a25af31e03eca8037408daa83ab8b4d5b764bdfad7a75",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "Chief.walk.left.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Chief/walk/left/000.png",
+      "source_sha256": "29770fab4a68c0165675b27786a806d992fce12bbc6e5fbb1bb1818f36711931",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "Chief.walk.left.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Chief/walk/left/001.png",
+      "source_sha256": "e29063aa2d3158efb1ce13894d3f98e2b3fe81a16176634915a39f485ccaad09",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "Chief.walk.front_left.000",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Chief/walk/front_left/000.png",
+      "source_sha256": "d437e7bcb3164a6c65d791b9137ba558ef3cec415dda78cc9d64095374d8d37d",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "Chief.walk.front_left.001",
+      "asset_id": "Chief",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Chief/walk/front_left/001.png",
+      "source_sha256": "74aca37b55361cbdbf3b1205c884178c48d6840b6055b07c9fb6b9ee2410e73d",
+      "glb_sha256": "0c65d4f8dee71fca606c425076e0d18c02ea67e421f3aa5b0d8c541f0da4a258",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

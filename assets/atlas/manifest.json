@@ -1,0 +1,8706 @@
+{
+  "tile_size": 64,
+  "sheets": [
+    {
+      "name": "terrain-square",
+      "file": "terrain/square.png",
+      "mapping": {
+        "Chest": [
+          7,
+          1
+        ],
+        "DeepForest": [
+          3,
+          0
+        ],
+        "Door": [
+          3,
+          1
+        ],
+        "Down": [
+          5,
+          1
+        ],
+        "Floor": [
+          2,
+          1
+        ],
+        "Ford": [
+          7,
+          0
+        ],
+        "Forest": [
+          2,
+          0
+        ],
+        "Grass": [
+          1,
+          0
+        ],
+        "Mountain": [
+          4,
+          0
+        ],
+        "River": [
+          6,
+          0
+        ],
+        "Road": [
+          0,
+          0
+        ],
+        "Rock": [
+          5,
+          0
+        ],
+        "Ruins": [
+          0,
+          1
+        ],
+        "Shrine": [
+          6,
+          1
+        ],
+        "Up": [
+          4,
+          1
+        ],
+        "Wall": [
+          1,
+          1
+        ]
+      },
+      "states": {
+        "Door": {
+          "arena0_closed_x": [
+            8,
+            0
+          ],
+          "arena0_closed_y": [
+            10,
+            0
+          ],
+          "arena0_open_x": [
+            9,
+            0
+          ],
+          "arena0_open_y": [
+            11,
+            0
+          ],
+          "arena1_closed_x": [
+            8,
+            0
+          ],
+          "arena1_closed_y": [
+            10,
+            0
+          ],
+          "arena1_open_x": [
+            9,
+            0
+          ],
+          "arena1_open_y": [
+            11,
+            0
+          ],
+          "cave0_closed_x": [
+            8,
+            0
+          ],
+          "cave0_closed_y": [
+            10,
+            0
+          ],
+          "cave0_open_x": [
+            9,
+            0
+          ],
+          "cave0_open_y": [
+            11,
+            0
+          ],
+          "cave1_closed_x": [
+            8,
+            0
+          ],
+          "cave1_closed_y": [
+            10,
+            0
+          ],
+          "cave1_open_x": [
+            9,
+            0
+          ],
+          "cave1_open_y": [
+            11,
+            0
+          ],
+          "crypt0_closed_x": [
+            8,
+            0
+          ],
+          "crypt0_closed_y": [
+            10,
+            0
+          ],
+          "crypt0_open_x": [
+            9,
+            0
+          ],
+          "crypt0_open_y": [
+            11,
+            0
+          ],
+          "crypt1_closed_x": [
+            8,
+            0
+          ],
+          "crypt1_closed_y": [
+            10,
+            0
+          ],
+          "crypt1_open_x": [
+            9,
+            0
+          ],
+          "crypt1_open_y": [
+            11,
+            0
+          ],
+          "dock0_closed_x": [
+            8,
+            0
+          ],
+          "dock0_closed_y": [
+            10,
+            0
+          ],
+          "dock0_open_x": [
+            9,
+            0
+          ],
+          "dock0_open_y": [
+            11,
+            0
+          ],
+          "dock1_closed_x": [
+            8,
+            0
+          ],
+          "dock1_closed_y": [
+            10,
+            0
+          ],
+          "dock1_open_x": [
+            9,
+            0
+          ],
+          "dock1_open_y": [
+            11,
+            0
+          ],
+          "sanctum0_closed_x": [
+            8,
+            0
+          ],
+          "sanctum0_closed_y": [
+            10,
+            0
+          ],
+          "sanctum0_open_x": [
+            9,
+            0
+          ],
+          "sanctum0_open_y": [
+            11,
+            0
+          ],
+          "sanctum1_closed_x": [
+            8,
+            0
+          ],
+          "sanctum1_closed_y": [
+            10,
+            0
+          ],
+          "sanctum1_open_x": [
+            9,
+            0
+          ],
+          "sanctum1_open_y": [
+            11,
+            0
+          ],
+          "town0_closed_x": [
+            8,
+            0
+          ],
+          "town0_closed_y": [
+            10,
+            0
+          ],
+          "town0_open_x": [
+            9,
+            0
+          ],
+          "town0_open_y": [
+            11,
+            0
+          ],
+          "town1_closed_x": [
+            8,
+            0
+          ],
+          "town1_closed_y": [
+            10,
+            0
+          ],
+          "town1_open_x": [
+            9,
+            0
+          ],
+          "town1_open_y": [
+            11,
+            0
+          ],
+          "underkeep0_closed_x": [
+            8,
+            0
+          ],
+          "underkeep0_closed_y": [
+            10,
+            0
+          ],
+          "underkeep0_open_x": [
+            9,
+            0
+          ],
+          "underkeep0_open_y": [
+            11,
+            0
+          ],
+          "underkeep1_closed_x": [
+            8,
+            0
+          ],
+          "underkeep1_closed_y": [
+            10,
+            0
+          ],
+          "underkeep1_open_x": [
+            9,
+            0
+          ],
+          "underkeep1_open_y": [
+            11,
+            0
+          ],
+          "woodland0_closed_x": [
+            8,
+            0
+          ],
+          "woodland0_closed_y": [
+            10,
+            0
+          ],
+          "woodland0_open_x": [
+            9,
+            0
+          ],
+          "woodland0_open_y": [
+            11,
+            0
+          ],
+          "woodland1_closed_x": [
+            8,
+            0
+          ],
+          "woodland1_closed_y": [
+            10,
+            0
+          ],
+          "woodland1_open_x": [
+            9,
+            0
+          ],
+          "woodland1_open_y": [
+            11,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "terrain-iso",
+      "file": "terrain/iso.png",
+      "faces": [
+        "top",
+        "left",
+        "right"
+      ],
+      "mapping": {
+        "Chest": [
+          15,
+          0
+        ],
+        "DeepForest": [
+          3,
+          0
+        ],
+        "Door": [
+          11,
+          0
+        ],
+        "Down": [
+          13,
+          0
+        ],
+        "Floor": [
+          10,
+          0
+        ],
+        "Ford": [
+          7,
+          0
+        ],
+        "Forest": [
+          2,
+          0
+        ],
+        "Grass": [
+          1,
+          0
+        ],
+        "Mountain": [
+          4,
+          0
+        ],
+        "River": [
+          6,
+          0
+        ],
+        "Road": [
+          0,
+          0
+        ],
+        "Rock": [
+          5,
+          0
+        ],
+        "Ruins": [
+          8,
+          0
+        ],
+        "Shrine": [
+          14,
+          0
+        ],
+        "Up": [
+          12,
+          0
+        ],
+        "Wall": [
+          9,
+          0
+        ]
+      },
+      "states": {
+        "DeepForest": {
+          "v2": [
+            17,
+            0
+          ]
+        },
+        "Floor": {
+          "arena": [
+            49,
+            0
+          ],
+          "arena2": [
+            50,
+            0
+          ],
+          "cave": [
+            43,
+            0
+          ],
+          "cave2": [
+            44,
+            0
+          ],
+          "crypt": [
+            34,
+            0
+          ],
+          "crypt2": [
+            35,
+            0
+          ],
+          "dock": [
+            52,
+            0
+          ],
+          "dock2": [
+            53,
+            0
+          ],
+          "sanctum": [
+            37,
+            0
+          ],
+          "sanctum2": [
+            38,
+            0
+          ],
+          "town": [
+            31,
+            0
+          ],
+          "town2": [
+            32,
+            0
+          ],
+          "underkeep": [
+            40,
+            0
+          ],
+          "underkeep2": [
+            41,
+            0
+          ],
+          "woodland": [
+            46,
+            0
+          ],
+          "woodland2": [
+            47,
+            0
+          ]
+        },
+        "Ford": {
+          "v2": [
+            26,
+            0
+          ],
+          "v3": [
+            27,
+            0
+          ],
+          "v4": [
+            28,
+            0
+          ],
+          "v5": [
+            29,
+            0
+          ]
+        },
+        "Forest": {
+          "v2": [
+            18,
+            0
+          ]
+        },
+        "Mountain": {
+          "v2": [
+            16,
+            0
+          ]
+        },
+        "River": {
+          "v2": [
+            22,
+            0
+          ],
+          "v3": [
+            23,
+            0
+          ],
+          "v4": [
+            24,
+            0
+          ],
+          "v5": [
+            25,
+            0
+          ]
+        },
+        "Rock": {
+          "v2": [
+            19,
+            0
+          ]
+        },
+        "Wall": {
+          "arena": [
+            48,
+            0
+          ],
+          "cave": [
+            42,
+            0
+          ],
+          "crypt": [
+            33,
+            0
+          ],
+          "dock": [
+            51,
+            0
+          ],
+          "sanctum": [
+            36,
+            0
+          ],
+          "tall": [
+            9,
+            3
+          ],
+          "town": [
+            30,
+            0
+          ],
+          "underkeep": [
+            39,
+            0
+          ],
+          "woodland": [
+            45,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "props",
+      "file": "props.png",
+      "mapping": {
+        "BroodHole": [
+          4,
+          0
+        ],
+        "DeepTree1": [
+          8,
+          0
+        ],
+        "DeepTree2": [
+          9,
+          0
+        ],
+        "DeepTree3": [
+          10,
+          0
+        ],
+        "Potion": [
+          1,
+          0
+        ],
+        "RelicPedestal": [
+          3,
+          0
+        ],
+        "RuneStone": [
+          2,
+          0
+        ],
+        "TorchBrazier": [
+          0,
+          0
+        ],
+        "Tree1": [
+          5,
+          0
+        ],
+        "Tree2": [
+          6,
+          0
+        ],
+        "Tree3": [
+          7,
+          0
+        ]
+      }
+    },
+    {
+      "name": "chrome",
+      "file": "chrome.png",
+      "mapping": {
+        "BossNameplateL": [
+          3,
+          1
+        ],
+        "BossNameplateM": [
+          4,
+          1
+        ],
+        "BossNameplateR": [
+          5,
+          1
+        ],
+        "ButtonNormal": [
+          6,
+          1
+        ],
+        "ButtonSelected": [
+          7,
+          1
+        ],
+        "IconCursor": [
+          3,
+          2
+        ],
+        "IconSlot": [
+          2,
+          2
+        ],
+        "ItemIconsA": [
+          4,
+          2
+        ],
+        "ItemIconsB": [
+          5,
+          2
+        ],
+        "ItemIconsC": [
+          6,
+          2
+        ],
+        "ItemIconsD": [
+          7,
+          2
+        ],
+        "OrbFrameBlue": [
+          1,
+          0
+        ],
+        "OrbFrameRed": [
+          0,
+          0
+        ],
+        "PanelCornerNE": [
+          3,
+          0
+        ],
+        "PanelCornerNW": [
+          2,
+          0
+        ],
+        "PanelCornerSE": [
+          5,
+          0
+        ],
+        "PanelCornerSW": [
+          4,
+          0
+        ],
+        "PanelEdgeE": [
+          1,
+          1
+        ],
+        "PanelEdgeN": [
+          6,
+          0
+        ],
+        "PanelEdgeS": [
+          7,
+          0
+        ],
+        "PanelEdgeW": [
+          0,
+          1
+        ],
+        "PanelFill": [
+          2,
+          1
+        ],
+        "SigilPip": [
+          0,
+          2
+        ],
+        "XPSliver": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "doors",
+      "file": "doors.png",
+      "cell_size": 96,
+      "mapping": {
+        "closed_x": [
+          0,
+          0
+        ],
+        "closed_y": [
+          2,
+          0
+        ],
+        "open_x": [
+          1,
+          0
+        ],
+        "open_y": [
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "name": "actors",
+      "file": "actors.png",
+      "cell_size": 96,
+      "mapping": {
+        "Guard.attack.front.000": [
+          0,
+          0
+        ],
+        "Guard.attack.front.001": [
+          1,
+          0
+        ],
+        "Guard.attack.front.002": [
+          2,
+          0
+        ],
+        "Guard.attack.front_right.000": [
+          3,
+          0
+        ],
+        "Guard.attack.front_right.001": [
+          4,
+          0
+        ],
+        "Guard.attack.front_right.002": [
+          5,
+          0
+        ],
+        "Guard.attack.right.000": [
+          6,
+          0
+        ],
+        "Guard.attack.right.001": [
+          7,
+          0
+        ],
+        "Guard.attack.right.002": [
+          8,
+          0
+        ],
+        "Guard.attack.back_right.000": [
+          9,
+          0
+        ],
+        "Guard.attack.back_right.001": [
+          10,
+          0
+        ],
+        "Guard.attack.back_right.002": [
+          11,
+          0
+        ],
+        "Guard.attack.back.000": [
+          12,
+          0
+        ],
+        "Guard.attack.back.001": [
+          13,
+          0
+        ],
+        "Guard.attack.back.002": [
+          14,
+          0
+        ],
+        "Guard.attack.back_left.000": [
+          15,
+          0
+        ],
+        "Guard.attack.back_left.001": [
+          16,
+          0
+        ],
+        "Guard.attack.back_left.002": [
+          17,
+          0
+        ],
+        "Guard.attack.left.000": [
+          18,
+          0
+        ],
+        "Guard.attack.left.001": [
+          19,
+          0
+        ],
+        "Guard.attack.left.002": [
+          20,
+          0
+        ],
+        "Guard.attack.front_left.000": [
+          21,
+          0
+        ],
+        "Guard.attack.front_left.001": [
+          22,
+          0
+        ],
+        "Guard.attack.front_left.002": [
+          23,
+          0
+        ],
+        "Guard.hit.front.000": [
+          0,
+          1
+        ],
+        "Guard.hit.front_right.000": [
+          1,
+          1
+        ],
+        "Guard.hit.right.000": [
+          2,
+          1
+        ],
+        "Guard.hit.back_right.000": [
+          3,
+          1
+        ],
+        "Guard.hit.back.000": [
+          4,
+          1
+        ],
+        "Guard.hit.back_left.000": [
+          5,
+          1
+        ],
+        "Guard.hit.left.000": [
+          6,
+          1
+        ],
+        "Guard.hit.front_left.000": [
+          7,
+          1
+        ],
+        "Guard.idle.front.000": [
+          8,
+          1
+        ],
+        "Guard.idle.front_right.000": [
+          9,
+          1
+        ],
+        "Guard.idle.right.000": [
+          10,
+          1
+        ],
+        "Guard.idle.back_right.000": [
+          11,
+          1
+        ],
+        "Guard.idle.back.000": [
+          12,
+          1
+        ],
+        "Guard.idle.back_left.000": [
+          13,
+          1
+        ],
+        "Guard.idle.left.000": [
+          14,
+          1
+        ],
+        "Guard.idle.front_left.000": [
+          15,
+          1
+        ],
+        "Guard.walk.front.000": [
+          16,
+          1
+        ],
+        "Guard.walk.front.001": [
+          17,
+          1
+        ],
+        "Guard.walk.front_right.000": [
+          18,
+          1
+        ],
+        "Guard.walk.front_right.001": [
+          19,
+          1
+        ],
+        "Guard.walk.right.000": [
+          20,
+          1
+        ],
+        "Guard.walk.right.001": [
+          21,
+          1
+        ],
+        "Guard.walk.back_right.000": [
+          22,
+          1
+        ],
+        "Guard.walk.back_right.001": [
+          23,
+          1
+        ],
+        "Guard.walk.back.000": [
+          0,
+          2
+        ],
+        "Guard.walk.back.001": [
+          1,
+          2
+        ],
+        "Guard.walk.back_left.000": [
+          2,
+          2
+        ],
+        "Guard.walk.back_left.001": [
+          3,
+          2
+        ],
+        "Guard.walk.left.000": [
+          4,
+          2
+        ],
+        "Guard.walk.left.001": [
+          5,
+          2
+        ],
+        "Guard.walk.front_left.000": [
+          6,
+          2
+        ],
+        "Guard.walk.front_left.001": [
+          7,
+          2
+        ],
+        "Guard": [
+          8,
+          1
+        ],
+        "Lich.attack.front.000": [
+          8,
+          2
+        ],
+        "Lich.attack.front.001": [
+          9,
+          2
+        ],
+        "Lich.attack.front.002": [
+          10,
+          2
+        ],
+        "Lich.attack.front_right.000": [
+          11,
+          2
+        ],
+        "Lich.attack.front_right.001": [
+          12,
+          2
+        ],
+        "Lich.attack.front_right.002": [
+          13,
+          2
+        ],
+        "Lich.attack.right.000": [
+          14,
+          2
+        ],
+        "Lich.attack.right.001": [
+          15,
+          2
+        ],
+        "Lich.attack.right.002": [
+          16,
+          2
+        ],
+        "Lich.attack.back_right.000": [
+          17,
+          2
+        ],
+        "Lich.attack.back_right.001": [
+          18,
+          2
+        ],
+        "Lich.attack.back_right.002": [
+          19,
+          2
+        ],
+        "Lich.attack.back.000": [
+          20,
+          2
+        ],
+        "Lich.attack.back.001": [
+          21,
+          2
+        ],
+        "Lich.attack.back.002": [
+          22,
+          2
+        ],
+        "Lich.attack.back_left.000": [
+          23,
+          2
+        ],
+        "Lich.attack.back_left.001": [
+          0,
+          3
+        ],
+        "Lich.attack.back_left.002": [
+          1,
+          3
+        ],
+        "Lich.attack.left.000": [
+          2,
+          3
+        ],
+        "Lich.attack.left.001": [
+          3,
+          3
+        ],
+        "Lich.attack.left.002": [
+          4,
+          3
+        ],
+        "Lich.attack.front_left.000": [
+          5,
+          3
+        ],
+        "Lich.attack.front_left.001": [
+          6,
+          3
+        ],
+        "Lich.attack.front_left.002": [
+          7,
+          3
+        ],
+        "Lich.hit.front.000": [
+          8,
+          3
+        ],
+        "Lich.hit.front_right.000": [
+          9,
+          3
+        ],
+        "Lich.hit.right.000": [
+          10,
+          3
+        ],
+        "Lich.hit.back_right.000": [
+          11,
+          3
+        ],
+        "Lich.hit.back.000": [
+          12,
+          3
+        ],
+        "Lich.hit.back_left.000": [
+          13,
+          3
+        ],
+        "Lich.hit.left.000": [
+          14,
+          3
+        ],
+        "Lich.hit.front_left.000": [
+          15,
+          3
+        ],
+        "Lich.idle.front.000": [
+          16,
+          3
+        ],
+        "Lich.idle.front_right.000": [
+          17,
+          3
+        ],
+        "Lich.idle.right.000": [
+          18,
+          3
+        ],
+        "Lich.idle.back_right.000": [
+          19,
+          3
+        ],
+        "Lich.idle.back.000": [
+          20,
+          3
+        ],
+        "Lich.idle.back_left.000": [
+          21,
+          3
+        ],
+        "Lich.idle.left.000": [
+          22,
+          3
+        ],
+        "Lich.idle.front_left.000": [
+          23,
+          3
+        ],
+        "Lich.walk.front.000": [
+          0,
+          4
+        ],
+        "Lich.walk.front.001": [
+          1,
+          4
+        ],
+        "Lich.walk.front_right.000": [
+          2,
+          4
+        ],
+        "Lich.walk.front_right.001": [
+          3,
+          4
+        ],
+        "Lich.walk.right.000": [
+          4,
+          4
+        ],
+        "Lich.walk.right.001": [
+          5,
+          4
+        ],
+        "Lich.walk.back_right.000": [
+          6,
+          4
+        ],
+        "Lich.walk.back_right.001": [
+          7,
+          4
+        ],
+        "Lich.walk.back.000": [
+          8,
+          4
+        ],
+        "Lich.walk.back.001": [
+          9,
+          4
+        ],
+        "Lich.walk.back_left.000": [
+          10,
+          4
+        ],
+        "Lich.walk.back_left.001": [
+          11,
+          4
+        ],
+        "Lich.walk.left.000": [
+          12,
+          4
+        ],
+        "Lich.walk.left.001": [
+          13,
+          4
+        ],
+        "Lich.walk.front_left.000": [
+          14,
+          4
+        ],
+        "Lich.walk.front_left.001": [
+          15,
+          4
+        ],
+        "Lich": [
+          16,
+          3
+        ],
+        "Adjudicator.attack.front.000": [
+          16,
+          4
+        ],
+        "Adjudicator.attack.front.001": [
+          17,
+          4
+        ],
+        "Adjudicator.attack.front.002": [
+          18,
+          4
+        ],
+        "Adjudicator.attack.front_right.000": [
+          19,
+          4
+        ],
+        "Adjudicator.attack.front_right.001": [
+          20,
+          4
+        ],
+        "Adjudicator.attack.front_right.002": [
+          21,
+          4
+        ],
+        "Adjudicator.attack.right.000": [
+          22,
+          4
+        ],
+        "Adjudicator.attack.right.001": [
+          23,
+          4
+        ],
+        "Adjudicator.attack.right.002": [
+          0,
+          5
+        ],
+        "Adjudicator.attack.back_right.000": [
+          1,
+          5
+        ],
+        "Adjudicator.attack.back_right.001": [
+          2,
+          5
+        ],
+        "Adjudicator.attack.back_right.002": [
+          3,
+          5
+        ],
+        "Adjudicator.attack.back.000": [
+          4,
+          5
+        ],
+        "Adjudicator.attack.back.001": [
+          5,
+          5
+        ],
+        "Adjudicator.attack.back.002": [
+          6,
+          5
+        ],
+        "Adjudicator.attack.back_left.000": [
+          7,
+          5
+        ],
+        "Adjudicator.attack.back_left.001": [
+          8,
+          5
+        ],
+        "Adjudicator.attack.back_left.002": [
+          9,
+          5
+        ],
+        "Adjudicator.attack.left.000": [
+          10,
+          5
+        ],
+        "Adjudicator.attack.left.001": [
+          11,
+          5
+        ],
+        "Adjudicator.attack.left.002": [
+          12,
+          5
+        ],
+        "Adjudicator.attack.front_left.000": [
+          13,
+          5
+        ],
+        "Adjudicator.attack.front_left.001": [
+          14,
+          5
+        ],
+        "Adjudicator.attack.front_left.002": [
+          15,
+          5
+        ],
+        "Adjudicator.hit.front.000": [
+          16,
+          5
+        ],
+        "Adjudicator.hit.front.001": [
+          17,
+          5
+        ],
+        "Adjudicator.hit.front_right.000": [
+          18,
+          5
+        ],
+        "Adjudicator.hit.front_right.001": [
+          19,
+          5
+        ],
+        "Adjudicator.hit.right.000": [
+          20,
+          5
+        ],
+        "Adjudicator.hit.right.001": [
+          21,
+          5
+        ],
+        "Adjudicator.hit.back_right.000": [
+          22,
+          5
+        ],
+        "Adjudicator.hit.back_right.001": [
+          23,
+          5
+        ],
+        "Adjudicator.hit.back.000": [
+          0,
+          6
+        ],
+        "Adjudicator.hit.back.001": [
+          1,
+          6
+        ],
+        "Adjudicator.hit.back_left.000": [
+          2,
+          6
+        ],
+        "Adjudicator.hit.back_left.001": [
+          3,
+          6
+        ],
+        "Adjudicator.hit.left.000": [
+          4,
+          6
+        ],
+        "Adjudicator.hit.left.001": [
+          5,
+          6
+        ],
+        "Adjudicator.hit.front_left.000": [
+          6,
+          6
+        ],
+        "Adjudicator.hit.front_left.001": [
+          7,
+          6
+        ],
+        "Adjudicator.idle.front.000": [
+          8,
+          6
+        ],
+        "Adjudicator.idle.front.001": [
+          9,
+          6
+        ],
+        "Adjudicator.idle.front_right.000": [
+          10,
+          6
+        ],
+        "Adjudicator.idle.front_right.001": [
+          11,
+          6
+        ],
+        "Adjudicator.idle.right.000": [
+          12,
+          6
+        ],
+        "Adjudicator.idle.right.001": [
+          13,
+          6
+        ],
+        "Adjudicator.idle.back_right.000": [
+          14,
+          6
+        ],
+        "Adjudicator.idle.back_right.001": [
+          15,
+          6
+        ],
+        "Adjudicator.idle.back.000": [
+          16,
+          6
+        ],
+        "Adjudicator.idle.back.001": [
+          17,
+          6
+        ],
+        "Adjudicator.idle.back_left.000": [
+          18,
+          6
+        ],
+        "Adjudicator.idle.back_left.001": [
+          19,
+          6
+        ],
+        "Adjudicator.idle.left.000": [
+          20,
+          6
+        ],
+        "Adjudicator.idle.left.001": [
+          21,
+          6
+        ],
+        "Adjudicator.idle.front_left.000": [
+          22,
+          6
+        ],
+        "Adjudicator.idle.front_left.001": [
+          23,
+          6
+        ],
+        "Adjudicator.walk.front.000": [
+          0,
+          7
+        ],
+        "Adjudicator.walk.front.001": [
+          1,
+          7
+        ],
+        "Adjudicator.walk.front_right.000": [
+          2,
+          7
+        ],
+        "Adjudicator.walk.front_right.001": [
+          3,
+          7
+        ],
+        "Adjudicator.walk.right.000": [
+          4,
+          7
+        ],
+        "Adjudicator.walk.right.001": [
+          5,
+          7
+        ],
+        "Adjudicator.walk.back_right.000": [
+          6,
+          7
+        ],
+        "Adjudicator.walk.back_right.001": [
+          7,
+          7
+        ],
+        "Adjudicator.walk.back.000": [
+          8,
+          7
+        ],
+        "Adjudicator.walk.back.001": [
+          9,
+          7
+        ],
+        "Adjudicator.walk.back_left.000": [
+          10,
+          7
+        ],
+        "Adjudicator.walk.back_left.001": [
+          11,
+          7
+        ],
+        "Adjudicator.walk.left.000": [
+          12,
+          7
+        ],
+        "Adjudicator.walk.left.001": [
+          13,
+          7
+        ],
+        "Adjudicator.walk.front_left.000": [
+          14,
+          7
+        ],
+        "Adjudicator.walk.front_left.001": [
+          15,
+          7
+        ],
+        "Adjudicator": [
+          8,
+          6
+        ],
+        "Alchemist.attack.front.000": [
+          16,
+          7
+        ],
+        "Alchemist.attack.front.001": [
+          17,
+          7
+        ],
+        "Alchemist.attack.front.002": [
+          18,
+          7
+        ],
+        "Alchemist.attack.front_right.000": [
+          19,
+          7
+        ],
+        "Alchemist.attack.front_right.001": [
+          20,
+          7
+        ],
+        "Alchemist.attack.front_right.002": [
+          21,
+          7
+        ],
+        "Alchemist.attack.right.000": [
+          22,
+          7
+        ],
+        "Alchemist.attack.right.001": [
+          23,
+          7
+        ],
+        "Alchemist.attack.right.002": [
+          0,
+          8
+        ],
+        "Alchemist.attack.back_right.000": [
+          1,
+          8
+        ],
+        "Alchemist.attack.back_right.001": [
+          2,
+          8
+        ],
+        "Alchemist.attack.back_right.002": [
+          3,
+          8
+        ],
+        "Alchemist.attack.back.000": [
+          4,
+          8
+        ],
+        "Alchemist.attack.back.001": [
+          5,
+          8
+        ],
+        "Alchemist.attack.back.002": [
+          6,
+          8
+        ],
+        "Alchemist.attack.back_left.000": [
+          7,
+          8
+        ],
+        "Alchemist.attack.back_left.001": [
+          8,
+          8
+        ],
+        "Alchemist.attack.back_left.002": [
+          9,
+          8
+        ],
+        "Alchemist.attack.left.000": [
+          10,
+          8
+        ],
+        "Alchemist.attack.left.001": [
+          11,
+          8
+        ],
+        "Alchemist.attack.left.002": [
+          12,
+          8
+        ],
+        "Alchemist.attack.front_left.000": [
+          13,
+          8
+        ],
+        "Alchemist.attack.front_left.001": [
+          14,
+          8
+        ],
+        "Alchemist.attack.front_left.002": [
+          15,
+          8
+        ],
+        "Alchemist.hit.front.000": [
+          16,
+          8
+        ],
+        "Alchemist.hit.front.001": [
+          17,
+          8
+        ],
+        "Alchemist.hit.front_right.000": [
+          18,
+          8
+        ],
+        "Alchemist.hit.front_right.001": [
+          19,
+          8
+        ],
+        "Alchemist.hit.right.000": [
+          20,
+          8
+        ],
+        "Alchemist.hit.right.001": [
+          21,
+          8
+        ],
+        "Alchemist.hit.back_right.000": [
+          22,
+          8
+        ],
+        "Alchemist.hit.back_right.001": [
+          23,
+          8
+        ],
+        "Alchemist.hit.back.000": [
+          0,
+          9
+        ],
+        "Alchemist.hit.back.001": [
+          1,
+          9
+        ],
+        "Alchemist.hit.back_left.000": [
+          2,
+          9
+        ],
+        "Alchemist.hit.back_left.001": [
+          3,
+          9
+        ],
+        "Alchemist.hit.left.000": [
+          4,
+          9
+        ],
+        "Alchemist.hit.left.001": [
+          5,
+          9
+        ],
+        "Alchemist.hit.front_left.000": [
+          6,
+          9
+        ],
+        "Alchemist.hit.front_left.001": [
+          7,
+          9
+        ],
+        "Alchemist.idle.front.000": [
+          8,
+          9
+        ],
+        "Alchemist.idle.front.001": [
+          9,
+          9
+        ],
+        "Alchemist.idle.front_right.000": [
+          10,
+          9
+        ],
+        "Alchemist.idle.front_right.001": [
+          11,
+          9
+        ],
+        "Alchemist.idle.right.000": [
+          12,
+          9
+        ],
+        "Alchemist.idle.right.001": [
+          13,
+          9
+        ],
+        "Alchemist.idle.back_right.000": [
+          14,
+          9
+        ],
+        "Alchemist.idle.back_right.001": [
+          15,
+          9
+        ],
+        "Alchemist.idle.back.000": [
+          16,
+          9
+        ],
+        "Alchemist.idle.back.001": [
+          17,
+          9
+        ],
+        "Alchemist.idle.back_left.000": [
+          18,
+          9
+        ],
+        "Alchemist.idle.back_left.001": [
+          19,
+          9
+        ],
+        "Alchemist.idle.left.000": [
+          20,
+          9
+        ],
+        "Alchemist.idle.left.001": [
+          21,
+          9
+        ],
+        "Alchemist.idle.front_left.000": [
+          22,
+          9
+        ],
+        "Alchemist.idle.front_left.001": [
+          23,
+          9
+        ],
+        "Alchemist.walk.front.000": [
+          0,
+          10
+        ],
+        "Alchemist.walk.front.001": [
+          1,
+          10
+        ],
+        "Alchemist.walk.front_right.000": [
+          2,
+          10
+        ],
+        "Alchemist.walk.front_right.001": [
+          3,
+          10
+        ],
+        "Alchemist.walk.right.000": [
+          4,
+          10
+        ],
+        "Alchemist.walk.right.001": [
+          5,
+          10
+        ],
+        "Alchemist.walk.back_right.000": [
+          6,
+          10
+        ],
+        "Alchemist.walk.back_right.001": [
+          7,
+          10
+        ],
+        "Alchemist.walk.back.000": [
+          8,
+          10
+        ],
+        "Alchemist.walk.back.001": [
+          9,
+          10
+        ],
+        "Alchemist.walk.back_left.000": [
+          10,
+          10
+        ],
+        "Alchemist.walk.back_left.001": [
+          11,
+          10
+        ],
+        "Alchemist.walk.left.000": [
+          12,
+          10
+        ],
+        "Alchemist.walk.left.001": [
+          13,
+          10
+        ],
+        "Alchemist.walk.front_left.000": [
+          14,
+          10
+        ],
+        "Alchemist.walk.front_left.001": [
+          15,
+          10
+        ],
+        "Alchemist": [
+          8,
+          9
+        ],
+        "Bandit.attack.front.000": [
+          16,
+          10
+        ],
+        "Bandit.attack.front_right.000": [
+          17,
+          10
+        ],
+        "Bandit.attack.right.000": [
+          18,
+          10
+        ],
+        "Bandit.attack.back_right.000": [
+          19,
+          10
+        ],
+        "Bandit.attack.back.000": [
+          20,
+          10
+        ],
+        "Bandit.attack.back_left.000": [
+          21,
+          10
+        ],
+        "Bandit.attack.left.000": [
+          22,
+          10
+        ],
+        "Bandit.attack.front_left.000": [
+          23,
+          10
+        ],
+        "Bandit.hit.front.000": [
+          0,
+          11
+        ],
+        "Bandit.hit.front.001": [
+          1,
+          11
+        ],
+        "Bandit.hit.front_right.000": [
+          2,
+          11
+        ],
+        "Bandit.hit.front_right.001": [
+          3,
+          11
+        ],
+        "Bandit.hit.right.000": [
+          4,
+          11
+        ],
+        "Bandit.hit.right.001": [
+          5,
+          11
+        ],
+        "Bandit.hit.back_right.000": [
+          6,
+          11
+        ],
+        "Bandit.hit.back_right.001": [
+          7,
+          11
+        ],
+        "Bandit.hit.back.000": [
+          8,
+          11
+        ],
+        "Bandit.hit.back.001": [
+          9,
+          11
+        ],
+        "Bandit.hit.back_left.000": [
+          10,
+          11
+        ],
+        "Bandit.hit.back_left.001": [
+          11,
+          11
+        ],
+        "Bandit.hit.left.000": [
+          12,
+          11
+        ],
+        "Bandit.hit.left.001": [
+          13,
+          11
+        ],
+        "Bandit.hit.front_left.000": [
+          14,
+          11
+        ],
+        "Bandit.hit.front_left.001": [
+          15,
+          11
+        ],
+        "Bandit.idle.front.000": [
+          16,
+          11
+        ],
+        "Bandit.idle.front.001": [
+          17,
+          11
+        ],
+        "Bandit.idle.front_right.000": [
+          18,
+          11
+        ],
+        "Bandit.idle.front_right.001": [
+          19,
+          11
+        ],
+        "Bandit.idle.right.000": [
+          20,
+          11
+        ],
+        "Bandit.idle.right.001": [
+          21,
+          11
+        ],
+        "Bandit.idle.back_right.000": [
+          22,
+          11
+        ],
+        "Bandit.idle.back_right.001": [
+          23,
+          11
+        ],
+        "Bandit.idle.back.000": [
+          0,
+          12
+        ],
+        "Bandit.idle.back.001": [
+          1,
+          12
+        ],
+        "Bandit.idle.back_left.000": [
+          2,
+          12
+        ],
+        "Bandit.idle.back_left.001": [
+          3,
+          12
+        ],
+        "Bandit.idle.left.000": [
+          4,
+          12
+        ],
+        "Bandit.idle.left.001": [
+          5,
+          12
+        ],
+        "Bandit.idle.front_left.000": [
+          6,
+          12
+        ],
+        "Bandit.idle.front_left.001": [
+          7,
+          12
+        ],
+        "Bandit.walk.front.000": [
+          8,
+          12
+        ],
+        "Bandit.walk.front.001": [
+          9,
+          12
+        ],
+        "Bandit.walk.front_right.000": [
+          10,
+          12
+        ],
+        "Bandit.walk.front_right.001": [
+          11,
+          12
+        ],
+        "Bandit.walk.right.000": [
+          12,
+          12
+        ],
+        "Bandit.walk.right.001": [
+          13,
+          12
+        ],
+        "Bandit.walk.back_right.000": [
+          14,
+          12
+        ],
+        "Bandit.walk.back_right.001": [
+          15,
+          12
+        ],
+        "Bandit.walk.back.000": [
+          16,
+          12
+        ],
+        "Bandit.walk.back.001": [
+          17,
+          12
+        ],
+        "Bandit.walk.back_left.000": [
+          18,
+          12
+        ],
+        "Bandit.walk.back_left.001": [
+          19,
+          12
+        ],
+        "Bandit.walk.left.000": [
+          20,
+          12
+        ],
+        "Bandit.walk.left.001": [
+          21,
+          12
+        ],
+        "Bandit.walk.front_left.000": [
+          22,
+          12
+        ],
+        "Bandit.walk.front_left.001": [
+          23,
+          12
+        ],
+        "Bandit": [
+          16,
+          11
+        ],
+        "Bear.attack.front.000": [
+          0,
+          13
+        ],
+        "Bear.attack.front.001": [
+          1,
+          13
+        ],
+        "Bear.attack.front.002": [
+          2,
+          13
+        ],
+        "Bear.attack.front_right.000": [
+          3,
+          13
+        ],
+        "Bear.attack.front_right.001": [
+          4,
+          13
+        ],
+        "Bear.attack.front_right.002": [
+          5,
+          13
+        ],
+        "Bear.attack.right.000": [
+          6,
+          13
+        ],
+        "Bear.attack.right.001": [
+          7,
+          13
+        ],
+        "Bear.attack.right.002": [
+          8,
+          13
+        ],
+        "Bear.attack.back_right.000": [
+          9,
+          13
+        ],
+        "Bear.attack.back_right.001": [
+          10,
+          13
+        ],
+        "Bear.attack.back_right.002": [
+          11,
+          13
+        ],
+        "Bear.attack.back.000": [
+          12,
+          13
+        ],
+        "Bear.attack.back.001": [
+          13,
+          13
+        ],
+        "Bear.attack.back.002": [
+          14,
+          13
+        ],
+        "Bear.attack.back_left.000": [
+          15,
+          13
+        ],
+        "Bear.attack.back_left.001": [
+          16,
+          13
+        ],
+        "Bear.attack.back_left.002": [
+          17,
+          13
+        ],
+        "Bear.attack.left.000": [
+          18,
+          13
+        ],
+        "Bear.attack.left.001": [
+          19,
+          13
+        ],
+        "Bear.attack.left.002": [
+          20,
+          13
+        ],
+        "Bear.attack.front_left.000": [
+          21,
+          13
+        ],
+        "Bear.attack.front_left.001": [
+          22,
+          13
+        ],
+        "Bear.attack.front_left.002": [
+          23,
+          13
+        ],
+        "Bear.hit.front.000": [
+          0,
+          14
+        ],
+        "Bear.hit.front.001": [
+          1,
+          14
+        ],
+        "Bear.hit.front_right.000": [
+          2,
+          14
+        ],
+        "Bear.hit.front_right.001": [
+          3,
+          14
+        ],
+        "Bear.hit.right.000": [
+          4,
+          14
+        ],
+        "Bear.hit.right.001": [
+          5,
+          14
+        ],
+        "Bear.hit.back_right.000": [
+          6,
+          14
+        ],
+        "Bear.hit.back_right.001": [
+          7,
+          14
+        ],
+        "Bear.hit.back.000": [
+          8,
+          14
+        ],
+        "Bear.hit.back.001": [
+          9,
+          14
+        ],
+        "Bear.hit.back_left.000": [
+          10,
+          14
+        ],
+        "Bear.hit.back_left.001": [
+          11,
+          14
+        ],
+        "Bear.hit.left.000": [
+          12,
+          14
+        ],
+        "Bear.hit.left.001": [
+          13,
+          14
+        ],
+        "Bear.hit.front_left.000": [
+          14,
+          14
+        ],
+        "Bear.hit.front_left.001": [
+          15,
+          14
+        ],
+        "Bear.idle.front.000": [
+          16,
+          14
+        ],
+        "Bear.idle.front.001": [
+          17,
+          14
+        ],
+        "Bear.idle.front_right.000": [
+          18,
+          14
+        ],
+        "Bear.idle.front_right.001": [
+          19,
+          14
+        ],
+        "Bear.idle.right.000": [
+          20,
+          14
+        ],
+        "Bear.idle.right.001": [
+          21,
+          14
+        ],
+        "Bear.idle.back_right.000": [
+          22,
+          14
+        ],
+        "Bear.idle.back_right.001": [
+          23,
+          14
+        ],
+        "Bear.idle.back.000": [
+          0,
+          15
+        ],
+        "Bear.idle.back.001": [
+          1,
+          15
+        ],
+        "Bear.idle.back_left.000": [
+          2,
+          15
+        ],
+        "Bear.idle.back_left.001": [
+          3,
+          15
+        ],
+        "Bear.idle.left.000": [
+          4,
+          15
+        ],
+        "Bear.idle.left.001": [
+          5,
+          15
+        ],
+        "Bear.idle.front_left.000": [
+          6,
+          15
+        ],
+        "Bear.idle.front_left.001": [
+          7,
+          15
+        ],
+        "Bear.walk.front.000": [
+          8,
+          15
+        ],
+        "Bear.walk.front.001": [
+          9,
+          15
+        ],
+        "Bear.walk.front_right.000": [
+          10,
+          15
+        ],
+        "Bear.walk.front_right.001": [
+          11,
+          15
+        ],
+        "Bear.walk.right.000": [
+          12,
+          15
+        ],
+        "Bear.walk.right.001": [
+          13,
+          15
+        ],
+        "Bear.walk.back_right.000": [
+          14,
+          15
+        ],
+        "Bear.walk.back_right.001": [
+          15,
+          15
+        ],
+        "Bear.walk.back.000": [
+          16,
+          15
+        ],
+        "Bear.walk.back.001": [
+          17,
+          15
+        ],
+        "Bear.walk.back_left.000": [
+          18,
+          15
+        ],
+        "Bear.walk.back_left.001": [
+          19,
+          15
+        ],
+        "Bear.walk.left.000": [
+          20,
+          15
+        ],
+        "Bear.walk.left.001": [
+          21,
+          15
+        ],
+        "Bear.walk.front_left.000": [
+          22,
+          15
+        ],
+        "Bear.walk.front_left.001": [
+          23,
+          15
+        ],
+        "Bear": [
+          16,
+          14
+        ],
+        "Chief.attack.front.000": [
+          0,
+          16
+        ],
+        "Chief.attack.front.001": [
+          1,
+          16
+        ],
+        "Chief.attack.front.002": [
+          2,
+          16
+        ],
+        "Chief.attack.front_right.000": [
+          3,
+          16
+        ],
+        "Chief.attack.front_right.001": [
+          4,
+          16
+        ],
+        "Chief.attack.front_right.002": [
+          5,
+          16
+        ],
+        "Chief.attack.right.000": [
+          6,
+          16
+        ],
+        "Chief.attack.right.001": [
+          7,
+          16
+        ],
+        "Chief.attack.right.002": [
+          8,
+          16
+        ],
+        "Chief.attack.back_right.000": [
+          9,
+          16
+        ],
+        "Chief.attack.back_right.001": [
+          10,
+          16
+        ],
+        "Chief.attack.back_right.002": [
+          11,
+          16
+        ],
+        "Chief.attack.back.000": [
+          12,
+          16
+        ],
+        "Chief.attack.back.001": [
+          13,
+          16
+        ],
+        "Chief.attack.back.002": [
+          14,
+          16
+        ],
+        "Chief.attack.back_left.000": [
+          15,
+          16
+        ],
+        "Chief.attack.back_left.001": [
+          16,
+          16
+        ],
+        "Chief.attack.back_left.002": [
+          17,
+          16
+        ],
+        "Chief.attack.left.000": [
+          18,
+          16
+        ],
+        "Chief.attack.left.001": [
+          19,
+          16
+        ],
+        "Chief.attack.left.002": [
+          20,
+          16
+        ],
+        "Chief.attack.front_left.000": [
+          21,
+          16
+        ],
+        "Chief.attack.front_left.001": [
+          22,
+          16
+        ],
+        "Chief.attack.front_left.002": [
+          23,
+          16
+        ],
+        "Chief.hit.front.000": [
+          0,
+          17
+        ],
+        "Chief.hit.front.001": [
+          1,
+          17
+        ],
+        "Chief.hit.front_right.000": [
+          2,
+          17
+        ],
+        "Chief.hit.front_right.001": [
+          3,
+          17
+        ],
+        "Chief.hit.right.000": [
+          4,
+          17
+        ],
+        "Chief.hit.right.001": [
+          5,
+          17
+        ],
+        "Chief.hit.back_right.000": [
+          6,
+          17
+        ],
+        "Chief.hit.back_right.001": [
+          7,
+          17
+        ],
+        "Chief.hit.back.000": [
+          8,
+          17
+        ],
+        "Chief.hit.back.001": [
+          9,
+          17
+        ],
+        "Chief.hit.back_left.000": [
+          10,
+          17
+        ],
+        "Chief.hit.back_left.001": [
+          11,
+          17
+        ],
+        "Chief.hit.left.000": [
+          12,
+          17
+        ],
+        "Chief.hit.left.001": [
+          13,
+          17
+        ],
+        "Chief.hit.front_left.000": [
+          14,
+          17
+        ],
+        "Chief.hit.front_left.001": [
+          15,
+          17
+        ],
+        "Chief.idle.front.000": [
+          16,
+          17
+        ],
+        "Chief.idle.front.001": [
+          17,
+          17
+        ],
+        "Chief.idle.front_right.000": [
+          18,
+          17
+        ],
+        "Chief.idle.front_right.001": [
+          19,
+          17
+        ],
+        "Chief.idle.right.000": [
+          20,
+          17
+        ],
+        "Chief.idle.right.001": [
+          21,
+          17
+        ],
+        "Chief.idle.back_right.000": [
+          22,
+          17
+        ],
+        "Chief.idle.back_right.001": [
+          23,
+          17
+        ],
+        "Chief.idle.back.000": [
+          0,
+          18
+        ],
+        "Chief.idle.back.001": [
+          1,
+          18
+        ],
+        "Chief.idle.back_left.000": [
+          2,
+          18
+        ],
+        "Chief.idle.back_left.001": [
+          3,
+          18
+        ],
+        "Chief.idle.left.000": [
+          4,
+          18
+        ],
+        "Chief.idle.left.001": [
+          5,
+          18
+        ],
+        "Chief.idle.front_left.000": [
+          6,
+          18
+        ],
+        "Chief.idle.front_left.001": [
+          7,
+          18
+        ],
+        "Chief.walk.front.000": [
+          8,
+          18
+        ],
+        "Chief.walk.front.001": [
+          9,
+          18
+        ],
+        "Chief.walk.front_right.000": [
+          10,
+          18
+        ],
+        "Chief.walk.front_right.001": [
+          11,
+          18
+        ],
+        "Chief.walk.right.000": [
+          12,
+          18
+        ],
+        "Chief.walk.right.001": [
+          13,
+          18
+        ],
+        "Chief.walk.back_right.000": [
+          14,
+          18
+        ],
+        "Chief.walk.back_right.001": [
+          15,
+          18
+        ],
+        "Chief.walk.back.000": [
+          16,
+          18
+        ],
+        "Chief.walk.back.001": [
+          17,
+          18
+        ],
+        "Chief.walk.back_left.000": [
+          18,
+          18
+        ],
+        "Chief.walk.back_left.001": [
+          19,
+          18
+        ],
+        "Chief.walk.left.000": [
+          20,
+          18
+        ],
+        "Chief.walk.left.001": [
+          21,
+          18
+        ],
+        "Chief.walk.front_left.000": [
+          22,
+          18
+        ],
+        "Chief.walk.front_left.001": [
+          23,
+          18
+        ],
+        "Chief": [
+          16,
+          17
+        ],
+        "Commoner.attack.front.000": [
+          0,
+          19
+        ],
+        "Commoner.attack.front_right.000": [
+          1,
+          19
+        ],
+        "Commoner.attack.right.000": [
+          2,
+          19
+        ],
+        "Commoner.attack.back_right.000": [
+          3,
+          19
+        ],
+        "Commoner.attack.back.000": [
+          4,
+          19
+        ],
+        "Commoner.attack.back_left.000": [
+          5,
+          19
+        ],
+        "Commoner.attack.left.000": [
+          6,
+          19
+        ],
+        "Commoner.attack.front_left.000": [
+          7,
+          19
+        ],
+        "Commoner.hit.front.000": [
+          8,
+          19
+        ],
+        "Commoner.hit.front.001": [
+          9,
+          19
+        ],
+        "Commoner.hit.front_right.000": [
+          10,
+          19
+        ],
+        "Commoner.hit.front_right.001": [
+          11,
+          19
+        ],
+        "Commoner.hit.right.000": [
+          12,
+          19
+        ],
+        "Commoner.hit.right.001": [
+          13,
+          19
+        ],
+        "Commoner.hit.back_right.000": [
+          14,
+          19
+        ],
+        "Commoner.hit.back_right.001": [
+          15,
+          19
+        ],
+        "Commoner.hit.back.000": [
+          16,
+          19
+        ],
+        "Commoner.hit.back.001": [
+          17,
+          19
+        ],
+        "Commoner.hit.back_left.000": [
+          18,
+          19
+        ],
+        "Commoner.hit.back_left.001": [
+          19,
+          19
+        ],
+        "Commoner.hit.left.000": [
+          20,
+          19
+        ],
+        "Commoner.hit.left.001": [
+          21,
+          19
+        ],
+        "Commoner.hit.front_left.000": [
+          22,
+          19
+        ],
+        "Commoner.hit.front_left.001": [
+          23,
+          19
+        ],
+        "Commoner.idle.front.000": [
+          0,
+          20
+        ],
+        "Commoner.idle.front.001": [
+          1,
+          20
+        ],
+        "Commoner.idle.front_right.000": [
+          2,
+          20
+        ],
+        "Commoner.idle.front_right.001": [
+          3,
+          20
+        ],
+        "Commoner.idle.right.000": [
+          4,
+          20
+        ],
+        "Commoner.idle.right.001": [
+          5,
+          20
+        ],
+        "Commoner.idle.back_right.000": [
+          6,
+          20
+        ],
+        "Commoner.idle.back_right.001": [
+          7,
+          20
+        ],
+        "Commoner.idle.back.000": [
+          8,
+          20
+        ],
+        "Commoner.idle.back.001": [
+          9,
+          20
+        ],
+        "Commoner.idle.back_left.000": [
+          10,
+          20
+        ],
+        "Commoner.idle.back_left.001": [
+          11,
+          20
+        ],
+        "Commoner.idle.left.000": [
+          12,
+          20
+        ],
+        "Commoner.idle.left.001": [
+          13,
+          20
+        ],
+        "Commoner.idle.front_left.000": [
+          14,
+          20
+        ],
+        "Commoner.idle.front_left.001": [
+          15,
+          20
+        ],
+        "Commoner.walk.front.000": [
+          16,
+          20
+        ],
+        "Commoner.walk.front.001": [
+          17,
+          20
+        ],
+        "Commoner.walk.front_right.000": [
+          18,
+          20
+        ],
+        "Commoner.walk.front_right.001": [
+          19,
+          20
+        ],
+        "Commoner.walk.right.000": [
+          20,
+          20
+        ],
+        "Commoner.walk.right.001": [
+          21,
+          20
+        ],
+        "Commoner.walk.back_right.000": [
+          22,
+          20
+        ],
+        "Commoner.walk.back_right.001": [
+          23,
+          20
+        ],
+        "Commoner.walk.back.000": [
+          0,
+          21
+        ],
+        "Commoner.walk.back.001": [
+          1,
+          21
+        ],
+        "Commoner.walk.back_left.000": [
+          2,
+          21
+        ],
+        "Commoner.walk.back_left.001": [
+          3,
+          21
+        ],
+        "Commoner.walk.left.000": [
+          4,
+          21
+        ],
+        "Commoner.walk.left.001": [
+          5,
+          21
+        ],
+        "Commoner.walk.front_left.000": [
+          6,
+          21
+        ],
+        "Commoner.walk.front_left.001": [
+          7,
+          21
+        ],
+        "Commoner": [
+          0,
+          20
+        ],
+        "Companion.attack.front.000": [
+          8,
+          21
+        ],
+        "Companion.attack.front.001": [
+          9,
+          21
+        ],
+        "Companion.attack.front.002": [
+          10,
+          21
+        ],
+        "Companion.attack.front_right.000": [
+          11,
+          21
+        ],
+        "Companion.attack.front_right.001": [
+          12,
+          21
+        ],
+        "Companion.attack.front_right.002": [
+          13,
+          21
+        ],
+        "Companion.attack.right.000": [
+          14,
+          21
+        ],
+        "Companion.attack.right.001": [
+          15,
+          21
+        ],
+        "Companion.attack.right.002": [
+          16,
+          21
+        ],
+        "Companion.attack.back_right.000": [
+          17,
+          21
+        ],
+        "Companion.attack.back_right.001": [
+          18,
+          21
+        ],
+        "Companion.attack.back_right.002": [
+          19,
+          21
+        ],
+        "Companion.attack.back.000": [
+          20,
+          21
+        ],
+        "Companion.attack.back.001": [
+          21,
+          21
+        ],
+        "Companion.attack.back.002": [
+          22,
+          21
+        ],
+        "Companion.attack.back_left.000": [
+          23,
+          21
+        ],
+        "Companion.attack.back_left.001": [
+          0,
+          22
+        ],
+        "Companion.attack.back_left.002": [
+          1,
+          22
+        ],
+        "Companion.attack.left.000": [
+          2,
+          22
+        ],
+        "Companion.attack.left.001": [
+          3,
+          22
+        ],
+        "Companion.attack.left.002": [
+          4,
+          22
+        ],
+        "Companion.attack.front_left.000": [
+          5,
+          22
+        ],
+        "Companion.attack.front_left.001": [
+          6,
+          22
+        ],
+        "Companion.attack.front_left.002": [
+          7,
+          22
+        ],
+        "Companion.hit.front.000": [
+          8,
+          22
+        ],
+        "Companion.hit.front.001": [
+          9,
+          22
+        ],
+        "Companion.hit.front_right.000": [
+          10,
+          22
+        ],
+        "Companion.hit.front_right.001": [
+          11,
+          22
+        ],
+        "Companion.hit.right.000": [
+          12,
+          22
+        ],
+        "Companion.hit.right.001": [
+          13,
+          22
+        ],
+        "Companion.hit.back_right.000": [
+          14,
+          22
+        ],
+        "Companion.hit.back_right.001": [
+          15,
+          22
+        ],
+        "Companion.hit.back.000": [
+          16,
+          22
+        ],
+        "Companion.hit.back.001": [
+          17,
+          22
+        ],
+        "Companion.hit.back_left.000": [
+          18,
+          22
+        ],
+        "Companion.hit.back_left.001": [
+          19,
+          22
+        ],
+        "Companion.hit.left.000": [
+          20,
+          22
+        ],
+        "Companion.hit.left.001": [
+          21,
+          22
+        ],
+        "Companion.hit.front_left.000": [
+          22,
+          22
+        ],
+        "Companion.hit.front_left.001": [
+          23,
+          22
+        ],
+        "Companion.idle.front.000": [
+          0,
+          23
+        ],
+        "Companion.idle.front.001": [
+          1,
+          23
+        ],
+        "Companion.idle.front_right.000": [
+          2,
+          23
+        ],
+        "Companion.idle.front_right.001": [
+          3,
+          23
+        ],
+        "Companion.idle.right.000": [
+          4,
+          23
+        ],
+        "Companion.idle.right.001": [
+          5,
+          23
+        ],
+        "Companion.idle.back_right.000": [
+          6,
+          23
+        ],
+        "Companion.idle.back_right.001": [
+          7,
+          23
+        ],
+        "Companion.idle.back.000": [
+          8,
+          23
+        ],
+        "Companion.idle.back.001": [
+          9,
+          23
+        ],
+        "Companion.idle.back_left.000": [
+          10,
+          23
+        ],
+        "Companion.idle.back_left.001": [
+          11,
+          23
+        ],
+        "Companion.idle.left.000": [
+          12,
+          23
+        ],
+        "Companion.idle.left.001": [
+          13,
+          23
+        ],
+        "Companion.idle.front_left.000": [
+          14,
+          23
+        ],
+        "Companion.idle.front_left.001": [
+          15,
+          23
+        ],
+        "Companion.walk.front.000": [
+          16,
+          23
+        ],
+        "Companion.walk.front.001": [
+          17,
+          23
+        ],
+        "Companion.walk.front_right.000": [
+          18,
+          23
+        ],
+        "Companion.walk.front_right.001": [
+          19,
+          23
+        ],
+        "Companion.walk.right.000": [
+          20,
+          23
+        ],
+        "Companion.walk.right.001": [
+          21,
+          23
+        ],
+        "Companion.walk.back_right.000": [
+          22,
+          23
+        ],
+        "Companion.walk.back_right.001": [
+          23,
+          23
+        ],
+        "Companion.walk.back.000": [
+          0,
+          24
+        ],
+        "Companion.walk.back.001": [
+          1,
+          24
+        ],
+        "Companion.walk.back_left.000": [
+          2,
+          24
+        ],
+        "Companion.walk.back_left.001": [
+          3,
+          24
+        ],
+        "Companion.walk.left.000": [
+          4,
+          24
+        ],
+        "Companion.walk.left.001": [
+          5,
+          24
+        ],
+        "Companion.walk.front_left.000": [
+          6,
+          24
+        ],
+        "Companion.walk.front_left.001": [
+          7,
+          24
+        ],
+        "Companion": [
+          0,
+          23
+        ],
+        "Cragmother.attack.front.000": [
+          8,
+          24
+        ],
+        "Cragmother.attack.front.001": [
+          9,
+          24
+        ],
+        "Cragmother.attack.front.002": [
+          10,
+          24
+        ],
+        "Cragmother.attack.front_right.000": [
+          11,
+          24
+        ],
+        "Cragmother.attack.front_right.001": [
+          12,
+          24
+        ],
+        "Cragmother.attack.front_right.002": [
+          13,
+          24
+        ],
+        "Cragmother.attack.right.000": [
+          14,
+          24
+        ],
+        "Cragmother.attack.right.001": [
+          15,
+          24
+        ],
+        "Cragmother.attack.right.002": [
+          16,
+          24
+        ],
+        "Cragmother.attack.back_right.000": [
+          17,
+          24
+        ],
+        "Cragmother.attack.back_right.001": [
+          18,
+          24
+        ],
+        "Cragmother.attack.back_right.002": [
+          19,
+          24
+        ],
+        "Cragmother.attack.back.000": [
+          20,
+          24
+        ],
+        "Cragmother.attack.back.001": [
+          21,
+          24
+        ],
+        "Cragmother.attack.back.002": [
+          22,
+          24
+        ],
+        "Cragmother.attack.back_left.000": [
+          23,
+          24
+        ],
+        "Cragmother.attack.back_left.001": [
+          0,
+          25
+        ],
+        "Cragmother.attack.back_left.002": [
+          1,
+          25
+        ],
+        "Cragmother.attack.left.000": [
+          2,
+          25
+        ],
+        "Cragmother.attack.left.001": [
+          3,
+          25
+        ],
+        "Cragmother.attack.left.002": [
+          4,
+          25
+        ],
+        "Cragmother.attack.front_left.000": [
+          5,
+          25
+        ],
+        "Cragmother.attack.front_left.001": [
+          6,
+          25
+        ],
+        "Cragmother.attack.front_left.002": [
+          7,
+          25
+        ],
+        "Cragmother.hit.front.000": [
+          8,
+          25
+        ],
+        "Cragmother.hit.front.001": [
+          9,
+          25
+        ],
+        "Cragmother.hit.front_right.000": [
+          10,
+          25
+        ],
+        "Cragmother.hit.front_right.001": [
+          11,
+          25
+        ],
+        "Cragmother.hit.right.000": [
+          12,
+          25
+        ],
+        "Cragmother.hit.right.001": [
+          13,
+          25
+        ],
+        "Cragmother.hit.back_right.000": [
+          14,
+          25
+        ],
+        "Cragmother.hit.back_right.001": [
+          15,
+          25
+        ],
+        "Cragmother.hit.back.000": [
+          16,
+          25
+        ],
+        "Cragmother.hit.back.001": [
+          17,
+          25
+        ],
+        "Cragmother.hit.back_left.000": [
+          18,
+          25
+        ],
+        "Cragmother.hit.back_left.001": [
+          19,
+          25
+        ],
+        "Cragmother.hit.left.000": [
+          20,
+          25
+        ],
+        "Cragmother.hit.left.001": [
+          21,
+          25
+        ],
+        "Cragmother.hit.front_left.000": [
+          22,
+          25
+        ],
+        "Cragmother.hit.front_left.001": [
+          23,
+          25
+        ],
+        "Cragmother.idle.front.000": [
+          0,
+          26
+        ],
+        "Cragmother.idle.front.001": [
+          1,
+          26
+        ],
+        "Cragmother.idle.front_right.000": [
+          2,
+          26
+        ],
+        "Cragmother.idle.front_right.001": [
+          3,
+          26
+        ],
+        "Cragmother.idle.right.000": [
+          4,
+          26
+        ],
+        "Cragmother.idle.right.001": [
+          5,
+          26
+        ],
+        "Cragmother.idle.back_right.000": [
+          6,
+          26
+        ],
+        "Cragmother.idle.back_right.001": [
+          7,
+          26
+        ],
+        "Cragmother.idle.back.000": [
+          8,
+          26
+        ],
+        "Cragmother.idle.back.001": [
+          9,
+          26
+        ],
+        "Cragmother.idle.back_left.000": [
+          10,
+          26
+        ],
+        "Cragmother.idle.back_left.001": [
+          11,
+          26
+        ],
+        "Cragmother.idle.left.000": [
+          12,
+          26
+        ],
+        "Cragmother.idle.left.001": [
+          13,
+          26
+        ],
+        "Cragmother.idle.front_left.000": [
+          14,
+          26
+        ],
+        "Cragmother.idle.front_left.001": [
+          15,
+          26
+        ],
+        "Cragmother.walk.front.000": [
+          16,
+          26
+        ],
+        "Cragmother.walk.front.001": [
+          17,
+          26
+        ],
+        "Cragmother.walk.front_right.000": [
+          18,
+          26
+        ],
+        "Cragmother.walk.front_right.001": [
+          19,
+          26
+        ],
+        "Cragmother.walk.right.000": [
+          20,
+          26
+        ],
+        "Cragmother.walk.right.001": [
+          21,
+          26
+        ],
+        "Cragmother.walk.back_right.000": [
+          22,
+          26
+        ],
+        "Cragmother.walk.back_right.001": [
+          23,
+          26
+        ],
+        "Cragmother.walk.back.000": [
+          0,
+          27
+        ],
+        "Cragmother.walk.back.001": [
+          1,
+          27
+        ],
+        "Cragmother.walk.back_left.000": [
+          2,
+          27
+        ],
+        "Cragmother.walk.back_left.001": [
+          3,
+          27
+        ],
+        "Cragmother.walk.left.000": [
+          4,
+          27
+        ],
+        "Cragmother.walk.left.001": [
+          5,
+          27
+        ],
+        "Cragmother.walk.front_left.000": [
+          6,
+          27
+        ],
+        "Cragmother.walk.front_left.001": [
+          7,
+          27
+        ],
+        "Cragmother": [
+          0,
+          26
+        ],
+        "FalseGlow.attack.front.000": [
+          8,
+          27
+        ],
+        "FalseGlow.attack.front.001": [
+          9,
+          27
+        ],
+        "FalseGlow.attack.front.002": [
+          10,
+          27
+        ],
+        "FalseGlow.attack.front_right.000": [
+          11,
+          27
+        ],
+        "FalseGlow.attack.front_right.001": [
+          12,
+          27
+        ],
+        "FalseGlow.attack.front_right.002": [
+          13,
+          27
+        ],
+        "FalseGlow.attack.right.000": [
+          14,
+          27
+        ],
+        "FalseGlow.attack.right.001": [
+          15,
+          27
+        ],
+        "FalseGlow.attack.right.002": [
+          16,
+          27
+        ],
+        "FalseGlow.attack.back_right.000": [
+          17,
+          27
+        ],
+        "FalseGlow.attack.back_right.001": [
+          18,
+          27
+        ],
+        "FalseGlow.attack.back_right.002": [
+          19,
+          27
+        ],
+        "FalseGlow.attack.back.000": [
+          20,
+          27
+        ],
+        "FalseGlow.attack.back.001": [
+          21,
+          27
+        ],
+        "FalseGlow.attack.back.002": [
+          22,
+          27
+        ],
+        "FalseGlow.attack.back_left.000": [
+          23,
+          27
+        ],
+        "FalseGlow.attack.back_left.001": [
+          0,
+          28
+        ],
+        "FalseGlow.attack.back_left.002": [
+          1,
+          28
+        ],
+        "FalseGlow.attack.left.000": [
+          2,
+          28
+        ],
+        "FalseGlow.attack.left.001": [
+          3,
+          28
+        ],
+        "FalseGlow.attack.left.002": [
+          4,
+          28
+        ],
+        "FalseGlow.attack.front_left.000": [
+          5,
+          28
+        ],
+        "FalseGlow.attack.front_left.001": [
+          6,
+          28
+        ],
+        "FalseGlow.attack.front_left.002": [
+          7,
+          28
+        ],
+        "FalseGlow.hit.front.000": [
+          8,
+          28
+        ],
+        "FalseGlow.hit.front.001": [
+          9,
+          28
+        ],
+        "FalseGlow.hit.front_right.000": [
+          10,
+          28
+        ],
+        "FalseGlow.hit.front_right.001": [
+          11,
+          28
+        ],
+        "FalseGlow.hit.right.000": [
+          12,
+          28
+        ],
+        "FalseGlow.hit.right.001": [
+          13,
+          28
+        ],
+        "FalseGlow.hit.back_right.000": [
+          14,
+          28
+        ],
+        "FalseGlow.hit.back_right.001": [
+          15,
+          28
+        ],
+        "FalseGlow.hit.back.000": [
+          16,
+          28
+        ],
+        "FalseGlow.hit.back.001": [
+          17,
+          28
+        ],
+        "FalseGlow.hit.back_left.000": [
+          18,
+          28
+        ],
+        "FalseGlow.hit.back_left.001": [
+          19,
+          28
+        ],
+        "FalseGlow.hit.left.000": [
+          20,
+          28
+        ],
+        "FalseGlow.hit.left.001": [
+          21,
+          28
+        ],
+        "FalseGlow.hit.front_left.000": [
+          22,
+          28
+        ],
+        "FalseGlow.hit.front_left.001": [
+          23,
+          28
+        ],
+        "FalseGlow.idle.front.000": [
+          0,
+          29
+        ],
+        "FalseGlow.idle.front.001": [
+          1,
+          29
+        ],
+        "FalseGlow.idle.front_right.000": [
+          2,
+          29
+        ],
+        "FalseGlow.idle.front_right.001": [
+          3,
+          29
+        ],
+        "FalseGlow.idle.right.000": [
+          4,
+          29
+        ],
+        "FalseGlow.idle.right.001": [
+          5,
+          29
+        ],
+        "FalseGlow.idle.back_right.000": [
+          6,
+          29
+        ],
+        "FalseGlow.idle.back_right.001": [
+          7,
+          29
+        ],
+        "FalseGlow.idle.back.000": [
+          8,
+          29
+        ],
+        "FalseGlow.idle.back.001": [
+          9,
+          29
+        ],
+        "FalseGlow.idle.back_left.000": [
+          10,
+          29
+        ],
+        "FalseGlow.idle.back_left.001": [
+          11,
+          29
+        ],
+        "FalseGlow.idle.left.000": [
+          12,
+          29
+        ],
+        "FalseGlow.idle.left.001": [
+          13,
+          29
+        ],
+        "FalseGlow.idle.front_left.000": [
+          14,
+          29
+        ],
+        "FalseGlow.idle.front_left.001": [
+          15,
+          29
+        ],
+        "FalseGlow.walk.front.000": [
+          16,
+          29
+        ],
+        "FalseGlow.walk.front.001": [
+          17,
+          29
+        ],
+        "FalseGlow.walk.front_right.000": [
+          18,
+          29
+        ],
+        "FalseGlow.walk.front_right.001": [
+          19,
+          29
+        ],
+        "FalseGlow.walk.right.000": [
+          20,
+          29
+        ],
+        "FalseGlow.walk.right.001": [
+          21,
+          29
+        ],
+        "FalseGlow.walk.back_right.000": [
+          22,
+          29
+        ],
+        "FalseGlow.walk.back_right.001": [
+          23,
+          29
+        ],
+        "FalseGlow.walk.back.000": [
+          0,
+          30
+        ],
+        "FalseGlow.walk.back.001": [
+          1,
+          30
+        ],
+        "FalseGlow.walk.back_left.000": [
+          2,
+          30
+        ],
+        "FalseGlow.walk.back_left.001": [
+          3,
+          30
+        ],
+        "FalseGlow.walk.left.000": [
+          4,
+          30
+        ],
+        "FalseGlow.walk.left.001": [
+          5,
+          30
+        ],
+        "FalseGlow.walk.front_left.000": [
+          6,
+          30
+        ],
+        "FalseGlow.walk.front_left.001": [
+          7,
+          30
+        ],
+        "FalseGlow": [
+          0,
+          29
+        ],
+        "GnawThane.attack.front.000": [
+          8,
+          30
+        ],
+        "GnawThane.attack.front.001": [
+          9,
+          30
+        ],
+        "GnawThane.attack.front.002": [
+          10,
+          30
+        ],
+        "GnawThane.attack.front_right.000": [
+          11,
+          30
+        ],
+        "GnawThane.attack.front_right.001": [
+          12,
+          30
+        ],
+        "GnawThane.attack.front_right.002": [
+          13,
+          30
+        ],
+        "GnawThane.attack.right.000": [
+          14,
+          30
+        ],
+        "GnawThane.attack.right.001": [
+          15,
+          30
+        ],
+        "GnawThane.attack.right.002": [
+          16,
+          30
+        ],
+        "GnawThane.attack.back_right.000": [
+          17,
+          30
+        ],
+        "GnawThane.attack.back_right.001": [
+          18,
+          30
+        ],
+        "GnawThane.attack.back_right.002": [
+          19,
+          30
+        ],
+        "GnawThane.attack.back.000": [
+          20,
+          30
+        ],
+        "GnawThane.attack.back.001": [
+          21,
+          30
+        ],
+        "GnawThane.attack.back.002": [
+          22,
+          30
+        ],
+        "GnawThane.attack.back_left.000": [
+          23,
+          30
+        ],
+        "GnawThane.attack.back_left.001": [
+          0,
+          31
+        ],
+        "GnawThane.attack.back_left.002": [
+          1,
+          31
+        ],
+        "GnawThane.attack.left.000": [
+          2,
+          31
+        ],
+        "GnawThane.attack.left.001": [
+          3,
+          31
+        ],
+        "GnawThane.attack.left.002": [
+          4,
+          31
+        ],
+        "GnawThane.attack.front_left.000": [
+          5,
+          31
+        ],
+        "GnawThane.attack.front_left.001": [
+          6,
+          31
+        ],
+        "GnawThane.attack.front_left.002": [
+          7,
+          31
+        ],
+        "GnawThane.hit.front.000": [
+          8,
+          31
+        ],
+        "GnawThane.hit.front.001": [
+          9,
+          31
+        ],
+        "GnawThane.hit.front_right.000": [
+          10,
+          31
+        ],
+        "GnawThane.hit.front_right.001": [
+          11,
+          31
+        ],
+        "GnawThane.hit.right.000": [
+          12,
+          31
+        ],
+        "GnawThane.hit.right.001": [
+          13,
+          31
+        ],
+        "GnawThane.hit.back_right.000": [
+          14,
+          31
+        ],
+        "GnawThane.hit.back_right.001": [
+          15,
+          31
+        ],
+        "GnawThane.hit.back.000": [
+          16,
+          31
+        ],
+        "GnawThane.hit.back.001": [
+          17,
+          31
+        ],
+        "GnawThane.hit.back_left.000": [
+          18,
+          31
+        ],
+        "GnawThane.hit.back_left.001": [
+          19,
+          31
+        ],
+        "GnawThane.hit.left.000": [
+          20,
+          31
+        ],
+        "GnawThane.hit.left.001": [
+          21,
+          31
+        ],
+        "GnawThane.hit.front_left.000": [
+          22,
+          31
+        ],
+        "GnawThane.hit.front_left.001": [
+          23,
+          31
+        ],
+        "GnawThane.idle.front.000": [
+          0,
+          32
+        ],
+        "GnawThane.idle.front.001": [
+          1,
+          32
+        ],
+        "GnawThane.idle.front_right.000": [
+          2,
+          32
+        ],
+        "GnawThane.idle.front_right.001": [
+          3,
+          32
+        ],
+        "GnawThane.idle.right.000": [
+          4,
+          32
+        ],
+        "GnawThane.idle.right.001": [
+          5,
+          32
+        ],
+        "GnawThane.idle.back_right.000": [
+          6,
+          32
+        ],
+        "GnawThane.idle.back_right.001": [
+          7,
+          32
+        ],
+        "GnawThane.idle.back.000": [
+          8,
+          32
+        ],
+        "GnawThane.idle.back.001": [
+          9,
+          32
+        ],
+        "GnawThane.idle.back_left.000": [
+          10,
+          32
+        ],
+        "GnawThane.idle.back_left.001": [
+          11,
+          32
+        ],
+        "GnawThane.idle.left.000": [
+          12,
+          32
+        ],
+        "GnawThane.idle.left.001": [
+          13,
+          32
+        ],
+        "GnawThane.idle.front_left.000": [
+          14,
+          32
+        ],
+        "GnawThane.idle.front_left.001": [
+          15,
+          32
+        ],
+        "GnawThane.walk.front.000": [
+          16,
+          32
+        ],
+        "GnawThane.walk.front.001": [
+          17,
+          32
+        ],
+        "GnawThane.walk.front_right.000": [
+          18,
+          32
+        ],
+        "GnawThane.walk.front_right.001": [
+          19,
+          32
+        ],
+        "GnawThane.walk.right.000": [
+          20,
+          32
+        ],
+        "GnawThane.walk.right.001": [
+          21,
+          32
+        ],
+        "GnawThane.walk.back_right.000": [
+          22,
+          32
+        ],
+        "GnawThane.walk.back_right.001": [
+          23,
+          32
+        ],
+        "GnawThane.walk.back.000": [
+          0,
+          33
+        ],
+        "GnawThane.walk.back.001": [
+          1,
+          33
+        ],
+        "GnawThane.walk.back_left.000": [
+          2,
+          33
+        ],
+        "GnawThane.walk.back_left.001": [
+          3,
+          33
+        ],
+        "GnawThane.walk.left.000": [
+          4,
+          33
+        ],
+        "GnawThane.walk.left.001": [
+          5,
+          33
+        ],
+        "GnawThane.walk.front_left.000": [
+          6,
+          33
+        ],
+        "GnawThane.walk.front_left.001": [
+          7,
+          33
+        ],
+        "GnawThane": [
+          0,
+          32
+        ],
+        "Matriarch.attack.front.000": [
+          8,
+          33
+        ],
+        "Matriarch.attack.front.001": [
+          9,
+          33
+        ],
+        "Matriarch.attack.front.002": [
+          10,
+          33
+        ],
+        "Matriarch.attack.front_right.000": [
+          11,
+          33
+        ],
+        "Matriarch.attack.front_right.001": [
+          12,
+          33
+        ],
+        "Matriarch.attack.front_right.002": [
+          13,
+          33
+        ],
+        "Matriarch.attack.right.000": [
+          14,
+          33
+        ],
+        "Matriarch.attack.right.001": [
+          15,
+          33
+        ],
+        "Matriarch.attack.right.002": [
+          16,
+          33
+        ],
+        "Matriarch.attack.back_right.000": [
+          17,
+          33
+        ],
+        "Matriarch.attack.back_right.001": [
+          18,
+          33
+        ],
+        "Matriarch.attack.back_right.002": [
+          19,
+          33
+        ],
+        "Matriarch.attack.back.000": [
+          20,
+          33
+        ],
+        "Matriarch.attack.back.001": [
+          21,
+          33
+        ],
+        "Matriarch.attack.back.002": [
+          22,
+          33
+        ],
+        "Matriarch.attack.back_left.000": [
+          23,
+          33
+        ],
+        "Matriarch.attack.back_left.001": [
+          0,
+          34
+        ],
+        "Matriarch.attack.back_left.002": [
+          1,
+          34
+        ],
+        "Matriarch.attack.left.000": [
+          2,
+          34
+        ],
+        "Matriarch.attack.left.001": [
+          3,
+          34
+        ],
+        "Matriarch.attack.left.002": [
+          4,
+          34
+        ],
+        "Matriarch.attack.front_left.000": [
+          5,
+          34
+        ],
+        "Matriarch.attack.front_left.001": [
+          6,
+          34
+        ],
+        "Matriarch.attack.front_left.002": [
+          7,
+          34
+        ],
+        "Matriarch.hit.front.000": [
+          8,
+          34
+        ],
+        "Matriarch.hit.front.001": [
+          9,
+          34
+        ],
+        "Matriarch.hit.front_right.000": [
+          10,
+          34
+        ],
+        "Matriarch.hit.front_right.001": [
+          11,
+          34
+        ],
+        "Matriarch.hit.right.000": [
+          12,
+          34
+        ],
+        "Matriarch.hit.right.001": [
+          13,
+          34
+        ],
+        "Matriarch.hit.back_right.000": [
+          14,
+          34
+        ],
+        "Matriarch.hit.back_right.001": [
+          15,
+          34
+        ],
+        "Matriarch.hit.back.000": [
+          16,
+          34
+        ],
+        "Matriarch.hit.back.001": [
+          17,
+          34
+        ],
+        "Matriarch.hit.back_left.000": [
+          18,
+          34
+        ],
+        "Matriarch.hit.back_left.001": [
+          19,
+          34
+        ],
+        "Matriarch.hit.left.000": [
+          20,
+          34
+        ],
+        "Matriarch.hit.left.001": [
+          21,
+          34
+        ],
+        "Matriarch.hit.front_left.000": [
+          22,
+          34
+        ],
+        "Matriarch.hit.front_left.001": [
+          23,
+          34
+        ],
+        "Matriarch.idle.front.000": [
+          0,
+          35
+        ],
+        "Matriarch.idle.front.001": [
+          1,
+          35
+        ],
+        "Matriarch.idle.front_right.000": [
+          2,
+          35
+        ],
+        "Matriarch.idle.front_right.001": [
+          3,
+          35
+        ],
+        "Matriarch.idle.right.000": [
+          4,
+          35
+        ],
+        "Matriarch.idle.right.001": [
+          5,
+          35
+        ],
+        "Matriarch.idle.back_right.000": [
+          6,
+          35
+        ],
+        "Matriarch.idle.back_right.001": [
+          7,
+          35
+        ],
+        "Matriarch.idle.back.000": [
+          8,
+          35
+        ],
+        "Matriarch.idle.back.001": [
+          9,
+          35
+        ],
+        "Matriarch.idle.back_left.000": [
+          10,
+          35
+        ],
+        "Matriarch.idle.back_left.001": [
+          11,
+          35
+        ],
+        "Matriarch.idle.left.000": [
+          12,
+          35
+        ],
+        "Matriarch.idle.left.001": [
+          13,
+          35
+        ],
+        "Matriarch.idle.front_left.000": [
+          14,
+          35
+        ],
+        "Matriarch.idle.front_left.001": [
+          15,
+          35
+        ],
+        "Matriarch.walk.front.000": [
+          16,
+          35
+        ],
+        "Matriarch.walk.front.001": [
+          17,
+          35
+        ],
+        "Matriarch.walk.front_right.000": [
+          18,
+          35
+        ],
+        "Matriarch.walk.front_right.001": [
+          19,
+          35
+        ],
+        "Matriarch.walk.right.000": [
+          20,
+          35
+        ],
+        "Matriarch.walk.right.001": [
+          21,
+          35
+        ],
+        "Matriarch.walk.back_right.000": [
+          22,
+          35
+        ],
+        "Matriarch.walk.back_right.001": [
+          23,
+          35
+        ],
+        "Matriarch.walk.back.000": [
+          0,
+          36
+        ],
+        "Matriarch.walk.back.001": [
+          1,
+          36
+        ],
+        "Matriarch.walk.back_left.000": [
+          2,
+          36
+        ],
+        "Matriarch.walk.back_left.001": [
+          3,
+          36
+        ],
+        "Matriarch.walk.left.000": [
+          4,
+          36
+        ],
+        "Matriarch.walk.left.001": [
+          5,
+          36
+        ],
+        "Matriarch.walk.front_left.000": [
+          6,
+          36
+        ],
+        "Matriarch.walk.front_left.001": [
+          7,
+          36
+        ],
+        "Matriarch": [
+          0,
+          35
+        ],
+        "Mirelight.attack.front.000": [
+          8,
+          36
+        ],
+        "Mirelight.attack.front.001": [
+          9,
+          36
+        ],
+        "Mirelight.attack.front.002": [
+          10,
+          36
+        ],
+        "Mirelight.attack.front_right.000": [
+          11,
+          36
+        ],
+        "Mirelight.attack.front_right.001": [
+          12,
+          36
+        ],
+        "Mirelight.attack.front_right.002": [
+          13,
+          36
+        ],
+        "Mirelight.attack.right.000": [
+          14,
+          36
+        ],
+        "Mirelight.attack.right.001": [
+          15,
+          36
+        ],
+        "Mirelight.attack.right.002": [
+          16,
+          36
+        ],
+        "Mirelight.attack.back_right.000": [
+          17,
+          36
+        ],
+        "Mirelight.attack.back_right.001": [
+          18,
+          36
+        ],
+        "Mirelight.attack.back_right.002": [
+          19,
+          36
+        ],
+        "Mirelight.attack.back.000": [
+          20,
+          36
+        ],
+        "Mirelight.attack.back.001": [
+          21,
+          36
+        ],
+        "Mirelight.attack.back.002": [
+          22,
+          36
+        ],
+        "Mirelight.attack.back_left.000": [
+          23,
+          36
+        ],
+        "Mirelight.attack.back_left.001": [
+          0,
+          37
+        ],
+        "Mirelight.attack.back_left.002": [
+          1,
+          37
+        ],
+        "Mirelight.attack.left.000": [
+          2,
+          37
+        ],
+        "Mirelight.attack.left.001": [
+          3,
+          37
+        ],
+        "Mirelight.attack.left.002": [
+          4,
+          37
+        ],
+        "Mirelight.attack.front_left.000": [
+          5,
+          37
+        ],
+        "Mirelight.attack.front_left.001": [
+          6,
+          37
+        ],
+        "Mirelight.attack.front_left.002": [
+          7,
+          37
+        ],
+        "Mirelight.hit.front.000": [
+          8,
+          37
+        ],
+        "Mirelight.hit.front.001": [
+          9,
+          37
+        ],
+        "Mirelight.hit.front_right.000": [
+          10,
+          37
+        ],
+        "Mirelight.hit.front_right.001": [
+          11,
+          37
+        ],
+        "Mirelight.hit.right.000": [
+          12,
+          37
+        ],
+        "Mirelight.hit.right.001": [
+          13,
+          37
+        ],
+        "Mirelight.hit.back_right.000": [
+          14,
+          37
+        ],
+        "Mirelight.hit.back_right.001": [
+          15,
+          37
+        ],
+        "Mirelight.hit.back.000": [
+          16,
+          37
+        ],
+        "Mirelight.hit.back.001": [
+          17,
+          37
+        ],
+        "Mirelight.hit.back_left.000": [
+          18,
+          37
+        ],
+        "Mirelight.hit.back_left.001": [
+          19,
+          37
+        ],
+        "Mirelight.hit.left.000": [
+          20,
+          37
+        ],
+        "Mirelight.hit.left.001": [
+          21,
+          37
+        ],
+        "Mirelight.hit.front_left.000": [
+          22,
+          37
+        ],
+        "Mirelight.hit.front_left.001": [
+          23,
+          37
+        ],
+        "Mirelight.idle.front.000": [
+          0,
+          38
+        ],
+        "Mirelight.idle.front.001": [
+          1,
+          38
+        ],
+        "Mirelight.idle.front_right.000": [
+          2,
+          38
+        ],
+        "Mirelight.idle.front_right.001": [
+          3,
+          38
+        ],
+        "Mirelight.idle.right.000": [
+          4,
+          38
+        ],
+        "Mirelight.idle.right.001": [
+          5,
+          38
+        ],
+        "Mirelight.idle.back_right.000": [
+          6,
+          38
+        ],
+        "Mirelight.idle.back_right.001": [
+          7,
+          38
+        ],
+        "Mirelight.idle.back.000": [
+          8,
+          38
+        ],
+        "Mirelight.idle.back.001": [
+          9,
+          38
+        ],
+        "Mirelight.idle.back_left.000": [
+          10,
+          38
+        ],
+        "Mirelight.idle.back_left.001": [
+          11,
+          38
+        ],
+        "Mirelight.idle.left.000": [
+          12,
+          38
+        ],
+        "Mirelight.idle.left.001": [
+          13,
+          38
+        ],
+        "Mirelight.idle.front_left.000": [
+          14,
+          38
+        ],
+        "Mirelight.idle.front_left.001": [
+          15,
+          38
+        ],
+        "Mirelight.walk.front.000": [
+          16,
+          38
+        ],
+        "Mirelight.walk.front.001": [
+          17,
+          38
+        ],
+        "Mirelight.walk.front_right.000": [
+          18,
+          38
+        ],
+        "Mirelight.walk.front_right.001": [
+          19,
+          38
+        ],
+        "Mirelight.walk.right.000": [
+          20,
+          38
+        ],
+        "Mirelight.walk.right.001": [
+          21,
+          38
+        ],
+        "Mirelight.walk.back_right.000": [
+          22,
+          38
+        ],
+        "Mirelight.walk.back_right.001": [
+          23,
+          38
+        ],
+        "Mirelight.walk.back.000": [
+          0,
+          39
+        ],
+        "Mirelight.walk.back.001": [
+          1,
+          39
+        ],
+        "Mirelight.walk.back_left.000": [
+          2,
+          39
+        ],
+        "Mirelight.walk.back_left.001": [
+          3,
+          39
+        ],
+        "Mirelight.walk.left.000": [
+          4,
+          39
+        ],
+        "Mirelight.walk.left.001": [
+          5,
+          39
+        ],
+        "Mirelight.walk.front_left.000": [
+          6,
+          39
+        ],
+        "Mirelight.walk.front_left.001": [
+          7,
+          39
+        ],
+        "Mirelight": [
+          0,
+          38
+        ],
+        "OathlessCurate.attack.front.000": [
+          8,
+          39
+        ],
+        "OathlessCurate.attack.front.001": [
+          9,
+          39
+        ],
+        "OathlessCurate.attack.front.002": [
+          10,
+          39
+        ],
+        "OathlessCurate.attack.front_right.000": [
+          11,
+          39
+        ],
+        "OathlessCurate.attack.front_right.001": [
+          12,
+          39
+        ],
+        "OathlessCurate.attack.front_right.002": [
+          13,
+          39
+        ],
+        "OathlessCurate.attack.right.000": [
+          14,
+          39
+        ],
+        "OathlessCurate.attack.right.001": [
+          15,
+          39
+        ],
+        "OathlessCurate.attack.right.002": [
+          16,
+          39
+        ],
+        "OathlessCurate.attack.back_right.000": [
+          17,
+          39
+        ],
+        "OathlessCurate.attack.back_right.001": [
+          18,
+          39
+        ],
+        "OathlessCurate.attack.back_right.002": [
+          19,
+          39
+        ],
+        "OathlessCurate.attack.back.000": [
+          20,
+          39
+        ],
+        "OathlessCurate.attack.back.001": [
+          21,
+          39
+        ],
+        "OathlessCurate.attack.back.002": [
+          22,
+          39
+        ],
+        "OathlessCurate.attack.back_left.000": [
+          23,
+          39
+        ],
+        "OathlessCurate.attack.back_left.001": [
+          0,
+          40
+        ],
+        "OathlessCurate.attack.back_left.002": [
+          1,
+          40
+        ],
+        "OathlessCurate.attack.left.000": [
+          2,
+          40
+        ],
+        "OathlessCurate.attack.left.001": [
+          3,
+          40
+        ],
+        "OathlessCurate.attack.left.002": [
+          4,
+          40
+        ],
+        "OathlessCurate.attack.front_left.000": [
+          5,
+          40
+        ],
+        "OathlessCurate.attack.front_left.001": [
+          6,
+          40
+        ],
+        "OathlessCurate.attack.front_left.002": [
+          7,
+          40
+        ],
+        "OathlessCurate.hit.front.000": [
+          8,
+          40
+        ],
+        "OathlessCurate.hit.front.001": [
+          9,
+          40
+        ],
+        "OathlessCurate.hit.front_right.000": [
+          10,
+          40
+        ],
+        "OathlessCurate.hit.front_right.001": [
+          11,
+          40
+        ],
+        "OathlessCurate.hit.right.000": [
+          12,
+          40
+        ],
+        "OathlessCurate.hit.right.001": [
+          13,
+          40
+        ],
+        "OathlessCurate.hit.back_right.000": [
+          14,
+          40
+        ],
+        "OathlessCurate.hit.back_right.001": [
+          15,
+          40
+        ],
+        "OathlessCurate.hit.back.000": [
+          16,
+          40
+        ],
+        "OathlessCurate.hit.back.001": [
+          17,
+          40
+        ],
+        "OathlessCurate.hit.back_left.000": [
+          18,
+          40
+        ],
+        "OathlessCurate.hit.back_left.001": [
+          19,
+          40
+        ],
+        "OathlessCurate.hit.left.000": [
+          20,
+          40
+        ],
+        "OathlessCurate.hit.left.001": [
+          21,
+          40
+        ],
+        "OathlessCurate.hit.front_left.000": [
+          22,
+          40
+        ],
+        "OathlessCurate.hit.front_left.001": [
+          23,
+          40
+        ],
+        "OathlessCurate.idle.front.000": [
+          0,
+          41
+        ],
+        "OathlessCurate.idle.front.001": [
+          1,
+          41
+        ],
+        "OathlessCurate.idle.front_right.000": [
+          2,
+          41
+        ],
+        "OathlessCurate.idle.front_right.001": [
+          3,
+          41
+        ],
+        "OathlessCurate.idle.right.000": [
+          4,
+          41
+        ],
+        "OathlessCurate.idle.right.001": [
+          5,
+          41
+        ],
+        "OathlessCurate.idle.back_right.000": [
+          6,
+          41
+        ],
+        "OathlessCurate.idle.back_right.001": [
+          7,
+          41
+        ],
+        "OathlessCurate.idle.back.000": [
+          8,
+          41
+        ],
+        "OathlessCurate.idle.back.001": [
+          9,
+          41
+        ],
+        "OathlessCurate.idle.back_left.000": [
+          10,
+          41
+        ],
+        "OathlessCurate.idle.back_left.001": [
+          11,
+          41
+        ],
+        "OathlessCurate.idle.left.000": [
+          12,
+          41
+        ],
+        "OathlessCurate.idle.left.001": [
+          13,
+          41
+        ],
+        "OathlessCurate.idle.front_left.000": [
+          14,
+          41
+        ],
+        "OathlessCurate.idle.front_left.001": [
+          15,
+          41
+        ],
+        "OathlessCurate.walk.front.000": [
+          16,
+          41
+        ],
+        "OathlessCurate.walk.front.001": [
+          17,
+          41
+        ],
+        "OathlessCurate.walk.front_right.000": [
+          18,
+          41
+        ],
+        "OathlessCurate.walk.front_right.001": [
+          19,
+          41
+        ],
+        "OathlessCurate.walk.right.000": [
+          20,
+          41
+        ],
+        "OathlessCurate.walk.right.001": [
+          21,
+          41
+        ],
+        "OathlessCurate.walk.back_right.000": [
+          22,
+          41
+        ],
+        "OathlessCurate.walk.back_right.001": [
+          23,
+          41
+        ],
+        "OathlessCurate.walk.back.000": [
+          0,
+          42
+        ],
+        "OathlessCurate.walk.back.001": [
+          1,
+          42
+        ],
+        "OathlessCurate.walk.back_left.000": [
+          2,
+          42
+        ],
+        "OathlessCurate.walk.back_left.001": [
+          3,
+          42
+        ],
+        "OathlessCurate.walk.left.000": [
+          4,
+          42
+        ],
+        "OathlessCurate.walk.left.001": [
+          5,
+          42
+        ],
+        "OathlessCurate.walk.front_left.000": [
+          6,
+          42
+        ],
+        "OathlessCurate.walk.front_left.001": [
+          7,
+          42
+        ],
+        "OathlessCurate": [
+          0,
+          41
+        ],
+        "Oracle.attack.front.000": [
+          8,
+          42
+        ],
+        "Oracle.attack.front.001": [
+          9,
+          42
+        ],
+        "Oracle.attack.front.002": [
+          10,
+          42
+        ],
+        "Oracle.attack.front_right.000": [
+          11,
+          42
+        ],
+        "Oracle.attack.front_right.001": [
+          12,
+          42
+        ],
+        "Oracle.attack.front_right.002": [
+          13,
+          42
+        ],
+        "Oracle.attack.right.000": [
+          14,
+          42
+        ],
+        "Oracle.attack.right.001": [
+          15,
+          42
+        ],
+        "Oracle.attack.right.002": [
+          16,
+          42
+        ],
+        "Oracle.attack.back_right.000": [
+          17,
+          42
+        ],
+        "Oracle.attack.back_right.001": [
+          18,
+          42
+        ],
+        "Oracle.attack.back_right.002": [
+          19,
+          42
+        ],
+        "Oracle.attack.back.000": [
+          20,
+          42
+        ],
+        "Oracle.attack.back.001": [
+          21,
+          42
+        ],
+        "Oracle.attack.back.002": [
+          22,
+          42
+        ],
+        "Oracle.attack.back_left.000": [
+          23,
+          42
+        ],
+        "Oracle.attack.back_left.001": [
+          0,
+          43
+        ],
+        "Oracle.attack.back_left.002": [
+          1,
+          43
+        ],
+        "Oracle.attack.left.000": [
+          2,
+          43
+        ],
+        "Oracle.attack.left.001": [
+          3,
+          43
+        ],
+        "Oracle.attack.left.002": [
+          4,
+          43
+        ],
+        "Oracle.attack.front_left.000": [
+          5,
+          43
+        ],
+        "Oracle.attack.front_left.001": [
+          6,
+          43
+        ],
+        "Oracle.attack.front_left.002": [
+          7,
+          43
+        ],
+        "Oracle.hit.front.000": [
+          8,
+          43
+        ],
+        "Oracle.hit.front.001": [
+          9,
+          43
+        ],
+        "Oracle.hit.front_right.000": [
+          10,
+          43
+        ],
+        "Oracle.hit.front_right.001": [
+          11,
+          43
+        ],
+        "Oracle.hit.right.000": [
+          12,
+          43
+        ],
+        "Oracle.hit.right.001": [
+          13,
+          43
+        ],
+        "Oracle.hit.back_right.000": [
+          14,
+          43
+        ],
+        "Oracle.hit.back_right.001": [
+          15,
+          43
+        ],
+        "Oracle.hit.back.000": [
+          16,
+          43
+        ],
+        "Oracle.hit.back.001": [
+          17,
+          43
+        ],
+        "Oracle.hit.back_left.000": [
+          18,
+          43
+        ],
+        "Oracle.hit.back_left.001": [
+          19,
+          43
+        ],
+        "Oracle.hit.left.000": [
+          20,
+          43
+        ],
+        "Oracle.hit.left.001": [
+          21,
+          43
+        ],
+        "Oracle.hit.front_left.000": [
+          22,
+          43
+        ],
+        "Oracle.hit.front_left.001": [
+          23,
+          43
+        ],
+        "Oracle.idle.front.000": [
+          0,
+          44
+        ],
+        "Oracle.idle.front.001": [
+          1,
+          44
+        ],
+        "Oracle.idle.front_right.000": [
+          2,
+          44
+        ],
+        "Oracle.idle.front_right.001": [
+          3,
+          44
+        ],
+        "Oracle.idle.right.000": [
+          4,
+          44
+        ],
+        "Oracle.idle.right.001": [
+          5,
+          44
+        ],
+        "Oracle.idle.back_right.000": [
+          6,
+          44
+        ],
+        "Oracle.idle.back_right.001": [
+          7,
+          44
+        ],
+        "Oracle.idle.back.000": [
+          8,
+          44
+        ],
+        "Oracle.idle.back.001": [
+          9,
+          44
+        ],
+        "Oracle.idle.back_left.000": [
+          10,
+          44
+        ],
+        "Oracle.idle.back_left.001": [
+          11,
+          44
+        ],
+        "Oracle.idle.left.000": [
+          12,
+          44
+        ],
+        "Oracle.idle.left.001": [
+          13,
+          44
+        ],
+        "Oracle.idle.front_left.000": [
+          14,
+          44
+        ],
+        "Oracle.idle.front_left.001": [
+          15,
+          44
+        ],
+        "Oracle.walk.front.000": [
+          16,
+          44
+        ],
+        "Oracle.walk.front.001": [
+          17,
+          44
+        ],
+        "Oracle.walk.front_right.000": [
+          18,
+          44
+        ],
+        "Oracle.walk.front_right.001": [
+          19,
+          44
+        ],
+        "Oracle.walk.right.000": [
+          20,
+          44
+        ],
+        "Oracle.walk.right.001": [
+          21,
+          44
+        ],
+        "Oracle.walk.back_right.000": [
+          22,
+          44
+        ],
+        "Oracle.walk.back_right.001": [
+          23,
+          44
+        ],
+        "Oracle.walk.back.000": [
+          0,
+          45
+        ],
+        "Oracle.walk.back.001": [
+          1,
+          45
+        ],
+        "Oracle.walk.back_left.000": [
+          2,
+          45
+        ],
+        "Oracle.walk.back_left.001": [
+          3,
+          45
+        ],
+        "Oracle.walk.left.000": [
+          4,
+          45
+        ],
+        "Oracle.walk.left.001": [
+          5,
+          45
+        ],
+        "Oracle.walk.front_left.000": [
+          6,
+          45
+        ],
+        "Oracle.walk.front_left.001": [
+          7,
+          45
+        ],
+        "Oracle": [
+          0,
+          44
+        ],
+        "PaleStag.attack.front.000": [
+          8,
+          45
+        ],
+        "PaleStag.attack.front.001": [
+          9,
+          45
+        ],
+        "PaleStag.attack.front.002": [
+          10,
+          45
+        ],
+        "PaleStag.attack.front_right.000": [
+          11,
+          45
+        ],
+        "PaleStag.attack.front_right.001": [
+          12,
+          45
+        ],
+        "PaleStag.attack.front_right.002": [
+          13,
+          45
+        ],
+        "PaleStag.attack.right.000": [
+          14,
+          45
+        ],
+        "PaleStag.attack.right.001": [
+          15,
+          45
+        ],
+        "PaleStag.attack.right.002": [
+          16,
+          45
+        ],
+        "PaleStag.attack.back_right.000": [
+          17,
+          45
+        ],
+        "PaleStag.attack.back_right.001": [
+          18,
+          45
+        ],
+        "PaleStag.attack.back_right.002": [
+          19,
+          45
+        ],
+        "PaleStag.attack.back.000": [
+          20,
+          45
+        ],
+        "PaleStag.attack.back.001": [
+          21,
+          45
+        ],
+        "PaleStag.attack.back.002": [
+          22,
+          45
+        ],
+        "PaleStag.attack.back_left.000": [
+          23,
+          45
+        ],
+        "PaleStag.attack.back_left.001": [
+          0,
+          46
+        ],
+        "PaleStag.attack.back_left.002": [
+          1,
+          46
+        ],
+        "PaleStag.attack.left.000": [
+          2,
+          46
+        ],
+        "PaleStag.attack.left.001": [
+          3,
+          46
+        ],
+        "PaleStag.attack.left.002": [
+          4,
+          46
+        ],
+        "PaleStag.attack.front_left.000": [
+          5,
+          46
+        ],
+        "PaleStag.attack.front_left.001": [
+          6,
+          46
+        ],
+        "PaleStag.attack.front_left.002": [
+          7,
+          46
+        ],
+        "PaleStag.hit.front.000": [
+          8,
+          46
+        ],
+        "PaleStag.hit.front.001": [
+          9,
+          46
+        ],
+        "PaleStag.hit.front_right.000": [
+          10,
+          46
+        ],
+        "PaleStag.hit.front_right.001": [
+          11,
+          46
+        ],
+        "PaleStag.hit.right.000": [
+          12,
+          46
+        ],
+        "PaleStag.hit.right.001": [
+          13,
+          46
+        ],
+        "PaleStag.hit.back_right.000": [
+          14,
+          46
+        ],
+        "PaleStag.hit.back_right.001": [
+          15,
+          46
+        ],
+        "PaleStag.hit.back.000": [
+          16,
+          46
+        ],
+        "PaleStag.hit.back.001": [
+          17,
+          46
+        ],
+        "PaleStag.hit.back_left.000": [
+          18,
+          46
+        ],
+        "PaleStag.hit.back_left.001": [
+          19,
+          46
+        ],
+        "PaleStag.hit.left.000": [
+          20,
+          46
+        ],
+        "PaleStag.hit.left.001": [
+          21,
+          46
+        ],
+        "PaleStag.hit.front_left.000": [
+          22,
+          46
+        ],
+        "PaleStag.hit.front_left.001": [
+          23,
+          46
+        ],
+        "PaleStag.idle.front.000": [
+          0,
+          47
+        ],
+        "PaleStag.idle.front.001": [
+          1,
+          47
+        ],
+        "PaleStag.idle.front_right.000": [
+          2,
+          47
+        ],
+        "PaleStag.idle.front_right.001": [
+          3,
+          47
+        ],
+        "PaleStag.idle.right.000": [
+          4,
+          47
+        ],
+        "PaleStag.idle.right.001": [
+          5,
+          47
+        ],
+        "PaleStag.idle.back_right.000": [
+          6,
+          47
+        ],
+        "PaleStag.idle.back_right.001": [
+          7,
+          47
+        ],
+        "PaleStag.idle.back.000": [
+          8,
+          47
+        ],
+        "PaleStag.idle.back.001": [
+          9,
+          47
+        ],
+        "PaleStag.idle.back_left.000": [
+          10,
+          47
+        ],
+        "PaleStag.idle.back_left.001": [
+          11,
+          47
+        ],
+        "PaleStag.idle.left.000": [
+          12,
+          47
+        ],
+        "PaleStag.idle.left.001": [
+          13,
+          47
+        ],
+        "PaleStag.idle.front_left.000": [
+          14,
+          47
+        ],
+        "PaleStag.idle.front_left.001": [
+          15,
+          47
+        ],
+        "PaleStag.walk.front.000": [
+          16,
+          47
+        ],
+        "PaleStag.walk.front.001": [
+          17,
+          47
+        ],
+        "PaleStag.walk.front_right.000": [
+          18,
+          47
+        ],
+        "PaleStag.walk.front_right.001": [
+          19,
+          47
+        ],
+        "PaleStag.walk.right.000": [
+          20,
+          47
+        ],
+        "PaleStag.walk.right.001": [
+          21,
+          47
+        ],
+        "PaleStag.walk.back_right.000": [
+          22,
+          47
+        ],
+        "PaleStag.walk.back_right.001": [
+          23,
+          47
+        ],
+        "PaleStag.walk.back.000": [
+          0,
+          48
+        ],
+        "PaleStag.walk.back.001": [
+          1,
+          48
+        ],
+        "PaleStag.walk.back_left.000": [
+          2,
+          48
+        ],
+        "PaleStag.walk.back_left.001": [
+          3,
+          48
+        ],
+        "PaleStag.walk.left.000": [
+          4,
+          48
+        ],
+        "PaleStag.walk.left.001": [
+          5,
+          48
+        ],
+        "PaleStag.walk.front_left.000": [
+          6,
+          48
+        ],
+        "PaleStag.walk.front_left.001": [
+          7,
+          48
+        ],
+        "PaleStag": [
+          0,
+          47
+        ],
+        "Rat.attack.front.000": [
+          8,
+          48
+        ],
+        "Rat.attack.front.001": [
+          9,
+          48
+        ],
+        "Rat.attack.front.002": [
+          10,
+          48
+        ],
+        "Rat.attack.front_right.000": [
+          11,
+          48
+        ],
+        "Rat.attack.front_right.001": [
+          12,
+          48
+        ],
+        "Rat.attack.front_right.002": [
+          13,
+          48
+        ],
+        "Rat.attack.right.000": [
+          14,
+          48
+        ],
+        "Rat.attack.right.001": [
+          15,
+          48
+        ],
+        "Rat.attack.right.002": [
+          16,
+          48
+        ],
+        "Rat.attack.back_right.000": [
+          17,
+          48
+        ],
+        "Rat.attack.back_right.001": [
+          18,
+          48
+        ],
+        "Rat.attack.back_right.002": [
+          19,
+          48
+        ],
+        "Rat.attack.back.000": [
+          20,
+          48
+        ],
+        "Rat.attack.back.001": [
+          21,
+          48
+        ],
+        "Rat.attack.back.002": [
+          22,
+          48
+        ],
+        "Rat.attack.back_left.000": [
+          23,
+          48
+        ],
+        "Rat.attack.back_left.001": [
+          0,
+          49
+        ],
+        "Rat.attack.back_left.002": [
+          1,
+          49
+        ],
+        "Rat.attack.left.000": [
+          2,
+          49
+        ],
+        "Rat.attack.left.001": [
+          3,
+          49
+        ],
+        "Rat.attack.left.002": [
+          4,
+          49
+        ],
+        "Rat.attack.front_left.000": [
+          5,
+          49
+        ],
+        "Rat.attack.front_left.001": [
+          6,
+          49
+        ],
+        "Rat.attack.front_left.002": [
+          7,
+          49
+        ],
+        "Rat.hit.front.000": [
+          8,
+          49
+        ],
+        "Rat.hit.front.001": [
+          9,
+          49
+        ],
+        "Rat.hit.front_right.000": [
+          10,
+          49
+        ],
+        "Rat.hit.front_right.001": [
+          11,
+          49
+        ],
+        "Rat.hit.right.000": [
+          12,
+          49
+        ],
+        "Rat.hit.right.001": [
+          13,
+          49
+        ],
+        "Rat.hit.back_right.000": [
+          14,
+          49
+        ],
+        "Rat.hit.back_right.001": [
+          15,
+          49
+        ],
+        "Rat.hit.back.000": [
+          16,
+          49
+        ],
+        "Rat.hit.back.001": [
+          17,
+          49
+        ],
+        "Rat.hit.back_left.000": [
+          18,
+          49
+        ],
+        "Rat.hit.back_left.001": [
+          19,
+          49
+        ],
+        "Rat.hit.left.000": [
+          20,
+          49
+        ],
+        "Rat.hit.left.001": [
+          21,
+          49
+        ],
+        "Rat.hit.front_left.000": [
+          22,
+          49
+        ],
+        "Rat.hit.front_left.001": [
+          23,
+          49
+        ],
+        "Rat.idle.front.000": [
+          0,
+          50
+        ],
+        "Rat.idle.front.001": [
+          1,
+          50
+        ],
+        "Rat.idle.front_right.000": [
+          2,
+          50
+        ],
+        "Rat.idle.front_right.001": [
+          3,
+          50
+        ],
+        "Rat.idle.right.000": [
+          4,
+          50
+        ],
+        "Rat.idle.right.001": [
+          5,
+          50
+        ],
+        "Rat.idle.back_right.000": [
+          6,
+          50
+        ],
+        "Rat.idle.back_right.001": [
+          7,
+          50
+        ],
+        "Rat.idle.back.000": [
+          8,
+          50
+        ],
+        "Rat.idle.back.001": [
+          9,
+          50
+        ],
+        "Rat.idle.back_left.000": [
+          10,
+          50
+        ],
+        "Rat.idle.back_left.001": [
+          11,
+          50
+        ],
+        "Rat.idle.left.000": [
+          12,
+          50
+        ],
+        "Rat.idle.left.001": [
+          13,
+          50
+        ],
+        "Rat.idle.front_left.000": [
+          14,
+          50
+        ],
+        "Rat.idle.front_left.001": [
+          15,
+          50
+        ],
+        "Rat.walk.front.000": [
+          16,
+          50
+        ],
+        "Rat.walk.front.001": [
+          17,
+          50
+        ],
+        "Rat.walk.front_right.000": [
+          18,
+          50
+        ],
+        "Rat.walk.front_right.001": [
+          19,
+          50
+        ],
+        "Rat.walk.right.000": [
+          20,
+          50
+        ],
+        "Rat.walk.right.001": [
+          21,
+          50
+        ],
+        "Rat.walk.back_right.000": [
+          22,
+          50
+        ],
+        "Rat.walk.back_right.001": [
+          23,
+          50
+        ],
+        "Rat.walk.back.000": [
+          0,
+          51
+        ],
+        "Rat.walk.back.001": [
+          1,
+          51
+        ],
+        "Rat.walk.back_left.000": [
+          2,
+          51
+        ],
+        "Rat.walk.back_left.001": [
+          3,
+          51
+        ],
+        "Rat.walk.left.000": [
+          4,
+          51
+        ],
+        "Rat.walk.left.001": [
+          5,
+          51
+        ],
+        "Rat.walk.front_left.000": [
+          6,
+          51
+        ],
+        "Rat.walk.front_left.001": [
+          7,
+          51
+        ],
+        "Rat": [
+          0,
+          50
+        ],
+        "Skeleton.attack.front.000": [
+          8,
+          51
+        ],
+        "Skeleton.attack.front_right.000": [
+          9,
+          51
+        ],
+        "Skeleton.attack.right.000": [
+          10,
+          51
+        ],
+        "Skeleton.attack.back_right.000": [
+          11,
+          51
+        ],
+        "Skeleton.attack.back.000": [
+          12,
+          51
+        ],
+        "Skeleton.attack.back_left.000": [
+          13,
+          51
+        ],
+        "Skeleton.attack.left.000": [
+          14,
+          51
+        ],
+        "Skeleton.attack.front_left.000": [
+          15,
+          51
+        ],
+        "Skeleton.hit.front.000": [
+          16,
+          51
+        ],
+        "Skeleton.hit.front.001": [
+          17,
+          51
+        ],
+        "Skeleton.hit.front_right.000": [
+          18,
+          51
+        ],
+        "Skeleton.hit.front_right.001": [
+          19,
+          51
+        ],
+        "Skeleton.hit.right.000": [
+          20,
+          51
+        ],
+        "Skeleton.hit.right.001": [
+          21,
+          51
+        ],
+        "Skeleton.hit.back_right.000": [
+          22,
+          51
+        ],
+        "Skeleton.hit.back_right.001": [
+          23,
+          51
+        ],
+        "Skeleton.hit.back.000": [
+          0,
+          52
+        ],
+        "Skeleton.hit.back.001": [
+          1,
+          52
+        ],
+        "Skeleton.hit.back_left.000": [
+          2,
+          52
+        ],
+        "Skeleton.hit.back_left.001": [
+          3,
+          52
+        ],
+        "Skeleton.hit.left.000": [
+          4,
+          52
+        ],
+        "Skeleton.hit.left.001": [
+          5,
+          52
+        ],
+        "Skeleton.hit.front_left.000": [
+          6,
+          52
+        ],
+        "Skeleton.hit.front_left.001": [
+          7,
+          52
+        ],
+        "Skeleton.idle.front.000": [
+          8,
+          52
+        ],
+        "Skeleton.idle.front.001": [
+          9,
+          52
+        ],
+        "Skeleton.idle.front_right.000": [
+          10,
+          52
+        ],
+        "Skeleton.idle.front_right.001": [
+          11,
+          52
+        ],
+        "Skeleton.idle.right.000": [
+          12,
+          52
+        ],
+        "Skeleton.idle.right.001": [
+          13,
+          52
+        ],
+        "Skeleton.idle.back_right.000": [
+          14,
+          52
+        ],
+        "Skeleton.idle.back_right.001": [
+          15,
+          52
+        ],
+        "Skeleton.idle.back.000": [
+          16,
+          52
+        ],
+        "Skeleton.idle.back.001": [
+          17,
+          52
+        ],
+        "Skeleton.idle.back_left.000": [
+          18,
+          52
+        ],
+        "Skeleton.idle.back_left.001": [
+          19,
+          52
+        ],
+        "Skeleton.idle.left.000": [
+          20,
+          52
+        ],
+        "Skeleton.idle.left.001": [
+          21,
+          52
+        ],
+        "Skeleton.idle.front_left.000": [
+          22,
+          52
+        ],
+        "Skeleton.idle.front_left.001": [
+          23,
+          52
+        ],
+        "Skeleton.walk.front.000": [
+          0,
+          53
+        ],
+        "Skeleton.walk.front.001": [
+          1,
+          53
+        ],
+        "Skeleton.walk.front_right.000": [
+          2,
+          53
+        ],
+        "Skeleton.walk.front_right.001": [
+          3,
+          53
+        ],
+        "Skeleton.walk.right.000": [
+          4,
+          53
+        ],
+        "Skeleton.walk.right.001": [
+          5,
+          53
+        ],
+        "Skeleton.walk.back_right.000": [
+          6,
+          53
+        ],
+        "Skeleton.walk.back_right.001": [
+          7,
+          53
+        ],
+        "Skeleton.walk.back.000": [
+          8,
+          53
+        ],
+        "Skeleton.walk.back.001": [
+          9,
+          53
+        ],
+        "Skeleton.walk.back_left.000": [
+          10,
+          53
+        ],
+        "Skeleton.walk.back_left.001": [
+          11,
+          53
+        ],
+        "Skeleton.walk.left.000": [
+          12,
+          53
+        ],
+        "Skeleton.walk.left.001": [
+          13,
+          53
+        ],
+        "Skeleton.walk.front_left.000": [
+          14,
+          53
+        ],
+        "Skeleton.walk.front_left.001": [
+          15,
+          53
+        ],
+        "Skeleton": [
+          8,
+          52
+        ],
+        "Smuggler.attack.front.000": [
+          16,
+          53
+        ],
+        "Smuggler.attack.front_right.000": [
+          17,
+          53
+        ],
+        "Smuggler.attack.right.000": [
+          18,
+          53
+        ],
+        "Smuggler.attack.back_right.000": [
+          19,
+          53
+        ],
+        "Smuggler.attack.back.000": [
+          20,
+          53
+        ],
+        "Smuggler.attack.back_left.000": [
+          21,
+          53
+        ],
+        "Smuggler.attack.left.000": [
+          22,
+          53
+        ],
+        "Smuggler.attack.front_left.000": [
+          23,
+          53
+        ],
+        "Smuggler.hit.front.000": [
+          0,
+          54
+        ],
+        "Smuggler.hit.front.001": [
+          1,
+          54
+        ],
+        "Smuggler.hit.front_right.000": [
+          2,
+          54
+        ],
+        "Smuggler.hit.front_right.001": [
+          3,
+          54
+        ],
+        "Smuggler.hit.right.000": [
+          4,
+          54
+        ],
+        "Smuggler.hit.right.001": [
+          5,
+          54
+        ],
+        "Smuggler.hit.back_right.000": [
+          6,
+          54
+        ],
+        "Smuggler.hit.back_right.001": [
+          7,
+          54
+        ],
+        "Smuggler.hit.back.000": [
+          8,
+          54
+        ],
+        "Smuggler.hit.back.001": [
+          9,
+          54
+        ],
+        "Smuggler.hit.back_left.000": [
+          10,
+          54
+        ],
+        "Smuggler.hit.back_left.001": [
+          11,
+          54
+        ],
+        "Smuggler.hit.left.000": [
+          12,
+          54
+        ],
+        "Smuggler.hit.left.001": [
+          13,
+          54
+        ],
+        "Smuggler.hit.front_left.000": [
+          14,
+          54
+        ],
+        "Smuggler.hit.front_left.001": [
+          15,
+          54
+        ],
+        "Smuggler.idle.front.000": [
+          16,
+          54
+        ],
+        "Smuggler.idle.front.001": [
+          17,
+          54
+        ],
+        "Smuggler.idle.front_right.000": [
+          18,
+          54
+        ],
+        "Smuggler.idle.front_right.001": [
+          19,
+          54
+        ],
+        "Smuggler.idle.right.000": [
+          20,
+          54
+        ],
+        "Smuggler.idle.right.001": [
+          21,
+          54
+        ],
+        "Smuggler.idle.back_right.000": [
+          22,
+          54
+        ],
+        "Smuggler.idle.back_right.001": [
+          23,
+          54
+        ],
+        "Smuggler.idle.back.000": [
+          0,
+          55
+        ],
+        "Smuggler.idle.back.001": [
+          1,
+          55
+        ],
+        "Smuggler.idle.back_left.000": [
+          2,
+          55
+        ],
+        "Smuggler.idle.back_left.001": [
+          3,
+          55
+        ],
+        "Smuggler.idle.left.000": [
+          4,
+          55
+        ],
+        "Smuggler.idle.left.001": [
+          5,
+          55
+        ],
+        "Smuggler.idle.front_left.000": [
+          6,
+          55
+        ],
+        "Smuggler.idle.front_left.001": [
+          7,
+          55
+        ],
+        "Smuggler.walk.front.000": [
+          8,
+          55
+        ],
+        "Smuggler.walk.front.001": [
+          9,
+          55
+        ],
+        "Smuggler.walk.front_right.000": [
+          10,
+          55
+        ],
+        "Smuggler.walk.front_right.001": [
+          11,
+          55
+        ],
+        "Smuggler.walk.right.000": [
+          12,
+          55
+        ],
+        "Smuggler.walk.right.001": [
+          13,
+          55
+        ],
+        "Smuggler.walk.back_right.000": [
+          14,
+          55
+        ],
+        "Smuggler.walk.back_right.001": [
+          15,
+          55
+        ],
+        "Smuggler.walk.back.000": [
+          16,
+          55
+        ],
+        "Smuggler.walk.back.001": [
+          17,
+          55
+        ],
+        "Smuggler.walk.back_left.000": [
+          18,
+          55
+        ],
+        "Smuggler.walk.back_left.001": [
+          19,
+          55
+        ],
+        "Smuggler.walk.left.000": [
+          20,
+          55
+        ],
+        "Smuggler.walk.left.001": [
+          21,
+          55
+        ],
+        "Smuggler.walk.front_left.000": [
+          22,
+          55
+        ],
+        "Smuggler.walk.front_left.001": [
+          23,
+          55
+        ],
+        "Smuggler": [
+          16,
+          54
+        ],
+        "Thief.attack.front.000": [
+          0,
+          56
+        ],
+        "Thief.attack.front_right.000": [
+          1,
+          56
+        ],
+        "Thief.attack.right.000": [
+          2,
+          56
+        ],
+        "Thief.attack.back_right.000": [
+          3,
+          56
+        ],
+        "Thief.attack.back.000": [
+          4,
+          56
+        ],
+        "Thief.attack.back_left.000": [
+          5,
+          56
+        ],
+        "Thief.attack.left.000": [
+          6,
+          56
+        ],
+        "Thief.attack.front_left.000": [
+          7,
+          56
+        ],
+        "Thief.hit.front.000": [
+          8,
+          56
+        ],
+        "Thief.hit.front.001": [
+          9,
+          56
+        ],
+        "Thief.hit.front_right.000": [
+          10,
+          56
+        ],
+        "Thief.hit.front_right.001": [
+          11,
+          56
+        ],
+        "Thief.hit.right.000": [
+          12,
+          56
+        ],
+        "Thief.hit.right.001": [
+          13,
+          56
+        ],
+        "Thief.hit.back_right.000": [
+          14,
+          56
+        ],
+        "Thief.hit.back_right.001": [
+          15,
+          56
+        ],
+        "Thief.hit.back.000": [
+          16,
+          56
+        ],
+        "Thief.hit.back.001": [
+          17,
+          56
+        ],
+        "Thief.hit.back_left.000": [
+          18,
+          56
+        ],
+        "Thief.hit.back_left.001": [
+          19,
+          56
+        ],
+        "Thief.hit.left.000": [
+          20,
+          56
+        ],
+        "Thief.hit.left.001": [
+          21,
+          56
+        ],
+        "Thief.hit.front_left.000": [
+          22,
+          56
+        ],
+        "Thief.hit.front_left.001": [
+          23,
+          56
+        ],
+        "Thief.idle.front.000": [
+          0,
+          57
+        ],
+        "Thief.idle.front.001": [
+          1,
+          57
+        ],
+        "Thief.idle.front_right.000": [
+          2,
+          57
+        ],
+        "Thief.idle.front_right.001": [
+          3,
+          57
+        ],
+        "Thief.idle.right.000": [
+          4,
+          57
+        ],
+        "Thief.idle.right.001": [
+          5,
+          57
+        ],
+        "Thief.idle.back_right.000": [
+          6,
+          57
+        ],
+        "Thief.idle.back_right.001": [
+          7,
+          57
+        ],
+        "Thief.idle.back.000": [
+          8,
+          57
+        ],
+        "Thief.idle.back.001": [
+          9,
+          57
+        ],
+        "Thief.idle.back_left.000": [
+          10,
+          57
+        ],
+        "Thief.idle.back_left.001": [
+          11,
+          57
+        ],
+        "Thief.idle.left.000": [
+          12,
+          57
+        ],
+        "Thief.idle.left.001": [
+          13,
+          57
+        ],
+        "Thief.idle.front_left.000": [
+          14,
+          57
+        ],
+        "Thief.idle.front_left.001": [
+          15,
+          57
+        ],
+        "Thief.walk.front.000": [
+          16,
+          57
+        ],
+        "Thief.walk.front.001": [
+          17,
+          57
+        ],
+        "Thief.walk.front_right.000": [
+          18,
+          57
+        ],
+        "Thief.walk.front_right.001": [
+          19,
+          57
+        ],
+        "Thief.walk.right.000": [
+          20,
+          57
+        ],
+        "Thief.walk.right.001": [
+          21,
+          57
+        ],
+        "Thief.walk.back_right.000": [
+          22,
+          57
+        ],
+        "Thief.walk.back_right.001": [
+          23,
+          57
+        ],
+        "Thief.walk.back.000": [
+          0,
+          58
+        ],
+        "Thief.walk.back.001": [
+          1,
+          58
+        ],
+        "Thief.walk.back_left.000": [
+          2,
+          58
+        ],
+        "Thief.walk.back_left.001": [
+          3,
+          58
+        ],
+        "Thief.walk.left.000": [
+          4,
+          58
+        ],
+        "Thief.walk.left.001": [
+          5,
+          58
+        ],
+        "Thief.walk.front_left.000": [
+          6,
+          58
+        ],
+        "Thief.walk.front_left.001": [
+          7,
+          58
+        ],
+        "Thief": [
+          0,
+          57
+        ],
+        "Tidemother.attack.front.000": [
+          8,
+          58
+        ],
+        "Tidemother.attack.front.001": [
+          9,
+          58
+        ],
+        "Tidemother.attack.front.002": [
+          10,
+          58
+        ],
+        "Tidemother.attack.front_right.000": [
+          11,
+          58
+        ],
+        "Tidemother.attack.front_right.001": [
+          12,
+          58
+        ],
+        "Tidemother.attack.front_right.002": [
+          13,
+          58
+        ],
+        "Tidemother.attack.right.000": [
+          14,
+          58
+        ],
+        "Tidemother.attack.right.001": [
+          15,
+          58
+        ],
+        "Tidemother.attack.right.002": [
+          16,
+          58
+        ],
+        "Tidemother.attack.back_right.000": [
+          17,
+          58
+        ],
+        "Tidemother.attack.back_right.001": [
+          18,
+          58
+        ],
+        "Tidemother.attack.back_right.002": [
+          19,
+          58
+        ],
+        "Tidemother.attack.back.000": [
+          20,
+          58
+        ],
+        "Tidemother.attack.back.001": [
+          21,
+          58
+        ],
+        "Tidemother.attack.back.002": [
+          22,
+          58
+        ],
+        "Tidemother.attack.back_left.000": [
+          23,
+          58
+        ],
+        "Tidemother.attack.back_left.001": [
+          0,
+          59
+        ],
+        "Tidemother.attack.back_left.002": [
+          1,
+          59
+        ],
+        "Tidemother.attack.left.000": [
+          2,
+          59
+        ],
+        "Tidemother.attack.left.001": [
+          3,
+          59
+        ],
+        "Tidemother.attack.left.002": [
+          4,
+          59
+        ],
+        "Tidemother.attack.front_left.000": [
+          5,
+          59
+        ],
+        "Tidemother.attack.front_left.001": [
+          6,
+          59
+        ],
+        "Tidemother.attack.front_left.002": [
+          7,
+          59
+        ],
+        "Tidemother.hit.front.000": [
+          8,
+          59
+        ],
+        "Tidemother.hit.front.001": [
+          9,
+          59
+        ],
+        "Tidemother.hit.front_right.000": [
+          10,
+          59
+        ],
+        "Tidemother.hit.front_right.001": [
+          11,
+          59
+        ],
+        "Tidemother.hit.right.000": [
+          12,
+          59
+        ],
+        "Tidemother.hit.right.001": [
+          13,
+          59
+        ],
+        "Tidemother.hit.back_right.000": [
+          14,
+          59
+        ],
+        "Tidemother.hit.back_right.001": [
+          15,
+          59
+        ],
+        "Tidemother.hit.back.000": [
+          16,
+          59
+        ],
+        "Tidemother.hit.back.001": [
+          17,
+          59
+        ],
+        "Tidemother.hit.back_left.000": [
+          18,
+          59
+        ],
+        "Tidemother.hit.back_left.001": [
+          19,
+          59
+        ],
+        "Tidemother.hit.left.000": [
+          20,
+          59
+        ],
+        "Tidemother.hit.left.001": [
+          21,
+          59
+        ],
+        "Tidemother.hit.front_left.000": [
+          22,
+          59
+        ],
+        "Tidemother.hit.front_left.001": [
+          23,
+          59
+        ],
+        "Tidemother.idle.front.000": [
+          0,
+          60
+        ],
+        "Tidemother.idle.front.001": [
+          1,
+          60
+        ],
+        "Tidemother.idle.front_right.000": [
+          2,
+          60
+        ],
+        "Tidemother.idle.front_right.001": [
+          3,
+          60
+        ],
+        "Tidemother.idle.right.000": [
+          4,
+          60
+        ],
+        "Tidemother.idle.right.001": [
+          5,
+          60
+        ],
+        "Tidemother.idle.back_right.000": [
+          6,
+          60
+        ],
+        "Tidemother.idle.back_right.001": [
+          7,
+          60
+        ],
+        "Tidemother.idle.back.000": [
+          8,
+          60
+        ],
+        "Tidemother.idle.back.001": [
+          9,
+          60
+        ],
+        "Tidemother.idle.back_left.000": [
+          10,
+          60
+        ],
+        "Tidemother.idle.back_left.001": [
+          11,
+          60
+        ],
+        "Tidemother.idle.left.000": [
+          12,
+          60
+        ],
+        "Tidemother.idle.left.001": [
+          13,
+          60
+        ],
+        "Tidemother.idle.front_left.000": [
+          14,
+          60
+        ],
+        "Tidemother.idle.front_left.001": [
+          15,
+          60
+        ],
+        "Tidemother.walk.front.000": [
+          16,
+          60
+        ],
+        "Tidemother.walk.front.001": [
+          17,
+          60
+        ],
+        "Tidemother.walk.front_right.000": [
+          18,
+          60
+        ],
+        "Tidemother.walk.front_right.001": [
+          19,
+          60
+        ],
+        "Tidemother.walk.right.000": [
+          20,
+          60
+        ],
+        "Tidemother.walk.right.001": [
+          21,
+          60
+        ],
+        "Tidemother.walk.back_right.000": [
+          22,
+          60
+        ],
+        "Tidemother.walk.back_right.001": [
+          23,
+          60
+        ],
+        "Tidemother.walk.back.000": [
+          0,
+          61
+        ],
+        "Tidemother.walk.back.001": [
+          1,
+          61
+        ],
+        "Tidemother.walk.back_left.000": [
+          2,
+          61
+        ],
+        "Tidemother.walk.back_left.001": [
+          3,
+          61
+        ],
+        "Tidemother.walk.left.000": [
+          4,
+          61
+        ],
+        "Tidemother.walk.left.001": [
+          5,
+          61
+        ],
+        "Tidemother.walk.front_left.000": [
+          6,
+          61
+        ],
+        "Tidemother.walk.front_left.001": [
+          7,
+          61
+        ],
+        "Tidemother": [
+          0,
+          60
+        ],
+        "Tollmaster.attack.front.000": [
+          8,
+          61
+        ],
+        "Tollmaster.attack.front.001": [
+          9,
+          61
+        ],
+        "Tollmaster.attack.front.002": [
+          10,
+          61
+        ],
+        "Tollmaster.attack.front.003": [
+          11,
+          61
+        ],
+        "Tollmaster.attack.front_right.000": [
+          12,
+          61
+        ],
+        "Tollmaster.attack.front_right.001": [
+          13,
+          61
+        ],
+        "Tollmaster.attack.front_right.002": [
+          14,
+          61
+        ],
+        "Tollmaster.attack.front_right.003": [
+          15,
+          61
+        ],
+        "Tollmaster.attack.right.000": [
+          16,
+          61
+        ],
+        "Tollmaster.attack.right.001": [
+          17,
+          61
+        ],
+        "Tollmaster.attack.right.002": [
+          18,
+          61
+        ],
+        "Tollmaster.attack.right.003": [
+          19,
+          61
+        ],
+        "Tollmaster.attack.back_right.000": [
+          20,
+          61
+        ],
+        "Tollmaster.attack.back_right.001": [
+          21,
+          61
+        ],
+        "Tollmaster.attack.back_right.002": [
+          22,
+          61
+        ],
+        "Tollmaster.attack.back_right.003": [
+          23,
+          61
+        ],
+        "Tollmaster.attack.back.000": [
+          0,
+          62
+        ],
+        "Tollmaster.attack.back.001": [
+          1,
+          62
+        ],
+        "Tollmaster.attack.back.002": [
+          2,
+          62
+        ],
+        "Tollmaster.attack.back.003": [
+          3,
+          62
+        ],
+        "Tollmaster.attack.back_left.000": [
+          4,
+          62
+        ],
+        "Tollmaster.attack.back_left.001": [
+          5,
+          62
+        ],
+        "Tollmaster.attack.back_left.002": [
+          6,
+          62
+        ],
+        "Tollmaster.attack.back_left.003": [
+          7,
+          62
+        ],
+        "Tollmaster.attack.left.000": [
+          8,
+          62
+        ],
+        "Tollmaster.attack.left.001": [
+          9,
+          62
+        ],
+        "Tollmaster.attack.left.002": [
+          10,
+          62
+        ],
+        "Tollmaster.attack.left.003": [
+          11,
+          62
+        ],
+        "Tollmaster.attack.front_left.000": [
+          12,
+          62
+        ],
+        "Tollmaster.attack.front_left.001": [
+          13,
+          62
+        ],
+        "Tollmaster.attack.front_left.002": [
+          14,
+          62
+        ],
+        "Tollmaster.attack.front_left.003": [
+          15,
+          62
+        ],
+        "Tollmaster.hit.front.000": [
+          16,
+          62
+        ],
+        "Tollmaster.hit.front.001": [
+          17,
+          62
+        ],
+        "Tollmaster.hit.front_right.000": [
+          18,
+          62
+        ],
+        "Tollmaster.hit.front_right.001": [
+          19,
+          62
+        ],
+        "Tollmaster.hit.right.000": [
+          20,
+          62
+        ],
+        "Tollmaster.hit.right.001": [
+          21,
+          62
+        ],
+        "Tollmaster.hit.back_right.000": [
+          22,
+          62
+        ],
+        "Tollmaster.hit.back_right.001": [
+          23,
+          62
+        ],
+        "Tollmaster.hit.back.000": [
+          0,
+          63
+        ],
+        "Tollmaster.hit.back.001": [
+          1,
+          63
+        ],
+        "Tollmaster.hit.back_left.000": [
+          2,
+          63
+        ],
+        "Tollmaster.hit.back_left.001": [
+          3,
+          63
+        ],
+        "Tollmaster.hit.left.000": [
+          4,
+          63
+        ],
+        "Tollmaster.hit.left.001": [
+          5,
+          63
+        ],
+        "Tollmaster.hit.front_left.000": [
+          6,
+          63
+        ],
+        "Tollmaster.hit.front_left.001": [
+          7,
+          63
+        ],
+        "Tollmaster.idle.front.000": [
+          8,
+          63
+        ],
+        "Tollmaster.idle.front.001": [
+          9,
+          63
+        ],
+        "Tollmaster.idle.front_right.000": [
+          10,
+          63
+        ],
+        "Tollmaster.idle.front_right.001": [
+          11,
+          63
+        ],
+        "Tollmaster.idle.right.000": [
+          12,
+          63
+        ],
+        "Tollmaster.idle.right.001": [
+          13,
+          63
+        ],
+        "Tollmaster.idle.back_right.000": [
+          14,
+          63
+        ],
+        "Tollmaster.idle.back_right.001": [
+          15,
+          63
+        ],
+        "Tollmaster.idle.back.000": [
+          16,
+          63
+        ],
+        "Tollmaster.idle.back.001": [
+          17,
+          63
+        ],
+        "Tollmaster.idle.back_left.000": [
+          18,
+          63
+        ],
+        "Tollmaster.idle.back_left.001": [
+          19,
+          63
+        ],
+        "Tollmaster.idle.left.000": [
+          20,
+          63
+        ],
+        "Tollmaster.idle.left.001": [
+          21,
+          63
+        ],
+        "Tollmaster.idle.front_left.000": [
+          22,
+          63
+        ],
+        "Tollmaster.idle.front_left.001": [
+          23,
+          63
+        ],
+        "Tollmaster.walk.front.000": [
+          0,
+          64
+        ],
+        "Tollmaster.walk.front.001": [
+          1,
+          64
+        ],
+        "Tollmaster.walk.front_right.000": [
+          2,
+          64
+        ],
+        "Tollmaster.walk.front_right.001": [
+          3,
+          64
+        ],
+        "Tollmaster.walk.right.000": [
+          4,
+          64
+        ],
+        "Tollmaster.walk.right.001": [
+          5,
+          64
+        ],
+        "Tollmaster.walk.back_right.000": [
+          6,
+          64
+        ],
+        "Tollmaster.walk.back_right.001": [
+          7,
+          64
+        ],
+        "Tollmaster.walk.back.000": [
+          8,
+          64
+        ],
+        "Tollmaster.walk.back.001": [
+          9,
+          64
+        ],
+        "Tollmaster.walk.back_left.000": [
+          10,
+          64
+        ],
+        "Tollmaster.walk.back_left.001": [
+          11,
+          64
+        ],
+        "Tollmaster.walk.left.000": [
+          12,
+          64
+        ],
+        "Tollmaster.walk.left.001": [
+          13,
+          64
+        ],
+        "Tollmaster.walk.front_left.000": [
+          14,
+          64
+        ],
+        "Tollmaster.walk.front_left.001": [
+          15,
+          64
+        ],
+        "Tollmaster": [
+          8,
+          63
+        ],
+        "Traveller.attack.front.000": [
+          16,
+          64
+        ],
+        "Traveller.attack.front_right.000": [
+          17,
+          64
+        ],
+        "Traveller.attack.right.000": [
+          18,
+          64
+        ],
+        "Traveller.attack.back_right.000": [
+          19,
+          64
+        ],
+        "Traveller.attack.back.000": [
+          20,
+          64
+        ],
+        "Traveller.attack.back_left.000": [
+          21,
+          64
+        ],
+        "Traveller.attack.left.000": [
+          22,
+          64
+        ],
+        "Traveller.attack.front_left.000": [
+          23,
+          64
+        ],
+        "Traveller.hit.front.000": [
+          0,
+          65
+        ],
+        "Traveller.hit.front.001": [
+          1,
+          65
+        ],
+        "Traveller.hit.front_right.000": [
+          2,
+          65
+        ],
+        "Traveller.hit.front_right.001": [
+          3,
+          65
+        ],
+        "Traveller.hit.right.000": [
+          4,
+          65
+        ],
+        "Traveller.hit.right.001": [
+          5,
+          65
+        ],
+        "Traveller.hit.back_right.000": [
+          6,
+          65
+        ],
+        "Traveller.hit.back_right.001": [
+          7,
+          65
+        ],
+        "Traveller.hit.back.000": [
+          8,
+          65
+        ],
+        "Traveller.hit.back.001": [
+          9,
+          65
+        ],
+        "Traveller.hit.back_left.000": [
+          10,
+          65
+        ],
+        "Traveller.hit.back_left.001": [
+          11,
+          65
+        ],
+        "Traveller.hit.left.000": [
+          12,
+          65
+        ],
+        "Traveller.hit.left.001": [
+          13,
+          65
+        ],
+        "Traveller.hit.front_left.000": [
+          14,
+          65
+        ],
+        "Traveller.hit.front_left.001": [
+          15,
+          65
+        ],
+        "Traveller.idle.front.000": [
+          16,
+          65
+        ],
+        "Traveller.idle.front.001": [
+          17,
+          65
+        ],
+        "Traveller.idle.front_right.000": [
+          18,
+          65
+        ],
+        "Traveller.idle.front_right.001": [
+          19,
+          65
+        ],
+        "Traveller.idle.right.000": [
+          20,
+          65
+        ],
+        "Traveller.idle.right.001": [
+          21,
+          65
+        ],
+        "Traveller.idle.back_right.000": [
+          22,
+          65
+        ],
+        "Traveller.idle.back_right.001": [
+          23,
+          65
+        ],
+        "Traveller.idle.back.000": [
+          0,
+          66
+        ],
+        "Traveller.idle.back.001": [
+          1,
+          66
+        ],
+        "Traveller.idle.back_left.000": [
+          2,
+          66
+        ],
+        "Traveller.idle.back_left.001": [
+          3,
+          66
+        ],
+        "Traveller.idle.left.000": [
+          4,
+          66
+        ],
+        "Traveller.idle.left.001": [
+          5,
+          66
+        ],
+        "Traveller.idle.front_left.000": [
+          6,
+          66
+        ],
+        "Traveller.idle.front_left.001": [
+          7,
+          66
+        ],
+        "Traveller.walk.front.000": [
+          8,
+          66
+        ],
+        "Traveller.walk.front.001": [
+          9,
+          66
+        ],
+        "Traveller.walk.front_right.000": [
+          10,
+          66
+        ],
+        "Traveller.walk.front_right.001": [
+          11,
+          66
+        ],
+        "Traveller.walk.right.000": [
+          12,
+          66
+        ],
+        "Traveller.walk.right.001": [
+          13,
+          66
+        ],
+        "Traveller.walk.back_right.000": [
+          14,
+          66
+        ],
+        "Traveller.walk.back_right.001": [
+          15,
+          66
+        ],
+        "Traveller.walk.back.000": [
+          16,
+          66
+        ],
+        "Traveller.walk.back.001": [
+          17,
+          66
+        ],
+        "Traveller.walk.back_left.000": [
+          18,
+          66
+        ],
+        "Traveller.walk.back_left.001": [
+          19,
+          66
+        ],
+        "Traveller.walk.left.000": [
+          20,
+          66
+        ],
+        "Traveller.walk.left.001": [
+          21,
+          66
+        ],
+        "Traveller.walk.front_left.000": [
+          22,
+          66
+        ],
+        "Traveller.walk.front_left.001": [
+          23,
+          66
+        ],
+        "Traveller": [
+          16,
+          65
+        ],
+        "Vendor.attack.front.000": [
+          0,
+          67
+        ],
+        "Vendor.attack.front_right.000": [
+          1,
+          67
+        ],
+        "Vendor.attack.right.000": [
+          2,
+          67
+        ],
+        "Vendor.attack.back_right.000": [
+          3,
+          67
+        ],
+        "Vendor.attack.back.000": [
+          4,
+          67
+        ],
+        "Vendor.attack.back_left.000": [
+          5,
+          67
+        ],
+        "Vendor.attack.left.000": [
+          6,
+          67
+        ],
+        "Vendor.attack.front_left.000": [
+          7,
+          67
+        ],
+        "Vendor.hit.front.000": [
+          8,
+          67
+        ],
+        "Vendor.hit.front.001": [
+          9,
+          67
+        ],
+        "Vendor.hit.front_right.000": [
+          10,
+          67
+        ],
+        "Vendor.hit.front_right.001": [
+          11,
+          67
+        ],
+        "Vendor.hit.right.000": [
+          12,
+          67
+        ],
+        "Vendor.hit.right.001": [
+          13,
+          67
+        ],
+        "Vendor.hit.back_right.000": [
+          14,
+          67
+        ],
+        "Vendor.hit.back_right.001": [
+          15,
+          67
+        ],
+        "Vendor.hit.back.000": [
+          16,
+          67
+        ],
+        "Vendor.hit.back.001": [
+          17,
+          67
+        ],
+        "Vendor.hit.back_left.000": [
+          18,
+          67
+        ],
+        "Vendor.hit.back_left.001": [
+          19,
+          67
+        ],
+        "Vendor.hit.left.000": [
+          20,
+          67
+        ],
+        "Vendor.hit.left.001": [
+          21,
+          67
+        ],
+        "Vendor.hit.front_left.000": [
+          22,
+          67
+        ],
+        "Vendor.hit.front_left.001": [
+          23,
+          67
+        ],
+        "Vendor.idle.front.000": [
+          0,
+          68
+        ],
+        "Vendor.idle.front.001": [
+          1,
+          68
+        ],
+        "Vendor.idle.front_right.000": [
+          2,
+          68
+        ],
+        "Vendor.idle.front_right.001": [
+          3,
+          68
+        ],
+        "Vendor.idle.right.000": [
+          4,
+          68
+        ],
+        "Vendor.idle.right.001": [
+          5,
+          68
+        ],
+        "Vendor.idle.back_right.000": [
+          6,
+          68
+        ],
+        "Vendor.idle.back_right.001": [
+          7,
+          68
+        ],
+        "Vendor.idle.back.000": [
+          8,
+          68
+        ],
+        "Vendor.idle.back.001": [
+          9,
+          68
+        ],
+        "Vendor.idle.back_left.000": [
+          10,
+          68
+        ],
+        "Vendor.idle.back_left.001": [
+          11,
+          68
+        ],
+        "Vendor.idle.left.000": [
+          12,
+          68
+        ],
+        "Vendor.idle.left.001": [
+          13,
+          68
+        ],
+        "Vendor.idle.front_left.000": [
+          14,
+          68
+        ],
+        "Vendor.idle.front_left.001": [
+          15,
+          68
+        ],
+        "Vendor.walk.front.000": [
+          16,
+          68
+        ],
+        "Vendor.walk.front.001": [
+          17,
+          68
+        ],
+        "Vendor.walk.front_right.000": [
+          18,
+          68
+        ],
+        "Vendor.walk.front_right.001": [
+          19,
+          68
+        ],
+        "Vendor.walk.right.000": [
+          20,
+          68
+        ],
+        "Vendor.walk.right.001": [
+          21,
+          68
+        ],
+        "Vendor.walk.back_right.000": [
+          22,
+          68
+        ],
+        "Vendor.walk.back_right.001": [
+          23,
+          68
+        ],
+        "Vendor.walk.back.000": [
+          0,
+          69
+        ],
+        "Vendor.walk.back.001": [
+          1,
+          69
+        ],
+        "Vendor.walk.back_left.000": [
+          2,
+          69
+        ],
+        "Vendor.walk.back_left.001": [
+          3,
+          69
+        ],
+        "Vendor.walk.left.000": [
+          4,
+          69
+        ],
+        "Vendor.walk.left.001": [
+          5,
+          69
+        ],
+        "Vendor.walk.front_left.000": [
+          6,
+          69
+        ],
+        "Vendor.walk.front_left.001": [
+          7,
+          69
+        ],
+        "Vendor": [
+          0,
+          68
+        ],
+        "Wolf.attack.front.000": [
+          8,
+          69
+        ],
+        "Wolf.attack.front.001": [
+          9,
+          69
+        ],
+        "Wolf.attack.front.002": [
+          10,
+          69
+        ],
+        "Wolf.attack.front_right.000": [
+          11,
+          69
+        ],
+        "Wolf.attack.front_right.001": [
+          12,
+          69
+        ],
+        "Wolf.attack.front_right.002": [
+          13,
+          69
+        ],
+        "Wolf.attack.right.000": [
+          14,
+          69
+        ],
+        "Wolf.attack.right.001": [
+          15,
+          69
+        ],
+        "Wolf.attack.right.002": [
+          16,
+          69
+        ],
+        "Wolf.attack.back_right.000": [
+          17,
+          69
+        ],
+        "Wolf.attack.back_right.001": [
+          18,
+          69
+        ],
+        "Wolf.attack.back_right.002": [
+          19,
+          69
+        ],
+        "Wolf.attack.back.000": [
+          20,
+          69
+        ],
+        "Wolf.attack.back.001": [
+          21,
+          69
+        ],
+        "Wolf.attack.back.002": [
+          22,
+          69
+        ],
+        "Wolf.attack.back_left.000": [
+          23,
+          69
+        ],
+        "Wolf.attack.back_left.001": [
+          0,
+          70
+        ],
+        "Wolf.attack.back_left.002": [
+          1,
+          70
+        ],
+        "Wolf.attack.left.000": [
+          2,
+          70
+        ],
+        "Wolf.attack.left.001": [
+          3,
+          70
+        ],
+        "Wolf.attack.left.002": [
+          4,
+          70
+        ],
+        "Wolf.attack.front_left.000": [
+          5,
+          70
+        ],
+        "Wolf.attack.front_left.001": [
+          6,
+          70
+        ],
+        "Wolf.attack.front_left.002": [
+          7,
+          70
+        ],
+        "Wolf.hit.front.000": [
+          8,
+          70
+        ],
+        "Wolf.hit.front.001": [
+          9,
+          70
+        ],
+        "Wolf.hit.front_right.000": [
+          10,
+          70
+        ],
+        "Wolf.hit.front_right.001": [
+          11,
+          70
+        ],
+        "Wolf.hit.right.000": [
+          12,
+          70
+        ],
+        "Wolf.hit.right.001": [
+          13,
+          70
+        ],
+        "Wolf.hit.back_right.000": [
+          14,
+          70
+        ],
+        "Wolf.hit.back_right.001": [
+          15,
+          70
+        ],
+        "Wolf.hit.back.000": [
+          16,
+          70
+        ],
+        "Wolf.hit.back.001": [
+          17,
+          70
+        ],
+        "Wolf.hit.back_left.000": [
+          18,
+          70
+        ],
+        "Wolf.hit.back_left.001": [
+          19,
+          70
+        ],
+        "Wolf.hit.left.000": [
+          20,
+          70
+        ],
+        "Wolf.hit.left.001": [
+          21,
+          70
+        ],
+        "Wolf.hit.front_left.000": [
+          22,
+          70
+        ],
+        "Wolf.hit.front_left.001": [
+          23,
+          70
+        ],
+        "Wolf.idle.front.000": [
+          0,
+          71
+        ],
+        "Wolf.idle.front.001": [
+          1,
+          71
+        ],
+        "Wolf.idle.front_right.000": [
+          2,
+          71
+        ],
+        "Wolf.idle.front_right.001": [
+          3,
+          71
+        ],
+        "Wolf.idle.right.000": [
+          4,
+          71
+        ],
+        "Wolf.idle.right.001": [
+          5,
+          71
+        ],
+        "Wolf.idle.back_right.000": [
+          6,
+          71
+        ],
+        "Wolf.idle.back_right.001": [
+          7,
+          71
+        ],
+        "Wolf.idle.back.000": [
+          8,
+          71
+        ],
+        "Wolf.idle.back.001": [
+          9,
+          71
+        ],
+        "Wolf.idle.back_left.000": [
+          10,
+          71
+        ],
+        "Wolf.idle.back_left.001": [
+          11,
+          71
+        ],
+        "Wolf.idle.left.000": [
+          12,
+          71
+        ],
+        "Wolf.idle.left.001": [
+          13,
+          71
+        ],
+        "Wolf.idle.front_left.000": [
+          14,
+          71
+        ],
+        "Wolf.idle.front_left.001": [
+          15,
+          71
+        ],
+        "Wolf.walk.front.000": [
+          16,
+          71
+        ],
+        "Wolf.walk.front.001": [
+          17,
+          71
+        ],
+        "Wolf.walk.front_right.000": [
+          18,
+          71
+        ],
+        "Wolf.walk.front_right.001": [
+          19,
+          71
+        ],
+        "Wolf.walk.right.000": [
+          20,
+          71
+        ],
+        "Wolf.walk.right.001": [
+          21,
+          71
+        ],
+        "Wolf.walk.back_right.000": [
+          22,
+          71
+        ],
+        "Wolf.walk.back_right.001": [
+          23,
+          71
+        ],
+        "Wolf.walk.back.000": [
+          0,
+          72
+        ],
+        "Wolf.walk.back.001": [
+          1,
+          72
+        ],
+        "Wolf.walk.back_left.000": [
+          2,
+          72
+        ],
+        "Wolf.walk.back_left.001": [
+          3,
+          72
+        ],
+        "Wolf.walk.left.000": [
+          4,
+          72
+        ],
+        "Wolf.walk.left.001": [
+          5,
+          72
+        ],
+        "Wolf.walk.front_left.000": [
+          6,
+          72
+        ],
+        "Wolf.walk.front_left.001": [
+          7,
+          72
+        ],
+        "Wolf": [
+          0,
+          71
+        ]
+      }
+    },
+    {
+      "name": "players",
+      "file": "players.png",
+      "mapping": {
+        "Player.Keepwarden.Male": [
+          16,
+          0
+        ],
+        "Player.Keepwarden.Male.W0A0": [
+          0,
+          0
+        ],
+        "Player.Keepwarden.Male.W0A1": [
+          4,
+          0
+        ],
+        "Player.Keepwarden.Male.W0A2": [
+          8,
+          0
+        ],
+        "Player.Keepwarden.Male.W0A3": [
+          12,
+          0
+        ],
+        "Player.Keepwarden.Male.W1A0": [
+          1,
+          0
+        ],
+        "Player.Keepwarden.Male.W1A1": [
+          5,
+          0
+        ],
+        "Player.Keepwarden.Male.W1A2": [
+          9,
+          0
+        ],
+        "Player.Keepwarden.Male.W1A3": [
+          13,
+          0
+        ],
+        "Player.Keepwarden.Male.W2A0": [
+          2,
+          0
+        ],
+        "Player.Keepwarden.Male.W2A1": [
+          6,
+          0
+        ],
+        "Player.Keepwarden.Male.W2A2": [
+          10,
+          0
+        ],
+        "Player.Keepwarden.Male.W2A3": [
+          14,
+          0
+        ],
+        "Player.Keepwarden.Male.W3A0": [
+          3,
+          0
+        ],
+        "Player.Keepwarden.Male.W3A1": [
+          7,
+          0
+        ],
+        "Player.Keepwarden.Male.W3A2": [
+          11,
+          0
+        ],
+        "Player.Keepwarden.Male.W3A3": [
+          15,
+          0
+        ],
+        "Player.Keepwarden.Female": [
+          16,
+          1
+        ],
+        "Player.Keepwarden.Female.W0A0": [
+          0,
+          1
+        ],
+        "Player.Keepwarden.Female.W0A1": [
+          4,
+          1
+        ],
+        "Player.Keepwarden.Female.W0A2": [
+          8,
+          1
+        ],
+        "Player.Keepwarden.Female.W0A3": [
+          12,
+          1
+        ],
+        "Player.Keepwarden.Female.W1A0": [
+          1,
+          1
+        ],
+        "Player.Keepwarden.Female.W1A1": [
+          5,
+          1
+        ],
+        "Player.Keepwarden.Female.W1A2": [
+          9,
+          1
+        ],
+        "Player.Keepwarden.Female.W1A3": [
+          13,
+          1
+        ],
+        "Player.Keepwarden.Female.W2A0": [
+          2,
+          1
+        ],
+        "Player.Keepwarden.Female.W2A1": [
+          6,
+          1
+        ],
+        "Player.Keepwarden.Female.W2A2": [
+          10,
+          1
+        ],
+        "Player.Keepwarden.Female.W2A3": [
+          14,
+          1
+        ],
+        "Player.Keepwarden.Female.W3A0": [
+          3,
+          1
+        ],
+        "Player.Keepwarden.Female.W3A1": [
+          7,
+          1
+        ],
+        "Player.Keepwarden.Female.W3A2": [
+          11,
+          1
+        ],
+        "Player.Keepwarden.Female.W3A3": [
+          15,
+          1
+        ],
+        "Player.Gravebound.Male": [
+          16,
+          2
+        ],
+        "Player.Gravebound.Male.W0A0": [
+          0,
+          2
+        ],
+        "Player.Gravebound.Male.W0A1": [
+          4,
+          2
+        ],
+        "Player.Gravebound.Male.W0A2": [
+          8,
+          2
+        ],
+        "Player.Gravebound.Male.W0A3": [
+          12,
+          2
+        ],
+        "Player.Gravebound.Male.W1A0": [
+          1,
+          2
+        ],
+        "Player.Gravebound.Male.W1A1": [
+          5,
+          2
+        ],
+        "Player.Gravebound.Male.W1A2": [
+          9,
+          2
+        ],
+        "Player.Gravebound.Male.W1A3": [
+          13,
+          2
+        ],
+        "Player.Gravebound.Male.W2A0": [
+          2,
+          2
+        ],
+        "Player.Gravebound.Male.W2A1": [
+          6,
+          2
+        ],
+        "Player.Gravebound.Male.W2A2": [
+          10,
+          2
+        ],
+        "Player.Gravebound.Male.W2A3": [
+          14,
+          2
+        ],
+        "Player.Gravebound.Male.W3A0": [
+          3,
+          2
+        ],
+        "Player.Gravebound.Male.W3A1": [
+          7,
+          2
+        ],
+        "Player.Gravebound.Male.W3A2": [
+          11,
+          2
+        ],
+        "Player.Gravebound.Male.W3A3": [
+          15,
+          2
+        ],
+        "Player.Gravebound.Female": [
+          16,
+          3
+        ],
+        "Player.Gravebound.Female.W0A0": [
+          0,
+          3
+        ],
+        "Player.Gravebound.Female.W0A1": [
+          4,
+          3
+        ],
+        "Player.Gravebound.Female.W0A2": [
+          8,
+          3
+        ],
+        "Player.Gravebound.Female.W0A3": [
+          12,
+          3
+        ],
+        "Player.Gravebound.Female.W1A0": [
+          1,
+          3
+        ],
+        "Player.Gravebound.Female.W1A1": [
+          5,
+          3
+        ],
+        "Player.Gravebound.Female.W1A2": [
+          9,
+          3
+        ],
+        "Player.Gravebound.Female.W1A3": [
+          13,
+          3
+        ],
+        "Player.Gravebound.Female.W2A0": [
+          2,
+          3
+        ],
+        "Player.Gravebound.Female.W2A1": [
+          6,
+          3
+        ],
+        "Player.Gravebound.Female.W2A2": [
+          10,
+          3
+        ],
+        "Player.Gravebound.Female.W2A3": [
+          14,
+          3
+        ],
+        "Player.Gravebound.Female.W3A0": [
+          3,
+          3
+        ],
+        "Player.Gravebound.Female.W3A1": [
+          7,
+          3
+        ],
+        "Player.Gravebound.Female.W3A2": [
+          11,
+          3
+        ],
+        "Player.Gravebound.Female.W3A3": [
+          15,
+          3
+        ],
+        "Player.Redwake.Male": [
+          16,
+          4
+        ],
+        "Player.Redwake.Male.W0A0": [
+          0,
+          4
+        ],
+        "Player.Redwake.Male.W0A1": [
+          4,
+          4
+        ],
+        "Player.Redwake.Male.W0A2": [
+          8,
+          4
+        ],
+        "Player.Redwake.Male.W0A3": [
+          12,
+          4
+        ],
+        "Player.Redwake.Male.W1A0": [
+          1,
+          4
+        ],
+        "Player.Redwake.Male.W1A1": [
+          5,
+          4
+        ],
+        "Player.Redwake.Male.W1A2": [
+          9,
+          4
+        ],
+        "Player.Redwake.Male.W1A3": [
+          13,
+          4
+        ],
+        "Player.Redwake.Male.W2A0": [
+          2,
+          4
+        ],
+        "Player.Redwake.Male.W2A1": [
+          6,
+          4
+        ],
+        "Player.Redwake.Male.W2A2": [
+          10,
+          4
+        ],
+        "Player.Redwake.Male.W2A3": [
+          14,
+          4
+        ],
+        "Player.Redwake.Male.W3A0": [
+          3,
+          4
+        ],
+        "Player.Redwake.Male.W3A1": [
+          7,
+          4
+        ],
+        "Player.Redwake.Male.W3A2": [
+          11,
+          4
+        ],
+        "Player.Redwake.Male.W3A3": [
+          15,
+          4
+        ],
+        "Player.Redwake.Female": [
+          16,
+          5
+        ],
+        "Player.Redwake.Female.W0A0": [
+          0,
+          5
+        ],
+        "Player.Redwake.Female.W0A1": [
+          4,
+          5
+        ],
+        "Player.Redwake.Female.W0A2": [
+          8,
+          5
+        ],
+        "Player.Redwake.Female.W0A3": [
+          12,
+          5
+        ],
+        "Player.Redwake.Female.W1A0": [
+          1,
+          5
+        ],
+        "Player.Redwake.Female.W1A1": [
+          5,
+          5
+        ],
+        "Player.Redwake.Female.W1A2": [
+          9,
+          5
+        ],
+        "Player.Redwake.Female.W1A3": [
+          13,
+          5
+        ],
+        "Player.Redwake.Female.W2A0": [
+          2,
+          5
+        ],
+        "Player.Redwake.Female.W2A1": [
+          6,
+          5
+        ],
+        "Player.Redwake.Female.W2A2": [
+          10,
+          5
+        ],
+        "Player.Redwake.Female.W2A3": [
+          14,
+          5
+        ],
+        "Player.Redwake.Female.W3A0": [
+          3,
+          5
+        ],
+        "Player.Redwake.Female.W3A1": [
+          7,
+          5
+        ],
+        "Player.Redwake.Female.W3A2": [
+          11,
+          5
+        ],
+        "Player.Redwake.Female.W3A3": [
+          15,
+          5
+        ],
+        "Player.Waysworn.Male": [
+          16,
+          6
+        ],
+        "Player.Waysworn.Male.W0A0": [
+          0,
+          6
+        ],
+        "Player.Waysworn.Male.W0A1": [
+          4,
+          6
+        ],
+        "Player.Waysworn.Male.W0A2": [
+          8,
+          6
+        ],
+        "Player.Waysworn.Male.W0A3": [
+          12,
+          6
+        ],
+        "Player.Waysworn.Male.W1A0": [
+          1,
+          6
+        ],
+        "Player.Waysworn.Male.W1A1": [
+          5,
+          6
+        ],
+        "Player.Waysworn.Male.W1A2": [
+          9,
+          6
+        ],
+        "Player.Waysworn.Male.W1A3": [
+          13,
+          6
+        ],
+        "Player.Waysworn.Male.W2A0": [
+          2,
+          6
+        ],
+        "Player.Waysworn.Male.W2A1": [
+          6,
+          6
+        ],
+        "Player.Waysworn.Male.W2A2": [
+          10,
+          6
+        ],
+        "Player.Waysworn.Male.W2A3": [
+          14,
+          6
+        ],
+        "Player.Waysworn.Male.W3A0": [
+          3,
+          6
+        ],
+        "Player.Waysworn.Male.W3A1": [
+          7,
+          6
+        ],
+        "Player.Waysworn.Male.W3A2": [
+          11,
+          6
+        ],
+        "Player.Waysworn.Male.W3A3": [
+          15,
+          6
+        ],
+        "Player.Waysworn.Female": [
+          16,
+          7
+        ],
+        "Player.Waysworn.Female.W0A0": [
+          0,
+          7
+        ],
+        "Player.Waysworn.Female.W0A1": [
+          4,
+          7
+        ],
+        "Player.Waysworn.Female.W0A2": [
+          8,
+          7
+        ],
+        "Player.Waysworn.Female.W0A3": [
+          12,
+          7
+        ],
+        "Player.Waysworn.Female.W1A0": [
+          1,
+          7
+        ],
+        "Player.Waysworn.Female.W1A1": [
+          5,
+          7
+        ],
+        "Player.Waysworn.Female.W1A2": [
+          9,
+          7
+        ],
+        "Player.Waysworn.Female.W1A3": [
+          13,
+          7
+        ],
+        "Player.Waysworn.Female.W2A0": [
+          2,
+          7
+        ],
+        "Player.Waysworn.Female.W2A1": [
+          6,
+          7
+        ],
+        "Player.Waysworn.Female.W2A2": [
+          10,
+          7
+        ],
+        "Player.Waysworn.Female.W2A3": [
+          14,
+          7
+        ],
+        "Player.Waysworn.Female.W3A0": [
+          3,
+          7
+        ],
+        "Player.Waysworn.Female.W3A1": [
+          7,
+          7
+        ],
+        "Player.Waysworn.Female.W3A2": [
+          11,
+          7
+        ],
+        "Player.Waysworn.Female.W3A3": [
+          15,
+          7
+        ],
+        "Player.SigilSworn.Male": [
+          16,
+          8
+        ],
+        "Player.SigilSworn.Male.W0A0": [
+          0,
+          8
+        ],
+        "Player.SigilSworn.Male.W0A1": [
+          4,
+          8
+        ],
+        "Player.SigilSworn.Male.W0A2": [
+          8,
+          8
+        ],
+        "Player.SigilSworn.Male.W0A3": [
+          12,
+          8
+        ],
+        "Player.SigilSworn.Male.W1A0": [
+          1,
+          8
+        ],
+        "Player.SigilSworn.Male.W1A1": [
+          5,
+          8
+        ],
+        "Player.SigilSworn.Male.W1A2": [
+          9,
+          8
+        ],
+        "Player.SigilSworn.Male.W1A3": [
+          13,
+          8
+        ],
+        "Player.SigilSworn.Male.W2A0": [
+          2,
+          8
+        ],
+        "Player.SigilSworn.Male.W2A1": [
+          6,
+          8
+        ],
+        "Player.SigilSworn.Male.W2A2": [
+          10,
+          8
+        ],
+        "Player.SigilSworn.Male.W2A3": [
+          14,
+          8
+        ],
+        "Player.SigilSworn.Male.W3A0": [
+          3,
+          8
+        ],
+        "Player.SigilSworn.Male.W3A1": [
+          7,
+          8
+        ],
+        "Player.SigilSworn.Male.W3A2": [
+          11,
+          8
+        ],
+        "Player.SigilSworn.Male.W3A3": [
+          15,
+          8
+        ],
+        "Player.SigilSworn.Female": [
+          16,
+          9
+        ],
+        "Player.SigilSworn.Female.W0A0": [
+          0,
+          9
+        ],
+        "Player.SigilSworn.Female.W0A1": [
+          4,
+          9
+        ],
+        "Player.SigilSworn.Female.W0A2": [
+          8,
+          9
+        ],
+        "Player.SigilSworn.Female.W0A3": [
+          12,
+          9
+        ],
+        "Player.SigilSworn.Female.W1A0": [
+          1,
+          9
+        ],
+        "Player.SigilSworn.Female.W1A1": [
+          5,
+          9
+        ],
+        "Player.SigilSworn.Female.W1A2": [
+          9,
+          9
+        ],
+        "Player.SigilSworn.Female.W1A3": [
+          13,
+          9
+        ],
+        "Player.SigilSworn.Female.W2A0": [
+          2,
+          9
+        ],
+        "Player.SigilSworn.Female.W2A1": [
+          6,
+          9
+        ],
+        "Player.SigilSworn.Female.W2A2": [
+          10,
+          9
+        ],
+        "Player.SigilSworn.Female.W2A3": [
+          14,
+          9
+        ],
+        "Player.SigilSworn.Female.W3A0": [
+          3,
+          9
+        ],
+        "Player.SigilSworn.Female.W3A1": [
+          7,
+          9
+        ],
+        "Player.SigilSworn.Female.W3A2": [
+          11,
+          9
+        ],
+        "Player.SigilSworn.Female.W3A3": [
+          15,
+          9
+        ],
+        "Player.Fensworn.Male": [
+          16,
+          10
+        ],
+        "Player.Fensworn.Male.W0A0": [
+          0,
+          10
+        ],
+        "Player.Fensworn.Male.W0A1": [
+          4,
+          10
+        ],
+        "Player.Fensworn.Male.W0A2": [
+          8,
+          10
+        ],
+        "Player.Fensworn.Male.W0A3": [
+          12,
+          10
+        ],
+        "Player.Fensworn.Male.W1A0": [
+          1,
+          10
+        ],
+        "Player.Fensworn.Male.W1A1": [
+          5,
+          10
+        ],
+        "Player.Fensworn.Male.W1A2": [
+          9,
+          10
+        ],
+        "Player.Fensworn.Male.W1A3": [
+          13,
+          10
+        ],
+        "Player.Fensworn.Male.W2A0": [
+          2,
+          10
+        ],
+        "Player.Fensworn.Male.W2A1": [
+          6,
+          10
+        ],
+        "Player.Fensworn.Male.W2A2": [
+          10,
+          10
+        ],
+        "Player.Fensworn.Male.W2A3": [
+          14,
+          10
+        ],
+        "Player.Fensworn.Male.W3A0": [
+          3,
+          10
+        ],
+        "Player.Fensworn.Male.W3A1": [
+          7,
+          10
+        ],
+        "Player.Fensworn.Male.W3A2": [
+          11,
+          10
+        ],
+        "Player.Fensworn.Male.W3A3": [
+          15,
+          10
+        ],
+        "Player.Fensworn.Female": [
+          16,
+          11
+        ],
+        "Player.Fensworn.Female.W0A0": [
+          0,
+          11
+        ],
+        "Player.Fensworn.Female.W0A1": [
+          4,
+          11
+        ],
+        "Player.Fensworn.Female.W0A2": [
+          8,
+          11
+        ],
+        "Player.Fensworn.Female.W0A3": [
+          12,
+          11
+        ],
+        "Player.Fensworn.Female.W1A0": [
+          1,
+          11
+        ],
+        "Player.Fensworn.Female.W1A1": [
+          5,
+          11
+        ],
+        "Player.Fensworn.Female.W1A2": [
+          9,
+          11
+        ],
+        "Player.Fensworn.Female.W1A3": [
+          13,
+          11
+        ],
+        "Player.Fensworn.Female.W2A0": [
+          2,
+          11
+        ],
+        "Player.Fensworn.Female.W2A1": [
+          6,
+          11
+        ],
+        "Player.Fensworn.Female.W2A2": [
+          10,
+          11
+        ],
+        "Player.Fensworn.Female.W2A3": [
+          14,
+          11
+        ],
+        "Player.Fensworn.Female.W3A0": [
+          3,
+          11
+        ],
+        "Player.Fensworn.Female.W3A1": [
+          7,
+          11
+        ],
+        "Player.Fensworn.Female.W3A2": [
+          11,
+          11
+        ],
+        "Player.Fensworn.Female.W3A3": [
+          15,
+          11
+        ]
+      }
+    },
+    {
+      "name": "player_relics",
+      "file": "player_relics.png",
+      "mapping": {
+        "Player.Relic.Rallybreaker.Male": [
+          0,
+          0
+        ],
+        "Player.Relic.Fangmantle.Male": [
+          1,
+          0
+        ],
+        "Player.Relic.Graveglass.Male": [
+          2,
+          0
+        ],
+        "Player.Relic.Saltcrown.Male": [
+          3,
+          0
+        ],
+        "Player.Relic.Stoneheart.Male": [
+          4,
+          0
+        ],
+        "Player.Relic.GnawboneCrown.Male": [
+          5,
+          0
+        ],
+        "Player.Relic.TollcoinCharm.Male": [
+          6,
+          0
+        ],
+        "Player.Relic.WisplightLantern.Male": [
+          7,
+          0
+        ],
+        "Player.Relic.Hartshorn.Male": [
+          8,
+          0
+        ],
+        "Player.Relic.Rallybreaker.Female": [
+          0,
+          1
+        ],
+        "Player.Relic.Fangmantle.Female": [
+          1,
+          1
+        ],
+        "Player.Relic.Graveglass.Female": [
+          2,
+          1
+        ],
+        "Player.Relic.Saltcrown.Female": [
+          3,
+          1
+        ],
+        "Player.Relic.Stoneheart.Female": [
+          4,
+          1
+        ],
+        "Player.Relic.GnawboneCrown.Female": [
+          5,
+          1
+        ],
+        "Player.Relic.TollcoinCharm.Female": [
+          6,
+          1
+        ],
+        "Player.Relic.WisplightLantern.Female": [
+          7,
+          1
+        ],
+        "Player.Relic.Hartshorn.Female": [
+          8,
+          1
+        ]
+      }
+    }
+  ]
+}

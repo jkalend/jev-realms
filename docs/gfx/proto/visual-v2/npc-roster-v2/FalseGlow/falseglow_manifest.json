@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "FalseGlow",
+      "kind": "actor",
+      "source": "source/FalseGlow.glb",
+      "render_root": "render/FalseGlow",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "npc_falseglow_orb",
+        "weapon": "orb",
+        "default_action": "falseglow_idle",
+        "clips": {
+          "idle": [
+            "falseglow_idle"
+          ],
+          "walk": [
+            "falseglow_walk_a",
+            "falseglow_walk_b"
+          ],
+          "attack": [
+            "falseglow_pulse",
+            "falseglow_fade",
+            "falseglow_recover"
+          ],
+          "hit": [
+            "falseglow_hit_recoil"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

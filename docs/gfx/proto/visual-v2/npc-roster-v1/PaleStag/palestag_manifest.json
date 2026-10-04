@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "PaleStag",
+      "kind": "boss",
+      "source": "source/PaleStag.glb",
+      "render_root": "render/PaleStag",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "boss_palestag_antlers",
+        "weapon": "antlers",
+        "default_action": "palestag_idle",
+        "clips": {
+          "idle": [
+            "palestag_idle"
+          ],
+          "walk": [
+            "palestag_walk_a",
+            "palestag_walk_b"
+          ],
+          "attack": [
+            "palestag_charge",
+            "palestag_antler_thrust",
+            "palestag_recover"
+          ],
+          "hit": [
+            "palestag_hit_recoil"
+          ]
+        },
+        "boss": {
+          "signature": "forking_antlers",
+          "phase_actions": [
+            "palestag_phase_gallop",
+            "palestag_phase_bay"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_v1",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

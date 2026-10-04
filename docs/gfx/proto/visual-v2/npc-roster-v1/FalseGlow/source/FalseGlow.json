@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "FalseGlow",
+  "kind": "actor",
+  "source": "FalseGlow.glb",
+  "sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+  "front_marker": "front",
+  "back_marker": "back",
+  "pivot": "feet_center",
+  "objects": [
+    "FalseGlow_Eye-1",
+    "FalseGlow_Eye1",
+    "FalseGlow_EyeSocket-1",
+    "FalseGlow_EyeSocket1",
+    "FalseGlow_GlowHead",
+    "FalseGlow_GlowMouth",
+    "FalseGlow_Rig",
+    "FalseGlow_Tail",
+    "FalseGlow_WispArm-1",
+    "FalseGlow_WispArm1",
+    "FalseGlow_WispCore",
+    "FalseGlow_back",
+    "FalseGlow_front",
+    "FalseGlow_pivot"
+  ]
+}

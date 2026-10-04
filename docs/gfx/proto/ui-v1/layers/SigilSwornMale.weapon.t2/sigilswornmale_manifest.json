@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "SigilSwornMale",
+      "kind": "player",
+      "class": "SigilSworn",
+      "build": "Male",
+      "sprite_key": "Player.SigilSworn.Male",
+      "calling": "Speaker",
+      "source": "source/SigilSwornMale.glb",
+      "render_root": "render/SigilSwornMale",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "player_sigilsworn_sigilfocus",
+        "weapon": "sigilfocus",
+        "default_action": "sigilsworn_idle",
+        "clips": {
+          "idle": [
+            "sigilsworn_idle"
+          ],
+          "walk": [
+            "sigilsworn_walk_a",
+            "sigilsworn_walk_b"
+          ],
+          "attack": [
+            "sigilsworn_seal_write",
+            "sigilsworn_release",
+            "sigilsworn_recover"
+          ],
+          "hit": [
+            "sigilsworn_hit_recoil"
+          ]
+        },
+        "build": "Male"
+      },
+      "equipped": {
+        "weapon": "sigilfocus",
+        "tier": 2,
+        "layer": "weapon",
+        "relic": null
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_player_v1",
+        "front_axis": "-Y",
+        "sockets": [
+          "weapon.R",
+          "chest",
+          "relic"
+        ]
+      }
+    }
+  ]
+}

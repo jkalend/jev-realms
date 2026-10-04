@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Wolf",
+      "kind": "actor",
+      "source": "source/Wolf.glb",
+      "render_root": "render/Wolf",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "npc_wolf_claws",
+        "weapon": "claws",
+        "default_action": "wolf_idle",
+        "clips": {
+          "idle": [
+            "wolf_idle"
+          ],
+          "walk": [
+            "wolf_walk_a",
+            "wolf_walk_b"
+          ],
+          "attack": [
+            "wolf_lunge",
+            "wolf_snap",
+            "wolf_recover"
+          ],
+          "hit": [
+            "wolf_hit_recoil"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_v1",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

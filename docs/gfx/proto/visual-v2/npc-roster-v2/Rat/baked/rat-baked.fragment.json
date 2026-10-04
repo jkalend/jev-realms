@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "rat-baked",
+    "file": "rat-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "Rat": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Rat": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Rat.attack.front.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Rat/attack/front/000.png",
+      "source_sha256": "560911f050395aafbb6219b5a34f1139e66e7f1accf9ebdb7bf341cafa2f976e",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Rat.attack.front.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Rat/attack/front/001.png",
+      "source_sha256": "5504d728e00836c16b3248828f2a5a969cf298c65b8395dc22f3db6daba5c1d7",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Rat.attack.front.002",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Rat/attack/front/002.png",
+      "source_sha256": "4336559d4bceb9e097ce972852d3f9ea79aa7c56ad720b40db5260ec9545a7fd",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Rat.attack.front_right.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Rat/attack/front_right/000.png",
+      "source_sha256": "f77af7d7cdd041c45f74f9042aafacdd8b1b58db9c9502eb14c663d0ae5dba27",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Rat.attack.front_right.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Rat/attack/front_right/001.png",
+      "source_sha256": "6119fedb7253b026bd9b2b54cc657732c4469458051aeb2740f043ec448468e7",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Rat.attack.front_right.002",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Rat/attack/front_right/002.png",
+      "source_sha256": "bc5f11186592c68b8ef46bd770f91a3345b76872e7a12f89cf1d68485dc228e7",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Rat.attack.right.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Rat/attack/right/000.png",
+      "source_sha256": "2c2975a1e7acbce455b1265d99df8e13ca2d9135d32e83926b48c324fa4b1130",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Rat.attack.right.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Rat/attack/right/001.png",
+      "source_sha256": "61c8da0d20e24766bd9e14b397c7438dcbe9d991b65127ca4f3ee4bca920f48f",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Rat.attack.right.002",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Rat/attack/right/002.png",
+      "source_sha256": "db4d53d94c4e83fcb0c6ddbf91cb53abeca55ea0720378b669289048b80552dd",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Rat.attack.back_right.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Rat/attack/back_right/000.png",
+      "source_sha256": "c7d5c3e1c5a92fb9891b7c3c0c9eb9708e3da4d4af35a33e6a7a9d1172425bc7",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Rat.attack.back_right.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Rat/attack/back_right/001.png",
+      "source_sha256": "f1b23876c26e688126a6c5c51aa84061e26532517cd624603245bb0546793121",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Rat.attack.back_right.002",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Rat/attack/back_right/002.png",
+      "source_sha256": "40c24c373bb3d675d26727fce073a54ac4f223bdfc09ca943d09830c97840e44",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Rat.attack.back.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Rat/attack/back/000.png",
+      "source_sha256": "d80eeb3093fe2b1704c8f28c6b2d6e7fe1ad8d3b84643db374937d8142bc7dd5",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Rat.attack.back.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Rat/attack/back/001.png",
+      "source_sha256": "50c88eb4e8578fc8281852f1841d99c45ff29472c7ef55eca53a0d9830d69389",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Rat.attack.back.002",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Rat/attack/back/002.png",
+      "source_sha256": "13332404890ac42ff459e82eca01a8b26c0253b1c83db941211ebfbc51c03673",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Rat.attack.back_left.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Rat/attack/back_left/000.png",
+      "source_sha256": "648be427374178f7a383d504002e06f26f1e78bd885571476be8ae3302fa0d76",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Rat.attack.back_left.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Rat/attack/back_left/001.png",
+      "source_sha256": "49e5cec26cc8af0cae1f13e74c650572802962257bfc0a27a2a33e87c4280028",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Rat.attack.back_left.002",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Rat/attack/back_left/002.png",
+      "source_sha256": "1918b67f66728a1dadb2d8d67b214fc08b6664fd43978dc26fe0d35d22fe51e1",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Rat.attack.left.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Rat/attack/left/000.png",
+      "source_sha256": "d9b46876a32247343863805ec9cc1fce016c05993875992e1f91528b40fa5446",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Rat.attack.left.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Rat/attack/left/001.png",
+      "source_sha256": "87e4cff520630e31beb751f2a321a858809ae5793f0a3befcc673c9ecb326c0a",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Rat.attack.left.002",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Rat/attack/left/002.png",
+      "source_sha256": "be273eeec0bc7f45926239508820f78c40f0aee3e0a6b5e05650f5b45541579b",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Rat.attack.front_left.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Rat/attack/front_left/000.png",
+      "source_sha256": "41115e86eaa8837e773eca250c4cf876a8b8b772438a46e61b4644d2dc4eb5e4",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Rat.attack.front_left.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Rat/attack/front_left/001.png",
+      "source_sha256": "515ba28e1c8261901b5fb47f908bad4f886a2d7c3d544104b5a8729e0de79fd0",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Rat.attack.front_left.002",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Rat/attack/front_left/002.png",
+      "source_sha256": "91c911bfda8b67695ce5c2b80860e0bd7b1305a39dfe9d437fffbd464d50b054",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Rat.hit.front.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Rat/hit/front/000.png",
+      "source_sha256": "43e1aa86b8732d5f846d09e2ba4bbaabd441b2524fa9502e89f3ce6cb25f36c7",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Rat.hit.front.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Rat/hit/front/001.png",
+      "source_sha256": "619c86aa27af86732acb749db0770437334ef52348f48015eaf534a4fc2a91db",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Rat.hit.front_right.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Rat/hit/front_right/000.png",
+      "source_sha256": "1cd81cc1da43d887b6c7e5b855fd0e321e6d251c8e40e90030bdb580e577694b",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Rat.hit.front_right.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Rat/hit/front_right/001.png",
+      "source_sha256": "58dd84697b2e6887a98f9d12ef4c650c8b70aee8d2075f86760c797b0b237e18",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Rat.hit.right.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Rat/hit/right/000.png",
+      "source_sha256": "0509cd3fdf99286ece487c9241cf469392fc485be5fa145be8cbfab895f39097",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Rat.hit.right.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Rat/hit/right/001.png",
+      "source_sha256": "9c3c56b87b0aac2d833235cf6a28da7eb64d4ddf88e27889b07d42b637e3b5df",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Rat.hit.back_right.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Rat/hit/back_right/000.png",
+      "source_sha256": "e8f625458662a5a6e8157dd29b95ef014d6139376e2db0268838a1ca83a2ae65",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Rat.hit.back_right.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Rat/hit/back_right/001.png",
+      "source_sha256": "bd9500ad0ce71a580a64c3cfccab40ee8076ce53bc3620a7bb54c1f37d0fc327",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Rat.hit.back.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Rat/hit/back/000.png",
+      "source_sha256": "d2eb666f9802da65aa9543176af079aa3500efbe9bfaf9804d6396c770d69f17",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Rat.hit.back.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Rat/hit/back/001.png",
+      "source_sha256": "192ff289e33c00ae851e79601c698eb35f731647b2c7a7b2a557ed58a4528ced",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Rat.hit.back_left.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Rat/hit/back_left/000.png",
+      "source_sha256": "1975ccac04b57bf623613952fc8e3b9d0953c8d84cabb394421b21a9bd905d56",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Rat.hit.back_left.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Rat/hit/back_left/001.png",
+      "source_sha256": "627343141365ef28e3fc1588e792a83d7480d9baf88f963cbfe44d6004d88c86",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Rat.hit.left.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Rat/hit/left/000.png",
+      "source_sha256": "8c635beee2bbc373c354d2f57d482ec329ffd13fce14d2c7a82b55dddddf2fa9",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Rat.hit.left.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Rat/hit/left/001.png",
+      "source_sha256": "a7666d42ab6f4e09107a6255984e201d58af068261db6a0114873c3051b59928",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Rat.hit.front_left.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Rat/hit/front_left/000.png",
+      "source_sha256": "780e331ef0fe3cf51c65a0eb7160f9256ec3b7a30fa0f9dd7a500be7d639248e",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Rat.hit.front_left.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Rat/hit/front_left/001.png",
+      "source_sha256": "5a96ca9f14f9ca17156f2d895e5cecb8fecbd124ffa2e04b39fc1886bb5ef237",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Rat.idle.front.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Rat/idle/front/000.png",
+      "source_sha256": "7bf151b4cabd14a6ba44aac8d1cd0ba700d0c50a66a7c6ccf6f73877bb52ee58",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Rat.idle.front.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Rat/idle/front/001.png",
+      "source_sha256": "8e53144198fc21bea2ffec612cb6ae1b917d6a325092240bc650d0aa70d047c9",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Rat.idle.front_right.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Rat/idle/front_right/000.png",
+      "source_sha256": "8a1ddb796f7bcf2eafd3bc93ccc44a3c06860c27faf905496d551d284d26a77d",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Rat.idle.front_right.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Rat/idle/front_right/001.png",
+      "source_sha256": "a5eea9a92493174a82a05a1c7e374043a69573af4f69429a209b892f3ff12f72",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Rat.idle.right.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Rat/idle/right/000.png",
+      "source_sha256": "7650faafdf40810ad15b2fb5baecc1de2be4c597a7b8b91d85810976038f3ffb",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Rat.idle.right.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Rat/idle/right/001.png",
+      "source_sha256": "366434e7d5ad7db59b425215cd1b1fb266d9ddcc6ff4e3bfbdbefc1b88a549d9",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Rat.idle.back_right.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Rat/idle/back_right/000.png",
+      "source_sha256": "1c13169847e39c7445f30f42761785d5c44e7d3413b93e5cb78734cbdc7190f1",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Rat.idle.back_right.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Rat/idle/back_right/001.png",
+      "source_sha256": "ab4c091833315a8d7704d706577bf0f4f3ff907d4275c4ba05b049f9dc65ce60",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Rat.idle.back.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Rat/idle/back/000.png",
+      "source_sha256": "840d133e1ae98da0c5d9d0aa0a7ed105178c3dd57144c40e7333eb6abbbbe271",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Rat.idle.back.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Rat/idle/back/001.png",
+      "source_sha256": "9cec05ec2e4487743f0bfc037d43c2bb07712c461b7a63770b16e1d6e2ed5c4a",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Rat.idle.back_left.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Rat/idle/back_left/000.png",
+      "source_sha256": "af9bfcdf949c47c0c931ea79b9330f3db9b32f022edfa65658585ff779bc199f",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Rat.idle.back_left.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Rat/idle/back_left/001.png",
+      "source_sha256": "b4258454de2e85ac48e56d12a783b304cfba7fc568d90f7f434859bd3be267e8",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Rat.idle.left.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Rat/idle/left/000.png",
+      "source_sha256": "16e25a7b6833554adcd9a4d18a43a9da86ea9750ce34a93482768c69f5e1cf53",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Rat.idle.left.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Rat/idle/left/001.png",
+      "source_sha256": "652c39827df8ede6adca26fc8a4a6c9f9edd97f22eaad1323e483ee32e3cde5b",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Rat.idle.front_left.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Rat/idle/front_left/000.png",
+      "source_sha256": "4385d679be12f158e550377620885204fe96bf2c10c1736a429146b7a7e9fd7c",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Rat.idle.front_left.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Rat/idle/front_left/001.png",
+      "source_sha256": "dc7cf5ff7354548e660fd1800a5a2a49d5c4f5e584d9f03c6b9b743ada041e29",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "Rat.walk.front.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Rat/walk/front/000.png",
+      "source_sha256": "e9c1696281149f01f167593d078654828bdbbf85e4925e7e0872cfb31874d5d2",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "Rat.walk.front.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Rat/walk/front/001.png",
+      "source_sha256": "e8166732a419af8ddebb38563efb974665a203106e360c3f33bb58f43402043b",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "Rat.walk.front_right.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Rat/walk/front_right/000.png",
+      "source_sha256": "5ab1dbf62b681c7bc83cedee6f226bea91975705a3aeaca9e0573d3964c6a955",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "Rat.walk.front_right.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Rat/walk/front_right/001.png",
+      "source_sha256": "fb563c9e62fd42d2efb8c8baa4ad8882ceb95f65fde2e1464bf798d1e6797c68",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "Rat.walk.right.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Rat/walk/right/000.png",
+      "source_sha256": "9b539b35e8aac64308e8dab154149b193ac76f23fce01ed30fd23413996fdfa9",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "Rat.walk.right.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Rat/walk/right/001.png",
+      "source_sha256": "804a12feea2fd52779acc5fe2ced184f753646f09b14ef57aaa6cdce16b193a0",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "Rat.walk.back_right.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Rat/walk/back_right/000.png",
+      "source_sha256": "a9f668a2a0714f227079baa74cbff2652a763cbc0986f27688a0183864572898",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "Rat.walk.back_right.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Rat/walk/back_right/001.png",
+      "source_sha256": "f5cc75a710e1fdeadb85939502bc6e9a5c2b06988e0040a82b0bed46d9987c97",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "Rat.walk.back.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Rat/walk/back/000.png",
+      "source_sha256": "9ec1ad667183a19abf499639edff9450a0317105de3ea4b9b6dcbfc9fab016d2",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "Rat.walk.back.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Rat/walk/back/001.png",
+      "source_sha256": "ad81741d2e3ac35a81275157530585b6934985f99f04e270b03305a89f51e560",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "Rat.walk.back_left.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Rat/walk/back_left/000.png",
+      "source_sha256": "e1c1793af0166fad605309c1e442ed911c98ced4bc08445c9c57cbc876a2c21d",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "Rat.walk.back_left.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Rat/walk/back_left/001.png",
+      "source_sha256": "e4798e1b3ea402a294b893d1365dc36971e2ddf8995cc7c87363b9dcfed9b39e",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "Rat.walk.left.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Rat/walk/left/000.png",
+      "source_sha256": "cba6851d1855070ec744926cf1eac1228ff353bfb6cf1dc28c6ef2ea6f681734",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "Rat.walk.left.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Rat/walk/left/001.png",
+      "source_sha256": "6fa8c64837356cdda3f118667c60c62f3adb7945ef29b042e6156472815f5281",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "Rat.walk.front_left.000",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Rat/walk/front_left/000.png",
+      "source_sha256": "e8e227445a7b79b6b14adb32fa55b43b220320b9fa13765f66819a18d09212c1",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "Rat.walk.front_left.001",
+      "asset_id": "Rat",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Rat/walk/front_left/001.png",
+      "source_sha256": "13d359a41be81c59622ad7830abe723a04cb8746734a4ef693978dc54aecabba",
+      "glb_sha256": "f099d87e25e848c82e4192ac296c9198bfb1b5163ff36f152b7f991cac832b94",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

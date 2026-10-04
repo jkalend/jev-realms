@@ -1,0 +1,33 @@
+[workspace]
+members = ["crates/core", "spikes/e0", "spikes/r3d", "tools/atlas", "crates/view"]
+resolver = "2"
+
+[package]
+name = "laya-realms-bin"
+version = "0.1.0"
+edition = "2021"
+description = "A terminal RPG with observable Laya-driven NPC decisions"
+license = "MIT"
+
+[[bin]]
+name = "laya-realms"
+path = "src/main.rs"
+
+[dependencies]
+laya-realms = { path = "crates/core" }
+crossterm = "0.28"
+ratatui = "0.29"
+macroquad = { version = "0.4", default-features = false }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+tokio = { version = "1", features = ["rt-multi-thread", "sync", "time", "macros"] }
+realms-view = { path = "crates/view", optional = true }
+
+[features]
+# E4: the production Bevy window. Off by default so terminal/gui builds stay light.
+bevy-view = ["dep:realms-view"]
+
+[profile.release]
+lto = "thin"
+strip = true

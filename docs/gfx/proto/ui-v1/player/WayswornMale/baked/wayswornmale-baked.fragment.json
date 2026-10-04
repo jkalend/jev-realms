@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "wayswornmale-baked",
+    "file": "wayswornmale-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "WayswornMale": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "WayswornMale": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "WayswornMale.attack.front.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/WayswornMale/attack/front/000.png",
+      "source_sha256": "5e8fd25d9798c32a1a0f7716a21661fa93b49aee73116bdb2e0ac056f2509aa0",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.front.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/WayswornMale/attack/front/001.png",
+      "source_sha256": "db04f2c9bdb2fa6c184dc116f3df372a611666e5604a5a3b1b410671846d0220",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.front.002",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/WayswornMale/attack/front/002.png",
+      "source_sha256": "e9b858fcab77b957ba51171560bf23935c48978f9bd0af3b33f9b5d781064693",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.front_right.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/WayswornMale/attack/front_right/000.png",
+      "source_sha256": "6880228a000cbc9afc3fd4fad690eed640d57841af5a91c610a3cc5779240ad3",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.front_right.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/WayswornMale/attack/front_right/001.png",
+      "source_sha256": "661428e035eca55f5c32f9403c9230162f197551cf621ecfebd414a278890e19",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.front_right.002",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/WayswornMale/attack/front_right/002.png",
+      "source_sha256": "96d84e8595df110b969f236e4d487aa72665baf8eb6d138425dbf81982ccfd22",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.right.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/WayswornMale/attack/right/000.png",
+      "source_sha256": "f4ba8049a268799a9dcf8a5c8755ae55972728e8f47b20573dbb42145baa5919",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.right.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/WayswornMale/attack/right/001.png",
+      "source_sha256": "900210c21f6921321949da3602151cb755e2cc7443aa784dcb1d4f95d93d0abb",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.right.002",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/WayswornMale/attack/right/002.png",
+      "source_sha256": "6f64542c3f9ce2dce48033c4f05fd4ba56e37739636632fa550621c82cfafbdd",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.back_right.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/WayswornMale/attack/back_right/000.png",
+      "source_sha256": "f05733efc30f4fcf7196e9afe6be007fd6dbf69b3b81a8061258ec785bb7210e",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.back_right.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/WayswornMale/attack/back_right/001.png",
+      "source_sha256": "4cc406cd7b3d1a11f3eece3915f30705bf7711883a83788202d05fe7becfe114",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.back_right.002",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/WayswornMale/attack/back_right/002.png",
+      "source_sha256": "7b5225a08ae02b7dc14cca946861b06a7d7532e5ed61dc583e0f8abd9521557f",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.back.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/WayswornMale/attack/back/000.png",
+      "source_sha256": "9630aab8e3d4c65f0716b8bdf8b55879f5afb193b78de2a1753f502b8d5000a5",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.back.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/WayswornMale/attack/back/001.png",
+      "source_sha256": "1268a7d7fbc9971c48ed068132019464b1dc435283a7ad46931fd75bb2f5b010",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.back.002",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/WayswornMale/attack/back/002.png",
+      "source_sha256": "b7e2a4b7996904bf5dea2c39780326cc63ab2262df29511cd542c83360847e08",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.back_left.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/WayswornMale/attack/back_left/000.png",
+      "source_sha256": "3f5409aa9aaa5cc597272613171f1e1d76e95c0ac2e9090073ebcbaf98d29abf",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.back_left.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/WayswornMale/attack/back_left/001.png",
+      "source_sha256": "f9f3d6e02cb7cf35f671eb77f562d707bea6b766cfeb59e0c1a8799ed7496599",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.back_left.002",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/WayswornMale/attack/back_left/002.png",
+      "source_sha256": "5050210ed836668742d91f47ce73a878e3b691a1d5b3d76c75df6d21a70f8e6a",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.left.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/WayswornMale/attack/left/000.png",
+      "source_sha256": "c99adbef835cd080c187be020cde49c30e1905e8bca7bd682cd2a8b100cb60c4",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.left.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/WayswornMale/attack/left/001.png",
+      "source_sha256": "cccd0045bf784c363ac118d4bbdd6ccd66c40db0d5e376c91123a5fa7e63429e",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.left.002",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/WayswornMale/attack/left/002.png",
+      "source_sha256": "a365299d0727850307ee1d56060c9ddb0fbb1c0861ca2ad53226691507feec23",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.front_left.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/WayswornMale/attack/front_left/000.png",
+      "source_sha256": "95f5389a08dbad30c4427954f647a4cf544c863ecfc964e474857f6f7f0700a1",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.front_left.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/WayswornMale/attack/front_left/001.png",
+      "source_sha256": "a39d7e050342042dceee05edf1cb39bfc12f38875748ff2f61d453b406b4417a",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "WayswornMale.attack.front_left.002",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/WayswornMale/attack/front_left/002.png",
+      "source_sha256": "cb4e025c7bd1dbe39f95b4bc0d309b566e17f03383f0d8297dd3e2c8306e5eed",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.front.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/WayswornMale/hit/front/000.png",
+      "source_sha256": "2af1451683ff385b1956df03958f8d70e3f28da43ebb296f97d1443f2da9d16f",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.front.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/WayswornMale/hit/front/001.png",
+      "source_sha256": "a7189cc6c1594b1e93668961bd08108fc5461ebcd629b6f34a00ccec0710d341",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.front_right.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/WayswornMale/hit/front_right/000.png",
+      "source_sha256": "b55e0beb8fed74466b8dce58644b3de3091aa795036a757043994f24b87434a8",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.front_right.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/WayswornMale/hit/front_right/001.png",
+      "source_sha256": "eccc18ec70116a04bf1f500d4d856aee978bc45d1b85210ac8152526be66de90",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.right.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/WayswornMale/hit/right/000.png",
+      "source_sha256": "3322bfdd74ff16d4bc2af5fd05d8f4472ec9dd0a55b7695fdf2fc795804db7d6",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.right.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/WayswornMale/hit/right/001.png",
+      "source_sha256": "de237be84cbee2ee47d019bef98b92dc6d8e5b3b341716d6ff6606cebd1111c3",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.back_right.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/WayswornMale/hit/back_right/000.png",
+      "source_sha256": "0fe3620def773d49a8380aed440fff75bf6a7cd90a28e3a5edfb7042ecf42014",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.back_right.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/WayswornMale/hit/back_right/001.png",
+      "source_sha256": "c5bee2db490ee849dec4b5377a76b5d192aba2bb2b87b73d9fc5af4fe19efebb",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.back.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/WayswornMale/hit/back/000.png",
+      "source_sha256": "11b5062503fa02012cf13e0ce681c576cbbf612e9e65d110bd8bb255f65bd184",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.back.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/WayswornMale/hit/back/001.png",
+      "source_sha256": "4446400ba460d880dcdf192a4b859f14e22205955e4cd8b590d2384143c36dad",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.back_left.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/WayswornMale/hit/back_left/000.png",
+      "source_sha256": "9f14a96d23d210d08db2c0dd61f5268d8772277a9ef7f77fdf9c037fd3b91186",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.back_left.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/WayswornMale/hit/back_left/001.png",
+      "source_sha256": "420075e387bcb619a1f15f91e91afcfc8010305ad7ff7e3db905b548f9e05faf",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.left.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/WayswornMale/hit/left/000.png",
+      "source_sha256": "51f39c8aa73398d74af853dfe72a83e5fee88f1f45e77332b99020dc6a4b92ac",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.left.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/WayswornMale/hit/left/001.png",
+      "source_sha256": "385078e96abc2944b7516ee9bd252a1e15b6c85847e8a34969cba2478b218ea0",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.front_left.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/WayswornMale/hit/front_left/000.png",
+      "source_sha256": "e7a5e202ea231b38c36361589d454b5c940b01612ecc765cf967849a74af54c7",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "WayswornMale.hit.front_left.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/WayswornMale/hit/front_left/001.png",
+      "source_sha256": "0fe91c0b31b4084871bbc7e5363fb6d245046f374e5489e01421754d83b71b68",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.front.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/WayswornMale/idle/front/000.png",
+      "source_sha256": "b97298e5a3c61e8a2af0c01bcd773874a69df85c59105a8d5aea0c51e1b61d84",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.front.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/WayswornMale/idle/front/001.png",
+      "source_sha256": "a0446a881a30449d77f39502db04b803b385c044af1d51366c9df9d672896de5",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.front_right.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/WayswornMale/idle/front_right/000.png",
+      "source_sha256": "0862319caff91a0411d0c7001519a6bc9f7a9c90559d88371b1a4b01d1359482",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.front_right.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/WayswornMale/idle/front_right/001.png",
+      "source_sha256": "dd9358c941330d6fdfba43fb41cebc8354e99e691afe21c6a495281674ab0766",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.right.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/WayswornMale/idle/right/000.png",
+      "source_sha256": "8921875bae1c8b461674a139369aa5ac6f028846aa24955833e53ea695a112e8",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.right.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/WayswornMale/idle/right/001.png",
+      "source_sha256": "27902b431b5a7aa8db4c64c5ca092267ae6175061728735eb86895539c28137d",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.back_right.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/WayswornMale/idle/back_right/000.png",
+      "source_sha256": "9b2d157e50c1af339b4332d7061ce8f69fb8e2d3a9bb555cd282241f4ea98e92",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.back_right.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/WayswornMale/idle/back_right/001.png",
+      "source_sha256": "4d56154ffe9fa538c1a7afea354f57ec657ae6133aac4f60ecfedd923a9376f8",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.back.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/WayswornMale/idle/back/000.png",
+      "source_sha256": "840e0d65ced23fd39a7546b1189a4bacd1337c16263d6625cf5d3e03728d29ef",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.back.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/WayswornMale/idle/back/001.png",
+      "source_sha256": "a4175fa5d56a071f712893f7e0f509e4e93f4e4ce0711508cd69e91d76ae7dcb",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.back_left.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/WayswornMale/idle/back_left/000.png",
+      "source_sha256": "11060cab20ed3b9e7e717206f85ddf8a498e6772d20b04984dd09f4e7d5fd944",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.back_left.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/WayswornMale/idle/back_left/001.png",
+      "source_sha256": "3f1d0135e36a2cb563be9df3bb1d489c6a1d6e4d698ce8c77fac5b80220458f3",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.left.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/WayswornMale/idle/left/000.png",
+      "source_sha256": "3d87cbab6e421a0fd1dd77f6b5f5055abab17247e1eab0af07891e8751a0c548",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.left.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/WayswornMale/idle/left/001.png",
+      "source_sha256": "92c1beeb5a7f659dca460d9be46561944c792bc66a9689d5720e79e088a67548",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.front_left.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/WayswornMale/idle/front_left/000.png",
+      "source_sha256": "9390ff4a63988d768a22e3c90901366d39e27ee95e423dcad4a0fe8118d3cbe2",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "WayswornMale.idle.front_left.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/WayswornMale/idle/front_left/001.png",
+      "source_sha256": "fcf3225ec6fbeb66558a0ad586c4969fe4b6c63497e3374f61d198fe6dc6e4f2",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.front.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/WayswornMale/walk/front/000.png",
+      "source_sha256": "26b7126068f26f8be24fb946d107d87677e46b0de8cb344401968f67818f69dd",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.front.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/WayswornMale/walk/front/001.png",
+      "source_sha256": "8da48e5cf7d41c705f7764ad6ade504997bf6edb95a87bf905c3d3f298ec1a78",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.front_right.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/WayswornMale/walk/front_right/000.png",
+      "source_sha256": "63c5e51521a5f5658aa37491e4aedc8742969dc6293de697ecf40ce36613fa5e",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.front_right.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/WayswornMale/walk/front_right/001.png",
+      "source_sha256": "de7f49335f4c39f7c0acbc2a130534dae473bf64e7927f38208f196eeb675fd8",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.right.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/WayswornMale/walk/right/000.png",
+      "source_sha256": "59b8ff52bdd6cde46a2c1ab6361c2f0a1e7d1002e9d1dce2538e60b8c648c732",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.right.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/WayswornMale/walk/right/001.png",
+      "source_sha256": "ef2254ca6d9305f4be1725dcf39498dc2838a4dca543ac4d09dc87b602eb14c0",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.back_right.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/WayswornMale/walk/back_right/000.png",
+      "source_sha256": "adddd9b6b05ac6526ad020b1fd4055b22a05b272e4a859c891d728f2e07a3cf0",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.back_right.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/WayswornMale/walk/back_right/001.png",
+      "source_sha256": "d25ce60b9f19f0c88eec87d41c22129d07fb28d080af95ed3fccd9a59c867895",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.back.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/WayswornMale/walk/back/000.png",
+      "source_sha256": "0a3656571a08999aa0a944f400bc8e5a46a291f99a9947a146cd095b99d73536",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.back.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/WayswornMale/walk/back/001.png",
+      "source_sha256": "7d8ca0cd7533a06b58a20b018d1e5c9533507af963f13da8094b28fc4157a56a",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.back_left.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/WayswornMale/walk/back_left/000.png",
+      "source_sha256": "d3aa35a2dd234ca9e30f25d3d8e8a2925643226f9dd09afc4f392271581d7cf3",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.back_left.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/WayswornMale/walk/back_left/001.png",
+      "source_sha256": "8c7fa8796016a12ffab72cf43ffd5f05026e9762e7f7a52336744c49647b4662",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.left.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/WayswornMale/walk/left/000.png",
+      "source_sha256": "55700a8b8b09b9d67ef06a54f03cfd0ee578fd645b8961d6f49bb0496dc79900",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.left.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/WayswornMale/walk/left/001.png",
+      "source_sha256": "2e61021e87a6369dc1c14151af4d870df641c9f3feaec97e319091f08513ad7b",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.front_left.000",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/WayswornMale/walk/front_left/000.png",
+      "source_sha256": "b7d6df9a6f6893f728aeb36e89c1e3ba1c25dafb57f79ff1f3e1e87168225693",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "WayswornMale.walk.front_left.001",
+      "asset_id": "WayswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/WayswornMale/walk/front_left/001.png",
+      "source_sha256": "ba66879757e320f7b67527cd072e6367033fc7bdec8ddbe279038ef20d3f71b9",
+      "glb_sha256": "46c7ac28eb45eaa0e6ee3abbe4250be2b64ca207b65d0aab4003d96ec042ed84",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

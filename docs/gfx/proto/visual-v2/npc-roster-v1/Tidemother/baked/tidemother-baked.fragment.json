@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "tidemother-baked",
+    "file": "tidemother-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "Tidemother": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Tidemother": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Tidemother.attack.front.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Tidemother/attack/front/000.png",
+      "source_sha256": "c8f32780094f632bd6613f7e76d6e730899d61eefac871289641510f46b2a243",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Tidemother.attack.front.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Tidemother/attack/front/001.png",
+      "source_sha256": "333183c11106e1028ac10e8a5580dc22ede7ecf6aaf1b1a7bb151ecaa1114208",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Tidemother.attack.front.002",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Tidemother/attack/front/002.png",
+      "source_sha256": "f1d91800fdacabd23a3eb033734d005e8657d033db9b4cbf8b9b1b6acaf5163f",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Tidemother.attack.front_right.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Tidemother/attack/front_right/000.png",
+      "source_sha256": "ea11cab572c81025178cbfb9a0b3ed008be835cd15adabcc306799d6b0b03ed9",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Tidemother.attack.front_right.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Tidemother/attack/front_right/001.png",
+      "source_sha256": "6f92217248e748ca6dd5ed0f251b4772924387e63debd7b0163db282ec24f344",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Tidemother.attack.front_right.002",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Tidemother/attack/front_right/002.png",
+      "source_sha256": "245d5b36c5c9903812e41d0161e559c7d75718686c4f134f7be4e35ecd6e5fac",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Tidemother.attack.right.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Tidemother/attack/right/000.png",
+      "source_sha256": "bcdd8fc52e1b9024571f0057343fd88dd66e7aecaa985e2ef8c9b6c09df15f92",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Tidemother.attack.right.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Tidemother/attack/right/001.png",
+      "source_sha256": "a13c3ce0fe69b25e988487ea5e44ceb9193d69389b3e96e1baba952ea58278b9",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Tidemother.attack.right.002",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Tidemother/attack/right/002.png",
+      "source_sha256": "9ef63afe9a02285fd2f65104177b1029483ecee439747948831742db4ff42ea7",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Tidemother.attack.back_right.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Tidemother/attack/back_right/000.png",
+      "source_sha256": "9fe7063b941a3f60b041b2cb460a3943b11ed4f94bc0912325dc46a2e6405794",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Tidemother.attack.back_right.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Tidemother/attack/back_right/001.png",
+      "source_sha256": "f66cd670872e40df058ba93e47c0e5246376c20d25508a124f2b5f347c14515b",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Tidemother.attack.back_right.002",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Tidemother/attack/back_right/002.png",
+      "source_sha256": "f6c32e5c4d2e308c7644a3a2f622992cd0df63e6f29124ef13f8c767f0b17b6d",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Tidemother.attack.back.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Tidemother/attack/back/000.png",
+      "source_sha256": "4cc425d3990dfa9953381e399452de7b4cc5ca4db7e49633c9a7c70353d6283e",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Tidemother.attack.back.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Tidemother/attack/back/001.png",
+      "source_sha256": "286872365df92c3768af63756688d2dccec2f8cac312e508b25f5f70ca2ad76c",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Tidemother.attack.back.002",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Tidemother/attack/back/002.png",
+      "source_sha256": "38ed11a8462f1e117125c650e01a8bc321dc57a1c81efed337a805b6326b3fa7",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Tidemother.attack.back_left.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Tidemother/attack/back_left/000.png",
+      "source_sha256": "ce58b308d1ac80303a75424f5d8cbc53e8fe6a3fe37040b204f6b97b489d107f",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Tidemother.attack.back_left.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Tidemother/attack/back_left/001.png",
+      "source_sha256": "33c5ebdeee9336380bbbe0c81b9ee82ec5865ee96c5b82e83b9c09446b1d0b59",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Tidemother.attack.back_left.002",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Tidemother/attack/back_left/002.png",
+      "source_sha256": "9d382af0e51ab0ad5dd4c5d8c580d021141c3cd1a3b50ce1c91e1887664b555f",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Tidemother.attack.left.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Tidemother/attack/left/000.png",
+      "source_sha256": "2defbd3a58196b399a92a7a64d3f558e63c7d68c517cd2f5d5f3bfe86924f382",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Tidemother.attack.left.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Tidemother/attack/left/001.png",
+      "source_sha256": "51db8019f5879368571ab3e2abbe31f634588930159f1a9b57fa48be5b5972b6",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Tidemother.attack.left.002",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Tidemother/attack/left/002.png",
+      "source_sha256": "e47c99e44bdb0d55db5d6d487d3607205be76fad296d4dd05454d6e14983ca46",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Tidemother.attack.front_left.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Tidemother/attack/front_left/000.png",
+      "source_sha256": "f0755a7be38528c623e9d8dbccf84267024fa552957090e5684f7f1844e447e8",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Tidemother.attack.front_left.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Tidemother/attack/front_left/001.png",
+      "source_sha256": "eb07d55526880a39ccef55409f6837ac7f917540a73277605f8eaf8673ccbafe",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Tidemother.attack.front_left.002",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Tidemother/attack/front_left/002.png",
+      "source_sha256": "3b164562ef23d07961fe302388286a31e09a998744f9e0042270da0b3a1f2f63",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Tidemother.hit.front.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Tidemother/hit/front/000.png",
+      "source_sha256": "87fcadccbd854ade196acbe7d34d279cc4f9ea2cd3d5d6c5fa9ea8f32e3f19f4",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Tidemother.hit.front.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Tidemother/hit/front/001.png",
+      "source_sha256": "e953746c8381d7a4050e5a2b16d8e8850f521a8eaf2f57861ab5d667b8d8b765",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Tidemother.hit.front_right.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Tidemother/hit/front_right/000.png",
+      "source_sha256": "bf99ce6903383f692b80646b29b368b0455991fad178ff9d32e14349daa9d288",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Tidemother.hit.front_right.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Tidemother/hit/front_right/001.png",
+      "source_sha256": "91a19de3f4078e6725419b6e14e22505351ee21eed39844b256746286d80dd93",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Tidemother.hit.right.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Tidemother/hit/right/000.png",
+      "source_sha256": "0de9b44a3607145d2ff2aa153913010511f3a7520ec02cfb4d27d100fb1a3af2",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Tidemother.hit.right.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Tidemother/hit/right/001.png",
+      "source_sha256": "7105a93a60228ef03890492c0b0e7bcad5a575b45b0178fe91873aa55faaac11",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Tidemother.hit.back_right.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Tidemother/hit/back_right/000.png",
+      "source_sha256": "51a39b11d155db2a92637b132ca3958e3e077e385c00577545e07d4353eb485b",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Tidemother.hit.back_right.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Tidemother/hit/back_right/001.png",
+      "source_sha256": "9f82c68638c1676ca8d5706926e5a04c569616227264c09ad6cc68608a48fa32",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Tidemother.hit.back.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Tidemother/hit/back/000.png",
+      "source_sha256": "4c5dfd9c81242c7481f8194cc7c496dd43ee96e4643e16fea4f774894cec09c4",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Tidemother.hit.back.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Tidemother/hit/back/001.png",
+      "source_sha256": "ba58db4a79527dcf6ef6ec9b90308f652e9ea0aa15ebc2f57064dfbf80ce0d61",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Tidemother.hit.back_left.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Tidemother/hit/back_left/000.png",
+      "source_sha256": "75ca080ee1cfc231811fbff7e5e5553bc4b3d1dff867d6b58aa6d07bc741ea02",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Tidemother.hit.back_left.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Tidemother/hit/back_left/001.png",
+      "source_sha256": "f406b07acdc671066afe8826fda1dcf6cf88e72640eeb6e2e8390ebdb3c7a05b",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Tidemother.hit.left.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Tidemother/hit/left/000.png",
+      "source_sha256": "8451bac6dcd81484485fe89b1398dc9bde919945e74d0eb2a71875389a7ae2a8",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Tidemother.hit.left.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Tidemother/hit/left/001.png",
+      "source_sha256": "1980b154229f8262d17e756434f0ee0c274ee0c82321fcc67aa6f2c9319c97fe",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Tidemother.hit.front_left.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Tidemother/hit/front_left/000.png",
+      "source_sha256": "bb78a8d166ee72099269488c9ac9784b752f7f2b90ac25460507a6e057a19f61",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Tidemother.hit.front_left.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Tidemother/hit/front_left/001.png",
+      "source_sha256": "d71391813dc57d97f6773972eddf41c9fe937b9ee1f72f6ee2e005a6a3595605",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Tidemother.idle.front.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Tidemother/idle/front/000.png",
+      "source_sha256": "4e07df341a88489cac6d937d896de27364bc1334a963f40a1f17fe203e9a3e60",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Tidemother.idle.front.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Tidemother/idle/front/001.png",
+      "source_sha256": "204e4bbf2b916e99a0cae500859f6bb8f8c90f19aaa9fe912976ada83b7c65af",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Tidemother.idle.front_right.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Tidemother/idle/front_right/000.png",
+      "source_sha256": "0622a17b17b506fc17deec0b64e0e2b348912b475bb37a7f90341290fbe04fcb",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Tidemother.idle.front_right.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Tidemother/idle/front_right/001.png",
+      "source_sha256": "01bf3fe9784ef7763a00830ee9fbb7a393053e15e6c2d8b383b9bbdf944dc5bc",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Tidemother.idle.right.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Tidemother/idle/right/000.png",
+      "source_sha256": "55fdb9bd2c9971a3fc64875d2498b6a7da67ae2c103295f74a65d2c8a5687d22",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Tidemother.idle.right.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Tidemother/idle/right/001.png",
+      "source_sha256": "79f7f5d9a4721579f48d16dfeabda95c00e4abdf0dd9b217f74b4fc82d409298",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Tidemother.idle.back_right.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Tidemother/idle/back_right/000.png",
+      "source_sha256": "e857f5fdf22b6f2d67c5a5c24dd092234be6066d203659e511994aef1e564b6b",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Tidemother.idle.back_right.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Tidemother/idle/back_right/001.png",
+      "source_sha256": "9acc71b04354ad50d99a1144d1e72cea383e49a4aa140fd9bbe6d73396025f6a",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Tidemother.idle.back.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Tidemother/idle/back/000.png",
+      "source_sha256": "1e579113dd90caea8dc038191d20310faa313941ca36bf17710bdde535d03d63",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Tidemother.idle.back.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Tidemother/idle/back/001.png",
+      "source_sha256": "101af3f57aa0b03cdb78619a8653affc13c267f16fe4caf92ebf2d9bbd93ac64",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Tidemother.idle.back_left.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Tidemother/idle/back_left/000.png",
+      "source_sha256": "f706199d04b69ddd0994c2b416498ab8982a08872d8e093483e2825974eee1d4",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Tidemother.idle.back_left.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Tidemother/idle/back_left/001.png",
+      "source_sha256": "a1e0fe77803d94a7481a77db192f00cf4d6c0e638c41ce9eed1312e7b64d1706",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Tidemother.idle.left.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Tidemother/idle/left/000.png",
+      "source_sha256": "53c072857c865a3605a0859eb3faf5ac59940bb7f995d72210a11b2aa4da3e9e",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Tidemother.idle.left.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Tidemother/idle/left/001.png",
+      "source_sha256": "8696d57320920754482f3128123f1c487b28179c77ec3601412d38eab2edb78e",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Tidemother.idle.front_left.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Tidemother/idle/front_left/000.png",
+      "source_sha256": "6ae7e59b408999d4abe8f09e9af18949ee438e2f10a23454525c98ecd4d03a14",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Tidemother.idle.front_left.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Tidemother/idle/front_left/001.png",
+      "source_sha256": "fb869b0c4f1f84ec6fd035243e316544a25d3d89f5edb6d8cb8e00d7734a4c9a",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "Tidemother.walk.front.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Tidemother/walk/front/000.png",
+      "source_sha256": "9e9db7398fd69f7d6991885316a8872312eabab2f6cfbefe5df59a433596599c",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "Tidemother.walk.front.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Tidemother/walk/front/001.png",
+      "source_sha256": "916877bb52072987fa29cc95a0f4cd9b24e098afa9753f13adb0da3a883079b3",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "Tidemother.walk.front_right.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Tidemother/walk/front_right/000.png",
+      "source_sha256": "51b15446fc75d633f96d9764103f9974698b4da5d9e32e438579524d28aea71e",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "Tidemother.walk.front_right.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Tidemother/walk/front_right/001.png",
+      "source_sha256": "426f94076165ba7e916e34ccbf9a06b8f691d5cfb3850f4c69602ddb0ba38a6a",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "Tidemother.walk.right.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Tidemother/walk/right/000.png",
+      "source_sha256": "da92fea6adfd73a374cefedfac4cd457b239a56432d74e8641c90ca770530005",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "Tidemother.walk.right.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Tidemother/walk/right/001.png",
+      "source_sha256": "e7e35ba263c2ee46702df99c040da97a2dfce8a4aafca5c6ef0f36239e576882",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "Tidemother.walk.back_right.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Tidemother/walk/back_right/000.png",
+      "source_sha256": "2b8d2b8082d865e35c585e353d86c383cc237fe2bde01b1a84eb3ad145e8b783",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "Tidemother.walk.back_right.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Tidemother/walk/back_right/001.png",
+      "source_sha256": "dc9d9b0769a06edfe84cf037739c20dc702ef4250919e269196110a649f23469",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "Tidemother.walk.back.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Tidemother/walk/back/000.png",
+      "source_sha256": "1d9f234b045a32a9c4da391eb2795458f047b87e3e5ad174a2afe9c1d803e0bb",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "Tidemother.walk.back.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Tidemother/walk/back/001.png",
+      "source_sha256": "50c99143f24f7739e21c5d4ef4d0887934d17fe73284d0c1de93673d3e4287d9",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "Tidemother.walk.back_left.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Tidemother/walk/back_left/000.png",
+      "source_sha256": "e6adcffb370ddeaa2e0e7da87036e133057ad3129171b6e001bf5a34d8e35de2",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "Tidemother.walk.back_left.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Tidemother/walk/back_left/001.png",
+      "source_sha256": "29937a789c52aba1a9ea17065fad26d573ce657181496b79c70961107f29d9e2",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "Tidemother.walk.left.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Tidemother/walk/left/000.png",
+      "source_sha256": "58d92cc0bae71dc3a32c88607ec907f7e2167921ad8943bec3e82632b1da5519",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "Tidemother.walk.left.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Tidemother/walk/left/001.png",
+      "source_sha256": "d43d7bacb1ef68eb49ec37d90db2f26b2f5fa3e5966a1ed801da8cb5679bdbcd",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "Tidemother.walk.front_left.000",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Tidemother/walk/front_left/000.png",
+      "source_sha256": "4936ac81a15d060ae9e29133e79bbd6af561b0317d6b72da07b0306e2aa5fe3d",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "Tidemother.walk.front_left.001",
+      "asset_id": "Tidemother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Tidemother/walk/front_left/001.png",
+      "source_sha256": "6ff20f8d5aa35faa413a9da01cf96d79a5aeabeb68d9fc0e38ab79defe0214a2",
+      "glb_sha256": "89d9acd7948a74144eff67a78cd56e7a50aaad4d453947118154b5b2d0ef8835",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

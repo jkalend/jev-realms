@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Tollmaster",
+      "kind": "boss",
+      "source": "source/Tollmaster.glb",
+      "render_root": "render/Tollmaster",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 4
+      },
+      "action_profile": {
+        "id": "boss_tollmaster_flail",
+        "weapon": "flail",
+        "default_action": "tollmaster_idle",
+        "clips": {
+          "idle": [
+            "tollmaster_idle"
+          ],
+          "walk": [
+            "tollmaster_walk_a",
+            "tollmaster_walk_b"
+          ],
+          "attack": [
+            "tollmaster_chain_windup",
+            "tollmaster_chain_sweep",
+            "tollmaster_hook",
+            "tollmaster_recover"
+          ],
+          "hit": [
+            "tollmaster_hit_recoil"
+          ]
+        },
+        "boss": {
+          "signature": "toll_hook",
+          "phase_actions": [
+            "tollmaster_phase_collect",
+            "tollmaster_phase_enshrine"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

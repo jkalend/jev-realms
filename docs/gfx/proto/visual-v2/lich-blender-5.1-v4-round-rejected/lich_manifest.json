@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Lich",
+      "kind": "boss",
+      "source": "source/Lich.glb",
+      "render_root": "render/Lich",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 1,
+        "walk": 2,
+        "attack": 3,
+        "hit": 1
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_custom_humanoid",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

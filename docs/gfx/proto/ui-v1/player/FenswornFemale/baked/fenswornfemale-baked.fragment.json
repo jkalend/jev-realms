@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "fenswornfemale-baked",
+    "file": "fenswornfemale-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "FenswornFemale": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "FenswornFemale": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "FenswornFemale.attack.front.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/FenswornFemale/attack/front/000.png",
+      "source_sha256": "6c74e95597d9a1bf7cb17447c468aa88a3c827880e619617d0e706725b53096a",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.front.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/FenswornFemale/attack/front/001.png",
+      "source_sha256": "12a74c71e6ede88a8e31f57b11f9a207bbd73a9e048156e490e93fc69ec15f02",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.front.002",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/FenswornFemale/attack/front/002.png",
+      "source_sha256": "536bcbba3c85ebcb6e8d552dbad61035ea924f0378bb3521472b7591100024bd",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.front_right.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/FenswornFemale/attack/front_right/000.png",
+      "source_sha256": "8c4d5d729432f6ad5f07598187444ad87e99788591de76a8638d288d5a586105",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.front_right.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/FenswornFemale/attack/front_right/001.png",
+      "source_sha256": "488d526f2d0b5b8d2c4f35a83b7d42e6741ecf4304d1bf45068057aea16d86d2",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.front_right.002",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/FenswornFemale/attack/front_right/002.png",
+      "source_sha256": "296e2111526b08fe2ae97f80be51359929dcd4da43afa7c2865bad782cc91598",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.right.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/FenswornFemale/attack/right/000.png",
+      "source_sha256": "6280b5542381d47628be3f779212b0ca71c4351896256b1cc8c7aa15249eae25",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.right.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/FenswornFemale/attack/right/001.png",
+      "source_sha256": "5753a74e324bf7932c4d66f44d1e034266bf531d0fb5d34c6e8bbb525993d493",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.right.002",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/FenswornFemale/attack/right/002.png",
+      "source_sha256": "8d73f47114bb954089a4d880134af5622031a70b1b1fea118092eed507a56f36",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.back_right.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/FenswornFemale/attack/back_right/000.png",
+      "source_sha256": "f51154f597dcb8bd655655d4c77bb09c36d0ee140eff0a41c6c66e1917e2e5de",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.back_right.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/FenswornFemale/attack/back_right/001.png",
+      "source_sha256": "a5351de0939154a3922e9c2d45403bcb34f98498d5f7591695541dfe8eced739",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.back_right.002",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/FenswornFemale/attack/back_right/002.png",
+      "source_sha256": "a40e7fe7db39419745fff18d18863a3a947111e9398e57e1d0ff53c93988d3ef",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.back.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/FenswornFemale/attack/back/000.png",
+      "source_sha256": "50ed7fc1342b8e31ed7b686bd476002c97de37741e502cff2d6daf7a88f45112",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.back.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/FenswornFemale/attack/back/001.png",
+      "source_sha256": "2bcb72b2bf08f2db6e8aed77cb551147ab4d8a09d4693c7d133bc613540bf033",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.back.002",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/FenswornFemale/attack/back/002.png",
+      "source_sha256": "f41870fe8ceab0313f7815eb122d3a7386a771489635c444190884968b76422a",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.back_left.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/FenswornFemale/attack/back_left/000.png",
+      "source_sha256": "7f01df56a3f5d51d1a092893969e397026969637589dc3f49ee37ebba87f3df4",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.back_left.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/FenswornFemale/attack/back_left/001.png",
+      "source_sha256": "e4f87db4eb52e36c89626fee501593876611a00c09d4a13fa0053ad421ed9fe6",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.back_left.002",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/FenswornFemale/attack/back_left/002.png",
+      "source_sha256": "1880e75328584a2b0afb89ef900917d7c599b6d0920be6930426aaf46bda0a7e",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.left.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/FenswornFemale/attack/left/000.png",
+      "source_sha256": "2f4be320f8126717e3f4e957a60b1f89b3492f94d79d2befba54485e1a95b517",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.left.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/FenswornFemale/attack/left/001.png",
+      "source_sha256": "2b8a913685bad0b624cb9e2c73b8f5a26d9d9eff780e80052a7c6f735365e0c7",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.left.002",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/FenswornFemale/attack/left/002.png",
+      "source_sha256": "0f59798f031869fbac8980896b02015bf143e435b1c3d025e8001c5d1d052a8d",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.front_left.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/FenswornFemale/attack/front_left/000.png",
+      "source_sha256": "4316fe01809d211c8dfa69d5290f2afc144fa48fd533f95bd227b9b90326afc9",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.front_left.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/FenswornFemale/attack/front_left/001.png",
+      "source_sha256": "7d09f8a0de860f6c0cf771600199bf95b965312a4065fa1004a4f8b3b7aa3bb1",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "FenswornFemale.attack.front_left.002",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/FenswornFemale/attack/front_left/002.png",
+      "source_sha256": "d52d5967bcaed8153e2a4e79d96f308825aa0b31062d3b4dda8030e9f544c717",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.front.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/FenswornFemale/hit/front/000.png",
+      "source_sha256": "984c119f5ab2a83e35c090248a5b2e1e8de34d1d7d9878adc6b1a9dfde1baf8e",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.front.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/FenswornFemale/hit/front/001.png",
+      "source_sha256": "7315c0e6b17cc955c983e1d3713248096e8f4c99941b4ce3ddec2a945b9aa1a9",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.front_right.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/FenswornFemale/hit/front_right/000.png",
+      "source_sha256": "9326026e1ce597e2654607b68f62f2eb136f9de54d09dbd5a8b29507198c2cfb",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.front_right.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/FenswornFemale/hit/front_right/001.png",
+      "source_sha256": "4d61433737bc604c378175de27e9aab59adbccf39212d80a730b98b9bc4c0bbf",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.right.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/FenswornFemale/hit/right/000.png",
+      "source_sha256": "6a84323747acca91e3788df69d45152d5c6a121ce5c01687b3625fe1630f7dd5",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.right.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/FenswornFemale/hit/right/001.png",
+      "source_sha256": "cf8d1da767457ac5c58ec830e6fe1782df4dcdf66e39b6265f9f6cd3da34c396",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.back_right.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/FenswornFemale/hit/back_right/000.png",
+      "source_sha256": "8396dc22de7d71ee6c883be173ec1c6b2ae8293c505084deff4d09ffd38fde5e",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.back_right.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/FenswornFemale/hit/back_right/001.png",
+      "source_sha256": "d2e6821936d4ca8264abf51b9d9e2902f60aa958add847650eb81cdf346bd151",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.back.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/FenswornFemale/hit/back/000.png",
+      "source_sha256": "3d33fb3b1b6ce44257d5801a497acc09a83296590989c75812c1e72e78e0ed8e",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.back.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/FenswornFemale/hit/back/001.png",
+      "source_sha256": "664d3dc1d573fed6948e0291f8fe7940c7fa336ed2fa3fa122c13c839220acf0",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.back_left.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/FenswornFemale/hit/back_left/000.png",
+      "source_sha256": "e048e3dbec3e6e5fc9877b5f1abb6559886bb19c9d9461b9f9bf4be4d2eef5d8",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.back_left.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/FenswornFemale/hit/back_left/001.png",
+      "source_sha256": "9059889de813bb32656f213c5f383608990d3bb9ade9d5ec423a2ec0256e020d",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.left.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/FenswornFemale/hit/left/000.png",
+      "source_sha256": "bb053c2c7331fbc065fed5bc5a88ee8a545b15abd75776e11900a4780d952965",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.left.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/FenswornFemale/hit/left/001.png",
+      "source_sha256": "c69184d9b8203559ca185730822a01b0a125bc59b42facc7467123bb24a51119",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.front_left.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/FenswornFemale/hit/front_left/000.png",
+      "source_sha256": "a3e3b0da7cf4579cb25f97d1c692d0fcced2bc814f1000487356232ff8452009",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "FenswornFemale.hit.front_left.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/FenswornFemale/hit/front_left/001.png",
+      "source_sha256": "b28a15e0726ae4937ed2de6d8ba13edf247eadd5d25b75e37485cef4b193105b",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.front.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/FenswornFemale/idle/front/000.png",
+      "source_sha256": "86fdf84b4d147d76607fd8907f555e109af294cff04d41862477f6bee39928fe",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.front.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/FenswornFemale/idle/front/001.png",
+      "source_sha256": "df4f583790d8cd6c34c142aea2c4c1a8977f70fa362feab9f3c1b897dea8a0c1",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.front_right.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/FenswornFemale/idle/front_right/000.png",
+      "source_sha256": "e92e2380e89d34607f8ff8ce4d4aafe85c1a8c0bcd1c2bba23f8a7a1603a8ee2",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.front_right.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/FenswornFemale/idle/front_right/001.png",
+      "source_sha256": "8b637e0b8b7ee372182e5a3cd9b9d439a256d52666a90d25caa6f27461f551ec",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.right.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/FenswornFemale/idle/right/000.png",
+      "source_sha256": "da760d156122c1a4217b01d3889d1ecfccaaafc4148119228fa3c168476aa0ee",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.right.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/FenswornFemale/idle/right/001.png",
+      "source_sha256": "0ef2f52432f0f70a493acf666e505bdff2e3e1c18d9ebc2bb46299686b29bf84",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.back_right.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/FenswornFemale/idle/back_right/000.png",
+      "source_sha256": "0a1577149d6b43ff15ea2a70e0fcbd6b88d783b40465528a8a1519b0f1d401f2",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.back_right.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/FenswornFemale/idle/back_right/001.png",
+      "source_sha256": "54fba4a89a386869d31aca02309eea3ec46863bf76bd4f71031643365cc3050e",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.back.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/FenswornFemale/idle/back/000.png",
+      "source_sha256": "8786cb4c209c5326fc47e6ada6f4371a87f3878a465744730186b1b0e450c2c9",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.back.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/FenswornFemale/idle/back/001.png",
+      "source_sha256": "acc5425659efcfff5a3da562911e397f68395b5bfb5982f7ef8df75ef73e785f",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.back_left.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/FenswornFemale/idle/back_left/000.png",
+      "source_sha256": "bfd31c475c4d3197f387279afe5f86d64d118078a918c9c510d605b4258db432",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.back_left.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/FenswornFemale/idle/back_left/001.png",
+      "source_sha256": "acf9ee4aa0041828e6c97b86b160a8ac05d1595d6b383bd54ef5fc6e4beeac03",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.left.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/FenswornFemale/idle/left/000.png",
+      "source_sha256": "656e2a1ec2398fd71a7bf38d19bf3bf00e028ca9b12901ea393143fc7388563e",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.left.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/FenswornFemale/idle/left/001.png",
+      "source_sha256": "53ca932d2791a7b22474bfc59e1786f6d76e4a3fe6ce8006444634e0006ff3d6",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.front_left.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/FenswornFemale/idle/front_left/000.png",
+      "source_sha256": "8ec2c78600a29df07ed9b7a81a0d2841c574443927d212b277e6b2aea8cfa135",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "FenswornFemale.idle.front_left.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/FenswornFemale/idle/front_left/001.png",
+      "source_sha256": "9eb59c831c7248847a400db778aa07657e5e1f67032ab3d75c81761d7d713d82",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.front.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/FenswornFemale/walk/front/000.png",
+      "source_sha256": "98ce262088c6df1dac12c25c9888a4b6e12cb45009cfbd8bac618edc338055d6",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.front.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/FenswornFemale/walk/front/001.png",
+      "source_sha256": "adb5145d12f5be80ee69ee441b3206769280f459365871a672cc34c56647255e",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.front_right.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/FenswornFemale/walk/front_right/000.png",
+      "source_sha256": "f25055a825ae93f1f44ccecb9728faae3f05804b863e7a2250dab64782128661",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.front_right.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/FenswornFemale/walk/front_right/001.png",
+      "source_sha256": "15e588d20a4d87a393cee0850e931392593e2cc42a34f57214dccd1bd980eba0",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.right.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/FenswornFemale/walk/right/000.png",
+      "source_sha256": "b2d7d8151618ff18d20ce9c789477c1128243b519c44bda04a6e70a997075c4c",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.right.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/FenswornFemale/walk/right/001.png",
+      "source_sha256": "5729d0df91e9a70dd948a77713306481d046c108b25e966bd548eec1611bbadd",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.back_right.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/FenswornFemale/walk/back_right/000.png",
+      "source_sha256": "45871d273e4790666d35ca79b57e83057346b22d9badb7ebdafdd8a667d05d57",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.back_right.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/FenswornFemale/walk/back_right/001.png",
+      "source_sha256": "560c3877bcd9be0387a637b2ed741a7b9a4e9b1021a5d3266580d3e4eeee4fd0",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.back.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/FenswornFemale/walk/back/000.png",
+      "source_sha256": "25fb68c92c71384be867d6a34f6de3a5d8b9c53797d5976301d0fcd96bb94659",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.back.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/FenswornFemale/walk/back/001.png",
+      "source_sha256": "e5fedb046375580ef926e14583ee1bd5f5b03303646ab859a1c2b1b0868dd194",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.back_left.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/FenswornFemale/walk/back_left/000.png",
+      "source_sha256": "829f3ef4c793a76477387d931b5ec1e08ed17ec3302cc7c64ae9c3d361991b57",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.back_left.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/FenswornFemale/walk/back_left/001.png",
+      "source_sha256": "5710ab0646bfd8c9955db5cf7325e33e4d595a418457228d9bc2e6c06ab6e6db",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.left.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/FenswornFemale/walk/left/000.png",
+      "source_sha256": "91e9ddcb08defda9786391e9f9a80d09a535cba52d4fcd162d71fa5fb382ad77",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.left.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/FenswornFemale/walk/left/001.png",
+      "source_sha256": "8088d2edd3914c91276f0300b4ea69e4d0f6faf2e7dfca41e969c1f66df8411c",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.front_left.000",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/FenswornFemale/walk/front_left/000.png",
+      "source_sha256": "f065179b64e5e69f6b6947326d5ed7d3c60cf287fc42a4ce5016fbe6f230553e",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "FenswornFemale.walk.front_left.001",
+      "asset_id": "FenswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/FenswornFemale/walk/front_left/001.png",
+      "source_sha256": "4a998e7ce224535623e4e1123ec5c8afb1438204c5d914eb930f0bdd8af4c780",
+      "glb_sha256": "e474067e5a8e742601609256b16b7b38cb3d4a167027660d5c863451a17d7ba7",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

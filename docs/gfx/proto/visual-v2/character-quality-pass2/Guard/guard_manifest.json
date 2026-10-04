@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Guard",
+      "kind": "actor",
+      "source": "source/Guard.glb",
+      "render_root": "render/Guard",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 1,
+        "walk": 2,
+        "attack": 3,
+        "hit": 1
+      },
+      "action_profile": {
+        "id": "npc_guard_spear",
+        "default_action": "guard_spear_idle_guard",
+        "weapon": "spear",
+        "clips": {
+          "idle": [
+            "guard_spear_idle_guard"
+          ],
+          "walk": [
+            "guard_spear_walk_a",
+            "guard_spear_walk_b"
+          ],
+          "attack": [
+            "guard_spear_thrust_windup",
+            "guard_spear_thrust",
+            "guard_spear_recover",
+            "guard_shield_bash"
+          ],
+          "hit": [
+            "guard_shield_hit_block"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_guard_spear",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

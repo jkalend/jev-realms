@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "companion-baked",
+    "file": "companion-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "Companion": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Companion": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Companion.attack.front.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Companion/attack/front/000.png",
+      "source_sha256": "fdbc53791ac20ec6c7f2c75008acc9cee97b328aa855c928c539e56f37ce9c04",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Companion.attack.front.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Companion/attack/front/001.png",
+      "source_sha256": "ab5afac54ba27d1a7e03d682e889c3b30d11353bc15742ba98c5cca2452ce42b",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Companion.attack.front.002",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Companion/attack/front/002.png",
+      "source_sha256": "185129ed6792337a31d07073e94d903d04e278123ea20a42dfbbedc1c0258af6",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Companion.attack.front_right.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Companion/attack/front_right/000.png",
+      "source_sha256": "c56c20551c62a945c23fbd181b589f351f388c6b0c50916883454594b707500a",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Companion.attack.front_right.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Companion/attack/front_right/001.png",
+      "source_sha256": "381e5f74e935249a5fea8bdc7b2530b2e54c1cbd7c48e20efbbc6b70bc5e1d39",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Companion.attack.front_right.002",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Companion/attack/front_right/002.png",
+      "source_sha256": "dbdcba9f9177dc2315ec42654f3dae00860482c9e3f51006cfc2ffa9570b1f41",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Companion.attack.right.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Companion/attack/right/000.png",
+      "source_sha256": "eacaa670db56c0ac41b1c5a86b7ba6bc881758c444f12042dc63d3e443c04514",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Companion.attack.right.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Companion/attack/right/001.png",
+      "source_sha256": "568cd6c50830486f08251ccde68f923380ae6ae1256d4cac4455cab43674b039",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Companion.attack.right.002",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Companion/attack/right/002.png",
+      "source_sha256": "8a6489b4558f2155d275ada2ac6d5f1147eda6686a7e3e6e1aba21c5dc8f37f2",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Companion.attack.back_right.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Companion/attack/back_right/000.png",
+      "source_sha256": "50896461a92c506bfdaed37785b840d0f5ea8355bcfd4b5b6e48763d0d6c5da4",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Companion.attack.back_right.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Companion/attack/back_right/001.png",
+      "source_sha256": "d521b96f514566240529de97ae51be699387eb84eb34b616c942438ceb13b8a0",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Companion.attack.back_right.002",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Companion/attack/back_right/002.png",
+      "source_sha256": "52a4304da26f6ad4e6f1ae92ef97c7a9ba076d04c9aaf635e0222f11c2932801",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Companion.attack.back.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Companion/attack/back/000.png",
+      "source_sha256": "b4ad9591c9daf11b97997f3382a62c190062dc13fc71c9af00fc1c34286963ac",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Companion.attack.back.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Companion/attack/back/001.png",
+      "source_sha256": "dbb788f4b4933a785a28eca3a12136e1797c081b719484a8b34ac27985bd2da3",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Companion.attack.back.002",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Companion/attack/back/002.png",
+      "source_sha256": "fe428667549a1729b91b718c89769c1f8a63a78a8bda7de6fd77cf9256814c98",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Companion.attack.back_left.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Companion/attack/back_left/000.png",
+      "source_sha256": "c2af4f46b6d6bdc0d5d2dc9cae5b5999c18dba79f7fdcf8968e6cbb581fd79dd",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Companion.attack.back_left.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Companion/attack/back_left/001.png",
+      "source_sha256": "3d297ed67fc06a6cd83123894b6684abce89529f6f2ef8fdecfa7e68513e6565",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Companion.attack.back_left.002",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Companion/attack/back_left/002.png",
+      "source_sha256": "21e6b3fc85bd6bd4fd031ed8337d0ecd0bd25d2ed7ae33e1058f690d8e664b76",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Companion.attack.left.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Companion/attack/left/000.png",
+      "source_sha256": "bbe0d0dee16f755761cfabe2bdf12b45ef926ab7ecf6036aeb8d1b3b498cf407",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Companion.attack.left.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Companion/attack/left/001.png",
+      "source_sha256": "bf892f6a89442249574ba2c9a085b2ece3a39c8bc1b7ca867637df74d40a01ed",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Companion.attack.left.002",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Companion/attack/left/002.png",
+      "source_sha256": "41f12954b8748683750d7eb372c605f9db191ae3bf9c8098ba12f7e395375ac0",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Companion.attack.front_left.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Companion/attack/front_left/000.png",
+      "source_sha256": "414dfaae317e2f498b33cb31d0ae6528fe9f830309e45d05a2f979517253c0b0",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Companion.attack.front_left.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Companion/attack/front_left/001.png",
+      "source_sha256": "ad0e5ff72ae2ce158a5efc2f483b4b5e001f6e32b94f8709b02786f574aeba0d",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Companion.attack.front_left.002",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Companion/attack/front_left/002.png",
+      "source_sha256": "59a4d7e680dd5dae0dbcf8d9381ca1fd15a30a491b0f28322341e4783c31200f",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Companion.hit.front.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Companion/hit/front/000.png",
+      "source_sha256": "caef3f17286d60b38013af5ff01905fc37726e49ca727075f9db6b953f4a32f4",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Companion.hit.front.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Companion/hit/front/001.png",
+      "source_sha256": "585cf5b8eb1cc7beb5a1ed5b505ef7478a2279f3db1695b392ebd44bb126a30d",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Companion.hit.front_right.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Companion/hit/front_right/000.png",
+      "source_sha256": "bde67beba1e7835d2b9ea744c25b4c5ba0d6f3f25c37d01236bd1af464afda5b",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Companion.hit.front_right.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Companion/hit/front_right/001.png",
+      "source_sha256": "c48477098474b4478e46cf65c4b40a47077320350ffda31f7ee84467664241e5",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Companion.hit.right.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Companion/hit/right/000.png",
+      "source_sha256": "76eca0a317933999dc17816175d621e23350fdb27f78111e34e3a3ee01f41511",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Companion.hit.right.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Companion/hit/right/001.png",
+      "source_sha256": "002b0d1a4a0c27c48781734df24f3119019e4ad7589f47af8453980ec4f5030a",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Companion.hit.back_right.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Companion/hit/back_right/000.png",
+      "source_sha256": "c6b7333cafc898cfa04b1cc10fc11849e7c8ac89a1541d425f012585b0f10c40",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Companion.hit.back_right.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Companion/hit/back_right/001.png",
+      "source_sha256": "64489e5e5ffe23244b5a87f5dd17ce8a59667b6d338b65b003ab3dbeb644d1c3",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Companion.hit.back.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Companion/hit/back/000.png",
+      "source_sha256": "851e68f79efafa1cdb97ad5bfd125f6d371f28c19ddfe84a843c061db0f8b1d4",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Companion.hit.back.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Companion/hit/back/001.png",
+      "source_sha256": "95e514b71c86c3e35bce11897df513ce23c8847187c7dbc049ef4b1988e510d6",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Companion.hit.back_left.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Companion/hit/back_left/000.png",
+      "source_sha256": "8b05b912994171db9f61bde47f199761d14293b0bcaa556fc83bbbc0df83e2f8",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Companion.hit.back_left.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Companion/hit/back_left/001.png",
+      "source_sha256": "131bf4d0e61e89e42a05854d50e84c31126630cc65dd4a35f1fb6f4173519d38",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Companion.hit.left.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Companion/hit/left/000.png",
+      "source_sha256": "7d24f628be22873fb1e1aa15956ae19e783bbff0186f196fc02de24598a30b94",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Companion.hit.left.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Companion/hit/left/001.png",
+      "source_sha256": "fe33c19f0da092cc3aa9b98d4c7478a5464cd80bdfe3c57e0fa716d00ba33e27",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Companion.hit.front_left.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Companion/hit/front_left/000.png",
+      "source_sha256": "3e928405488cd9cce6f5c2d75f66ceb8c0b6ffd5611f1027061405aa55086499",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Companion.hit.front_left.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Companion/hit/front_left/001.png",
+      "source_sha256": "fcd676afb0574cdeeea6c3487af2dced005fbcade6218df7eedc68216be4b3c6",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Companion.idle.front.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Companion/idle/front/000.png",
+      "source_sha256": "3710cb0a219946e43b3e709b1f425a1d3276aa1dd04f7149eb877eaa0e09b8d5",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Companion.idle.front.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Companion/idle/front/001.png",
+      "source_sha256": "f448dbedc3f0045c41086ea948e4681b2a56fcfea628f4129e7e7c392c9c721f",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Companion.idle.front_right.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Companion/idle/front_right/000.png",
+      "source_sha256": "431add885630e1ff16b588434dd01a925884ea9330b2c9bedce9f2e0fba2ce35",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Companion.idle.front_right.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Companion/idle/front_right/001.png",
+      "source_sha256": "19b43cc298764289b15417c9bc73093f69b21da964ada2df7a0e5388d313d5f4",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Companion.idle.right.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Companion/idle/right/000.png",
+      "source_sha256": "48fe0a0c93327e6bce3731549070c9ea287080f9d38c8dbf40ebb77e1cc66708",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Companion.idle.right.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Companion/idle/right/001.png",
+      "source_sha256": "32aa405f17906f219cd76066819fbb5db116969796729adfa89a1f72a44c9db6",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Companion.idle.back_right.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Companion/idle/back_right/000.png",
+      "source_sha256": "c1cc33db817dea236d7237e92adff9cfde9da391c9961d3e6655ff3fff241287",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Companion.idle.back_right.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Companion/idle/back_right/001.png",
+      "source_sha256": "3bc0c54d7bb6c8495db63711b5803a992f0811b67d34da09584271e88c27ebfe",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Companion.idle.back.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Companion/idle/back/000.png",
+      "source_sha256": "6d3bb17bcf13a3f9c75d985f0aa9f266bc28f13cada8e5a7ac56ed650ae09c1a",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Companion.idle.back.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Companion/idle/back/001.png",
+      "source_sha256": "5c24b44a3ef655a5a29e2a42c4f47c11a2f9658ba950f14a2b35d99691d0e139",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Companion.idle.back_left.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Companion/idle/back_left/000.png",
+      "source_sha256": "75d61a49a229051bea240dc0f2dbe5076ab4db3f9c07ef205e5464299765524a",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Companion.idle.back_left.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Companion/idle/back_left/001.png",
+      "source_sha256": "75ebb37c581343c158916f10965777ca4b99b89f2ec8d5ea395fe6890d04bd47",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Companion.idle.left.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Companion/idle/left/000.png",
+      "source_sha256": "b073fb690ba3454c8748e987217231a9c902ad483763ada520f729ac308b35f7",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Companion.idle.left.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Companion/idle/left/001.png",
+      "source_sha256": "501e7a8b0b30882166826b856ee52f1795362a206b6294260a1739046018f933",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Companion.idle.front_left.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Companion/idle/front_left/000.png",
+      "source_sha256": "29cc299801d12d341e68321e09af9ed23fe24d8f4491da58de1f6d3cece4f5a7",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Companion.idle.front_left.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Companion/idle/front_left/001.png",
+      "source_sha256": "e6c55612ac77c0e191630599d3970efb86fe1b51670144b624e479451f6945d3",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "Companion.walk.front.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Companion/walk/front/000.png",
+      "source_sha256": "f9d3e99848f108618c788957bec678dfc19a4d1f71a3ea52fb3af495cfec0c5d",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "Companion.walk.front.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Companion/walk/front/001.png",
+      "source_sha256": "7fb132d00217c4b6e0433d2ea0750f206872504561af1c51a885b7abaf4bf18b",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "Companion.walk.front_right.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Companion/walk/front_right/000.png",
+      "source_sha256": "b289aa81f1c31984bbdc05132e4deb6f9f92325544e49814e30d59a9c688de38",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "Companion.walk.front_right.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Companion/walk/front_right/001.png",
+      "source_sha256": "2aec308584bad4ba9a275bb41d78827d5e70c2b4f6b22920d5f9b098dfc7c65f",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "Companion.walk.right.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Companion/walk/right/000.png",
+      "source_sha256": "28d33b87eaaaf4bc7ee37f45917bfa4329e884357a3ca5339a514c170984723f",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "Companion.walk.right.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Companion/walk/right/001.png",
+      "source_sha256": "5be95622d4dfdf7081043e2b1d10f936f76c9296310e4a24b9fdeb7db4ffc4f7",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "Companion.walk.back_right.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Companion/walk/back_right/000.png",
+      "source_sha256": "96bc0fd948b9009d6de669e6daf769db348fc8f4a470b37d91ab21798f77da8b",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "Companion.walk.back_right.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Companion/walk/back_right/001.png",
+      "source_sha256": "6438f7b6c671028b52be7042bd4943e330e17c028b9fe3cb5418cb51deeacfcd",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "Companion.walk.back.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Companion/walk/back/000.png",
+      "source_sha256": "3d341178095d37e99395b2f1cb222fb514974202116980884a045235ccbe1bd7",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "Companion.walk.back.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Companion/walk/back/001.png",
+      "source_sha256": "c25dc9875647eae2c0e3f4af7e581e6d7235d9950c2ad113213557373e6ca1a7",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "Companion.walk.back_left.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Companion/walk/back_left/000.png",
+      "source_sha256": "7ead417323bd674d9614a9f28eedbafd54aae781482af3d35853e330c81c49b1",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "Companion.walk.back_left.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Companion/walk/back_left/001.png",
+      "source_sha256": "b95edaef805e501495df47153aa253c1f6eed6aebb138053f232075feba0502f",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "Companion.walk.left.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Companion/walk/left/000.png",
+      "source_sha256": "7b67af687836e7b4d13086bf282057a302f8e8e8579fbfa2e12355c61f63d72e",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "Companion.walk.left.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Companion/walk/left/001.png",
+      "source_sha256": "1e9e265342dfa426321c9e8aa4664ad2d230295e18e444f23c659c9b938f56ec",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "Companion.walk.front_left.000",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Companion/walk/front_left/000.png",
+      "source_sha256": "61aa6c64305ce6c03e8d94c816844ebc6db1e86d54a7137db74970f50bbb2216",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "Companion.walk.front_left.001",
+      "asset_id": "Companion",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Companion/walk/front_left/001.png",
+      "source_sha256": "ddc9851e2c08db0164d0f1c121e9baf17e3756118798d89ebf40597475649bfd",
+      "glb_sha256": "e494f1590b0ce3148c9f824956f5163ff8013457a0aee4956eee1fe47a7abf90",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "GraveboundFemale",
+      "kind": "player",
+      "class": "Gravebound",
+      "build": "Female",
+      "sprite_key": "Player.Gravebound.Female",
+      "calling": "Ward",
+      "source": "source/GraveboundFemale.glb",
+      "render_root": "render/GraveboundFemale",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "player_gravebound_gravedigger",
+        "weapon": "gravedigger",
+        "default_action": "gravebound_idle",
+        "clips": {
+          "idle": [
+            "gravebound_idle"
+          ],
+          "walk": [
+            "gravebound_walk_a",
+            "gravebound_walk_b"
+          ],
+          "attack": [
+            "gravebound_last_vigil",
+            "gravebound_dig",
+            "gravebound_recover"
+          ],
+          "hit": [
+            "gravebound_hit_recoil"
+          ]
+        },
+        "build": "Female"
+      },
+      "equipped": {
+        "weapon": "gravedigger",
+        "tier": 0,
+        "layer": "armour",
+        "relic": null
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_player_v1",
+        "front_axis": "-Y",
+        "sockets": [
+          "weapon.R",
+          "chest",
+          "relic"
+        ]
+      }
+    }
+  ]
+}

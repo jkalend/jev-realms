@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Thief",
+      "kind": "actor",
+      "source": "source/Thief.glb",
+      "render_root": "render/Thief",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 1
+      },
+      "action_profile": {
+        "id": "npc_thief_dagger",
+        "weapon": "dagger",
+        "default_action": "thief_idle",
+        "clips": {
+          "idle": [
+            "thief_idle"
+          ],
+          "walk": [
+            "thief_walk_a",
+            "thief_walk_b"
+          ],
+          "attack": [
+            "thief_dirk_slash"
+          ],
+          "hit": [
+            "thief_hit_recoil"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

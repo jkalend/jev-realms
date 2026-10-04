@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "bear-baked",
+    "file": "bear-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "Bear": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Bear": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Bear.attack.front.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Bear/attack/front/000.png",
+      "source_sha256": "5e284650cc662e61aab97838c39365a2b42b22e827a39026e42a6408f8f7a705",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Bear.attack.front.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Bear/attack/front/001.png",
+      "source_sha256": "e493ae72988847b5ff3fbb34bf862db13d49e7eccf7ed8f2f6ce8d7f7ec1fee1",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Bear.attack.front.002",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Bear/attack/front/002.png",
+      "source_sha256": "117b679b4cd7cb0a2f5332d879a60987866e9b6486cf770c73e6fd8a7bf6132d",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Bear.attack.front_right.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Bear/attack/front_right/000.png",
+      "source_sha256": "a0e33a71bbd3f74d95b61313ac58f86915145bdbc16a6de28b7ee4763febf3db",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Bear.attack.front_right.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Bear/attack/front_right/001.png",
+      "source_sha256": "dc58d4f1758abd884ee8522335483d2abd8da0170c2f0a4564e3b9fd3ba10f6e",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Bear.attack.front_right.002",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Bear/attack/front_right/002.png",
+      "source_sha256": "7c65485b152d5c5dc599f75b675c368d24877b799b93e8e027bc19afd2e413ae",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Bear.attack.right.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Bear/attack/right/000.png",
+      "source_sha256": "17822d97b62c1d0484070a0f295fe4dcfebcbe1f3e7ba25617dbfd75569d8d72",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Bear.attack.right.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Bear/attack/right/001.png",
+      "source_sha256": "e423d5fe00762423a8dc17f013e3382378ea2ef50ce9df882046027f41a83378",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Bear.attack.right.002",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Bear/attack/right/002.png",
+      "source_sha256": "399c5879bc0372cfa53e1086de545799576cf3a3522bae8dfd0b7cff21bad5b2",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Bear.attack.back_right.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Bear/attack/back_right/000.png",
+      "source_sha256": "8a14e446078ead2b9b1ec1d20a7bcff2276b4d3cb7d66c9b420127c98398b2c6",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Bear.attack.back_right.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Bear/attack/back_right/001.png",
+      "source_sha256": "9b8900edb442b74c36d140114501a22f20653894727c5f7c969712742647f74a",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Bear.attack.back_right.002",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Bear/attack/back_right/002.png",
+      "source_sha256": "f3fa9751d218a187101c74fec5f55a05599c5e62a1c82659ccc9870e78083bf9",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Bear.attack.back.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Bear/attack/back/000.png",
+      "source_sha256": "193062653f2f7d6547f8f09508a81bb3e3aa32451108ad0dc7116d0816f48dac",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Bear.attack.back.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Bear/attack/back/001.png",
+      "source_sha256": "c667c0267f6ab85aa4b318ea10ee0f225ba77e24b94e448de161da222a1c214a",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Bear.attack.back.002",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Bear/attack/back/002.png",
+      "source_sha256": "242af3913a4fd58ed1875072e90f859f8f40c4d96f5c0664fe85d8376ea3faeb",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Bear.attack.back_left.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Bear/attack/back_left/000.png",
+      "source_sha256": "d08128c5ffdf14bdbcdec2fe459ef2c017bf08a4dac35037a04702d0698da3a7",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Bear.attack.back_left.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Bear/attack/back_left/001.png",
+      "source_sha256": "5131180654e7f60d8025464fc3e998b96754228ede11c4e41789339791e36501",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Bear.attack.back_left.002",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Bear/attack/back_left/002.png",
+      "source_sha256": "a50ca2ea1ef81e240fb1fd7b7ab0dc259456c7176600edcda689a54484e17c25",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Bear.attack.left.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Bear/attack/left/000.png",
+      "source_sha256": "34e86710a7ecabcc25f977bf23c41e66064a8bc272f69faed701c97df25a9c41",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Bear.attack.left.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Bear/attack/left/001.png",
+      "source_sha256": "ec72c323227f29134092b1db4197f60fc102af380f91631b944fdf089b1366cd",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Bear.attack.left.002",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Bear/attack/left/002.png",
+      "source_sha256": "687185761193cbb2fe77d32070c3a39fec88afa29db61d252b5daad3d30511b6",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Bear.attack.front_left.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Bear/attack/front_left/000.png",
+      "source_sha256": "0c5ca208b1ac498d26c05cc73249469a3bc404285b47cdcc67fcab3a739b122c",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Bear.attack.front_left.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Bear/attack/front_left/001.png",
+      "source_sha256": "25e9afc8136312481ba1533a0ba2168a34fbfbd856085232e13a42618f28bcac",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Bear.attack.front_left.002",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Bear/attack/front_left/002.png",
+      "source_sha256": "b71c9a063e607fbfeac92771020a72ff7c279878eb4eeeffab2ae7572f24f6c2",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Bear.hit.front.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Bear/hit/front/000.png",
+      "source_sha256": "b55599df119ca877d66753fd4503fdf51a78bdb37c907b3a24b39b5381f1ca42",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Bear.hit.front.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Bear/hit/front/001.png",
+      "source_sha256": "bb8142553b9f86cd48e102c19638170ea60b608f6e173abc92f95202d8cd79a9",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Bear.hit.front_right.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Bear/hit/front_right/000.png",
+      "source_sha256": "f109f712e76a76b77c90d21ea101dab33dbd7b918c6cefdeda5e935be98d1515",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Bear.hit.front_right.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Bear/hit/front_right/001.png",
+      "source_sha256": "8ad974674360b6e55cb564183f0631cb8c1e40ae7c466c08a58fc64939901e5a",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Bear.hit.right.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Bear/hit/right/000.png",
+      "source_sha256": "621ff7f1a95a1f13217cf1e5635604871570b713f6a474257a59e0b32fef1d87",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Bear.hit.right.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Bear/hit/right/001.png",
+      "source_sha256": "330b30bb8f6274cc6bac183ea18893b7d9426f5b6a89626683d53fa3003d3ee0",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Bear.hit.back_right.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Bear/hit/back_right/000.png",
+      "source_sha256": "208b76d5367482b834228d5edb23a2d4dd5e5dd9650bc132e3c9fbf6be56bd0b",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Bear.hit.back_right.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Bear/hit/back_right/001.png",
+      "source_sha256": "53be696c65429b5f92e8a254f8eaabb4dc88a8b5d0a45dbdd9c2b6e658ac6b3f",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Bear.hit.back.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Bear/hit/back/000.png",
+      "source_sha256": "97262664f6fd2cf743480fafbd73aaede1c8b59d64ad2c79d84b331577d2c7f5",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Bear.hit.back.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Bear/hit/back/001.png",
+      "source_sha256": "a350409a6eb527d3ca89db070b20a1eed0f7949be37e781a5a06d99e196dc8e6",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Bear.hit.back_left.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Bear/hit/back_left/000.png",
+      "source_sha256": "36d52698f9402aceee8e004adf309dd9a413291231dbb6c450e366567dcdf99c",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Bear.hit.back_left.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Bear/hit/back_left/001.png",
+      "source_sha256": "37c49dfe2aa8c5bfedd6616e01e8c65477c94cd5d7cf415692f25235dff6ee60",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Bear.hit.left.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Bear/hit/left/000.png",
+      "source_sha256": "280f32100c560bb7b4398fe55d26ae3c22065d1628535943ef3cda871d26fee6",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Bear.hit.left.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Bear/hit/left/001.png",
+      "source_sha256": "34642515634d8827711f94792e8e25c78775e18e05119f7f8d0b8705af173ebf",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Bear.hit.front_left.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Bear/hit/front_left/000.png",
+      "source_sha256": "56b846d719474b9db84d5b1f4b3babc8e9e81974b1156bec83ab58cf867f922d",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Bear.hit.front_left.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Bear/hit/front_left/001.png",
+      "source_sha256": "462993f4bddf33ec26353d5f9fe4eec9f20c70d394338d3c8b3a25dfc486ec5e",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Bear.idle.front.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Bear/idle/front/000.png",
+      "source_sha256": "212c3646e1da4679b7c9b1c948e03799a9541b271996a65abf03160e65353436",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Bear.idle.front.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Bear/idle/front/001.png",
+      "source_sha256": "d6213d5c9901fab68fb4b27326dc964ca9bb90d091eb7679574b4a24f2ff1be1",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Bear.idle.front_right.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Bear/idle/front_right/000.png",
+      "source_sha256": "16be96f0f9ed67b3c6210659f2c9925a05668267ee51aba5820df63943640fe7",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Bear.idle.front_right.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Bear/idle/front_right/001.png",
+      "source_sha256": "d509c897bcfc67f0b7021179829e81af7b7e9ee8eda9342f82a13eb24f7c191e",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Bear.idle.right.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Bear/idle/right/000.png",
+      "source_sha256": "6e71c698bdd85efda868a715ec63df7ca70f93f98a20331db3bbe40756b1d3ba",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Bear.idle.right.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Bear/idle/right/001.png",
+      "source_sha256": "97c7568c87cdc5f757ffda9520861ab4d03f5a91da835aa74159925f8600188f",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Bear.idle.back_right.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Bear/idle/back_right/000.png",
+      "source_sha256": "235eaa7e1060b79c406708c4956fb2959517ed4df3742936fbdfa8e9fea65ffc",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Bear.idle.back_right.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Bear/idle/back_right/001.png",
+      "source_sha256": "3a2c510cf1d9a2a4a42d172867c1c6da3c027f2393141ef618a4c6e7e7e5707e",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Bear.idle.back.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Bear/idle/back/000.png",
+      "source_sha256": "baf302df7f28742a00bca9a2d3bc0c88fe8af3889b2c2cf0ee6c4de2205f3966",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Bear.idle.back.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Bear/idle/back/001.png",
+      "source_sha256": "ac6438d10ca697bfbf247fdd2e048a895fc341edb4d9a59dfa45a952bbc3ec12",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Bear.idle.back_left.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Bear/idle/back_left/000.png",
+      "source_sha256": "0bf99bd1a94f82d0335ad7eb78307b84dec0e5f517493b7c4a840dd4ab3d4069",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Bear.idle.back_left.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Bear/idle/back_left/001.png",
+      "source_sha256": "e1202ac2941dcb9f6cc4696057f513d85f32617eac08b6fd255b04d5c1abcbd3",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Bear.idle.left.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Bear/idle/left/000.png",
+      "source_sha256": "3b8b884ad4215d3a1d2c12cf3b01661188808ddad30d8b27d1333bf517b7dc84",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Bear.idle.left.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Bear/idle/left/001.png",
+      "source_sha256": "b487cc1d1652dee39bed39460ecccc5193a7689ebf4cff05578e7dd289c202cb",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Bear.idle.front_left.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Bear/idle/front_left/000.png",
+      "source_sha256": "cafac62f286a7d8f087e7caadb4aaf3a2619066e1ad2411952e4dec7b7b921e1",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Bear.idle.front_left.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Bear/idle/front_left/001.png",
+      "source_sha256": "2908c50771451197c9558771ff3b2d9b6c68431486545203eb901356a9bf77d4",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "Bear.walk.front.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Bear/walk/front/000.png",
+      "source_sha256": "e09a576905bb065f46dce11fa2497b3abffbc68c4869526e48b949587058cb84",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "Bear.walk.front.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Bear/walk/front/001.png",
+      "source_sha256": "6630bbfe3a1c30dbfce27744d62a486031bef91aede52ad40784fd83884fcca5",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "Bear.walk.front_right.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Bear/walk/front_right/000.png",
+      "source_sha256": "6ac86f24da41c24b09fcefb430e7b6174cae37da9617d0d7e5f99f1fb7a2ecea",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "Bear.walk.front_right.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Bear/walk/front_right/001.png",
+      "source_sha256": "c034e16859fa2bde8c3ce25f2ecbd7a34ede19932cd7c035ca8f91e5bca2c5d2",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "Bear.walk.right.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Bear/walk/right/000.png",
+      "source_sha256": "366ec45dc0f04c30f0ef0260bdd4dfab9560724b234b36f7c7b07c1b8e660cfb",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "Bear.walk.right.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Bear/walk/right/001.png",
+      "source_sha256": "33b957598aed25ef689b1f6de9bfe852aa7d94d2d1b3ec5081ad8330768ff7b6",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "Bear.walk.back_right.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Bear/walk/back_right/000.png",
+      "source_sha256": "9e59c00b0fa8bd475907c5c51e02ba40ac41973b9aa4597979778c5b70e9d029",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "Bear.walk.back_right.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Bear/walk/back_right/001.png",
+      "source_sha256": "fb5dd1834db1a968d134869d976a6079e62f8810afa1b81cfbe1c9f49176603c",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "Bear.walk.back.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Bear/walk/back/000.png",
+      "source_sha256": "7021f30ab1580a2425305fbf59bd9eac4b792162c66ad98a5e87ffbac6595f5f",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "Bear.walk.back.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Bear/walk/back/001.png",
+      "source_sha256": "8782c141424a6383c8aae5d50f3520fe884fc14b231bf11d302ac33801b9312d",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "Bear.walk.back_left.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Bear/walk/back_left/000.png",
+      "source_sha256": "8786f14d4b1e2b1d4e65c772899d2096a04babc98e8be8041f25672b26c015c6",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "Bear.walk.back_left.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Bear/walk/back_left/001.png",
+      "source_sha256": "d186e3bd893c1bd0e1c597471b3d5042f3d2565439dae24394b45d6538ecabad",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "Bear.walk.left.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Bear/walk/left/000.png",
+      "source_sha256": "0ea407ab8751c031f8412c8a7bf659b77e94c7421f11bdbc614c6f0668f9158c",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "Bear.walk.left.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Bear/walk/left/001.png",
+      "source_sha256": "8a58fe7bf0913c5bd514d6ec5941aed68de2374f1ec71f88ced0af4b005a7aa0",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "Bear.walk.front_left.000",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Bear/walk/front_left/000.png",
+      "source_sha256": "0226237988baee8a467aa6fc1a557076b52e19c192e39c1f350c5442daedb033",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "Bear.walk.front_left.001",
+      "asset_id": "Bear",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Bear/walk/front_left/001.png",
+      "source_sha256": "2d1411a0c98c3394d35194f89dc7b543a60220cc607aad7007a17ffdba8af0a1",
+      "glb_sha256": "3fdbabcb92521c9911899b688da4c65780c54bd84883f1a7478fbb6d0fe3bb44",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

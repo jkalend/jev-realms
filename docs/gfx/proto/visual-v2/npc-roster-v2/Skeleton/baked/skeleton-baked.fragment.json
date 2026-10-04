@@ -1,0 +1,1005 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "skeleton-baked",
+    "file": "skeleton-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "Skeleton": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Skeleton": {
+        "attack": {
+          "front": [
+            0,
+            0
+          ],
+          "front_right": [
+            1,
+            0
+          ],
+          "right": [
+            2,
+            0
+          ],
+          "back_right": [
+            3,
+            0
+          ],
+          "back": [
+            4,
+            0
+          ],
+          "back_left": [
+            5,
+            0
+          ],
+          "left": [
+            6,
+            0
+          ],
+          "front_left": [
+            7,
+            0
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            1
+          ],
+          "front_right": [
+            3,
+            1
+          ],
+          "right": [
+            5,
+            1
+          ],
+          "back_right": [
+            7,
+            1
+          ],
+          "back": [
+            1,
+            2
+          ],
+          "back_left": [
+            3,
+            2
+          ],
+          "left": [
+            5,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Skeleton.attack.front.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Skeleton/attack/front/000.png",
+      "source_sha256": "46c8d38cd736d65cf37b62403b398f25919fe03c9921832e535da81e4ccafc08",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Skeleton.attack.front_right.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Skeleton/attack/front_right/000.png",
+      "source_sha256": "07ca0d169fff29a03c0bd7cc755cf7565d5c477463810c6413daafff6c791a73",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Skeleton.attack.right.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Skeleton/attack/right/000.png",
+      "source_sha256": "b33717f4f4039fbe81d16775b73a7fcc879aae578218ca4b8eed70bc60abf9c3",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Skeleton.attack.back_right.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Skeleton/attack/back_right/000.png",
+      "source_sha256": "03c3e8e01601d971440313732166a739b89d3b99b4a249b1250a0a9f71abe621",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Skeleton.attack.back.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Skeleton/attack/back/000.png",
+      "source_sha256": "6da82d2ac8859a8fb468580f09d53e1609a7fc38371b2e0843ff7ecfbcb84bf6",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Skeleton.attack.back_left.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Skeleton/attack/back_left/000.png",
+      "source_sha256": "e65103787b5d8debdc0045ddfe06735c939b6d92c4539379bfc257c8b891de65",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Skeleton.attack.left.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Skeleton/attack/left/000.png",
+      "source_sha256": "fa8686ca9676e6eb1d3794731b84c1862ed2e1ad88e209c86d3ec44f4c24446d",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Skeleton.attack.front_left.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Skeleton/attack/front_left/000.png",
+      "source_sha256": "876639c22a363e3ce567420c58665b7c744e92987dee79cafbb508fab38bd54d",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Skeleton.hit.front.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Skeleton/hit/front/000.png",
+      "source_sha256": "97c65d10a49657d349b5e8bd06c936beb82a4add5a944583734be4335cde98c0",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Skeleton.hit.front.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Skeleton/hit/front/001.png",
+      "source_sha256": "2a914a6ebbcaeea8c66246eb17d249df0c7f8344867c36973573a3ef355f8fc9",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Skeleton.hit.front_right.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Skeleton/hit/front_right/000.png",
+      "source_sha256": "b4c5e10f23826e7836a285f368c96a5632f8900eee0af52042a9b1e71117358d",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Skeleton.hit.front_right.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Skeleton/hit/front_right/001.png",
+      "source_sha256": "85d960d699835599f1b277fcb1a696ff5ef95156b75688bd3be876cff6ec7adf",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Skeleton.hit.right.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Skeleton/hit/right/000.png",
+      "source_sha256": "f2ba29d41d3c53d4def79353940d9ae371e202265d16574e804979508d47b076",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Skeleton.hit.right.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Skeleton/hit/right/001.png",
+      "source_sha256": "2578b8228f1e435f1db1e862b830d0d444853f26ebd592aececfaa6d7cac68a5",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Skeleton.hit.back_right.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Skeleton/hit/back_right/000.png",
+      "source_sha256": "ae8e848dc6491c557c6b659cb83ac2afbd758f1808da4ff91593e1bea42ad129",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Skeleton.hit.back_right.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Skeleton/hit/back_right/001.png",
+      "source_sha256": "f2c33b274261b5f21d7b44fe74ad44b832a8b3800b55ea92b47f54be250f499e",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Skeleton.hit.back.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Skeleton/hit/back/000.png",
+      "source_sha256": "bf1be8581fb59037010d86b254bdc7bba8c913eac761d6f04119b80410edceaa",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Skeleton.hit.back.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Skeleton/hit/back/001.png",
+      "source_sha256": "57e7d0d16fce3d1ff4a95b6edc7cfbd1b26886930db9fe156c10078d0c695525",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Skeleton.hit.back_left.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Skeleton/hit/back_left/000.png",
+      "source_sha256": "81549be9794fd6981cdfa2275ba5538cb939e50da4cb0852cf1debca38967e06",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Skeleton.hit.back_left.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Skeleton/hit/back_left/001.png",
+      "source_sha256": "3ccec84bb2998aadd5a204d91c8d644f2d770d325245aea3cc6e5260046b9213",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Skeleton.hit.left.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Skeleton/hit/left/000.png",
+      "source_sha256": "16528d0b59370f9801d4ef81bcd589c4594098fbe82c913bd1e6920ec4661d84",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Skeleton.hit.left.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Skeleton/hit/left/001.png",
+      "source_sha256": "012dd7785371af0062a413e048ae3f826cee43a16616898421c1b9b83c5aab89",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Skeleton.hit.front_left.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Skeleton/hit/front_left/000.png",
+      "source_sha256": "a4dd3a8d4e97430fb8786f43dc15c8b8fb692916dadaf197784174247e249609",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Skeleton.hit.front_left.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Skeleton/hit/front_left/001.png",
+      "source_sha256": "a8b13aa4df0091053f409d7a76aadd3a65727d5bf2cc8583863ee6405f1d4b10",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Skeleton.idle.front.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Skeleton/idle/front/000.png",
+      "source_sha256": "d2434efdbdc4b2e358383822f38f6ac512dc8d74c2d2fee795b503356c13dc38",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Skeleton.idle.front.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Skeleton/idle/front/001.png",
+      "source_sha256": "8f64efc6bf05991f33f28bdb1bdca2599a3fcc4bd45a900d5ff1a7c28035ee75",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Skeleton.idle.front_right.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Skeleton/idle/front_right/000.png",
+      "source_sha256": "f7c023db4892835631a0762a5c68e148675585f68353cd28a33242fa5b607033",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Skeleton.idle.front_right.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Skeleton/idle/front_right/001.png",
+      "source_sha256": "aef6fa4ef7d33104132aaa32c3201e7fc4224677158ad28c424f7f8994c0a9c8",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Skeleton.idle.right.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Skeleton/idle/right/000.png",
+      "source_sha256": "a6870a33f633d835259ee20bf294e0dc839c8732e8f32af2a5e1fde09f9c202e",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Skeleton.idle.right.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Skeleton/idle/right/001.png",
+      "source_sha256": "3cdc8a6081e460ada675267b4dae0765767ea1993d5ebed2f47bff4fa37b678e",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Skeleton.idle.back_right.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Skeleton/idle/back_right/000.png",
+      "source_sha256": "912a7b216effbca80faff8c1346bc779eba9a661291996ec13e44f5c609f2f9a",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Skeleton.idle.back_right.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Skeleton/idle/back_right/001.png",
+      "source_sha256": "5dc8910bf409392fcf006e5caa8889b3380ab5fc4630a3d005ba5fc539f5e7a5",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Skeleton.idle.back.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Skeleton/idle/back/000.png",
+      "source_sha256": "3703ca487738107083451d37b007179dab065eeef1d3308ce85cb5945085df75",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Skeleton.idle.back.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Skeleton/idle/back/001.png",
+      "source_sha256": "cf192901d8f05e81044e59081124dbb004515fa5e84ef52f75c57cb4860a721b",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Skeleton.idle.back_left.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Skeleton/idle/back_left/000.png",
+      "source_sha256": "7113ec1163173cf1005e4ada2dfede25029884e4fbde940e3e7efe419a44b048",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Skeleton.idle.back_left.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Skeleton/idle/back_left/001.png",
+      "source_sha256": "061ad5c293cf6a7af00d22c3987c2f281650e2356a0133be945eb39afffec100",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Skeleton.idle.left.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Skeleton/idle/left/000.png",
+      "source_sha256": "92e0032070b45bb9a431fa28693c120d6a0627d6d26a33ab4371236866ce2e47",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Skeleton.idle.left.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Skeleton/idle/left/001.png",
+      "source_sha256": "20c03f438b161a169bcf028cb8d029336655b03a9eda89e7089b6d8b44013de5",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Skeleton.idle.front_left.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Skeleton/idle/front_left/000.png",
+      "source_sha256": "e3f75e1cec11123505efd05bea4021a6cf167211aa76453778903f6c156e32f0",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Skeleton.idle.front_left.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Skeleton/idle/front_left/001.png",
+      "source_sha256": "91f7ec0c5b7d4a03f41b8380c23672fd544833940f90c4b3bb962b0517400e67",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Skeleton.walk.front.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Skeleton/walk/front/000.png",
+      "source_sha256": "d171f61ae143b664efec3bf2d0d179339062f0017b9f96551f043d32e1c9acfe",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Skeleton.walk.front.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Skeleton/walk/front/001.png",
+      "source_sha256": "edac296faf54c4132d5f6b4a7768ce234547c5135b3a3131715055e7646d6a41",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Skeleton.walk.front_right.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Skeleton/walk/front_right/000.png",
+      "source_sha256": "bb1337db6d650220759969a1e396e0e02cbcbaabcd490133778445679cf727ed",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Skeleton.walk.front_right.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Skeleton/walk/front_right/001.png",
+      "source_sha256": "821c854fc8d7de31867a637cd5e8f76c7db4d0eedee502f4bc20c27179d36c25",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Skeleton.walk.right.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Skeleton/walk/right/000.png",
+      "source_sha256": "3252394cd90765ca6e539973b12005795168e301fa8e90385513c29fcb68aa2f",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Skeleton.walk.right.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Skeleton/walk/right/001.png",
+      "source_sha256": "40ed2f2cbe5b27d1c86ab2c21fc463143916d33871f2bc752c50fbdab5122f90",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Skeleton.walk.back_right.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Skeleton/walk/back_right/000.png",
+      "source_sha256": "9f52ad162b9b9a59675682f0d70ead00ba87682581c5c6f4b2465b20bbce656f",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Skeleton.walk.back_right.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Skeleton/walk/back_right/001.png",
+      "source_sha256": "85bbb4b4e0213809b44b084eed141b233e40807c1502a712f4ccc79e2beff24f",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Skeleton.walk.back.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Skeleton/walk/back/000.png",
+      "source_sha256": "f4c418ee3e72068d108f66f73e1fd7bf13edd9ee81ff873be9920e4243350934",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Skeleton.walk.back.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Skeleton/walk/back/001.png",
+      "source_sha256": "2dd524eb2b3afb36869fd16dec65047da449a7ebe7758dd104f1716cdaa29a6e",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Skeleton.walk.back_left.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Skeleton/walk/back_left/000.png",
+      "source_sha256": "6708c1435092d066757de9e6a9696bb1361bc78c5a4141a34e8d9b6b7970962b",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Skeleton.walk.back_left.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Skeleton/walk/back_left/001.png",
+      "source_sha256": "e0fd42afbf84950701c844e3c046fbae010cea3e41574ab7e73c237c14812068",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Skeleton.walk.left.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Skeleton/walk/left/000.png",
+      "source_sha256": "3fe34c521b339b82a6b9c2acc31049a6e96b7d95157b44d6fd2ab63664ffd1d9",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Skeleton.walk.left.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Skeleton/walk/left/001.png",
+      "source_sha256": "21dc6517d4881b46d16c4a7d475ef4a63809f5fd2f05c7b924f971164f3754f1",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Skeleton.walk.front_left.000",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Skeleton/walk/front_left/000.png",
+      "source_sha256": "e3d43c47eb758351cc8a8579a7db6766578d0f1809d0fb6db8773fe12cb48f82",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Skeleton.walk.front_left.001",
+      "asset_id": "Skeleton",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Skeleton/walk/front_left/001.png",
+      "source_sha256": "d38d2969413528f080403da0e2d0f206006eec890d02274209f167b36d6a0f17",
+      "glb_sha256": "f248581988344a4ef9c5824c28407094f2305912291ebd8598720f92544492b5",
+      "cell": [
+        7,
+        6
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 56,
+    "file_checked": true
+  }
+}

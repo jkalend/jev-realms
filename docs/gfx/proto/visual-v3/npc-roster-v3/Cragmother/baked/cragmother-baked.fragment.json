@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "cragmother-baked",
+    "file": "cragmother-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "Cragmother": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Cragmother": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Cragmother.attack.front.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Cragmother/attack/front/000.png",
+      "source_sha256": "2a8ae63c1d9d40dae41bf4b3885cb87ef571be95414808037c070ec7b143c9b6",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Cragmother.attack.front.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Cragmother/attack/front/001.png",
+      "source_sha256": "1d15ff5fa235117e4520a9103f08a5dd5e226e7617a3d95bd65f1859bb9db34e",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Cragmother.attack.front.002",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Cragmother/attack/front/002.png",
+      "source_sha256": "d8d6399b878274dbaafb186afbda4f96b918c037918671d628b80fa3ca5e0374",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Cragmother.attack.front_right.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Cragmother/attack/front_right/000.png",
+      "source_sha256": "f153283fbd4c95502065b70601bab4b315430599dc03a287e247954013e99cc3",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Cragmother.attack.front_right.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Cragmother/attack/front_right/001.png",
+      "source_sha256": "c4a02f991fa79a920536ee9e61731612e6f37573a78086925baac699f95113f5",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Cragmother.attack.front_right.002",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Cragmother/attack/front_right/002.png",
+      "source_sha256": "add0e2ea48491e50da43583e9085bc6892bc1dff1265328f434fa82cae6de546",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Cragmother.attack.right.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Cragmother/attack/right/000.png",
+      "source_sha256": "24461ad1d6fc4077485b690dc6bebea60f0b840162e1e65bba15fd5864dfce1f",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Cragmother.attack.right.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Cragmother/attack/right/001.png",
+      "source_sha256": "bafe148d9b12188674ee028ccecc77629828027c80503b50012ceb68b4b6e915",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Cragmother.attack.right.002",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Cragmother/attack/right/002.png",
+      "source_sha256": "c550ce2b01c6e4804d6a2b66cb2d33bc42090bda5ad6c39fdc6c2c99e5efa330",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Cragmother.attack.back_right.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Cragmother/attack/back_right/000.png",
+      "source_sha256": "9be1bc9078b377b6f417602084a470f46727dfd0da33f63c8e060de7cb8bfeec",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Cragmother.attack.back_right.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Cragmother/attack/back_right/001.png",
+      "source_sha256": "ea39023cd200600bfc1e00509aa320995a95a4f8bb816cbb23bfc0b97adc0491",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Cragmother.attack.back_right.002",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Cragmother/attack/back_right/002.png",
+      "source_sha256": "4463ad354d14eb6e46b750a0d1aa95de73d1057de6e673f639de7f1c6d171a93",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Cragmother.attack.back.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Cragmother/attack/back/000.png",
+      "source_sha256": "c1260fb788ff25e6648e1a8670cb62a540652e467f7d6205ba15688beee532af",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Cragmother.attack.back.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Cragmother/attack/back/001.png",
+      "source_sha256": "951631ce25cefa9dbb60e104a832d9dae75a8755c5ffa3ea8f35193d89329492",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Cragmother.attack.back.002",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Cragmother/attack/back/002.png",
+      "source_sha256": "ee79168b4e73b50c3318cd771c52ed1c311750d74e005a7b39ee657c6a729412",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Cragmother.attack.back_left.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Cragmother/attack/back_left/000.png",
+      "source_sha256": "ec0d9bcc919b47b98a63a2f4d078a1fe166c1033303639d27eb37089dd39e922",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Cragmother.attack.back_left.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Cragmother/attack/back_left/001.png",
+      "source_sha256": "e719f3f25de9cc53550fc8dc1ead281858fb0a75ed992234f2ed845fb7f6691c",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Cragmother.attack.back_left.002",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Cragmother/attack/back_left/002.png",
+      "source_sha256": "751647918ca51f2e75cef8e15a4d4bc9ef6b197c97a0cb7265d169a6148b3cfe",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Cragmother.attack.left.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Cragmother/attack/left/000.png",
+      "source_sha256": "41c141a7b76d0865a607e9b61d8681a703d835c142f8b5f6651e937568e18071",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Cragmother.attack.left.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Cragmother/attack/left/001.png",
+      "source_sha256": "89230375a35534da04b4349afe096fa67cba3859937450f7af59195403d49f29",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Cragmother.attack.left.002",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Cragmother/attack/left/002.png",
+      "source_sha256": "ac7edc8a083cf5da88eee66d8c24b198d2ddcd0b311412a6eb0136e7ccda07c3",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Cragmother.attack.front_left.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Cragmother/attack/front_left/000.png",
+      "source_sha256": "ecb1e9cf04fdb12ac79472aa5343bd09400314bcd663f5ea9cf5824ada69ab34",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Cragmother.attack.front_left.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Cragmother/attack/front_left/001.png",
+      "source_sha256": "6aad331a4f23b1251a349802cb47a001979868732e1a0464acbe59124b126111",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Cragmother.attack.front_left.002",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Cragmother/attack/front_left/002.png",
+      "source_sha256": "8dcb9252e6608048788166d33e8f582d85430c9481334a3684d51df7de9ae7de",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Cragmother.hit.front.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Cragmother/hit/front/000.png",
+      "source_sha256": "f048764455e59ac594849ce5d02458e99366e1a8157f1b5fa48ea51b3e07f9a6",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Cragmother.hit.front.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Cragmother/hit/front/001.png",
+      "source_sha256": "639e1f67f4fab2ddc0df3d28ef3c34041ccb0285e2c4e0d4e9caf8c0515108f3",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Cragmother.hit.front_right.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Cragmother/hit/front_right/000.png",
+      "source_sha256": "d185867efda21a2ee6163d618aaee018dca80d2f30508f21a5203e42831228b9",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Cragmother.hit.front_right.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Cragmother/hit/front_right/001.png",
+      "source_sha256": "f732b5d2148a757a857301151453ce0bbedd54e9b19d715d5c0a010b2b4366c9",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Cragmother.hit.right.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Cragmother/hit/right/000.png",
+      "source_sha256": "ce578b9b158943c7f91dcd7b9380fc6ffd9b8423384a7ffb53990061955061bf",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Cragmother.hit.right.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Cragmother/hit/right/001.png",
+      "source_sha256": "1929856e9a0eeadac4d67cffcbf95cc83842b5ae7164bea31468660805ca8696",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Cragmother.hit.back_right.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Cragmother/hit/back_right/000.png",
+      "source_sha256": "948877782f68aafa1da8c015496b8d8b73b57162a43d8d8ff28b38213b58a903",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Cragmother.hit.back_right.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Cragmother/hit/back_right/001.png",
+      "source_sha256": "de5947785d651b8d44fa67963e7f591385eba6b6533724b63e2ce97a5bb641fa",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Cragmother.hit.back.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Cragmother/hit/back/000.png",
+      "source_sha256": "42363eb8355cb4ac427d9003400b2e97bd06e54c837f6bbaaf7f2dac2488700d",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Cragmother.hit.back.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Cragmother/hit/back/001.png",
+      "source_sha256": "13c98fcbe6ca3e8a1ef88f785b1c2ede9a349f531c417ca80eea1f9bbbb7e30b",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Cragmother.hit.back_left.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Cragmother/hit/back_left/000.png",
+      "source_sha256": "a787e623db491a7ad3504b3aac06bd0c17a69b107a3743ea32a541acc24ec2c5",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Cragmother.hit.back_left.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Cragmother/hit/back_left/001.png",
+      "source_sha256": "515cc6f4c434bba4cf8c3e656ece4457e2261fda80284d7b8ea7f7e0447a3555",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Cragmother.hit.left.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Cragmother/hit/left/000.png",
+      "source_sha256": "e2868d43ff1893c52733cd306ad0e3ced8b0e4b5fae1bbd81f76638b1f0ee84c",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Cragmother.hit.left.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Cragmother/hit/left/001.png",
+      "source_sha256": "595855ffed7068217c419da5de0ee4f68376f6ebec9d69227a38fd80893612ff",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Cragmother.hit.front_left.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Cragmother/hit/front_left/000.png",
+      "source_sha256": "bcb1dee9aef15017801762b5ba3ffc4b9b12c490ad90a7bcdf60e734d5a57d76",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Cragmother.hit.front_left.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Cragmother/hit/front_left/001.png",
+      "source_sha256": "7f74f76a9c52d6e43ea5f4047a8d49a5c63e8c6a62f8274649e04114247122f7",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Cragmother.idle.front.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Cragmother/idle/front/000.png",
+      "source_sha256": "1c2af20313c50013cd753cfc92244cf39c90c333610f52336baf75d0fdc9434c",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Cragmother.idle.front.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Cragmother/idle/front/001.png",
+      "source_sha256": "0bf2aae48bcd6b9af4f2cb1c6dbcb97b8b3bb8949d15b154092fe59d25275b19",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Cragmother.idle.front_right.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Cragmother/idle/front_right/000.png",
+      "source_sha256": "488a6e27c6e52668b71f7b4a697d0590f635d4e2269571bc2e3d11f7a18b0e7d",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Cragmother.idle.front_right.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Cragmother/idle/front_right/001.png",
+      "source_sha256": "88fef789d4c138af943353cfcd5d602c54757153c4bc52b87fdc8344770aebf1",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Cragmother.idle.right.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Cragmother/idle/right/000.png",
+      "source_sha256": "4022efffe61db4f29d3b7c15386b362e9886ddf1de34ece8736ce27e8e83dc90",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Cragmother.idle.right.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Cragmother/idle/right/001.png",
+      "source_sha256": "27eb345f24328ac5f78e2e4567ff222828be5127fae772b87e223f6d10f337c2",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Cragmother.idle.back_right.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Cragmother/idle/back_right/000.png",
+      "source_sha256": "18a27623f51158503affc8e395c502ac973d4c307360ce25ef975fff4bfbb480",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Cragmother.idle.back_right.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Cragmother/idle/back_right/001.png",
+      "source_sha256": "a4bc7eba40da0c1d9aa033a6ee43fbd42fac40304f7ad646de7b20a246e55cca",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Cragmother.idle.back.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Cragmother/idle/back/000.png",
+      "source_sha256": "bdaf80cd136138a764f62970866538372d4ec00fbc089aa5035f151d80a39840",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Cragmother.idle.back.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Cragmother/idle/back/001.png",
+      "source_sha256": "314f8af7a3af15109fe3caed3c8c761ab437f11800c71a54d14d26787e583f35",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Cragmother.idle.back_left.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Cragmother/idle/back_left/000.png",
+      "source_sha256": "fce884cdf792db05e9109194d3f0700b11f3ef1562e6accd53dfb8dede535301",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Cragmother.idle.back_left.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Cragmother/idle/back_left/001.png",
+      "source_sha256": "fa68c0c4112031b7ecfe7d8911eca71b1dab346fe79e4a923319d5f618d8a955",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Cragmother.idle.left.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Cragmother/idle/left/000.png",
+      "source_sha256": "b20dca74e0fcf269b41e3bfec823722bd4b48f9d5d91b71a2416b7161571d6b3",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Cragmother.idle.left.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Cragmother/idle/left/001.png",
+      "source_sha256": "725ed564871a16eea9d88e1a700564877238d2aba01fb2029ad2d6d081956010",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Cragmother.idle.front_left.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Cragmother/idle/front_left/000.png",
+      "source_sha256": "6d2bc0303a8b45a9298bc668f92ad1dba8e0aeb4c106882d96476a7bd0d72a55",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Cragmother.idle.front_left.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Cragmother/idle/front_left/001.png",
+      "source_sha256": "54283bdca31f8aad6f9b1431b77bf1faffb729791df11f13d6052662f56530b1",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "Cragmother.walk.front.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Cragmother/walk/front/000.png",
+      "source_sha256": "75bc2b1af5a2ed1d27b4cb3a6949f57e00299262303e6b7765e49e77849ec7f8",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "Cragmother.walk.front.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Cragmother/walk/front/001.png",
+      "source_sha256": "8f68f5922bef5a535f5fab5b978b8cc0f99a958da4ce4727d8f3846b592e3837",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "Cragmother.walk.front_right.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Cragmother/walk/front_right/000.png",
+      "source_sha256": "d6c8faa7a9d455e72740b07d31caf9a5709204fdc28c1f17754b8fb630e1c725",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "Cragmother.walk.front_right.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Cragmother/walk/front_right/001.png",
+      "source_sha256": "1728caf911f93f835218e611a60045e167f3867b496b76d5914af9632e8eefd2",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "Cragmother.walk.right.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Cragmother/walk/right/000.png",
+      "source_sha256": "8abb82193ebe01e34fd36119743a4596af4d4233394e367ec04ee62fd7bd9cd0",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "Cragmother.walk.right.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Cragmother/walk/right/001.png",
+      "source_sha256": "a10de7343e5ec1b10cae77e22faa09fe4ee7aeab9d73a5ab8b0aba37cf82e132",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "Cragmother.walk.back_right.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Cragmother/walk/back_right/000.png",
+      "source_sha256": "c73c0db809f04dfd2437a2d416f135bb1654d11995bd5b5da4f6231543edf63a",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "Cragmother.walk.back_right.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Cragmother/walk/back_right/001.png",
+      "source_sha256": "7a8e86555f4f5f6c9aa2d08b6ca5b77a367ec037885784e1322a0bc7efc0ea7e",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "Cragmother.walk.back.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Cragmother/walk/back/000.png",
+      "source_sha256": "ae536fd8e5a5f0c9e567600cb543438f5858604c2f52067f208a84e5f2b87d5b",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "Cragmother.walk.back.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Cragmother/walk/back/001.png",
+      "source_sha256": "77ef9dfdeac11280e8b799bcdeb0588cf9a6bfe47fb0771885fa0e11bdbae25d",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "Cragmother.walk.back_left.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Cragmother/walk/back_left/000.png",
+      "source_sha256": "bcfa58cafd7eb66600b09f66a11457d808874f61a09e620c3267abef93c44c01",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "Cragmother.walk.back_left.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Cragmother/walk/back_left/001.png",
+      "source_sha256": "a2e050be94345b9bda6e563e1660df6464325662f3882902a161a51af9e2dc11",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "Cragmother.walk.left.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Cragmother/walk/left/000.png",
+      "source_sha256": "8249e25bdd8062a2ea6134842d468717b9856e7a6eca6cc24f3a9607a0afd705",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "Cragmother.walk.left.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Cragmother/walk/left/001.png",
+      "source_sha256": "d9644ea6a085a3beada9e4cea128226e5f12ad7b82ee9511dd9fe7170cc02ff9",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "Cragmother.walk.front_left.000",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Cragmother/walk/front_left/000.png",
+      "source_sha256": "4e957abd79b388c892e72b8b8c57910f7ff47e6919c722772235e435db7dc3c0",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "Cragmother.walk.front_left.001",
+      "asset_id": "Cragmother",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Cragmother/walk/front_left/001.png",
+      "source_sha256": "f781b68db35f3a4748b62fe38617a6badb63441465696fb1579f7deb0f30cba0",
+      "glb_sha256": "38228fab6d34d27dfb780e4b633b06402121dceef3703a53f842d2e8ea0b3070",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Animal Models Review &amp; Quality Study — Laya Realms</title>
+  <style>
+    @font-face { font-family: Cinzel; src: url("../../../../assets/fonts/Cinzel-Regular.ttf") format("truetype"); font-display: swap; }
+    :root { color-scheme: dark; --ink:#0a0d10; --panel:#13181d; --line:#3a382e; --gold:#c5a45d; --gold-bright:#ecd38b; --ivory:#e7dec6; --muted:#9e998c; --green:#54b37d; --red:#c75c5c; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { background:radial-gradient(ellipse at top right,#2c261966,transparent 45%),var(--ink); color:var(--ivory); font:15px/1.6 Georgia,serif; padding:32px 20px 80px; }
+    .shell { max-width:1400px; margin:0 auto; }
+    header { padding-bottom:28px; border-bottom:1px solid var(--line); margin-bottom:32px; }
+    .kicker { color:var(--gold); font:12px/1.4 Consolas,monospace; letter-spacing:.18em; text-transform:uppercase; margin-bottom:8px; }
+    h1 { font-family:Cinzel,Georgia,serif; font-size:clamp(28px,4vw,44px); font-weight:400; margin-bottom:12px; color:var(--ivory); }
+    p.lead { color:var(--muted); font-size:16px; max-width:960px; line-height:1.7; }
+    .summary-badge { display:inline-flex; align-items:center; gap:8px; padding:4px 12px; background:#1c232b; border:1px solid #36414c; border-radius:4px; font:12px/1.4 Consolas,monospace; color:var(--gold-bright); margin-top:14px; }
+    
+    .nav-tabs { display:flex; gap:10px; margin-bottom:28px; flex-wrap:wrap; border-bottom:1px solid var(--line); padding-bottom:14px; }
+    .nav-btn { background:#151c23; border:1px solid #2d3844; color:var(--muted); padding:9px 18px; border-radius:5px; cursor:pointer; font:13px Cinzel,Georgia,serif; transition:all .2s; }
+    .nav-btn:hover { color:var(--ivory); border-color:var(--gold); }
+    .nav-btn.active { background:var(--gold); color:#0b0e10; font-weight:bold; border-color:var(--gold); }
+
+    .comparison-card { background:var(--panel); border:1px solid #2e353d; border-radius:8px; padding:24px; margin-bottom:36px; }
+    .card-header { display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:12px; border-bottom:1px solid #262e36; padding-bottom:16px; margin-bottom:20px; }
+    .card-title { font-family:Cinzel,Georgia,serif; font-size:24px; color:var(--gold-bright); }
+    .card-meta { font:13px Consolas,monospace; color:var(--muted); }
+    .card-notes { margin-bottom:22px; color:#cfc8b6; font-size:14px; background:#1a2128; padding:12px 18px; border-left:3px solid var(--gold); border-radius:0 4px 4px 0; }
+
+    .version-row { display:grid; grid-template-columns:120px 1fr; gap:16px; align-items:center; margin-bottom:18px; padding-bottom:18px; border-bottom:1px dashed #232a32; }
+    .version-row:last-child { border-bottom:none; margin-bottom:0; padding-bottom:0; }
+    .tag { display:inline-block; font:11px/1.3 Consolas,monospace; font-weight:bold; padding:4px 8px; border-radius:3px; text-transform:uppercase; text-align:center; }
+    .tag.orig { background:#3a1c1c; color:#ea8888; border:1px solid #663232; }
+    .tag.impr { background:#163825; color:#78e09e; border:1px solid #25663e; }
+    .version-label { font:12px Consolas,monospace; color:var(--muted); margin-top:6px; }
+
+    .frames-grid { display:grid; grid-template-columns:repeat(6, minmax(0, 1fr)); gap:10px; }
+    .frame-box { background:#0a0d10; border:1px solid #262c33; border-radius:5px; padding:8px; text-align:center; transition:border-color .2s; }
+    .frame-box:hover { border-color:var(--gold); }
+    .frame-box img { width:100%; height:auto; display:block; aspect-ratio:4/5; object-fit:contain; }
+    .frame-caption { font:11px Consolas,monospace; color:var(--muted); margin-top:6px; }
+
+    .full-plate { margin-top:40px; }
+    .full-plate img { width:100%; height:auto; border:1px solid #3b382e; border-radius:6px; display:block; background:#0a0c0e; }
+    .full-plate figcaption { padding:10px 0; font:13px Consolas,monospace; color:var(--muted); display:flex; justify-content:space-between; }
+    .full-plate a { color:var(--gold); text-decoration:none; }
+    .full-plate a:hover { text-decoration:underline; }
+
+    footer { margin-top:60px; padding-top:20px; border-top:1px solid var(--line); font:12px Consolas,monospace; color:var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="kicker">Laya Realms &bull; Visual Quality Pass</div>
+      <h1>Animal Models Review &amp; Inspection</h1>
+      <p class="lead">Detailed anatomical, silhouette, and motion study comparing the initial baseline animal assets against the newly authored models for <strong>Wolf</strong>, <strong>Bear</strong>, <strong>Rat</strong>, <strong>GnawThane</strong>, and <strong>PaleStag</strong>. These candidates are staged in review before promotion into the shipped production atlas.</p>
+      <div class="summary-badge">STATUS: REVIEW READY &bull; ATLAS UNTOUCHED &bull; FULL 3D BLENDER 5.1 PREVIEWS</div>
+    </header>
+
+    <div class="nav-tabs">
+      <button class="nav-btn active" onclick="filterAnimal('all')">Show All Species</button>
+      <button class="nav-btn" onclick="filterAnimal('wolf')">Wolf</button>
+      <button class="nav-btn" onclick="filterAnimal('bear')">Bear</button>
+      <button class="nav-btn" onclick="filterAnimal('rat')">Rat</button>
+      <button class="nav-btn" onclick="filterAnimal('gnawthane')">GnawThane (Boss)</button>
+      <button class="nav-btn" onclick="filterAnimal('palestag')">PaleStag (Boss)</button>
+    </div>
+
+    <!-- Wolf Card -->
+    <section class="comparison-card" id="card-wolf">
+      <div class="card-header">
+        <h2 class="card-title">Wolf</h2>
+        <div class="card-meta">Archetype: Wolf &bull; Form: wolf &bull; Scale: 0.90 &bull; Role: Beast</div>
+      </div>
+      <div class="card-notes">
+        <strong>Review &amp; Enhancements:</strong><br>
+        &bull; <em>Topline &amp; Posture:</em> Replaced horizontal tube body with distinct canid anatomy: high muscular withers over the shoulders (Y=1.30), deep ribcage, and steep abdominal tuck.<br>
+        &bull; <em>Color Zoning &amp; Ruff:</em> Added ventral pale cream throat/chest bib and flaring cheek tufts. Replaced isolated rib fins with dorsal shoulder hackles.<br>
+        &bull; <em>Skull &amp; Ears:</em> Chiseled lupine muzzle with distinct brow stop, pale lower jaw, and alert triangular ears lined with pale inner fur.<br>
+        &bull; <em>Brush Tail:</em> Replaced stiff upright flagpole with low-slung, bushy fur tail that curves naturally behind the rear with a dark tip.<br>
+        &bull; <em>Motion:</em> Attack animation now lunges forward with coiled leg drive instead of freezing the limbs.
+      </div>
+      <div class="version-row">
+        <div><span class="tag orig">Original</span><div class="version-label">Baseline</div></div>
+        <div class="frames-grid">
+          <div class="frame-box"><img src="../npc-roster-v2/Wolf/render/Wolf/idle/front/000.png" alt="Wolf Front"><div class="frame-caption">Front</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Wolf/render/Wolf/idle/front_right/000.png" alt="Wolf 3/4"><div class="frame-caption">3/4 View</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Wolf/render/Wolf/idle/right/000.png" alt="Wolf Profile"><div class="frame-caption">Profile</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Wolf/render/Wolf/idle/back/000.png" alt="Wolf Rear"><div class="frame-caption">Rear</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Wolf/render/Wolf/walk/front_right/000.png" alt="Wolf Walk"><div class="frame-caption">Walk</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Wolf/render/Wolf/attack/front_right/001.png" alt="Wolf Attack"><div class="frame-caption">Attack</div></div>
+        </div>
+      </div>
+      <div class="version-row">
+        <div><span class="tag impr">Improved</span><div class="version-label">Candidate</div></div>
+        <div class="frames-grid">
+          <div class="frame-box"><img src="Wolf/render/Wolf/idle/front/000.png" alt="Improved Wolf Front"><div class="frame-caption">Front</div></div>
+          <div class="frame-box"><img src="Wolf/render/Wolf/idle/front_right/000.png" alt="Improved Wolf 3/4"><div class="frame-caption">3/4 View</div></div>
+          <div class="frame-box"><img src="Wolf/render/Wolf/idle/right/000.png" alt="Improved Wolf Profile"><div class="frame-caption">Profile</div></div>
+          <div class="frame-box"><img src="Wolf/render/Wolf/idle/back/000.png" alt="Improved Wolf Rear"><div class="frame-caption">Rear</div></div>
+          <div class="frame-box"><img src="Wolf/render/Wolf/walk/front_right/000.png" alt="Improved Wolf Walk"><div class="frame-caption">Walk</div></div>
+          <div class="frame-box"><img src="Wolf/render/Wolf/attack/front_right/001.png" alt="Improved Wolf Attack"><div class="frame-caption">Attack</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bear Card -->
+    <section class="comparison-card" id="card-bear">
+      <div class="card-header">
+        <h2 class="card-title">Bear</h2>
+        <div class="card-meta">Archetype: Bear &bull; Form: bear &bull; Scale: 1.30 &bull; Role: Beast (Apex Predator)</div>
+      </div>
+      <div class="card-notes">
+        <strong>Review &amp; Enhancements:</strong><br>
+        &bull; <em>Massive Grizzly Shoulder Hump:</em> The defining grizzly hallmark: towering muscular shoulder crest rising to Y=1.48 behind the neck, eliminating the previous hippo-like profile.<br>
+        &bull; <em>Facial Character:</em> Broad cranial vault with wide dish stop, heavy blunt honey-tan snout mask, and dark leathery nose leather.<br>
+        &bull; <em>Ear Cups:</em> Replaced vertical top spheres with natural cupped rounded ears set wide on the lateral skull with interior shadow pockets.<br>
+        &bull; <em>Vicious Claws:</em> Added 5 prominent curved bone-colored digging claws jutting forward on each massive front paw.<br>
+        &bull; <em>Chest Bib:</em> Warm golden-brown crescent bib across the massive barrel chest.
+      </div>
+      <div class="version-row">
+        <div><span class="tag orig">Original</span><div class="version-label">Baseline</div></div>
+        <div class="frames-grid">
+          <div class="frame-box"><img src="../npc-roster-v2/Bear/render/Bear/idle/front/000.png" alt="Bear Front"><div class="frame-caption">Front</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Bear/render/Bear/idle/front_right/000.png" alt="Bear 3/4"><div class="frame-caption">3/4 View</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Bear/render/Bear/idle/right/000.png" alt="Bear Profile"><div class="frame-caption">Profile</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Bear/render/Bear/idle/back/000.png" alt="Bear Rear"><div class="frame-caption">Rear</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Bear/render/Bear/walk/front_right/000.png" alt="Bear Walk"><div class="frame-caption">Walk</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Bear/render/Bear/attack/front_right/001.png" alt="Bear Attack"><div class="frame-caption">Attack</div></div>
+        </div>
+      </div>
+      <div class="version-row">
+        <div><span class="tag impr">Improved</span><div class="version-label">Candidate</div></div>
+        <div class="frames-grid">
+          <div class="frame-box"><img src="Bear/render/Bear/idle/front/000.png" alt="Improved Bear Front"><div class="frame-caption">Front</div></div>
+          <div class="frame-box"><img src="Bear/render/Bear/idle/front_right/000.png" alt="Improved Bear 3/4"><div class="frame-caption">3/4 View</div></div>
+          <div class="frame-box"><img src="Bear/render/Bear/idle/right/000.png" alt="Improved Bear Profile"><div class="frame-caption">Profile</div></div>
+          <div class="frame-box"><img src="Bear/render/Bear/idle/back/000.png" alt="Improved Bear Rear"><div class="frame-caption">Rear</div></div>
+          <div class="frame-box"><img src="Bear/render/Bear/walk/front_right/000.png" alt="Improved Bear Walk"><div class="frame-caption">Walk</div></div>
+          <div class="frame-box"><img src="Bear/render/Bear/attack/front_right/001.png" alt="Improved Bear Attack"><div class="frame-caption">Attack</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rat Card -->
+    <section class="comparison-card" id="card-rat">
+      <div class="card-header">
+        <h2 class="card-title">Rat</h2>
+        <div class="card-meta">Archetype: Rat &bull; Form: rat &bull; Scale: 0.72 &bull; Role: Beast (Cellar Vermin)</div>
+      </div>
+      <div class="card-notes">
+        <strong>Review &amp; Enhancements:</strong><br>
+        &bull; <em>Hunched Kyphotic Silhouette:</em> Replaced long straight cylinder with authentic rodent posture: low scuttling shoulders, high arched hunchback (Y=1.14), and low tucked rump.<br>
+        &bull; <em>Flexible Sinuous Tail:</em> Curves naturally from low pelvis, sweeps near the floor, and coils upward at the tip.<br>
+        &bull; <em>Rodent Head:</em> Forward wedge skull with rounded vibrissal pads, pink nose tip, and lower incisor shelf.<br>
+        &bull; <em>Ears &amp; Paws:</em> Translucent rounded pink saucer ears and dexterous pink paws replacing the stiff upright spoons.
+      </div>
+      <div class="version-row">
+        <div><span class="tag orig">Original</span><div class="version-label">Baseline</div></div>
+        <div class="frames-grid">
+          <div class="frame-box"><img src="../npc-roster-v2/Rat/render/Rat/idle/front/000.png" alt="Rat Front"><div class="frame-caption">Front</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Rat/render/Rat/idle/front_right/000.png" alt="Rat 3/4"><div class="frame-caption">3/4 View</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Rat/render/Rat/idle/right/000.png" alt="Rat Profile"><div class="frame-caption">Profile</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Rat/render/Rat/idle/back/000.png" alt="Rat Rear"><div class="frame-caption">Rear</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Rat/render/Rat/walk/front_right/000.png" alt="Rat Walk"><div class="frame-caption">Walk</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/Rat/render/Rat/attack/front_right/001.png" alt="Rat Attack"><div class="frame-caption">Attack</div></div>
+        </div>
+      </div>
+      <div class="version-row">
+        <div><span class="tag impr">Improved</span><div class="version-label">Candidate</div></div>
+        <div class="frames-grid">
+          <div class="frame-box"><img src="Rat/render/Rat/idle/front/000.png" alt="Improved Rat Front"><div class="frame-caption">Front</div></div>
+          <div class="frame-box"><img src="Rat/render/Rat/idle/front_right/000.png" alt="Improved Rat 3/4"><div class="frame-caption">3/4 View</div></div>
+          <div class="frame-box"><img src="Rat/render/Rat/idle/right/000.png" alt="Improved Rat Profile"><div class="frame-caption">Profile</div></div>
+          <div class="frame-box"><img src="Rat/render/Rat/idle/back/000.png" alt="Improved Rat Rear"><div class="frame-caption">Rear</div></div>
+          <div class="frame-box"><img src="Rat/render/Rat/walk/front_right/000.png" alt="Improved Rat Walk"><div class="frame-caption">Walk</div></div>
+          <div class="frame-box"><img src="Rat/render/Rat/attack/front_right/001.png" alt="Improved Rat Attack"><div class="frame-caption">Attack</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GnawThane Card -->
+    <section class="comparison-card" id="card-gnawthane">
+      <div class="card-header">
+        <h2 class="card-title">GnawThane</h2>
+        <div class="card-meta">Archetype: GnawThane &bull; Form: rat &bull; Scale: 1.25 &bull; Role: Boss (The Rat-King Below)</div>
+      </div>
+      <div class="card-notes">
+        <strong>Review &amp; Enhancements:</strong><br>
+        &bull; <em>Hulking Boss Presence:</em> Massive hunched frame with deep chest and vicious predatory posture.<br>
+        &bull; <em>Dorsal Crystal Spine Shards:</em> Five jagged crimson crystal spikes erupting along the entire dorsal crest of the hunchback.<br>
+        &bull; <em>Radiating Crown:</em> 5-point shard crown fused directly into the cracked skull.<br>
+        &bull; <em>Threat Cues:</em> Glowing scarlet eyes, long whipping tail, and aggressive lunging attack strike.
+      </div>
+      <div class="version-row">
+        <div><span class="tag orig">Original</span><div class="version-label">Baseline</div></div>
+        <div class="frames-grid">
+          <div class="frame-box"><img src="../npc-roster-v2/GnawThane/render/GnawThane/idle/front/000.png" alt="GnawThane Front"><div class="frame-caption">Front</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/GnawThane/render/GnawThane/idle/front_right/000.png" alt="GnawThane 3/4"><div class="frame-caption">3/4 View</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/GnawThane/render/GnawThane/idle/right/000.png" alt="GnawThane Profile"><div class="frame-caption">Profile</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/GnawThane/render/GnawThane/idle/back/000.png" alt="GnawThane Rear"><div class="frame-caption">Rear</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/GnawThane/render/GnawThane/walk/front_right/000.png" alt="GnawThane Walk"><div class="frame-caption">Walk</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/GnawThane/render/GnawThane/attack/front_right/001.png" alt="GnawThane Attack"><div class="frame-caption">Attack</div></div>
+        </div>
+      </div>
+      <div class="version-row">
+        <div><span class="tag impr">Improved</span><div class="version-label">Candidate</div></div>
+        <div class="frames-grid">
+          <div class="frame-box"><img src="GnawThane/render/GnawThane/idle/front/000.png" alt="Improved GnawThane Front"><div class="frame-caption">Front</div></div>
+          <div class="frame-box"><img src="GnawThane/render/GnawThane/idle/front_right/000.png" alt="Improved GnawThane 3/4"><div class="frame-caption">3/4 View</div></div>
+          <div class="frame-box"><img src="GnawThane/render/GnawThane/idle/right/000.png" alt="Improved GnawThane Profile"><div class="frame-caption">Profile</div></div>
+          <div class="frame-box"><img src="GnawThane/render/GnawThane/idle/back/000.png" alt="Improved GnawThane Rear"><div class="frame-caption">Rear</div></div>
+          <div class="frame-box"><img src="GnawThane/render/GnawThane/walk/front_right/000.png" alt="Improved GnawThane Walk"><div class="frame-caption">Walk</div></div>
+          <div class="frame-box"><img src="GnawThane/render/GnawThane/attack/front_right/001.png" alt="Improved GnawThane Attack"><div class="frame-caption">Attack</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PaleStag Card -->
+    <section class="comparison-card" id="card-palestag">
+      <div class="card-header">
+        <h2 class="card-title">PaleStag</h2>
+        <div class="card-meta">Archetype: PaleStag &bull; Form: stag &bull; Scale: 1.12 &bull; Role: Boss (Spectral Monarch)</div>
+      </div>
+      <div class="card-notes">
+        <strong>Review &amp; Enhancements:</strong><br>
+        &bull; <em>Imperial Branching Antlers:</em> Multi-tiered 10-point rack featuring forward brow tines, mid-beam bez tines, and sweeping crown points.<br>
+        &bull; <em>Regal Cervid Silhouette:</em> Proud high-arched neck (Y=2.06), deep barrel chest, and sharp athletic flank tuck.<br>
+        &bull; <em>Contrast &amp; Cloven Hooves:</em> Slender dark legs and cloven hooves providing striking value separation against the spectral white hide.<br>
+        &bull; <em>Cervid Ears:</em> Long, elegant leaf-shaped ears swept backward and outward.
+      </div>
+      <div class="version-row">
+        <div><span class="tag orig">Original</span><div class="version-label">Baseline</div></div>
+        <div class="frames-grid">
+          <div class="frame-box"><img src="../npc-roster-v2/PaleStag/render/PaleStag/idle/front/000.png" alt="PaleStag Front"><div class="frame-caption">Front</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/PaleStag/render/PaleStag/idle/front_right/000.png" alt="PaleStag 3/4"><div class="frame-caption">3/4 View</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/PaleStag/render/PaleStag/idle/right/000.png" alt="PaleStag Profile"><div class="frame-caption">Profile</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/PaleStag/render/PaleStag/idle/back/000.png" alt="PaleStag Rear"><div class="frame-caption">Rear</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/PaleStag/render/PaleStag/walk/front_right/000.png" alt="PaleStag Walk"><div class="frame-caption">Walk</div></div>
+          <div class="frame-box"><img src="../npc-roster-v2/PaleStag/render/PaleStag/attack/front_right/001.png" alt="PaleStag Attack"><div class="frame-caption">Attack</div></div>
+        </div>
+      </div>
+      <div class="version-row">
+        <div><span class="tag impr">Improved</span><div class="version-label">Candidate</div></div>
+        <div class="frames-grid">
+          <div class="frame-box"><img src="PaleStag/render/PaleStag/idle/front/000.png" alt="Improved PaleStag Front"><div class="frame-caption">Front</div></div>
+          <div class="frame-box"><img src="PaleStag/render/PaleStag/idle/front_right/000.png" alt="Improved PaleStag 3/4"><div class="frame-caption">3/4 View</div></div>
+          <div class="frame-box"><img src="PaleStag/render/PaleStag/idle/right/000.png" alt="Improved PaleStag Profile"><div class="frame-caption">Profile</div></div>
+          <div class="frame-box"><img src="PaleStag/render/PaleStag/idle/back/000.png" alt="Improved PaleStag Rear"><div class="frame-caption">Rear</div></div>
+          <div class="frame-box"><img src="PaleStag/render/PaleStag/walk/front_right/000.png" alt="Improved PaleStag Walk"><div class="frame-caption">Walk</div></div>
+          <div class="frame-box"><img src="PaleStag/render/PaleStag/attack/front_right/001.png" alt="Improved PaleStag Attack"><div class="frame-caption">Attack</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Master Contact Sheet Plate -->
+    <figure class="full-plate">
+      <figcaption>
+        <span>Master Side-by-Side Review Contact Sheet</span>
+        <a href="animals_before_after_comparison.png" target="_blank">Open Full 100% Size &rarr;</a>
+      </figcaption>
+      <a href="animals_before_after_comparison.png" target="_blank">
+        <img src="animals_before_after_comparison.png" alt="Master Side-by-Side Comparison of all animal models">
+      </a>
+    </figure>
+
+    <footer>
+      Animal study candidates generated with Blender 5.1 &bull; Assets validated through asset3d pipeline &bull; Production atlas remains untouched until explicitly promoted.
+    </footer>
+  </div>
+
+  <script>
+    function filterAnimal(id) {
+      document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+      const cards = document.querySelectorAll('.comparison-card');
+      cards.forEach(card => {
+        if (id === 'all' || card.id === 'card-' + id) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>

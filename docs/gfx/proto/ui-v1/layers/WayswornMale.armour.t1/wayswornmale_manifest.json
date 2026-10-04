@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "WayswornMale",
+      "kind": "player",
+      "class": "Waysworn",
+      "build": "Male",
+      "sprite_key": "Player.Waysworn.Male",
+      "calling": "Hunt",
+      "source": "source/WayswornMale.glb",
+      "render_root": "render/WayswornMale",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "player_waysworn_oathrod",
+        "weapon": "oathrod",
+        "default_action": "waysworn_idle",
+        "clips": {
+          "idle": [
+            "waysworn_idle"
+          ],
+          "walk": [
+            "waysworn_walk_a",
+            "waysworn_walk_b"
+          ],
+          "attack": [
+            "waysworn_road_sweep",
+            "waysworn_mark",
+            "waysworn_recover"
+          ],
+          "hit": [
+            "waysworn_hit_recoil"
+          ]
+        },
+        "build": "Male"
+      },
+      "equipped": {
+        "weapon": "oathrod",
+        "tier": 1,
+        "layer": "armour",
+        "relic": null
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_player_v1",
+        "front_axis": "-Y",
+        "sockets": [
+          "weapon.R",
+          "chest",
+          "relic"
+        ]
+      }
+    }
+  ]
+}

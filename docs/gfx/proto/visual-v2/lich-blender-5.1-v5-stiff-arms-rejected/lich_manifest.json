@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Lich",
+      "kind": "boss",
+      "source": "source/Lich.glb",
+      "render_root": "render/Lich",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 1,
+        "walk": 2,
+        "attack": 3,
+        "hit": 1
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "action_profile": {
+        "id": "boss_lich_staff",
+        "weapon": "staff",
+        "clips": {
+          "idle": [
+            "lich_staff_idle_guard"
+          ],
+          "walk": [
+            "lich_staff_walk_a",
+            "lich_staff_walk_b"
+          ],
+          "attack": [
+            "lich_staff_cast_windup",
+            "lich_staff_cast_release",
+            "lich_staff_cast_recover"
+          ],
+          "hit": [
+            "lich_staff_hit_recoil"
+          ]
+        },
+        "boss": {
+          "signature": "summon_and_curse",
+          "phase_actions": [
+            "lich_phase_summon",
+            "lich_phase_curse",
+            "lich_phase_reinforce"
+          ]
+        }
+      },
+      "metadata": {
+        "source_kind": "blender_5.1_skeletal_humanoid",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Chief",
+      "kind": "boss",
+      "source": "source/Chief.glb",
+      "render_root": "render/Chief",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "boss_chief_greataxe",
+        "weapon": "greataxe",
+        "default_action": "chief_idle",
+        "clips": {
+          "idle": [
+            "chief_idle"
+          ],
+          "walk": [
+            "chief_walk_a",
+            "chief_walk_b"
+          ],
+          "attack": [
+            "chief_axe_windup",
+            "chief_axe_slam",
+            "chief_axe_recover"
+          ],
+          "hit": [
+            "chief_hit_recoil"
+          ]
+        },
+        "boss": {
+          "signature": "horned_warlord",
+          "phase_actions": [
+            "chief_phase_rally",
+            "chief_phase_sunder"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_v1",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

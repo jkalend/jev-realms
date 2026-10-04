@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "sigilswornfemale-baked",
+    "file": "sigilswornfemale-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "SigilSwornFemale": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "SigilSwornFemale": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "SigilSwornFemale.attack.front.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/attack/front/000.png",
+      "source_sha256": "877897b61ba13f51d8ec0245d85aaf212ddaa1f0727917fdec1ee8f597fa51cd",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.front.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/attack/front/001.png",
+      "source_sha256": "d008dc4103ce10f8fd4fb9103b4ffd0fbad9dafaf8fd3d604dcb9aeb61ef78de",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.front.002",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/SigilSwornFemale/attack/front/002.png",
+      "source_sha256": "2dbccc75795c81b15dcd0d6aa6485f1f373381a9f456839c190ecc88f8114cac",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.front_right.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/attack/front_right/000.png",
+      "source_sha256": "d478514507be948ae6e2b5039a1e91491c2b63836b5e4fad76231512444f8700",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.front_right.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/attack/front_right/001.png",
+      "source_sha256": "84fcc5d204b3292345003e12b34e22859dd318f099c4808b78fee7fcba755dc1",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.front_right.002",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/SigilSwornFemale/attack/front_right/002.png",
+      "source_sha256": "b57aeac5b7f2e9c2c9ccaa2312a1a95e45f0e1db97520c758a75aa861889fd20",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.right.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/attack/right/000.png",
+      "source_sha256": "30eb66585f01f431e980a575360d4fd9b5200bbdfc0ba9136c04819a44dc19b7",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.right.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/attack/right/001.png",
+      "source_sha256": "4c96dcc5f44527001b94cd8439e78062883d1a593e6c9b21a534ec190c076e1e",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.right.002",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/SigilSwornFemale/attack/right/002.png",
+      "source_sha256": "96094bd6bcdeda30d17ab89c0df36fb73c768d7def83ea80f7743cfb31d972a3",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.back_right.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/attack/back_right/000.png",
+      "source_sha256": "9df3832818136e9c4414d1e612af71c834b6eed79a45b147fbe21b0efb75ba31",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.back_right.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/attack/back_right/001.png",
+      "source_sha256": "797619628a95f9c6706d631d97032ba674557f56f91f406d352b34014718369f",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.back_right.002",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/SigilSwornFemale/attack/back_right/002.png",
+      "source_sha256": "bb5badc5f7b409a752e0e9cadc5513d29d91f052d81ea7ca669245f94deb6ca9",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.back.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/attack/back/000.png",
+      "source_sha256": "42404d8f9e2f777f715efec847442013abab5257a239368972fec8935fb41d46",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.back.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/attack/back/001.png",
+      "source_sha256": "3d08cdfe18bc688997ef20a7f3790efdca9e06114dfd70d82d3b2ee59698e715",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.back.002",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/SigilSwornFemale/attack/back/002.png",
+      "source_sha256": "22c67ae4a4a41c81edc343839894bd73fd94453ecdf83b980042ebc4ddc9c8d3",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.back_left.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/attack/back_left/000.png",
+      "source_sha256": "7b729d708d98f2b93ff1dec73cc0ba5519c6945ae4131ecd1f571755abb6ad6d",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.back_left.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/attack/back_left/001.png",
+      "source_sha256": "1bf9b71a2844308da4bc7f7b1cf6c33da8e9f37cf91cd14e944af58fb87c0873",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.back_left.002",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/SigilSwornFemale/attack/back_left/002.png",
+      "source_sha256": "e1b4068befce564a17586cbe741bbf570a5e4b94376fedb6c2f2927abaa64a36",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.left.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/attack/left/000.png",
+      "source_sha256": "e2b9a3f6561ef71b20dbc9c42827f99558613f458565a29ba83c08ef8aaa8bb4",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.left.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/attack/left/001.png",
+      "source_sha256": "acb63b14af7b98622fb0563427cd2f9909e728204dd6e85bed0f0abc47706564",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.left.002",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/SigilSwornFemale/attack/left/002.png",
+      "source_sha256": "e772321c20eafd98665802e30e960c99fc8c765060f97917d3a15065459f6c23",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.front_left.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/attack/front_left/000.png",
+      "source_sha256": "fa422c1b18dd406c9424f81c54595956580e81d14ee2e5017843d0994c3d4872",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.front_left.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/attack/front_left/001.png",
+      "source_sha256": "65edf929b4d93f4c3596262c9f2f6defc7ef3dfc6a97ecf178fa664fbc4ae6a5",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.attack.front_left.002",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/SigilSwornFemale/attack/front_left/002.png",
+      "source_sha256": "4c8524996fd8c32c03c49ca80be6e0993b9e4a3702f0742912d314df93790147",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.front.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/hit/front/000.png",
+      "source_sha256": "d371dfd0539181eb6fb0a14764cc589a743a7d027002e88ca3aea194d080dd54",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.front.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/hit/front/001.png",
+      "source_sha256": "703dd30dd36ded8b77364f348884b1b3e20ad86e5bb958a2b4ab1be09b18dcc8",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.front_right.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/hit/front_right/000.png",
+      "source_sha256": "7a61ec9940f1577c8bf969620bb0a09907d24db4eb8456c9da0b68743c4da0b3",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.front_right.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/hit/front_right/001.png",
+      "source_sha256": "354eb92860e06a9937b34b54e8c2a214acf70800b9c1a199444585645dd4be9e",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.right.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/hit/right/000.png",
+      "source_sha256": "f9e91c23608f5d2e7c67267adb959e4310a1fa854020af9e43ab06e330284c10",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.right.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/hit/right/001.png",
+      "source_sha256": "25a29ef7dd3ac623fd09d73fa31b3b404b39731a298b636b9a5efc445b367b10",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.back_right.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/hit/back_right/000.png",
+      "source_sha256": "17a231491d677d5040a0976e39f3b5053707bf3b2a3f03bd5c930d0c81c9f073",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.back_right.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/hit/back_right/001.png",
+      "source_sha256": "e983ccccdfbe2e35604a6ace560eb3495cd95288afd3dc2553e2d0aeda423c4c",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.back.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/hit/back/000.png",
+      "source_sha256": "0c9be19eb9fa48f8d6bffc8170e2b0bf03e3484b0dad6c46aef8c58e97913e2a",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.back.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/hit/back/001.png",
+      "source_sha256": "37207213882e83ebbcf395816321ce9e42f81e73abc9ce5e340d9c750df18cd0",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.back_left.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/hit/back_left/000.png",
+      "source_sha256": "dc07ab35aba47c3cd1dc670e22685d5672ef8b06e8a2cec5265fd1280a5d24ea",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.back_left.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/hit/back_left/001.png",
+      "source_sha256": "050fe607adcedcb9ebaac32ae92ded9250b24f891c2e6ff87a502fa75fcbcc32",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.left.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/hit/left/000.png",
+      "source_sha256": "2beb451f19fb11f29f084feb3f02397efcb06ed42408d3f40c4ecd927fb0d296",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.left.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/hit/left/001.png",
+      "source_sha256": "a49c9ebfb5fc7e02e1badfe2ee27fbaf92e406aef8aff0568bb32b69b5421ed9",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.front_left.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/hit/front_left/000.png",
+      "source_sha256": "6152cd684ef3e5036d40a83a350bf749d97499e228b6feadc93870c24621260c",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.hit.front_left.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/hit/front_left/001.png",
+      "source_sha256": "0b7a8a6a77b4881b0616fbee95255552bf7f34c9ae73d05fc3837766ef413971",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.front.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/idle/front/000.png",
+      "source_sha256": "83ddd97b9ba07d2d62da6e064435b5a23221ff495fa9d60a7f2180f7179ac909",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.front.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/idle/front/001.png",
+      "source_sha256": "8f831915d4d622c62eebb34a62016e3531876a3cf79cdeddbbce397c5b1c5a5c",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.front_right.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/idle/front_right/000.png",
+      "source_sha256": "fad7411b503d25190d98c668865669d44641a83015719010e25fffbd825506e0",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.front_right.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/idle/front_right/001.png",
+      "source_sha256": "212666bd2e174ffd77615ac4afa8e018023194d18d0e96f5e63b507b4d582b4e",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.right.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/idle/right/000.png",
+      "source_sha256": "d683859f190b64ce989931fc872ca20f083a8db6be19c7604e45c08b7233d618",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.right.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/idle/right/001.png",
+      "source_sha256": "4b62c8dcfcb403f296f2c07528ceb5ebccc0eb769b5b36d32c6d4490b5bfc9d0",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.back_right.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/idle/back_right/000.png",
+      "source_sha256": "6545ca3c264d574a0b4d6f3a63bdb78459a8fc1e92f848c566905d0748a8e219",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.back_right.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/idle/back_right/001.png",
+      "source_sha256": "251dd1e2043cfe4fd1515187a6e8afe34a3cca155a8b9b82a59192742a091939",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.back.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/idle/back/000.png",
+      "source_sha256": "c700ccf987c9106f824fbc1df57d88b83e33bbc10e854ae25e90fa91f059d9d6",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.back.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/idle/back/001.png",
+      "source_sha256": "f3511591d1363990a066c6db3986309ea3a542a642aa0e2c474746ab27c48fce",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.back_left.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/idle/back_left/000.png",
+      "source_sha256": "19f71ed882ace2ad7ad4a5bfcddd8ce0006f574d74e85e9486284eab726a4784",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.back_left.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/idle/back_left/001.png",
+      "source_sha256": "a655730f6eb0c8c28bda39ecfb5d23e84ea4701eb38c6a540c4e97ee025fd99b",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.left.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/idle/left/000.png",
+      "source_sha256": "0cbe0c753f2eec97637812f60cee66b08aad464e68e84901480a0356eddda55f",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.left.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/idle/left/001.png",
+      "source_sha256": "c5776246c7720b14f9d918ab3446c99d4ecb1ce8637c3b61383984d3fa94c609",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.front_left.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/idle/front_left/000.png",
+      "source_sha256": "662b9a6d7ddc6b50b738bc8679cf7dde864662d595db58ad50737cd4b38e9dc8",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.idle.front_left.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/idle/front_left/001.png",
+      "source_sha256": "18dc2349d72ae4e54cc4201cad350254f0b8bc42bae198e0673b546a622221a6",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.front.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/walk/front/000.png",
+      "source_sha256": "9c77fd73c7eb1d57d1c8ced194d942c4fc78f84ee32bfc9921e53e6da0d238fb",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.front.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/walk/front/001.png",
+      "source_sha256": "3b0f2d744e9dbe302c4064c9e3a917db4c033881db0aa7d1c35fca5235ab030c",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.front_right.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/walk/front_right/000.png",
+      "source_sha256": "eecde96bf38071f963ba8e4bad65e754e849e6112a98b08cb60c71f36f81c985",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.front_right.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/walk/front_right/001.png",
+      "source_sha256": "1b8f3df8d72d46e34ac99baae754a62b577c29b7521f0ffb7203698e8a76ef85",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.right.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/walk/right/000.png",
+      "source_sha256": "900b6519fe9234bb30c16d63ec2be53e0c90e4d0c2742b4170d04f605d15808c",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.right.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/walk/right/001.png",
+      "source_sha256": "56c6dc669b5484f42ad3d06aca58d2cd1aa4712e5e966af3ef71211f555880c3",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.back_right.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/walk/back_right/000.png",
+      "source_sha256": "feb487f71d53dd5816fdbdfa5565a2c21ae38d53fee196b44b458c9bd23e3b54",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.back_right.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/walk/back_right/001.png",
+      "source_sha256": "ecab77d0f6fbb90bdd39ecee66ba06f92478bdaae9e919b3ddefbdda72f81d58",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.back.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/walk/back/000.png",
+      "source_sha256": "77a62528d65ba30066229757415a4202b23af72cfd9452828dc581cc045e03cf",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.back.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/walk/back/001.png",
+      "source_sha256": "1d5991d94b2c2ba23791db4f0e625d88f3e079c897acddb070111fd87112a28d",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.back_left.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/walk/back_left/000.png",
+      "source_sha256": "7454160489a0e405d2d1174ab073be02181eeaa7beb189be18c08931ce473774",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.back_left.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/walk/back_left/001.png",
+      "source_sha256": "8a1f32f734a1d4b93eac6101b5a7cb137e1945c47943bef9d1d5c31062480b3e",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.left.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/walk/left/000.png",
+      "source_sha256": "1a109a2cdf96be25811ae77066bbed98ea1e443ed668ed7eeb414b010d1d1598",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.left.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/walk/left/001.png",
+      "source_sha256": "4c5a0b4c2e694f6ca1bca9943b1492f7b0dba85f2842a19618d7954bcc6d3539",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.front_left.000",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/SigilSwornFemale/walk/front_left/000.png",
+      "source_sha256": "9c6b8057b8d9b9dc9f09c7229e5e77ea784f2960466328eec92cf9377492e34f",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "SigilSwornFemale.walk.front_left.001",
+      "asset_id": "SigilSwornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/SigilSwornFemale/walk/front_left/001.png",
+      "source_sha256": "d601cccb5dc446e2e4671364b53a24e845447608b286ed15b0159f9f4abf7768",
+      "glb_sha256": "34792ecd3d519f5293573666acb1aec2b822f9239095e98194cdeb015bd2e663",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

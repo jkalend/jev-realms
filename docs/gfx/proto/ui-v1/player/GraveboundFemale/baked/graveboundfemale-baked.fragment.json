@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "graveboundfemale-baked",
+    "file": "graveboundfemale-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "GraveboundFemale": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "GraveboundFemale": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "GraveboundFemale.attack.front.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/GraveboundFemale/attack/front/000.png",
+      "source_sha256": "f385c31f5d20064f18afa81b8386ebb5f45ff6e0edf15f1ebe28b94d4afca79a",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.front.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/GraveboundFemale/attack/front/001.png",
+      "source_sha256": "d74a312936ee99981c50a5fe0404ade2d3649ed17ca4979b03248d16ec5f8638",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.front.002",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/GraveboundFemale/attack/front/002.png",
+      "source_sha256": "24ba2bbe301a582fdb513683f59a02a508d6f9f8c5f640f144db9bb5bcc12335",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.front_right.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/GraveboundFemale/attack/front_right/000.png",
+      "source_sha256": "2aa0b29731e5e284e8e2087a0cd65d464e15d73d06cacf906130ffe5a892d064",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.front_right.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/GraveboundFemale/attack/front_right/001.png",
+      "source_sha256": "ec50c3dd124279a5e17e6445f849758a68f0798181ec8cef5a22b0f19ad50e9a",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.front_right.002",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/GraveboundFemale/attack/front_right/002.png",
+      "source_sha256": "d4cf38076e45451688c23ee8e5b507d82a2dcef96509f40c9b25b267a997d493",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.right.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/GraveboundFemale/attack/right/000.png",
+      "source_sha256": "b7dd5a26c132dff1443c879b99e816f2b25f3c75bbe35d9cfa3c3967c82cffb5",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.right.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/GraveboundFemale/attack/right/001.png",
+      "source_sha256": "c5ad1bb5499828e00612d4486af4e47c5206f65d1be68f3608c66db2e89679f9",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.right.002",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/GraveboundFemale/attack/right/002.png",
+      "source_sha256": "86a115266083873631e6c4700ea26027344d7ca8b1168acc242ebc6dc7b980b7",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.back_right.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/GraveboundFemale/attack/back_right/000.png",
+      "source_sha256": "ba1f9e24fde2201939681084b010a538d60c162380f6e0fed493757ae7f12e9f",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.back_right.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/GraveboundFemale/attack/back_right/001.png",
+      "source_sha256": "db0a66d6c95e99bdbdd7175b56f8e65bed8b2b97541bc9588a0195e2c8799cf1",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.back_right.002",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/GraveboundFemale/attack/back_right/002.png",
+      "source_sha256": "b26a901134472965ae4758fb8f37c57afca7a97c6319571a7d48706ef7316c27",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.back.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/GraveboundFemale/attack/back/000.png",
+      "source_sha256": "9664728ccd2d4761f95096d65c120276611c70d146ab1535b69ed495f5247254",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.back.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/GraveboundFemale/attack/back/001.png",
+      "source_sha256": "e2a79accd9ba8c85876c3c8a14ab2406ddd7df1c2640914719ff8566adb3e760",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.back.002",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/GraveboundFemale/attack/back/002.png",
+      "source_sha256": "87813a5b8729c0a04ba140ec0028a76ac10845e7c161700b87c8ddd966c2be65",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.back_left.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/GraveboundFemale/attack/back_left/000.png",
+      "source_sha256": "08db343636f563251faef5849b3874ac0478139c409754a4b736de304c36c19a",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.back_left.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/GraveboundFemale/attack/back_left/001.png",
+      "source_sha256": "b0371cede48ebf769c535c5cfb464d8ad0f905f8a891e4d246bd39916dc9e598",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.back_left.002",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/GraveboundFemale/attack/back_left/002.png",
+      "source_sha256": "3ef6146cb05df27964390bd194e9d182180d945e4d845fcc5ddff0c571efcdcf",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.left.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/GraveboundFemale/attack/left/000.png",
+      "source_sha256": "1e820152201889aaa4c0fabc5d81857d94c96915333ecd9aecd1022024d189d3",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.left.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/GraveboundFemale/attack/left/001.png",
+      "source_sha256": "0d2f6a69f334c59255f087a1e607b6b08e073d6f66b33de94ae66796b2de2c0e",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.left.002",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/GraveboundFemale/attack/left/002.png",
+      "source_sha256": "6ad2b3076fe7ba77fd2cf4e8d934a648aeb3e0fcd01851cf723c19d3f321c7af",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.front_left.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/GraveboundFemale/attack/front_left/000.png",
+      "source_sha256": "f1b09a39b15432fc0cbe14f40816724bba1fe93c6fa46d6aee4b7958f56f07d5",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.front_left.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/GraveboundFemale/attack/front_left/001.png",
+      "source_sha256": "98486964f26ab819a304072d37ab9c269388eb1f573dce3fa4918a132a0fa233",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundFemale.attack.front_left.002",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/GraveboundFemale/attack/front_left/002.png",
+      "source_sha256": "a8f4ae59b210f9976a1c7c0c0d4fcf1145777d403893bc3954cc0b10bd47c8bd",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.front.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/GraveboundFemale/hit/front/000.png",
+      "source_sha256": "dc52d37de7f19d93c09f2f733c5a0fffa45a34668927e8f5ff75b922a7e6a544",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.front.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/GraveboundFemale/hit/front/001.png",
+      "source_sha256": "c6ac9234c9cb23b15ce51afee6574d04adb9ed15ada368319496bde11b08781e",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.front_right.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/GraveboundFemale/hit/front_right/000.png",
+      "source_sha256": "66e1d4796d7ee1cae3772502682c0e5238f454dd9ba21b6f83c7927c18acc188",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.front_right.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/GraveboundFemale/hit/front_right/001.png",
+      "source_sha256": "db5155cd19eddbf002869044136b6b76a817b7fac6c30648dbd5785c37d5a0ce",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.right.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/GraveboundFemale/hit/right/000.png",
+      "source_sha256": "42542c4af4f6e342cc79852ddd122a6882bae80930458fd5897679fcaa2e43e1",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.right.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/GraveboundFemale/hit/right/001.png",
+      "source_sha256": "5ec2b9833997847a9ddc94073a567d9897ffb44e84ed2bf5119ec49fa3b2196a",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.back_right.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/GraveboundFemale/hit/back_right/000.png",
+      "source_sha256": "673e9d9a792395adc5d39df0d624e891db9fe76b97fd05913a9461b0157ad5fd",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.back_right.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/GraveboundFemale/hit/back_right/001.png",
+      "source_sha256": "4525e5dc921e14d06dbcf35d8f91ebaed6e49b8493368a20ef1ae0169209cccb",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.back.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/GraveboundFemale/hit/back/000.png",
+      "source_sha256": "cc8012da7f445d9f7a282475c67e519d5aa65ead2c02a1a7ad231dc59b591194",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.back.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/GraveboundFemale/hit/back/001.png",
+      "source_sha256": "6ee3af4d21e9bcd8a893f450f7f12c4aa3b74d435bb2881e6dd4f8265a2c95ef",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.back_left.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/GraveboundFemale/hit/back_left/000.png",
+      "source_sha256": "5f3145c4cbaefca97d33c4dee1118fbf1b3c020d2647e42fdda977aeb6044b9c",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.back_left.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/GraveboundFemale/hit/back_left/001.png",
+      "source_sha256": "66a20ed21d6289eabba52149c0612646443f42044c5198e3143e1e4d0f53b3c4",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.left.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/GraveboundFemale/hit/left/000.png",
+      "source_sha256": "0509c1b9e23afbafdb4d802ce7a482757a3e641bb87823469c050be6d3c6ebe4",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.left.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/GraveboundFemale/hit/left/001.png",
+      "source_sha256": "ea934f7958901993bcde8df2b3e64be03c2ddb6cfcaedd3ba455917dd1d7445b",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.front_left.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/GraveboundFemale/hit/front_left/000.png",
+      "source_sha256": "1f954281e5e536ec14974d18d50c4044c24f7d9fa27c584d23128f3985b5c127",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundFemale.hit.front_left.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/GraveboundFemale/hit/front_left/001.png",
+      "source_sha256": "be6e86d45dbee73e8fbf72c105ac78f1d2dd6827bcf6b8db68a68e68b7155cb2",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.front.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/GraveboundFemale/idle/front/000.png",
+      "source_sha256": "9874b7d8722fe7da4e12ed24ee5854d4625253a2439f1a1b8106b2950c536053",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.front.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/GraveboundFemale/idle/front/001.png",
+      "source_sha256": "15a33aacb954a5cd7d4a1de24666233293634f4ffd9f8fdec1303164f9ed94bc",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.front_right.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/GraveboundFemale/idle/front_right/000.png",
+      "source_sha256": "df178f6e2aac84980242d09e80bc0817e8de519bc53d67844cf2a1e9761df8b3",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.front_right.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/GraveboundFemale/idle/front_right/001.png",
+      "source_sha256": "388e05646b2a55fc690372b18fca85cf7b2c83e8e0e92205cce9bc90fd09baba",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.right.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/GraveboundFemale/idle/right/000.png",
+      "source_sha256": "687aa8b6ba0be212784dbabb7c5957009f275a2ad358a0d6e79cb239fb56574a",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.right.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/GraveboundFemale/idle/right/001.png",
+      "source_sha256": "e143ff683bc7977727133186dc591c2b42057a7f72ea844e459dec5f705b0935",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.back_right.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/GraveboundFemale/idle/back_right/000.png",
+      "source_sha256": "4a7b5b111fd45cfa62665a37983edd944f44ead83476b955562d79d22dda0885",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.back_right.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/GraveboundFemale/idle/back_right/001.png",
+      "source_sha256": "38051917e1903f0397c52e21731e7c9927501b17855aa3572db22e7e1fe73c1b",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.back.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/GraveboundFemale/idle/back/000.png",
+      "source_sha256": "8e519b0929132ff861a27b6e8587c6912771f79142ce14769d37b1af76730bee",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.back.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/GraveboundFemale/idle/back/001.png",
+      "source_sha256": "7607e36ea5e6d118174d0ab1d5d68eeb4c063e83a61a750d6e316eba8c828dce",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.back_left.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/GraveboundFemale/idle/back_left/000.png",
+      "source_sha256": "04ab4a40fe99747704262051aac1c636fe178c59c037b81abefe3002f5c5bada",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.back_left.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/GraveboundFemale/idle/back_left/001.png",
+      "source_sha256": "df51a1f1c6643209996c97532f3a12ecd88e68708334fb96224ed317f5b072f9",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.left.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/GraveboundFemale/idle/left/000.png",
+      "source_sha256": "099dd79e8bf12b041cb14e948814e5df3f3aeddc64162fdc1e8d618d62267a00",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.left.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/GraveboundFemale/idle/left/001.png",
+      "source_sha256": "9c77352ee0bb89de441920bc353ed77f08e4bc4f4f4d9373229096485705e9a9",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.front_left.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/GraveboundFemale/idle/front_left/000.png",
+      "source_sha256": "cf64bd022bc1bf8d5b40c658238dca3e2e8bb88bd41491a66421d865eb5f51db",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundFemale.idle.front_left.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/GraveboundFemale/idle/front_left/001.png",
+      "source_sha256": "5329b14018bafe0e30c39b5311625e046f239892e1212db74c79c97cd4bb59b3",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.front.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/GraveboundFemale/walk/front/000.png",
+      "source_sha256": "025ac5e68b68b7e4ea856413c0b7ed1365e9ef21b681750885c72d9673131f53",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.front.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/GraveboundFemale/walk/front/001.png",
+      "source_sha256": "3d3167dc4cf5d0f8e32e2faac963d1d6bd83360ea5c2351a06f288f728013b47",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.front_right.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/GraveboundFemale/walk/front_right/000.png",
+      "source_sha256": "8770fdb335e623e5a8dc62486915d957f0794ab1c87b2ad86c09d7eb697ca2c2",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.front_right.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/GraveboundFemale/walk/front_right/001.png",
+      "source_sha256": "504aadfb5ebf559cb3d4c96a24afd5287a3ccd53c13b2ace45173529df3a01f2",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.right.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/GraveboundFemale/walk/right/000.png",
+      "source_sha256": "cc0fa1c51a471a394e9953c609a4d9481cc8d5265dce284b659e9e201fc7fdd8",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.right.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/GraveboundFemale/walk/right/001.png",
+      "source_sha256": "074ee919e24bd8e113bfb45882aa7b66cf5f8b68a27379599010d4c547b28d7b",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.back_right.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/GraveboundFemale/walk/back_right/000.png",
+      "source_sha256": "30a818a7e332130f49a9a7fa0900ca12d6af844bba11ae733585ec0349f0a065",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.back_right.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/GraveboundFemale/walk/back_right/001.png",
+      "source_sha256": "4347e20dfe766c58567c63d23cc72824df0b32348d1c5430108c6573a86139c3",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.back.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/GraveboundFemale/walk/back/000.png",
+      "source_sha256": "48e64cb0ff143a7223a301aacc86484dffd0b47fbdce941404609a2fffa38506",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.back.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/GraveboundFemale/walk/back/001.png",
+      "source_sha256": "4f1379600ceaaf15d7b47d3a118e3d85f5eed1a6aad58fc9a24c4cab7bca004e",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.back_left.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/GraveboundFemale/walk/back_left/000.png",
+      "source_sha256": "d9b711254db4d72c1ed8b0ff56db4170926186c573534535d0988cf7b6dd7920",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.back_left.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/GraveboundFemale/walk/back_left/001.png",
+      "source_sha256": "3a5b107bd6c75ff942dcb607b44f1bbce03fe2213d9cd8c98c6d4a52508aecc0",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.left.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/GraveboundFemale/walk/left/000.png",
+      "source_sha256": "42018e3b1397ed40ea1da5ac66990c22794c5d1b358304367181c4157ba141bd",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.left.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/GraveboundFemale/walk/left/001.png",
+      "source_sha256": "334b9f3955c7d1e8a9317b939a268c9be57723a0a1f0193ceeb06d86c795df67",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.front_left.000",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/GraveboundFemale/walk/front_left/000.png",
+      "source_sha256": "f41a4c00aff948a2730ec95669ab8b86392f2e6ef2849a2e46cfe781999f3b75",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "GraveboundFemale.walk.front_left.001",
+      "asset_id": "GraveboundFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/GraveboundFemale/walk/front_left/001.png",
+      "source_sha256": "a7a4a5f4464bfb06863615c07135e81b065d639943602b19db80e06440ce941f",
+      "glb_sha256": "c611e5bdef6f93cece0021f36cd225dde964b132964d24c79418dcc9fa738674",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

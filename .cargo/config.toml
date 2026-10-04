@@ -1,0 +1,7 @@
+# Hard cap on compiler parallelism. Default is nproc (32 here); with Bevy-
+# scale crates each rustc/linker holds multiple GB, so unconstrained N-parallel
+# jobs OOM the box and take the running terminal/harness down with them.
+# This file applies to every cargo run in this tree (Main batches, lane agents,
+# interactive shells) — past 4 crashes were all full-workspace --test runs.
+[build]
+jobs = 2

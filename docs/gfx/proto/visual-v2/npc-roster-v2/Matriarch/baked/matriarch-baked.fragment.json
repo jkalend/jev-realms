@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "matriarch-baked",
+    "file": "matriarch-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "Matriarch": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Matriarch": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Matriarch.attack.front.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Matriarch/attack/front/000.png",
+      "source_sha256": "6061390a2d2334f82dc049ae088b6556ab040b2dd5ec2d1fe6bcda8f0910f497",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Matriarch.attack.front.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Matriarch/attack/front/001.png",
+      "source_sha256": "537fdaed92ab6f9a1dcb174f4a5c3e23302ac9500b1ce96de699a2fb5a18e46f",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Matriarch.attack.front.002",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Matriarch/attack/front/002.png",
+      "source_sha256": "86fd978737eea4803fd8127864b54d22e80234d0307d44b71acbf3cd60af3ea8",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Matriarch.attack.front_right.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Matriarch/attack/front_right/000.png",
+      "source_sha256": "e6bc9497b0c2b0cf62f4a4e7090e8d800b8c093bf9a4704de277d08001d3a11c",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Matriarch.attack.front_right.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Matriarch/attack/front_right/001.png",
+      "source_sha256": "d953ef2846fa41fba8675a3350ed7300528cf188b4907be633b31ae8b43963e2",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Matriarch.attack.front_right.002",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Matriarch/attack/front_right/002.png",
+      "source_sha256": "f6d7d90c16f3ec79b4c86a4fb98cb8a41c9da8e59a145eb30f567ef1a9fd8194",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Matriarch.attack.right.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Matriarch/attack/right/000.png",
+      "source_sha256": "da86aca27ccabf04d0e8f1ad6d14e3b711d454323697ac4230cb9b6767377236",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Matriarch.attack.right.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Matriarch/attack/right/001.png",
+      "source_sha256": "9d68fdffe09ef30792350296584f2803eb434bb6332467a72b5f5f784733d617",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Matriarch.attack.right.002",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Matriarch/attack/right/002.png",
+      "source_sha256": "f7d41646610013b4eb5104200090321f8e1a1d559e066f4edcbcfb6a04d71f8c",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Matriarch.attack.back_right.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Matriarch/attack/back_right/000.png",
+      "source_sha256": "bd1ff5e4d91951035a6b14a3ca5629f751fc3eba7088c3909988c8d0a3a83fb8",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Matriarch.attack.back_right.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Matriarch/attack/back_right/001.png",
+      "source_sha256": "a9221b7367691a2905b3a235bf33bb52f06f096d4575a167cb8cb179c5454fed",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Matriarch.attack.back_right.002",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Matriarch/attack/back_right/002.png",
+      "source_sha256": "2aa4d4e9e51014afc9f05ee8db3b458ec3daddb030200525eb32b4a3552be573",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Matriarch.attack.back.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Matriarch/attack/back/000.png",
+      "source_sha256": "79c1e46971196c7c85abe2058bd8e9ed9280b783b2f530d7355f039b4fc381ca",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Matriarch.attack.back.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Matriarch/attack/back/001.png",
+      "source_sha256": "a0ce86e0bba4fa0a13e858115785a788c0568bbf258ef766143c1934051acc33",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Matriarch.attack.back.002",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Matriarch/attack/back/002.png",
+      "source_sha256": "ff57ba7bbab81574b7b6a189d8444e1879daaac2b101fe7c7f300a094dc155f8",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Matriarch.attack.back_left.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Matriarch/attack/back_left/000.png",
+      "source_sha256": "2a7bcb352bebc4b70b2d75bd06b017dcb8b8700f6084287a4ac21732d13f7804",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Matriarch.attack.back_left.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Matriarch/attack/back_left/001.png",
+      "source_sha256": "e15a18bb340923aa29469d4a83502c8daaebee586ca459668ea136a0bd1ec9b2",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Matriarch.attack.back_left.002",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Matriarch/attack/back_left/002.png",
+      "source_sha256": "812bb29c610c0aba376796ded237189d6866ca579420ded934fc498938002914",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Matriarch.attack.left.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Matriarch/attack/left/000.png",
+      "source_sha256": "822a8aa7db300cb1ea2c93f7ff316718d14b2240c9370c34dce7de7a8c4597a1",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Matriarch.attack.left.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Matriarch/attack/left/001.png",
+      "source_sha256": "5b095493bc390e174546307c8eeccf9b87eb7b6b5ae6bc0b2e514ee8c2eb20cc",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Matriarch.attack.left.002",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Matriarch/attack/left/002.png",
+      "source_sha256": "71defbc11cca1e4b475a68c2d398e03d78d1d598858444b10f6eb1233b29097b",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Matriarch.attack.front_left.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Matriarch/attack/front_left/000.png",
+      "source_sha256": "acc347ff92e073c2b766131c774e0ee12c95578ab005fa4bfddf2023cf1e43d7",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Matriarch.attack.front_left.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Matriarch/attack/front_left/001.png",
+      "source_sha256": "a9c7058ded1d190e405bf543e0e140644bee1a0d5e2b8bf5a46a7f49d246984e",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Matriarch.attack.front_left.002",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Matriarch/attack/front_left/002.png",
+      "source_sha256": "b83f6e6d0987832ced89573ce094cbb44aaf55b7b9e78c760fbfe52e5a48ea2b",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Matriarch.hit.front.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Matriarch/hit/front/000.png",
+      "source_sha256": "29b3c4a96ce5ade3893505f9f2188e08f572b850df6721bd84cc085dbdc5d157",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Matriarch.hit.front.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Matriarch/hit/front/001.png",
+      "source_sha256": "15ce2ca5d9597756112fff1eeec3a83dd7a3be7b8a55dd575cceeaa5ae6a4f66",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Matriarch.hit.front_right.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Matriarch/hit/front_right/000.png",
+      "source_sha256": "893e0fc446bf05118c2978e87a6d80daf58a782885522fcc0d4f4a96a069152f",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Matriarch.hit.front_right.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Matriarch/hit/front_right/001.png",
+      "source_sha256": "828d2c30f2464e5c82eb2c8705fdb1420bd08c8f24a76634bdad2f983fc54113",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Matriarch.hit.right.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Matriarch/hit/right/000.png",
+      "source_sha256": "5943887a1be8d90ce4ccf0eed9207070bcabf40c9e946e0a9f4f3b35531b008f",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Matriarch.hit.right.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Matriarch/hit/right/001.png",
+      "source_sha256": "8856313f94ca9b55e5a831b6809fd245b1ac236161ec3ebdbcc342c8ed689c3b",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Matriarch.hit.back_right.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Matriarch/hit/back_right/000.png",
+      "source_sha256": "020f6fce747bc54e0554fa96634d4e461a97ddd690856822895ed1ea29f05be3",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Matriarch.hit.back_right.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Matriarch/hit/back_right/001.png",
+      "source_sha256": "22ce7459370f028104aafbe76e76fa10d8146646edb10a2f3e88afaf7d078c7b",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Matriarch.hit.back.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Matriarch/hit/back/000.png",
+      "source_sha256": "eeeb8adc4db611ec731ca91708113c456eaec511f42bccdcb7f38007abc477d0",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Matriarch.hit.back.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Matriarch/hit/back/001.png",
+      "source_sha256": "170d0e948a828460f2d30a777d338fd12dad0832cbd554ccc069ba4aa2bcd933",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Matriarch.hit.back_left.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Matriarch/hit/back_left/000.png",
+      "source_sha256": "98e054d1891284a02cd34117fadae56b672e4de16b9bcfd13ead9c3f1bafc9f3",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Matriarch.hit.back_left.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Matriarch/hit/back_left/001.png",
+      "source_sha256": "f28602015dd7a87a7d75f1cb416b1e10b2ccf0c7e76608ab7bbbf59fa767c5e9",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Matriarch.hit.left.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Matriarch/hit/left/000.png",
+      "source_sha256": "4feb5d26056ff26308d8f235d6b7fd65fae084fe9d547fb3d6db4420b5ca9b54",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Matriarch.hit.left.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Matriarch/hit/left/001.png",
+      "source_sha256": "bd3d54f3f521ee8f4727876c80dd4bacc4915a55aa8cb5361e66d994330e8cd6",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Matriarch.hit.front_left.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Matriarch/hit/front_left/000.png",
+      "source_sha256": "62b2ea63416add2a3a4738a6a75362a58cbfddc6d72c195c12740751a9852e4c",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Matriarch.hit.front_left.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Matriarch/hit/front_left/001.png",
+      "source_sha256": "2a79df8e579c0c465f6970606b55300cddb479cb0bc057b3c9f30852f9515fd8",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Matriarch.idle.front.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Matriarch/idle/front/000.png",
+      "source_sha256": "1e68408be7de269eea2e22759b8be9b2622874ce121c8541bfb94a31d3f2b9d2",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Matriarch.idle.front.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Matriarch/idle/front/001.png",
+      "source_sha256": "4e7716071e092c7c0fe85be3b118d941e6d2e0dbb3f031171e0d12cc0206ea1a",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Matriarch.idle.front_right.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Matriarch/idle/front_right/000.png",
+      "source_sha256": "9623c9e90b000113191cc0c553c3c6a60300a477ddaf4865c93d60ea0adb2b14",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Matriarch.idle.front_right.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Matriarch/idle/front_right/001.png",
+      "source_sha256": "df93ba21c58c28c7d4950f33bdae23ac6b1d2bf2b344a289729dcffa295107c6",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Matriarch.idle.right.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Matriarch/idle/right/000.png",
+      "source_sha256": "0948a99717e7b5fb45a7d97f4321da851899140da7ad95a6b090c989c3c4e356",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Matriarch.idle.right.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Matriarch/idle/right/001.png",
+      "source_sha256": "ff02d4374d61ba79bea95b844b23e542ff571fcf9f126d8f669c86512e26c017",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Matriarch.idle.back_right.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Matriarch/idle/back_right/000.png",
+      "source_sha256": "adc5cd38f64e55a8025280276d018b7f64cf23bf4780bab805322da2baa792f5",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Matriarch.idle.back_right.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Matriarch/idle/back_right/001.png",
+      "source_sha256": "275fee76557fc90fabf74b1816e40e6ace08ec6037be8f29f3d49f0df12bf2d6",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Matriarch.idle.back.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Matriarch/idle/back/000.png",
+      "source_sha256": "a4ed26ddc2516e5772425735bf9bd044afe180bfb36e5e7942cb848b374bab4e",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Matriarch.idle.back.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Matriarch/idle/back/001.png",
+      "source_sha256": "383516fc52f6e230805838260293f7ccbc16d3dbc11d15f61d6496c2617ed1f4",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Matriarch.idle.back_left.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Matriarch/idle/back_left/000.png",
+      "source_sha256": "414b3e159ec3da669732b236f522f296e9accee48c30912a1b274dea5910756c",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Matriarch.idle.back_left.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Matriarch/idle/back_left/001.png",
+      "source_sha256": "5aa05a029dd8ac9cb8b7342907c2ffb27494924c0de90fd51642f70d86eafa37",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Matriarch.idle.left.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Matriarch/idle/left/000.png",
+      "source_sha256": "45c6843e9bf252b713572b41620319db5ef528efa54cd1d3dd507d66ac33453d",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Matriarch.idle.left.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Matriarch/idle/left/001.png",
+      "source_sha256": "a5ab86558af38420456c8cf2cafe48f6809e7de8679748943f121d4c57f5dc5e",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Matriarch.idle.front_left.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Matriarch/idle/front_left/000.png",
+      "source_sha256": "e7293562f7f1fb19609a3eade4465fd488d4a209a555944235e004de7b96e2b8",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Matriarch.idle.front_left.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Matriarch/idle/front_left/001.png",
+      "source_sha256": "7fea7d04a903e98cd778731d2f054b8692b92f60fe9b62f2524b633ebfcbedaf",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "Matriarch.walk.front.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Matriarch/walk/front/000.png",
+      "source_sha256": "cc0c4ee0c3cb153df4f3932df2d7ed122ae22d1be71696b7e11ee363c3c44df8",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "Matriarch.walk.front.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Matriarch/walk/front/001.png",
+      "source_sha256": "f172a1455f57c20c5b4250476e77422c4925bc65e69451f4a32a184fb9f5e592",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "Matriarch.walk.front_right.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Matriarch/walk/front_right/000.png",
+      "source_sha256": "8890498e870616f4a7600ad2bb67fd8dc87c3db3df09bc72fa7decb8231212b7",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "Matriarch.walk.front_right.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Matriarch/walk/front_right/001.png",
+      "source_sha256": "da53120c25a5ba2a250544bb6813d7056f7f114b7abce74c6d040b72e0fcfc8c",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "Matriarch.walk.right.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Matriarch/walk/right/000.png",
+      "source_sha256": "33a7cddc447af3faa5914a4b5f72ba8085c0968bf85e0e4695bf758dd08b3c06",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "Matriarch.walk.right.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Matriarch/walk/right/001.png",
+      "source_sha256": "a543ab61f1989f05301b0c88f726319c7152127b31dee82757db12c3a3d749fa",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "Matriarch.walk.back_right.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Matriarch/walk/back_right/000.png",
+      "source_sha256": "dc554d531ef28189d27e2631293c9a726b7ded7b2fc75952309cc80b3f3129db",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "Matriarch.walk.back_right.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Matriarch/walk/back_right/001.png",
+      "source_sha256": "d6c4d974b2d08d83cffa7f8d6ff2c96bb3e829324127e84bdfe8fc24c2cdc30f",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "Matriarch.walk.back.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Matriarch/walk/back/000.png",
+      "source_sha256": "aecf20bcb550fe19ad920c5967840a34f5886656881b0e06f05df5109873362b",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "Matriarch.walk.back.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Matriarch/walk/back/001.png",
+      "source_sha256": "e6e5da35429bfae00836dadd435abe8d2f8a24ba4874dfeaad11d7d59d2ee6e2",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "Matriarch.walk.back_left.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Matriarch/walk/back_left/000.png",
+      "source_sha256": "cf8123a0d6d1062133f2a18bfd321aee773f7ffae3737b121627f897947a0fa1",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "Matriarch.walk.back_left.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Matriarch/walk/back_left/001.png",
+      "source_sha256": "737ba7bdd73b121ce8f758886a567414bbaa982f976d23df3b64914c2d982119",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "Matriarch.walk.left.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Matriarch/walk/left/000.png",
+      "source_sha256": "5d1f25a383144c1fde42d62de00684e2e0e42703ee7846c36613de83fc7bae21",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "Matriarch.walk.left.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Matriarch/walk/left/001.png",
+      "source_sha256": "bd92cf61a7a159158ec778b7f2ec79218ea0cff5c93b09e314c60846e0b17f44",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "Matriarch.walk.front_left.000",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Matriarch/walk/front_left/000.png",
+      "source_sha256": "e04679ecc7ac3bd2de57b8529c95ca8b3f8830fd591fbe1317d89a33295e52f2",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "Matriarch.walk.front_left.001",
+      "asset_id": "Matriarch",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Matriarch/walk/front_left/001.png",
+      "source_sha256": "e7a5dd8c4ca016b7b6e9e334d7ddfabdca1067f94d773ef8393dba979b0d10f8",
+      "glb_sha256": "70fb12423a7cb2ca494a240c09e6d67a1c3ffb4c25a17bd38f950464817d9eb9",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

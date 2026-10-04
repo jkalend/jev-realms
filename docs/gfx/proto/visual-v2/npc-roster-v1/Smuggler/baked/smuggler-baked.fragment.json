@@ -1,0 +1,1005 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "smuggler-baked",
+    "file": "smuggler-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "Smuggler": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Smuggler": {
+        "attack": {
+          "front": [
+            0,
+            0
+          ],
+          "front_right": [
+            1,
+            0
+          ],
+          "right": [
+            2,
+            0
+          ],
+          "back_right": [
+            3,
+            0
+          ],
+          "back": [
+            4,
+            0
+          ],
+          "back_left": [
+            5,
+            0
+          ],
+          "left": [
+            6,
+            0
+          ],
+          "front_left": [
+            7,
+            0
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            1
+          ],
+          "front_right": [
+            3,
+            1
+          ],
+          "right": [
+            5,
+            1
+          ],
+          "back_right": [
+            7,
+            1
+          ],
+          "back": [
+            1,
+            2
+          ],
+          "back_left": [
+            3,
+            2
+          ],
+          "left": [
+            5,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Smuggler.attack.front.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Smuggler/attack/front/000.png",
+      "source_sha256": "1bfc273391c3ea1bfa4499cd455741d64fe3755fcfa875ece0995f5dec44307b",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Smuggler.attack.front_right.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Smuggler/attack/front_right/000.png",
+      "source_sha256": "64375e3515e251e32c45b803f9fe73f5300668ba49f32f5fe9176a0506e2875f",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Smuggler.attack.right.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Smuggler/attack/right/000.png",
+      "source_sha256": "bea31eeff13919c05cde1db5f00bab56057f062beed6b4b1fb33ee429c36e9f4",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Smuggler.attack.back_right.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Smuggler/attack/back_right/000.png",
+      "source_sha256": "a624e3e975c5fe835e9a65bad77e080aae2c7428f4a4ea1866c945cccdc19366",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Smuggler.attack.back.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Smuggler/attack/back/000.png",
+      "source_sha256": "f9121ee9939777a6b48bfee412060559a89e9f31189e9e7804c7721844197304",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Smuggler.attack.back_left.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Smuggler/attack/back_left/000.png",
+      "source_sha256": "ca605b4cf5d7e89e3a85d8d5616beef6540083e5997c9a375951df3d86c1f667",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Smuggler.attack.left.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Smuggler/attack/left/000.png",
+      "source_sha256": "d8afd31fd410a0856400b909f4410aabba9d24a90bac87d5632437486f67f98d",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Smuggler.attack.front_left.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Smuggler/attack/front_left/000.png",
+      "source_sha256": "4a5f733341e33041d1c825550db55a78ec8e018e6db94b780a4040ac42ad259b",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Smuggler.hit.front.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Smuggler/hit/front/000.png",
+      "source_sha256": "656d775b2b8fd6692312128f24ae876282c45cbe506514f8b971b54087b425eb",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Smuggler.hit.front.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Smuggler/hit/front/001.png",
+      "source_sha256": "f6092d15e63ba03eb703d5927be423d0ba3e654b3f03276bdeeb88ae9979e864",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Smuggler.hit.front_right.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Smuggler/hit/front_right/000.png",
+      "source_sha256": "2b22ebc960d5cac87255a777d2400fcf212c405b08f12f8cc7bd61caebd83bef",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Smuggler.hit.front_right.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Smuggler/hit/front_right/001.png",
+      "source_sha256": "d60670cd8f7d3f2b3cafe5ff01b9445f21cf1b43c3befaebe43aa4a2ffca6fd9",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Smuggler.hit.right.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Smuggler/hit/right/000.png",
+      "source_sha256": "0ddaa1e340a7a8a029d97cc86aff79d4a3158bf83c13d3eb239f9883795335be",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Smuggler.hit.right.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Smuggler/hit/right/001.png",
+      "source_sha256": "1f51281502dbcacd15b444d08e7ab8eae617d97584b161a91ffaaf86ca9748e7",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Smuggler.hit.back_right.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Smuggler/hit/back_right/000.png",
+      "source_sha256": "7c013e299824b01c54d1d3542393d6a761db87f30992651ae5f724844a1563f6",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Smuggler.hit.back_right.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Smuggler/hit/back_right/001.png",
+      "source_sha256": "977fa3eff25391274048fc5a13553303385764b75f7554c141aec4b7d2bc9f56",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Smuggler.hit.back.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Smuggler/hit/back/000.png",
+      "source_sha256": "63d20f6c70d8abf450e9a994b062afd972361cc9e7112295e2a61e1ff90eb87e",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Smuggler.hit.back.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Smuggler/hit/back/001.png",
+      "source_sha256": "b2380a64a9d0658787757ab5c5d3c5c88503aad87fbc3f0f36c0aec61c49d53a",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Smuggler.hit.back_left.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Smuggler/hit/back_left/000.png",
+      "source_sha256": "21c0b731b2a63d0f18289afec1f54c37cb17e9d0b42fd60dd4b769b7c9d7513d",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Smuggler.hit.back_left.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Smuggler/hit/back_left/001.png",
+      "source_sha256": "95556b7d1fbac2dc13b82617c42e7615f5dd45e2feb391fa101514af5e9d38aa",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Smuggler.hit.left.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Smuggler/hit/left/000.png",
+      "source_sha256": "0590eb7fea8504d801ee0ace2a9ed081f90fecb234eb69dad5c87c1782d175c7",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Smuggler.hit.left.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Smuggler/hit/left/001.png",
+      "source_sha256": "2f271d1cc4adcc3cff04ef5df1f0785d68997976067d5459f26be372700c83ab",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Smuggler.hit.front_left.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Smuggler/hit/front_left/000.png",
+      "source_sha256": "453146f8313438918381a1416dc12b424cb35207af4bc3100593d5b4d94e38ec",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Smuggler.hit.front_left.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Smuggler/hit/front_left/001.png",
+      "source_sha256": "641f03860aa6ed663b0c768db84f0c09f4df221e8a0206bfee0e7b5f520ac9fb",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Smuggler.idle.front.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Smuggler/idle/front/000.png",
+      "source_sha256": "deed2c4c653bb6a734cf1937a7b0eb4acdf12de6808691b25abdea24847d2def",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Smuggler.idle.front.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Smuggler/idle/front/001.png",
+      "source_sha256": "5f365d991f0a6158659f8f717d2330c1a7ffc515e3a81674fdd118184de7dae5",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Smuggler.idle.front_right.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Smuggler/idle/front_right/000.png",
+      "source_sha256": "97c14b8aeebe684ecaa7396a1c817feb5d170b6565e367ea7b14e9cb7333b055",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Smuggler.idle.front_right.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Smuggler/idle/front_right/001.png",
+      "source_sha256": "0835b306a01a78b1bd537c7c203f95940427fe8a1ee87f30cbbaa891929b71e5",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Smuggler.idle.right.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Smuggler/idle/right/000.png",
+      "source_sha256": "2d74f5c1cd61fa5ddbe118c8ade455542a948a9c00220bb21e69ebd52c9edd81",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Smuggler.idle.right.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Smuggler/idle/right/001.png",
+      "source_sha256": "ba0334d47df2ff757f51f0667ace793fcc3e268126fc625b486113f2bd5b0d13",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Smuggler.idle.back_right.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Smuggler/idle/back_right/000.png",
+      "source_sha256": "ea84af55ee337190ec5e3ac510c40e785da3cefb85912a774f96a921f97f9a67",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Smuggler.idle.back_right.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Smuggler/idle/back_right/001.png",
+      "source_sha256": "2510e210d4cb292d9803ef48f7462694b2d07bb8aabe1beff1cccac4c4e3aec1",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Smuggler.idle.back.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Smuggler/idle/back/000.png",
+      "source_sha256": "1f44135478d36f95cd2af6e0ce2b18fea976be0e5f4cdad9fb1168846e3d457b",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Smuggler.idle.back.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Smuggler/idle/back/001.png",
+      "source_sha256": "8d748999a69416808665bc4add394177c56972202e56ace7c1ceaef2e1e9b949",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Smuggler.idle.back_left.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Smuggler/idle/back_left/000.png",
+      "source_sha256": "7eb7b6ea8e6de0edf3d4607fe5c7a0791fabb03e981a643fb0570a5f9ecf197f",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Smuggler.idle.back_left.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Smuggler/idle/back_left/001.png",
+      "source_sha256": "a168b746f3fb7b1717d6f75d9981c8f674a31db2170d7204cddbe06b62776799",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Smuggler.idle.left.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Smuggler/idle/left/000.png",
+      "source_sha256": "8f5947d67b607bb8dcbf69a0b4e51999bb141516329e34db4dff8271beec91d3",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Smuggler.idle.left.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Smuggler/idle/left/001.png",
+      "source_sha256": "af16846dbe1b8b9a279dd6a1e2e7fc95846d4c59b7977d4a8606e6a6e888c075",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Smuggler.idle.front_left.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Smuggler/idle/front_left/000.png",
+      "source_sha256": "7833c3b11884fd6b7f297109d1f776c2c98ec7923697745ca564e4bcb97e30e7",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Smuggler.idle.front_left.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Smuggler/idle/front_left/001.png",
+      "source_sha256": "5bc1454cc8ca1b2ff065983f44c4949067a5a8dce5c9e22879b258151966c01d",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Smuggler.walk.front.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Smuggler/walk/front/000.png",
+      "source_sha256": "fc37c51653ded99bf04a6c5ae09a4b173f66d46352c97c5e3c53185fa3c4ea17",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Smuggler.walk.front.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Smuggler/walk/front/001.png",
+      "source_sha256": "f0581c4e6877b0b97e567b5b3d989e059c8842ac0e52a9f85ab2d92379bc2226",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Smuggler.walk.front_right.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Smuggler/walk/front_right/000.png",
+      "source_sha256": "54a760b175349e6dace0f338ae0013fc0cce3feb4ed645f43956bd60cceb70f1",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Smuggler.walk.front_right.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Smuggler/walk/front_right/001.png",
+      "source_sha256": "9ad71c2f86e1cc6211e69679173271ae8cfc9a514d094030b180f994149d8f44",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Smuggler.walk.right.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Smuggler/walk/right/000.png",
+      "source_sha256": "9f4b9f041ed8f512a16818754862e34980e7c2d217520d98a7045738f8fa8850",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Smuggler.walk.right.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Smuggler/walk/right/001.png",
+      "source_sha256": "226f5ca8bb953bfaf4df3a26da72df17be759f274f5aee4dd99c3ae1def852d0",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Smuggler.walk.back_right.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Smuggler/walk/back_right/000.png",
+      "source_sha256": "fbd5f8f37c509ca1540f6be4fe319701561ff2ac6c8970a1f843172494442cca",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Smuggler.walk.back_right.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Smuggler/walk/back_right/001.png",
+      "source_sha256": "a3798541921301d6a7a979528ae5fd0051665600495b67bafe6857d30f1badf7",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Smuggler.walk.back.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Smuggler/walk/back/000.png",
+      "source_sha256": "8bc350c51bd24799b482d4074dcc85eba9c860649a9b54172800682f884aa24a",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Smuggler.walk.back.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Smuggler/walk/back/001.png",
+      "source_sha256": "cdbed3c41eb7be9f117c53f4257f60932d88d065e3a78b01f46fe9f6593ddcc1",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Smuggler.walk.back_left.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Smuggler/walk/back_left/000.png",
+      "source_sha256": "bac9bee744d6c27c3359e41e898f4a070b309d40df1a11af69444554b41f1047",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Smuggler.walk.back_left.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Smuggler/walk/back_left/001.png",
+      "source_sha256": "fd7472c6d69d72c268a4c4b976573b3430ebebe5685ffd965fc5890675ca3e74",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Smuggler.walk.left.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Smuggler/walk/left/000.png",
+      "source_sha256": "10b1316f8edd28347840ee04ddac47491abff90abbd13fd49cfc175b18cf0b47",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Smuggler.walk.left.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Smuggler/walk/left/001.png",
+      "source_sha256": "b271621dc12c8b169f2125c960dfe7c87c3140bbe3b0013411e37b1c72c04a40",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Smuggler.walk.front_left.000",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Smuggler/walk/front_left/000.png",
+      "source_sha256": "bfdf4606bef4fef9d7f8e2d411f1822273b3ad3604f86abcb1313bc15f53b4ce",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Smuggler.walk.front_left.001",
+      "asset_id": "Smuggler",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Smuggler/walk/front_left/001.png",
+      "source_sha256": "577e756d1390b4119348cd9c1719516755eca9d2e00c83011932eb80f2f6c295",
+      "glb_sha256": "2d7806c5811a705a8c2a2f97bbc7960cf8e60dacf2dc9660293d92269e4d07d7",
+      "cell": [
+        7,
+        6
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 56,
+    "file_checked": true
+  }
+}

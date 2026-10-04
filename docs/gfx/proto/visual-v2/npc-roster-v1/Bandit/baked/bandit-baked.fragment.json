@@ -1,0 +1,1005 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "bandit-baked",
+    "file": "bandit-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "Bandit": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Bandit": {
+        "attack": {
+          "front": [
+            0,
+            0
+          ],
+          "front_right": [
+            1,
+            0
+          ],
+          "right": [
+            2,
+            0
+          ],
+          "back_right": [
+            3,
+            0
+          ],
+          "back": [
+            4,
+            0
+          ],
+          "back_left": [
+            5,
+            0
+          ],
+          "left": [
+            6,
+            0
+          ],
+          "front_left": [
+            7,
+            0
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            1
+          ],
+          "front_right": [
+            3,
+            1
+          ],
+          "right": [
+            5,
+            1
+          ],
+          "back_right": [
+            7,
+            1
+          ],
+          "back": [
+            1,
+            2
+          ],
+          "back_left": [
+            3,
+            2
+          ],
+          "left": [
+            5,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Bandit.attack.front.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Bandit/attack/front/000.png",
+      "source_sha256": "681112eed2a6ec4a72fa494f32f2bb120fdc3867df83c438df5144e34310304d",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Bandit.attack.front_right.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Bandit/attack/front_right/000.png",
+      "source_sha256": "84bc166b8497c1a351a907c727c9e988334480ddeaa9a80f727542ce486c2431",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Bandit.attack.right.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Bandit/attack/right/000.png",
+      "source_sha256": "4f7c72ac8fb7c21248d808afedc36667d8d7994eda4ee9d509ce0ab97c85c874",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Bandit.attack.back_right.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Bandit/attack/back_right/000.png",
+      "source_sha256": "a715b04fa12306b63e5b53cc3e9f6a221c01d5377c66d08296aea54ffdb34de5",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Bandit.attack.back.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Bandit/attack/back/000.png",
+      "source_sha256": "d42bd53d47c0ba1ba03135434f1a8a5ff745a2d2f0e4c60809a4fdb15ba37c38",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Bandit.attack.back_left.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Bandit/attack/back_left/000.png",
+      "source_sha256": "5c8e22f034e5606a4bbdb5e4d07cdf863b694cd77046ef0cee12bd86d3f29cbe",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Bandit.attack.left.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Bandit/attack/left/000.png",
+      "source_sha256": "f50d1ff29e7b3533bff033b24d4143ebdf330638650b8c56e729d454cf966e1c",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Bandit.attack.front_left.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Bandit/attack/front_left/000.png",
+      "source_sha256": "e70177fda64754d064022c9c51eaaa49eaafefda77087b623a2cd8e36f5070c3",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Bandit.hit.front.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Bandit/hit/front/000.png",
+      "source_sha256": "36942c0bbb6948bad02fac81643562726bdd8f36d0d35d7c30ed45a3b68fb98f",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Bandit.hit.front.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Bandit/hit/front/001.png",
+      "source_sha256": "c4285db33e41e6bcf289401f323b8dc4d310a69188f016b3c59f90221de8ccce",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Bandit.hit.front_right.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Bandit/hit/front_right/000.png",
+      "source_sha256": "58e6672a15d06c8fbfd8ceccc4a733af4552144f382bc8310485b06ae0ec40bd",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Bandit.hit.front_right.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Bandit/hit/front_right/001.png",
+      "source_sha256": "50a497ea7d7c966318f73259513b0abeb9b28b3dfcdc14e9ecf8e7be60bd69e2",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Bandit.hit.right.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Bandit/hit/right/000.png",
+      "source_sha256": "06dbf46657cc449502064037bd0166a3d0b5b2c7b0961b38db8975cde5f35f4a",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Bandit.hit.right.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Bandit/hit/right/001.png",
+      "source_sha256": "421cc7afc1c89609bfcaa712b7a7301451ec17f8c4afe41eb8bf26ef2e4cfe96",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Bandit.hit.back_right.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Bandit/hit/back_right/000.png",
+      "source_sha256": "b0c039ff9f80554c2485e57487a6b70720bc0ed9e51236c0f24de0a7907fbe5d",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Bandit.hit.back_right.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Bandit/hit/back_right/001.png",
+      "source_sha256": "55b81f6789837e89c36cf42adf20d8d38b300d1f9a7304b3fd1c87d38e8ba6fc",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Bandit.hit.back.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Bandit/hit/back/000.png",
+      "source_sha256": "b8c27360aa34ee12ec6ddc62819ca9d606b3070fd5eaeadd2b05583851db9265",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Bandit.hit.back.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Bandit/hit/back/001.png",
+      "source_sha256": "adc7ab4e74f29c0ef43833792061f8e0737e057813ab938d2afb7866501cd90d",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Bandit.hit.back_left.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Bandit/hit/back_left/000.png",
+      "source_sha256": "bb0856d480f572044deb678cbf9780526502da17a3a7b88ede250e8250b9bb16",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Bandit.hit.back_left.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Bandit/hit/back_left/001.png",
+      "source_sha256": "a1686d64f02036fd9686940324c4f4712f39659f9044e01f3e204575ecd6c769",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Bandit.hit.left.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Bandit/hit/left/000.png",
+      "source_sha256": "b9016a3ddd7907dfa95b1cbd1ad487930e7666e98147a814ca55c0ef427b0035",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Bandit.hit.left.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Bandit/hit/left/001.png",
+      "source_sha256": "f1afbb592e01f275d4b83cc2a0b59c6c8f96757f99a54adcc6fd978d59da84fb",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Bandit.hit.front_left.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Bandit/hit/front_left/000.png",
+      "source_sha256": "86c8e260be0253a49b6d0a6605aa4cd33c49acc59bfee598459390d5417fff55",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Bandit.hit.front_left.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Bandit/hit/front_left/001.png",
+      "source_sha256": "167e273eecf097b7275bfc5e7e244424671d38670a62a68eb69938322d01a427",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Bandit.idle.front.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Bandit/idle/front/000.png",
+      "source_sha256": "21da558eb06079274c6b7f4018c25cbf5eba4ee4981232aa77057d94034c0acd",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Bandit.idle.front.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Bandit/idle/front/001.png",
+      "source_sha256": "5023d65b0223202e324b077c12870f91731c0b3cd59d249ce9cbe82f95ac43b7",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Bandit.idle.front_right.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Bandit/idle/front_right/000.png",
+      "source_sha256": "c2bbe31333d4e3fb8feccda77f78a751b8d151564058c58f0db7b1f298212c71",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Bandit.idle.front_right.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Bandit/idle/front_right/001.png",
+      "source_sha256": "b0aff945a422fd2b4d581105d10a02da273331d31622d4526c31c91bb92daf04",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Bandit.idle.right.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Bandit/idle/right/000.png",
+      "source_sha256": "d9f345936a79dfe53d901b7265c285c42274d60e5d46ab08ca0f648634e541cb",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Bandit.idle.right.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Bandit/idle/right/001.png",
+      "source_sha256": "e498bb43ae1c358da6de15ac432b111b2afbcbd04b8691b74ff77bf5f640bcf6",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Bandit.idle.back_right.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Bandit/idle/back_right/000.png",
+      "source_sha256": "cb267e6cd82b9c7038b693f597f7f5c6ede471350ec68b46775b76cc597fc3d5",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Bandit.idle.back_right.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Bandit/idle/back_right/001.png",
+      "source_sha256": "c20dde6f69c717165ac2dd1936ddcaa85770534f90ae7e34a4b8f054e2aca852",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Bandit.idle.back.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Bandit/idle/back/000.png",
+      "source_sha256": "352e00b2c26e0ae50439e99b281491604647a6a134bf85e91e676af2bfc7ae96",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Bandit.idle.back.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Bandit/idle/back/001.png",
+      "source_sha256": "6c4e2897dbb6894ad22864b66b20b0b949305361b92fffcfceb214676578afb9",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Bandit.idle.back_left.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Bandit/idle/back_left/000.png",
+      "source_sha256": "476180a712b56839e40e0e92276d793de989c6c20889d13fffd275ceebcb57ab",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Bandit.idle.back_left.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Bandit/idle/back_left/001.png",
+      "source_sha256": "32c59351d19f33460436d7fac34f3592069eb495fcf186c2bff2e3de3c8ff028",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Bandit.idle.left.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Bandit/idle/left/000.png",
+      "source_sha256": "66d3dc8bd571fb0b81e6483fa00ed117d2989e6e6cd66c5c63040dcdae94c4f6",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Bandit.idle.left.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Bandit/idle/left/001.png",
+      "source_sha256": "2802a94ba6d7c3b21c59a6d46c92f81ac60fadcea87272262d66f41a63fc4785",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Bandit.idle.front_left.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Bandit/idle/front_left/000.png",
+      "source_sha256": "8190b981a324aa19831c3e1606ba6df2ad82367824af94a3c9f08a3eb35cbf95",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Bandit.idle.front_left.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Bandit/idle/front_left/001.png",
+      "source_sha256": "dfe781cec01bd44d9c75ca49e3e75a4d6b8c516a09ab037583598994edd3bed1",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Bandit.walk.front.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Bandit/walk/front/000.png",
+      "source_sha256": "93b020d120245603b764bdb60d5d3be58788fa181c3ec369a0d436aca2f9f05a",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Bandit.walk.front.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Bandit/walk/front/001.png",
+      "source_sha256": "a084415536092f6d250b9b85bb9aaf48175d854d2e0cb268998a5c6bd1635387",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Bandit.walk.front_right.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Bandit/walk/front_right/000.png",
+      "source_sha256": "3801af668513a53dbca2551f28fb92dccc1a09eb391757987ca64f233a678f17",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Bandit.walk.front_right.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Bandit/walk/front_right/001.png",
+      "source_sha256": "ac6a685d1137832664178d30262c1cb0e732e3b34a142e0c0386b29264300daa",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Bandit.walk.right.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Bandit/walk/right/000.png",
+      "source_sha256": "83ea9e2c09dbd899c0ec232413ad4ab2c41b35e438b7b162b7fae69333f8ec66",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Bandit.walk.right.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Bandit/walk/right/001.png",
+      "source_sha256": "35d05faf6d4de92acd858f2a145f2c81bd8d38322ba59cf304c2a5c0c8f8b4eb",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Bandit.walk.back_right.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Bandit/walk/back_right/000.png",
+      "source_sha256": "5b228ac1f15e7f0546f9fb028ca1bdc177c88973338e8398f1a64f16f55b7f54",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Bandit.walk.back_right.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Bandit/walk/back_right/001.png",
+      "source_sha256": "1c15aebdec8fa355305b006471409df25668552ab5877bb0d4363d0a32279f0a",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Bandit.walk.back.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Bandit/walk/back/000.png",
+      "source_sha256": "15fe9cd42e18b1ce035baa55d20e8a08c32e8ca86557e628afc5a4e11bfb7db8",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Bandit.walk.back.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Bandit/walk/back/001.png",
+      "source_sha256": "3f8834c2d28b98644f7f8ee5a01a28b0bff9be65b1c321fb5af92a7352c19679",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Bandit.walk.back_left.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Bandit/walk/back_left/000.png",
+      "source_sha256": "3f2e70e8b6e46cf5615f0b51306d707740d9f83db842a0c7f8883bf7ac4ed37a",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Bandit.walk.back_left.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Bandit/walk/back_left/001.png",
+      "source_sha256": "b3914607f4c9e4b0f534109d0bd725506175a4040ddd7df855246a8346bec5ec",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Bandit.walk.left.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Bandit/walk/left/000.png",
+      "source_sha256": "83d760b051f938f0304e4b0923ee7229e6e34cdaba941e0dfdbb57d67a91fa73",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Bandit.walk.left.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Bandit/walk/left/001.png",
+      "source_sha256": "0de4d3127ab2d7252e4bc2d41de0d2c5a1e4e8e5e306409d4828d8fd57f1e6bc",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Bandit.walk.front_left.000",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Bandit/walk/front_left/000.png",
+      "source_sha256": "fa2c77fc9710e2dea64251f65f083cc5ffed1221dab5512d0144f65ca183212c",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Bandit.walk.front_left.001",
+      "asset_id": "Bandit",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Bandit/walk/front_left/001.png",
+      "source_sha256": "308a74ff7ffeca9123f2903177e643c9f1607d19d40d348bfca986067ad076e3",
+      "glb_sha256": "d65fbb94a231d4968132856746152545a7579145352c49fd8acaa3bf4f5a4099",
+      "cell": [
+        7,
+        6
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 56,
+    "file_checked": true
+  }
+}

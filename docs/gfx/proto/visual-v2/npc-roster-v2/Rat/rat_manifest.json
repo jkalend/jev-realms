@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Rat",
+      "kind": "actor",
+      "source": "source/Rat.glb",
+      "render_root": "render/Rat",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "npc_rat_claws",
+        "weapon": "claws",
+        "default_action": "rat_idle",
+        "clips": {
+          "idle": [
+            "rat_idle"
+          ],
+          "walk": [
+            "rat_walk_a",
+            "rat_walk_b"
+          ],
+          "attack": [
+            "rat_nip",
+            "rat_scuttle",
+            "rat_recover"
+          ],
+          "hit": [
+            "rat_hit_recoil"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

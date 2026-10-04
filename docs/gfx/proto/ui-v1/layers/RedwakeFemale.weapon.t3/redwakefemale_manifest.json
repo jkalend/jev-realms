@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "RedwakeFemale",
+      "kind": "player",
+      "class": "Redwake",
+      "build": "Female",
+      "sprite_key": "Player.Redwake.Female",
+      "calling": "Hunt",
+      "source": "source/RedwakeFemale.glb",
+      "render_root": "render/RedwakeFemale",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "player_redwake_gutterblade",
+        "weapon": "gutterblade",
+        "default_action": "redwake_idle",
+        "clips": {
+          "idle": [
+            "redwake_idle"
+          ],
+          "walk": [
+            "redwake_walk_a",
+            "redwake_walk_b"
+          ],
+          "attack": [
+            "redwake_tide_slash",
+            "redwake_shift",
+            "redwake_recover"
+          ],
+          "hit": [
+            "redwake_hit_recoil"
+          ]
+        },
+        "build": "Female"
+      },
+      "equipped": {
+        "weapon": "gutterblade",
+        "tier": 3,
+        "layer": "weapon",
+        "relic": null
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_player_v1",
+        "front_axis": "-Y",
+        "sockets": [
+          "weapon.R",
+          "chest",
+          "relic"
+        ]
+      }
+    }
+  ]
+}

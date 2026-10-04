@@ -1,0 +1,1005 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "vendor-baked",
+    "file": "vendor-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "Vendor": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Vendor": {
+        "attack": {
+          "front": [
+            0,
+            0
+          ],
+          "front_right": [
+            1,
+            0
+          ],
+          "right": [
+            2,
+            0
+          ],
+          "back_right": [
+            3,
+            0
+          ],
+          "back": [
+            4,
+            0
+          ],
+          "back_left": [
+            5,
+            0
+          ],
+          "left": [
+            6,
+            0
+          ],
+          "front_left": [
+            7,
+            0
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            1
+          ],
+          "front_right": [
+            3,
+            1
+          ],
+          "right": [
+            5,
+            1
+          ],
+          "back_right": [
+            7,
+            1
+          ],
+          "back": [
+            1,
+            2
+          ],
+          "back_left": [
+            3,
+            2
+          ],
+          "left": [
+            5,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Vendor.attack.front.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Vendor/attack/front/000.png",
+      "source_sha256": "2fe8a7dc5b93d1f7ffca8c62ac6344e577486b450e4c91bc18c3c8d3f2d35cf3",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Vendor.attack.front_right.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Vendor/attack/front_right/000.png",
+      "source_sha256": "b5d9ebb4ae54c181077bed24f7cca1d388572787d576ce9d75d744d7a5c65b6e",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Vendor.attack.right.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Vendor/attack/right/000.png",
+      "source_sha256": "c614661a46cda3298c06821bafb9a5cff483b860bf27cfd2ef927485690f0fdf",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Vendor.attack.back_right.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Vendor/attack/back_right/000.png",
+      "source_sha256": "ff99a2db518b9e3f6cc4a35b05d2b30660608adfcd49c81dc91f676f99b1a4aa",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Vendor.attack.back.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Vendor/attack/back/000.png",
+      "source_sha256": "1b6e5b2b9de801280c7b4c1588411e043bf60626ecb1d0559aa8f2b998d2b3d9",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Vendor.attack.back_left.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Vendor/attack/back_left/000.png",
+      "source_sha256": "eb2314a2c84672bb28c5e2f55f376ea279c3a9f865993c58177f831f74cf9377",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Vendor.attack.left.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Vendor/attack/left/000.png",
+      "source_sha256": "0886ccf5ef0459c9b9602f4cd364a9b0744fa00df0e9d80449f2120637e3561f",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Vendor.attack.front_left.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Vendor/attack/front_left/000.png",
+      "source_sha256": "322767d15273af74f8a50a2678d1884d7d638397ac41ee6c74acff7ad83fd397",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Vendor.hit.front.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Vendor/hit/front/000.png",
+      "source_sha256": "0eb5884b099cc38fef326e485b796e8586fb1d63ead6506288117fb39f43ec15",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Vendor.hit.front.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Vendor/hit/front/001.png",
+      "source_sha256": "e9608d8543d1c04793cea157bbfc2b90c636a58029134cbcfba8032546f72e64",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Vendor.hit.front_right.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Vendor/hit/front_right/000.png",
+      "source_sha256": "c3c98e264134deb72f87844394b9672a74c4cb4b64514a2fabafd92409a567fc",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Vendor.hit.front_right.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Vendor/hit/front_right/001.png",
+      "source_sha256": "7a922e139a716c1de660ccd454cdb1ee4ff9ad0811bcf518ea201ee2012903fa",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Vendor.hit.right.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Vendor/hit/right/000.png",
+      "source_sha256": "1657e96f8be353972731ea6c245f70cd0f063a41960b0b41a537759bab1f4fe5",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Vendor.hit.right.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Vendor/hit/right/001.png",
+      "source_sha256": "521e8ba526fd03d17dc37e56898df87ee418ced799785c2f46a73342e4f978d7",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Vendor.hit.back_right.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Vendor/hit/back_right/000.png",
+      "source_sha256": "01ba642f5f16089053eaf61d9e64f525a794c0752b3618376f43e81294d9a103",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Vendor.hit.back_right.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Vendor/hit/back_right/001.png",
+      "source_sha256": "ef992edb01189d3eafa5e14ce941877b3a88b5ac29b978e29ce982c92067cf77",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Vendor.hit.back.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Vendor/hit/back/000.png",
+      "source_sha256": "971d0ace103ca96511388a68dfa8346743f233fd857dcc4ca55563fe87e93a17",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Vendor.hit.back.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Vendor/hit/back/001.png",
+      "source_sha256": "f5edc74a0f8efebbc08f2396f7c5a81baddc0fb01b5a1fadafc91612b11420cc",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Vendor.hit.back_left.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Vendor/hit/back_left/000.png",
+      "source_sha256": "ea2e6e4708e34a3a5f13f8d7178d3ce0b4c2ee1149768fb9c846cf8b24c78ca4",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Vendor.hit.back_left.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Vendor/hit/back_left/001.png",
+      "source_sha256": "e3dc42e922320ddc441102c3f00af4068b5839aa3639b28928e05968ff8cd025",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Vendor.hit.left.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Vendor/hit/left/000.png",
+      "source_sha256": "1a36ad950490bcda5a7c68e139cfb31b97bfc2e420f67e6615a7c68baddcf0a1",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Vendor.hit.left.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Vendor/hit/left/001.png",
+      "source_sha256": "2c76e4d85ed8ab95f343859bc33a1f19f217989cc93a4b7b44acf609c13d4c10",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Vendor.hit.front_left.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Vendor/hit/front_left/000.png",
+      "source_sha256": "766a065f954ec2c8214b9d56479128ea66a82de38966b44949b386d27f1315ce",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Vendor.hit.front_left.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Vendor/hit/front_left/001.png",
+      "source_sha256": "9b34363ef329ce2462be831e3415b66fe1f768e0506cce7190a194b81fe8016a",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Vendor.idle.front.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Vendor/idle/front/000.png",
+      "source_sha256": "0089d178dee5c105a7f46b2a5b986c6f995ec1cb6d4ec0ec23ac1ff261722a3f",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Vendor.idle.front.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Vendor/idle/front/001.png",
+      "source_sha256": "9b0001940cf930f5ce0e72845547cc88d2fb773eff51f831afe261e39b330fe9",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Vendor.idle.front_right.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Vendor/idle/front_right/000.png",
+      "source_sha256": "2fea28a03994f56d7fb30bd51575ba6922df6323ec60c28780d3d8655c97e32c",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Vendor.idle.front_right.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Vendor/idle/front_right/001.png",
+      "source_sha256": "aff2b9235d9c06c3f0713c307e821b73bf3127c149a1f2259bd930a2a7a1859c",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Vendor.idle.right.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Vendor/idle/right/000.png",
+      "source_sha256": "8ce7b555a1e1f9937c9f89f8d25d7d52524859dc4b26bd83d0ce8f110c9b5c78",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Vendor.idle.right.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Vendor/idle/right/001.png",
+      "source_sha256": "306b43eeed18bda43d63a1e1666ac2cb444270bd81f865bb4608a32ea95d497d",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Vendor.idle.back_right.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Vendor/idle/back_right/000.png",
+      "source_sha256": "7cb0aa12cf9e7eaa3fb27957bb5dd1f421b32b509583490671253bf4c0ce3fe1",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Vendor.idle.back_right.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Vendor/idle/back_right/001.png",
+      "source_sha256": "b84752fbef0c902c1b427f27cf5582f1bfc7e3dfaa02004f9d34952f8ca87b70",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Vendor.idle.back.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Vendor/idle/back/000.png",
+      "source_sha256": "83ad664bcec79d5c8b788023ee08b9b0f4bedf60da54e88b0126618643bc550f",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Vendor.idle.back.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Vendor/idle/back/001.png",
+      "source_sha256": "5bacc5e383a3775765542c90693c803c4f392c547ac3a8d7e9182a9d50600399",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Vendor.idle.back_left.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Vendor/idle/back_left/000.png",
+      "source_sha256": "b2439d881fa46b9f42f9a3f67a84f89f76474e5147c8942a232ca0870a47cb95",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Vendor.idle.back_left.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Vendor/idle/back_left/001.png",
+      "source_sha256": "3e913e45c11e78d11e1fe87b27e186a617ba38c3b7ed8e98afc063cb58387e0c",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Vendor.idle.left.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Vendor/idle/left/000.png",
+      "source_sha256": "918c8605912900c974ac30641a375b7be6e9f85cd7718de777ae15d0072e44e1",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Vendor.idle.left.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Vendor/idle/left/001.png",
+      "source_sha256": "80218737b630cc152995cae1297557212bea7a62b7347c83ed2b4abfa163c487",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Vendor.idle.front_left.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Vendor/idle/front_left/000.png",
+      "source_sha256": "84d8daad2388f5d2ea33ce37d939dfd8850cdfaf9c6e061cf1d59599325e82d7",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Vendor.idle.front_left.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Vendor/idle/front_left/001.png",
+      "source_sha256": "f7541edeab2e241316bfa9d69e3100735c79c13b26da23a53494eeabc28fe523",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Vendor.walk.front.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Vendor/walk/front/000.png",
+      "source_sha256": "054bcbf83e80bb199b4f5262f948aab8f33ae51010f189c3775b1a0cbfd0a604",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Vendor.walk.front.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Vendor/walk/front/001.png",
+      "source_sha256": "b5e6d6916cb408cf3637d1f3d1e1ea75bd8dacfaf1201c1a41801eb6c850b605",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Vendor.walk.front_right.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Vendor/walk/front_right/000.png",
+      "source_sha256": "2099ac9d94f8c3f5ad88f89001c44fe81f04bdb4b3dd41f8f8065596f212582e",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Vendor.walk.front_right.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Vendor/walk/front_right/001.png",
+      "source_sha256": "5aea540c7ccfb2259e185663f6f9265d9744d9cc11fc838f6b51b6befcfc51ae",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Vendor.walk.right.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Vendor/walk/right/000.png",
+      "source_sha256": "3d0b6f85c334153a51558a1ba4e8aa31854a122255367413175e5f2b6a748d41",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Vendor.walk.right.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Vendor/walk/right/001.png",
+      "source_sha256": "d0c1b8bd87b4d58652b8730bf209274813dcde0b1b96dd794685f975bc1013f5",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Vendor.walk.back_right.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Vendor/walk/back_right/000.png",
+      "source_sha256": "924811f1c2ae0ae2e6d170f0558cdb4041920d5250560617dfbe58de647fd776",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Vendor.walk.back_right.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Vendor/walk/back_right/001.png",
+      "source_sha256": "86985aea7d7f57f9a1131bcc0c4c8167b23ca874024989d3b473d5c50875e06e",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Vendor.walk.back.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Vendor/walk/back/000.png",
+      "source_sha256": "c0bc4a2ae29fd04546afd31beb7493e32795f3996a99be2e9425f3086b494518",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Vendor.walk.back.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Vendor/walk/back/001.png",
+      "source_sha256": "bf5c856d4c214f9719b7416c23ae2099b0070f57c492005977d2ec026f44940e",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Vendor.walk.back_left.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Vendor/walk/back_left/000.png",
+      "source_sha256": "8343cd439d16ce974483cb9aa2c488a93e541a0167dcc8c42f158fa37fec77c6",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Vendor.walk.back_left.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Vendor/walk/back_left/001.png",
+      "source_sha256": "5ee05451aba9f2d21408e6b3398c7321e3cc659ec0b794644ea607f811bb10e1",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Vendor.walk.left.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Vendor/walk/left/000.png",
+      "source_sha256": "cfe1bf11c84b8c370cd6a4a8b9abc5b8eeb2dfa4d4bee21d67034cd0cbd3b531",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Vendor.walk.left.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Vendor/walk/left/001.png",
+      "source_sha256": "ffbea4e1afd14951a09857f6cd3638c2b70b669bb0f4c4c8feb43875a85308d5",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Vendor.walk.front_left.000",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Vendor/walk/front_left/000.png",
+      "source_sha256": "146e33e5e16d39b30f6ef64f805d4919ce3e1b474b5b43e4c7c6b9fd366fc25d",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Vendor.walk.front_left.001",
+      "asset_id": "Vendor",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Vendor/walk/front_left/001.png",
+      "source_sha256": "222cdd645fb87329d8777c751eea2dd30f59c78e8afc99ddcaf1b5c7c7593545",
+      "glb_sha256": "57290c8c721cab649406bd4df933ce40daae30af14ed4632ac4e52c2ca169eb8",
+      "cell": [
+        7,
+        6
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 56,
+    "file_checked": true
+  }
+}

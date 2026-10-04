@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "id": "Lich",
+  "source": "Lich.glb",
+  "sha256": "4ab3004db01ab1d64b5d40146bc5f883090d718e8127942bf4f1bc9eb6687a4d",
+  "source_kind": "procedural_fixture",
+  "front_marker": "Lich_front",
+  "back_marker": "Lich_back",
+  "pivot": "Lich_pivot",
+  "rig": "Lich_Joint minimal skin; replace with authored multi-bone armature"
+}

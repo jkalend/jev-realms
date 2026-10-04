@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "falseglow-baked",
+    "file": "falseglow-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "FalseGlow": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "FalseGlow": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "FalseGlow.attack.front.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/FalseGlow/attack/front/000.png",
+      "source_sha256": "9968d725caf2d914eb49c656f6fce92fd76b6832ecdd861bfef2fc10e1b994b5",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.front.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/FalseGlow/attack/front/001.png",
+      "source_sha256": "085c7839902bdf4cccbf74b048ae8d5717586d826b00fccd1b0ea79c730a674e",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.front.002",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/FalseGlow/attack/front/002.png",
+      "source_sha256": "0de1c7720dc5a496c079eb114e34dae8be8fec2c4ba8715223286cbe63490cb4",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.front_right.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/FalseGlow/attack/front_right/000.png",
+      "source_sha256": "294ed34e403b7fc5e90a69e0fa1077e405dda44fdbd74ab1256850cc9aefd369",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.front_right.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/FalseGlow/attack/front_right/001.png",
+      "source_sha256": "10e3bf7978d7574907f112d854a771f20c489f4992ef103b8933420d20346c72",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.front_right.002",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/FalseGlow/attack/front_right/002.png",
+      "source_sha256": "4ea858fcac83cff7c5cd3042a9af89cf7564aacf3828d5e20b94d513ff5d4f81",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.right.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/FalseGlow/attack/right/000.png",
+      "source_sha256": "fb61d2b552bf35623644882d2087a810ea0ad1270d2536066e7616ab4cea5004",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.right.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/FalseGlow/attack/right/001.png",
+      "source_sha256": "d941af8a62064391ee397171f293789c72807329157e3f527ec1a398f90e7cb9",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.right.002",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/FalseGlow/attack/right/002.png",
+      "source_sha256": "86380ea298c3c71350ec7c082e5a06eec940f8e731003db395b898e2e78501c3",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.back_right.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/FalseGlow/attack/back_right/000.png",
+      "source_sha256": "d4017d2aff861be5d5d7ec552f3adc13d5d2fcf6976d56634ed8d2381b70b3df",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.back_right.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/FalseGlow/attack/back_right/001.png",
+      "source_sha256": "6178157476276ec277211f2845d1d39cde4483915b67d538c4e9fe85a2433531",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.back_right.002",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/FalseGlow/attack/back_right/002.png",
+      "source_sha256": "3c2610ba2c24c1edca2fe6cf45aae66dbcefad4b939088b94008d88a8a29286b",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.back.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/FalseGlow/attack/back/000.png",
+      "source_sha256": "61fe15f81dcb5251aae3e71b0f7f560d197f252e529f1e95e2bc541e6479f5af",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.back.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/FalseGlow/attack/back/001.png",
+      "source_sha256": "9711e451a641b8c1d848e7f1da3cbebf65d78d8f73d8ea3cbf02c91b3941e4fe",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.back.002",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/FalseGlow/attack/back/002.png",
+      "source_sha256": "0a9d1b58d28bf15dfcf133b381f7b24a35dde48acd0e32d842be4a326eb707c2",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.back_left.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/FalseGlow/attack/back_left/000.png",
+      "source_sha256": "d0223562725a324e7dd105074c2b23f432c77f06c7d742ca83a41bdf25b5889d",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.back_left.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/FalseGlow/attack/back_left/001.png",
+      "source_sha256": "1cad708a03f4e2a1b5018f5310cb2a30ab0a3d2759cf000efd1f34272a7ffef2",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.back_left.002",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/FalseGlow/attack/back_left/002.png",
+      "source_sha256": "47e540b9ff4ed2f6d5b7ce3f59cefbf8afe3869dc933c6521d1a6414204868f7",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.left.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/FalseGlow/attack/left/000.png",
+      "source_sha256": "998d6b35a1648df3a905b1c462a0a7c0ff98343beeec5ce9934103a3d040d624",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.left.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/FalseGlow/attack/left/001.png",
+      "source_sha256": "2898e1132f1ac281dfc3e1c4bc74286aff19c7c98cd77feb98e50fa000058c6c",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.left.002",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/FalseGlow/attack/left/002.png",
+      "source_sha256": "7b0ef96a92654adb999e93520b495bbb82d97e658ed0dbcc043b66cf10ed72d7",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.front_left.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/FalseGlow/attack/front_left/000.png",
+      "source_sha256": "95b475f92c51bde9c4cc9309655231e33a7a8854e75f83eee70e24df74585cd0",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.front_left.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/FalseGlow/attack/front_left/001.png",
+      "source_sha256": "ec54e5857fe417e7a98de782475404ea92190930fe717b912cdfeff9d41b2b70",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "FalseGlow.attack.front_left.002",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/FalseGlow/attack/front_left/002.png",
+      "source_sha256": "1f1def1971078f7dc4d022fb48540ff4b4561d0838a898690d0c02dd83e10ef8",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.front.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/FalseGlow/hit/front/000.png",
+      "source_sha256": "d40e84eb8c44c46b8cf2027b767013d44281dcd5840ca1a3e56ebc3850cf4983",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.front.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/FalseGlow/hit/front/001.png",
+      "source_sha256": "85ea71540dbac1a9317ca1e28c69e32d7ef92905fde4905087589a4db5aa41b6",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.front_right.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/FalseGlow/hit/front_right/000.png",
+      "source_sha256": "813bcab0ce6916fd6a175bd9112a222ab336e380e4f1d03761dbe5d07c886ac5",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.front_right.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/FalseGlow/hit/front_right/001.png",
+      "source_sha256": "0214fff0e983372ddd6f2b6eda00fb35e48b2da6540edefebe254d537b941ad2",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.right.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/FalseGlow/hit/right/000.png",
+      "source_sha256": "556c69a5e55b87a99a22567137ea8ff6799cd1feb92864bfaadfe5eff2d5031d",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.right.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/FalseGlow/hit/right/001.png",
+      "source_sha256": "8b01bd400c036ac1aad8ade8a3a3ca5bb04c48ff859463c77c66998f5cb5eef1",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.back_right.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/FalseGlow/hit/back_right/000.png",
+      "source_sha256": "b2d15398ff624704d4fdcf4dfa2f181018ce47dceb55256df69f92e4d87d25d3",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.back_right.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/FalseGlow/hit/back_right/001.png",
+      "source_sha256": "b230a1169360313e0bd1c31f3ae110da06b51611556a8691c10e3ed18729f9ce",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.back.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/FalseGlow/hit/back/000.png",
+      "source_sha256": "cf6f63df5271dfa95cb688353d51ffa479bec7b387e79eae1a77ebfa3a9df20c",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.back.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/FalseGlow/hit/back/001.png",
+      "source_sha256": "855fa36282b06f3b605dd2d7c9b225b1242b38ecc0902826f157a2adc79235fa",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.back_left.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/FalseGlow/hit/back_left/000.png",
+      "source_sha256": "f2e7bd659957c0ed6795df9963f558091d103597e9dcd2ec61adf4f1153ac7c7",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.back_left.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/FalseGlow/hit/back_left/001.png",
+      "source_sha256": "3a6947162465fd6f1748d8d81b1a77403309c08388d83c12c815c1b93d4c269d",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.left.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/FalseGlow/hit/left/000.png",
+      "source_sha256": "5ac5f7e1025c144e2dccd17a3f62f0fdc93679e491f8e5f21287022d8b63ec0e",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.left.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/FalseGlow/hit/left/001.png",
+      "source_sha256": "569a5d041a9feef007be8099cc36fadd0434c3dc95337cb435c50c163e1737a5",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.front_left.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/FalseGlow/hit/front_left/000.png",
+      "source_sha256": "7565b51aa92923da1f86027ee0bdcc1f4efe4a331171289e05251cba34ad9618",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "FalseGlow.hit.front_left.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/FalseGlow/hit/front_left/001.png",
+      "source_sha256": "2cc1d8df3b0da4b261fcca2607e7aadd1a322c062537cf374a4e3c369a3deab4",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.front.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/FalseGlow/idle/front/000.png",
+      "source_sha256": "23a450c34735ba8e48117740750c97c1d649b26631d39c376d949ec10d556ec8",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.front.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/FalseGlow/idle/front/001.png",
+      "source_sha256": "5a8e2ac6a4743d59efb4137ed13552b4208d9fd9d9aa4317717c871fab1e63e1",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.front_right.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/FalseGlow/idle/front_right/000.png",
+      "source_sha256": "f035e5f5d063bbcb64036db05c8e972dd9d7b2151562fab37431a17d8dbed9c4",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.front_right.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/FalseGlow/idle/front_right/001.png",
+      "source_sha256": "83a1c669fa14ac258056449bcf478173c60dd820180536928013094b0bba7084",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.right.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/FalseGlow/idle/right/000.png",
+      "source_sha256": "1f90930359ef214d64c2268f16db31d8ed2acc297044206c0be80f767682a19b",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.right.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/FalseGlow/idle/right/001.png",
+      "source_sha256": "7d999045699f8d190e987c262bcf9e049b11ae230aa33ec25d58035cdf0b20d3",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.back_right.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/FalseGlow/idle/back_right/000.png",
+      "source_sha256": "e17f711b3fe7f3bf9aaad965d10643431cd121b3ad49e16baf052d9830ec61f6",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.back_right.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/FalseGlow/idle/back_right/001.png",
+      "source_sha256": "a75313dc74ad98d6e5aa3092f6f1c203123f9af56a6cfd6fc50118ee66f405af",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.back.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/FalseGlow/idle/back/000.png",
+      "source_sha256": "5a794b448d861133f14d8a27cbc109403070b785add5e20795ef1f804dd4c07c",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.back.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/FalseGlow/idle/back/001.png",
+      "source_sha256": "b2d8b25392ce5a87f8dcf36b4fce8453e20a47a78043d0f2930af38256e9a1c2",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.back_left.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/FalseGlow/idle/back_left/000.png",
+      "source_sha256": "1bc4bac1dd3067c6e01dd0de5ad9b75b36b48c289b849f424af67d3ebed1ca04",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.back_left.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/FalseGlow/idle/back_left/001.png",
+      "source_sha256": "3c2ff4d0bd4313f4eee4913df4e691b7c9d211a430a7df202a763f093f5b98bf",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.left.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/FalseGlow/idle/left/000.png",
+      "source_sha256": "dd518fdcd3993a97d0aed3965a5a1fcf95933f550b9565f03c944a23bdde73f3",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.left.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/FalseGlow/idle/left/001.png",
+      "source_sha256": "100c6b73b84d9f15b91192f9f7d8c3d32ad9f785029f90ed22e45b44216f1c09",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.front_left.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/FalseGlow/idle/front_left/000.png",
+      "source_sha256": "a71642c63505626f52a854ab8ab41c322278e0e4e582ca47acb003ad083fe3a9",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "FalseGlow.idle.front_left.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/FalseGlow/idle/front_left/001.png",
+      "source_sha256": "b9e022f5d586d555e2b8a08e24f3dc29546b64494b00c10788802801d057bb8f",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.front.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/FalseGlow/walk/front/000.png",
+      "source_sha256": "7034b8f2e1ae22d49b5be5a6fc603b98ec01b411d8ba1653ae3c5dbb78e77378",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.front.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/FalseGlow/walk/front/001.png",
+      "source_sha256": "dc74200c51402ba1286b92ec9b1b4d06b5ed66abccb751096054c2689f4520f2",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.front_right.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/FalseGlow/walk/front_right/000.png",
+      "source_sha256": "768c6ea43c5b6a4efe537ab8e5ed32c4676fa6130857b89f07bc01b868d41986",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.front_right.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/FalseGlow/walk/front_right/001.png",
+      "source_sha256": "931c891db9e1ee006445ee05965e6a8db2c595f6af30e424fcd819678b5c1875",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.right.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/FalseGlow/walk/right/000.png",
+      "source_sha256": "93a876bca4b4803d6b410148fc0ab6c9c1f376a6f696049092ccb87d12d3ca88",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.right.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/FalseGlow/walk/right/001.png",
+      "source_sha256": "e97d6b8e6b5e5c9872c4423d839f202a9bceae397322b81a9a45ba30380b158a",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.back_right.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/FalseGlow/walk/back_right/000.png",
+      "source_sha256": "eacd491a1681b992f41b14d07e9531a9c34470ebbbd24e1f43351e027c69a97f",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.back_right.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/FalseGlow/walk/back_right/001.png",
+      "source_sha256": "360f40097bdb3a44038a927b0ef649e9fe750411e40bdc13b859172838bd3e87",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.back.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/FalseGlow/walk/back/000.png",
+      "source_sha256": "7e32bc479d30273479b906ca64d4a36c0a3a1de400d3a00e7ce5d7e1f40273f2",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.back.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/FalseGlow/walk/back/001.png",
+      "source_sha256": "e7134f073dc8ad5a6b5dfe643b3e60eb861010051f27978c0cf877d15e6d9ab6",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.back_left.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/FalseGlow/walk/back_left/000.png",
+      "source_sha256": "a279e21e582ced994adc0bb6a9c0b693e3b6edf81a017e9a168939671a91a010",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.back_left.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/FalseGlow/walk/back_left/001.png",
+      "source_sha256": "cf066969b2c0808910cbca5b1b6262e068448abf3227b9f9f3d459f784eb5db0",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.left.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/FalseGlow/walk/left/000.png",
+      "source_sha256": "e429d8863a81e5c5da826aed96e05cc0b70a113328e509514f74c7fa40624492",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.left.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/FalseGlow/walk/left/001.png",
+      "source_sha256": "7bef544bcc369528554eccb9ac2beeb6d9209d69764fa08633e7cf318f66cad1",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.front_left.000",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/FalseGlow/walk/front_left/000.png",
+      "source_sha256": "aaaaf704a52ce07d1bdbd4c60cff4df408c1afbab795cb03613a96b91b4d16fe",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "FalseGlow.walk.front_left.001",
+      "asset_id": "FalseGlow",
+      "kind": "actor",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/FalseGlow/walk/front_left/001.png",
+      "source_sha256": "13a941ee71aca90ee86a27edb1da2cec43651d60395a5ed32c2905776d772ea6",
+      "glb_sha256": "5042eecd23d3d3975fa9b669c117dfc6d14b3493c8a2a2611e2fc55ebc740b5f",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

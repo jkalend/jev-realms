@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Oracle",
+      "kind": "actor",
+      "source": "source/Oracle.glb",
+      "render_root": "render/Oracle",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "npc_oracle_ringstaff",
+        "weapon": "ringstaff",
+        "default_action": "oracle_idle",
+        "clips": {
+          "idle": [
+            "oracle_idle"
+          ],
+          "walk": [
+            "oracle_walk_a",
+            "oracle_walk_b"
+          ],
+          "attack": [
+            "oracle_read",
+            "oracle_release",
+            "oracle_recover"
+          ],
+          "hit": [
+            "oracle_hit_recoil"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_v1",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Companion",
+      "kind": "actor",
+      "source": "source/Companion.glb",
+      "render_root": "render/Companion",
+      "cell_size": {
+        "width": 256,
+        "height": 320
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "npc_companion_swordshield",
+        "weapon": "swordshield",
+        "default_action": "companion_idle",
+        "clips": {
+          "idle": [
+            "companion_idle"
+          ],
+          "walk": [
+            "companion_walk_a",
+            "companion_walk_b"
+          ],
+          "attack": [
+            "companion_slash",
+            "companion_bash",
+            "companion_recover"
+          ],
+          "hit": [
+            "companion_hit_recoil"
+          ]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_roster_visual_v2",
+        "front_axis": "-Y"
+      }
+    }
+  ]
+}

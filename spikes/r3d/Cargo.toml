@@ -1,0 +1,20 @@
+[package]
+name = "rejected-3d"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+laya-realms = { path = "../../crates/core" }
+bevy = { version = "0.19", default-features = false, features = [
+    "bevy_render",
+    "bevy_core_pipeline",
+    "bevy_pbr",
+    "bevy_post_process",
+    "bevy_winit",
+    "bevy_window",
+    "bevy_text",
+    "tonemapping_luts",
+    "zstd_rust",
+    "png",
+] }

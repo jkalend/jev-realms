@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "gnawthane-baked",
+    "file": "gnawthane-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "GnawThane": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "GnawThane": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "GnawThane.attack.front.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/GnawThane/attack/front/000.png",
+      "source_sha256": "4db21714b8f21a57ef66f88c793960c85192322f6e36cda37281d1e2009f01ef",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "GnawThane.attack.front.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/GnawThane/attack/front/001.png",
+      "source_sha256": "05852e47a0ec50cc3ea558e8d343e47d777f14e9ed95117279fd22d6c155ce22",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "GnawThane.attack.front.002",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/GnawThane/attack/front/002.png",
+      "source_sha256": "2a7508c7eea3a2a43706257339b739f61235836c19c2903e405c45783e8a9379",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "GnawThane.attack.front_right.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/GnawThane/attack/front_right/000.png",
+      "source_sha256": "5f788a2642a23fe7e590bd2824f47abd92eb647532d0abd7cde9998d4c7cd177",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "GnawThane.attack.front_right.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/GnawThane/attack/front_right/001.png",
+      "source_sha256": "2e1e055c6acf1d7441adcce33647c1ba5139eec0391a28d81856b6e21129fa2b",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "GnawThane.attack.front_right.002",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/GnawThane/attack/front_right/002.png",
+      "source_sha256": "fe2a29c28e93c515223931bc33ec5c7ba0b14330c29ee0146320c3dd06a6136d",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "GnawThane.attack.right.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/GnawThane/attack/right/000.png",
+      "source_sha256": "149b2567a3cc24883bb86468ea4e4d0672c7e08c60b6660c3f957cff7565fd6b",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "GnawThane.attack.right.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/GnawThane/attack/right/001.png",
+      "source_sha256": "8dc9b4ed7661174e495a3bd7e527715712d0bb8e93192d4b0f35d5a539161f20",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "GnawThane.attack.right.002",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/GnawThane/attack/right/002.png",
+      "source_sha256": "5962ea341bcf60e52e26e3c08c0b01a690863ccd694f836d1cae16c9ca9c54ab",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "GnawThane.attack.back_right.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/GnawThane/attack/back_right/000.png",
+      "source_sha256": "3eb33acb1f631d990545d60bf57371e42922348abcbd4f04ba94bba84b41d173",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "GnawThane.attack.back_right.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/GnawThane/attack/back_right/001.png",
+      "source_sha256": "e012ad8716e29135f9e91a9696a70cf1bfe670d546d7ccabf310d2c4db52d122",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "GnawThane.attack.back_right.002",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/GnawThane/attack/back_right/002.png",
+      "source_sha256": "d84c735fd88a14a3da54e5b1ad56b1222ef9a75c13c859521856533076631e4f",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "GnawThane.attack.back.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/GnawThane/attack/back/000.png",
+      "source_sha256": "7b4f3c82f74d2b0a4df35c83d0c16d61730b65b0ee2e4edea3f6bf5654b3fe99",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "GnawThane.attack.back.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/GnawThane/attack/back/001.png",
+      "source_sha256": "e648bef1b4e76a96aa353105423a59f640ee1d17cb6499127517efe8f4da168c",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "GnawThane.attack.back.002",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/GnawThane/attack/back/002.png",
+      "source_sha256": "6dc09b03116db2933443c8957c6d5cb8c54041754f2adf7e66a74ce2afbf3f69",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "GnawThane.attack.back_left.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/GnawThane/attack/back_left/000.png",
+      "source_sha256": "1828064158d669f1408ed76f86424f0937e0c6973d7354356bbfb595deb1ea1d",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "GnawThane.attack.back_left.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/GnawThane/attack/back_left/001.png",
+      "source_sha256": "d3e18bf1be1ba34ac1c417917bfa3b50c1982731e464bc4039068f291cff0fe0",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "GnawThane.attack.back_left.002",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/GnawThane/attack/back_left/002.png",
+      "source_sha256": "509657e90d9bd44841032efaed386f3636985d5b3e962eb2573aa1803c3abcd5",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "GnawThane.attack.left.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/GnawThane/attack/left/000.png",
+      "source_sha256": "23efb5bb95a2318fe992fc9183baacc84cc39b9b8c641e8ae2c39c542444ffd7",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "GnawThane.attack.left.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/GnawThane/attack/left/001.png",
+      "source_sha256": "b70139bb0c2df835e0c0134426779f0a4cfe28c89640e9403662b0d09aefe0c5",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "GnawThane.attack.left.002",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/GnawThane/attack/left/002.png",
+      "source_sha256": "3432278d2f9ecb491ce0818f84406a3cfd9c4b76e9028bf40d2e741524093c3e",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "GnawThane.attack.front_left.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/GnawThane/attack/front_left/000.png",
+      "source_sha256": "b0a8a91b75ee2487e6dfb5d9249c564ce9d054500f58f4e5009895014b6f211e",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "GnawThane.attack.front_left.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/GnawThane/attack/front_left/001.png",
+      "source_sha256": "ada646e8c9b9b634b04662c15faf2b3aade453e04a3c99d533c0b9041ae605d8",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "GnawThane.attack.front_left.002",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/GnawThane/attack/front_left/002.png",
+      "source_sha256": "49496e5775241ac1c6521ad5cea6ec1078120e22555426e4d0e1fd06181e5acb",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "GnawThane.hit.front.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/GnawThane/hit/front/000.png",
+      "source_sha256": "c60951ae7e4c712aea3d0784f7b4682d333a68cdc0fcb9342e6ac1050252c26c",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "GnawThane.hit.front.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/GnawThane/hit/front/001.png",
+      "source_sha256": "c06c5e98824fa655d370bd321f085778cc279bbf22208260c5100b7d6e0db54b",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "GnawThane.hit.front_right.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/GnawThane/hit/front_right/000.png",
+      "source_sha256": "64a750b4069b160a52ef1b66ba88b1a97c83da7fa49d8d0ce727a6a712fb7683",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "GnawThane.hit.front_right.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/GnawThane/hit/front_right/001.png",
+      "source_sha256": "cd63467fe4c977ac3e0bad723163967158d61df72b60b01dbce6075a7dd251a0",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "GnawThane.hit.right.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/GnawThane/hit/right/000.png",
+      "source_sha256": "46216eff3a4abb6c1f98c0874e447c43119686f54b5ed05be839d6a2521e2f08",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "GnawThane.hit.right.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/GnawThane/hit/right/001.png",
+      "source_sha256": "77161541c6ee8980ed391ae6020cf03eaad6f9ef8c29369d138c223bb32c30cd",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "GnawThane.hit.back_right.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/GnawThane/hit/back_right/000.png",
+      "source_sha256": "31142ac78c735186c6e275f5228bb6333a7dedfbe56a7eabfcafca47b91c2412",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "GnawThane.hit.back_right.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/GnawThane/hit/back_right/001.png",
+      "source_sha256": "5bf789d88244e499bb264a1efe94865a3afbd623cfece150b93e9846de44bab6",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "GnawThane.hit.back.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/GnawThane/hit/back/000.png",
+      "source_sha256": "a9ccde88eb2c122df616d95f6ae2c9a31941e4ead8568a8fb75bb02bbb424981",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "GnawThane.hit.back.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/GnawThane/hit/back/001.png",
+      "source_sha256": "806585eacb4f52bf916b0de023275d61270d30db5bdc673b184f66575c7677af",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "GnawThane.hit.back_left.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/GnawThane/hit/back_left/000.png",
+      "source_sha256": "d062cd38ce2c6c6683443769a8c6143b08c640eef9ec6ef570525560356e9b17",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "GnawThane.hit.back_left.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/GnawThane/hit/back_left/001.png",
+      "source_sha256": "79c4b3a3a553e2349dd1dfa2096e919d211af82d687e87f3bec1bb242eccdbad",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "GnawThane.hit.left.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/GnawThane/hit/left/000.png",
+      "source_sha256": "c3dfaac69455e965cc78fdf799621c742eee642f71449acfcadd3691832ab01e",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "GnawThane.hit.left.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/GnawThane/hit/left/001.png",
+      "source_sha256": "7cb758b8762a9a8199a1d8e293f39b4168aea5546fcf49c06c5bf072c1244e34",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "GnawThane.hit.front_left.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/GnawThane/hit/front_left/000.png",
+      "source_sha256": "2e55b7290b0b044d2d92fea70dbffc401018c88bea2f3764654aad64114e830c",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "GnawThane.hit.front_left.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/GnawThane/hit/front_left/001.png",
+      "source_sha256": "06d3a8e9990f07c2fff3067c7526bdf24c383218e00ba1c794a552ac028639f1",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "GnawThane.idle.front.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/GnawThane/idle/front/000.png",
+      "source_sha256": "27f2eda9ce8e18f3865b12dfbd179e2f151156f57a8bac3858edd7719d0370e5",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "GnawThane.idle.front.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/GnawThane/idle/front/001.png",
+      "source_sha256": "32b5cf7f99d9c33172c9a16533d0293d8505c4e4067f09be3bdb52be3ea03552",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "GnawThane.idle.front_right.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/GnawThane/idle/front_right/000.png",
+      "source_sha256": "f8d3ef9d0513085d7034e5ae94121b1a29c586785f4b7251200558f2de8e188f",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "GnawThane.idle.front_right.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/GnawThane/idle/front_right/001.png",
+      "source_sha256": "3065ec1816947460d86dc0a68696394fde529fcb404bf61410e2a237ae8f6a6b",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "GnawThane.idle.right.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/GnawThane/idle/right/000.png",
+      "source_sha256": "1aaca9ae8417f116573f79a5d4e780c746ad726eee154880961499088d33cba9",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "GnawThane.idle.right.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/GnawThane/idle/right/001.png",
+      "source_sha256": "381c53af1cda24b7368edc5ede63dfdc19811d940b2545d0b5f2cabe5b76ae2b",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "GnawThane.idle.back_right.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/GnawThane/idle/back_right/000.png",
+      "source_sha256": "b8ba808b77c738b8e3c5b504d1afd7dbb9ec7bb90184015a9a6b9973818e4490",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "GnawThane.idle.back_right.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/GnawThane/idle/back_right/001.png",
+      "source_sha256": "be4771268067d1f88995d9449b40849faf0b60453afe28e9abffa2b8ffd8058e",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "GnawThane.idle.back.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/GnawThane/idle/back/000.png",
+      "source_sha256": "85c67ef671e66c65838b1ac6dfa1348652165a7f4e2cbf417677da7f0b404518",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "GnawThane.idle.back.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/GnawThane/idle/back/001.png",
+      "source_sha256": "7fcab95e5a19751d29a02223125f6600a5100b303481c6d59e9966fef86cd16c",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "GnawThane.idle.back_left.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/GnawThane/idle/back_left/000.png",
+      "source_sha256": "92991a0537497d167bfdd6313f68bf74b27edca000e7c80b6ffcdde0bc088752",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "GnawThane.idle.back_left.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/GnawThane/idle/back_left/001.png",
+      "source_sha256": "7b7ba0819d039bbc2aeb44c6648828db5acf883925a9e062505de2491faf99c7",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "GnawThane.idle.left.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/GnawThane/idle/left/000.png",
+      "source_sha256": "62b5f394a81c501accff05074b590386b77b80d23684af86fe7c56d7f7b8da42",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "GnawThane.idle.left.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/GnawThane/idle/left/001.png",
+      "source_sha256": "9b11c70eb743f5d07c7b82948849a4ff7fdfd6f3252b9a2bbbaa59eae1f0ffba",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "GnawThane.idle.front_left.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/GnawThane/idle/front_left/000.png",
+      "source_sha256": "33f0c932469a05fd37c903e69ce92e03fd752b1fab0809cafded95acbd408585",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "GnawThane.idle.front_left.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/GnawThane/idle/front_left/001.png",
+      "source_sha256": "f58aee7699df7d49b645f219b4dd2df5795b5da0d3bcff99e62abcde6d01cfd0",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "GnawThane.walk.front.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/GnawThane/walk/front/000.png",
+      "source_sha256": "ebf8036d40444a258900593786463e15f57ec1c29301e352fd1c878683db88ec",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "GnawThane.walk.front.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/GnawThane/walk/front/001.png",
+      "source_sha256": "551c6bec1b425b9522b00bd1abb943b7faf1aaaec61e737ac2b3eaa2ad29b893",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "GnawThane.walk.front_right.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/GnawThane/walk/front_right/000.png",
+      "source_sha256": "2e7e22325d9a4c7fe0ddc91906433206feb99c271686fa1057df274438e01162",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "GnawThane.walk.front_right.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/GnawThane/walk/front_right/001.png",
+      "source_sha256": "103140c24d8e8790ded20591233fab062787075e3c6f5cf533ee03ec5f3d5018",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "GnawThane.walk.right.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/GnawThane/walk/right/000.png",
+      "source_sha256": "01bfa4ee811bfe80ed51aa44d881a9d122e2ff2e6a6c80355dbb23b91096902b",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "GnawThane.walk.right.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/GnawThane/walk/right/001.png",
+      "source_sha256": "f8ac398342668f4e38b5647c244d2e03b2950b0fce8b6cc2a6b9cf8b81b98b84",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "GnawThane.walk.back_right.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/GnawThane/walk/back_right/000.png",
+      "source_sha256": "8c3daf8f3222f9d2faf3b14460e090db3a91509292433e13e6963262d5a2deaf",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "GnawThane.walk.back_right.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/GnawThane/walk/back_right/001.png",
+      "source_sha256": "bb222eee2f256a6c80e2e4cb31a5fe9e73bd111c9677748f89843fe91714e52a",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "GnawThane.walk.back.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/GnawThane/walk/back/000.png",
+      "source_sha256": "f3f4f5fbb72aeb49de3bb97c1fea5ff7b053939036c6bbd422e6cf769ecf8912",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "GnawThane.walk.back.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/GnawThane/walk/back/001.png",
+      "source_sha256": "a5f169171041dce410828aa3604c1356bae2d901d67d9ffe7e1892b96fbefd97",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "GnawThane.walk.back_left.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/GnawThane/walk/back_left/000.png",
+      "source_sha256": "f794847f036a3090d21219b439cb842e9d83e5543234c96d1ea713f35f81d604",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "GnawThane.walk.back_left.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/GnawThane/walk/back_left/001.png",
+      "source_sha256": "90f8857547d7202a65f6dba5de365301b90b2957d201a1fb44ecbb5a831fdf30",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "GnawThane.walk.left.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/GnawThane/walk/left/000.png",
+      "source_sha256": "18fe26bf5c2d8f151c9e14983254734755e1614c9e39a74cf480d6dc1e688a4a",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "GnawThane.walk.left.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/GnawThane/walk/left/001.png",
+      "source_sha256": "92139f544790604001bcf1fabe35a0a04057ec6759efedb9c9180b5e8c80ea26",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "GnawThane.walk.front_left.000",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/GnawThane/walk/front_left/000.png",
+      "source_sha256": "56ee617e960ac27e82c23d2f8b008bc4c539ecc6224cd9b23d16d6d63397df5f",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "GnawThane.walk.front_left.001",
+      "asset_id": "GnawThane",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/GnawThane/walk/front_left/001.png",
+      "source_sha256": "8974977e61a536b100fbac6dc2da6360237d0f5408c6f866f0dd648ea79ba113",
+      "glb_sha256": "248c768e27e3fea4b6fbbaddf42517e8bac018ee78769d0c2ad25cf91b5c79cd",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

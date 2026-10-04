@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "Mirelight",
+  "kind": "boss",
+  "source": "Mirelight.glb",
+  "sha256": "19bf3f4fc614047e69811d0bc1afb4216a64f1f3015506564f5751a98522dac9",
+  "front_marker": "front",
+  "back_marker": "back",
+  "pivot": "feet_center",
+  "objects": [
+    "Mirelight_Eye-1",
+    "Mirelight_Eye1",
+    "Mirelight_EyeSocket-1",
+    "Mirelight_EyeSocket1",
+    "Mirelight_GlowHead",
+    "Mirelight_GlowMouth",
+    "Mirelight_Rig",
+    "Mirelight_Tail",
+    "Mirelight_WispArm-1",
+    "Mirelight_WispArm1",
+    "Mirelight_WispCore",
+    "Mirelight_back",
+    "Mirelight_front",
+    "Mirelight_pivot"
+  ]
+}

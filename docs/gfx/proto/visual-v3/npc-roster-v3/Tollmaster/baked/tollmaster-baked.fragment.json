@@ -1,0 +1,1365 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "tollmaster-baked",
+    "file": "tollmaster-baked.png",
+    "cell_size": {
+      "width": 256,
+      "height": 320
+    },
+    "mapping": {
+      "Tollmaster": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "Tollmaster": {
+        "attack": {
+          "front": [
+            3,
+            0
+          ],
+          "front_right": [
+            7,
+            0
+          ],
+          "right": [
+            3,
+            1
+          ],
+          "back_right": [
+            7,
+            1
+          ],
+          "back": [
+            3,
+            2
+          ],
+          "back_left": [
+            7,
+            2
+          ],
+          "left": [
+            3,
+            3
+          ],
+          "front_left": [
+            7,
+            3
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            4
+          ],
+          "front_right": [
+            3,
+            4
+          ],
+          "right": [
+            5,
+            4
+          ],
+          "back_right": [
+            7,
+            4
+          ],
+          "back": [
+            1,
+            5
+          ],
+          "back_left": [
+            3,
+            5
+          ],
+          "left": [
+            5,
+            5
+          ],
+          "front_left": [
+            7,
+            5
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            6
+          ],
+          "front_right": [
+            3,
+            6
+          ],
+          "right": [
+            5,
+            6
+          ],
+          "back_right": [
+            7,
+            6
+          ],
+          "back": [
+            1,
+            7
+          ],
+          "back_left": [
+            3,
+            7
+          ],
+          "left": [
+            5,
+            7
+          ],
+          "front_left": [
+            7,
+            7
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            8
+          ],
+          "front_right": [
+            3,
+            8
+          ],
+          "right": [
+            5,
+            8
+          ],
+          "back_right": [
+            7,
+            8
+          ],
+          "back": [
+            1,
+            9
+          ],
+          "back_left": [
+            3,
+            9
+          ],
+          "left": [
+            5,
+            9
+          ],
+          "front_left": [
+            7,
+            9
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "Tollmaster.attack.front.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Tollmaster/attack/front/000.png",
+      "source_sha256": "29eeac2e461c2f93c21b2dcd570a974c467765e1149239407b3b33ce9fa24368",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.front.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Tollmaster/attack/front/001.png",
+      "source_sha256": "f3dd1e8e8f4eef6f29308f8223b8a41c5dc8ed2b0e9e36a66ceb4f6d23a9e255",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.front.002",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/Tollmaster/attack/front/002.png",
+      "source_sha256": "de0394bb04952b516fed25ac73c10b93cf12997a6d0c5128b6d385a1dbec7b0d",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.front.003",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 3,
+      "source": "render/Tollmaster/attack/front/003.png",
+      "source_sha256": "e1561f02a1922b1c625df144bf80f7ee3ef0ee604634b929fe085c49a7e12d99",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.front_right.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Tollmaster/attack/front_right/000.png",
+      "source_sha256": "7e5a2fe61498b092e1893da65f51d1e5b0cd5b7c7028253b44f41c8a20eb38bf",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.front_right.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Tollmaster/attack/front_right/001.png",
+      "source_sha256": "6b04421da4685e12e8738d0c51924a0f9838cb2dcad7bd009e9cf8f357c2b3e6",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.front_right.002",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/Tollmaster/attack/front_right/002.png",
+      "source_sha256": "c134f25044f4628ebdfb7be2bfcb97c467bd53a8a2cd4aaf1ff9e960d9dd0ce3",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.front_right.003",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 3,
+      "source": "render/Tollmaster/attack/front_right/003.png",
+      "source_sha256": "36c5b65ee7c796b6d3d0b418b5d4b6f8feb667ac2809f3e192ef3a39ea0fac32",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.right.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Tollmaster/attack/right/000.png",
+      "source_sha256": "abcc63f4afe3a7f25db60d8a53e26d9d68d74bcb12011dcb1d6c36bdd440312b",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.right.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Tollmaster/attack/right/001.png",
+      "source_sha256": "1e9a0f73c83251f3699a7ad25ba83aebe4dd01ddf07e396929e566e78c6c39ae",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.right.002",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/Tollmaster/attack/right/002.png",
+      "source_sha256": "1badcc16b235f8fe44c73172060f33da7f4b3fac3e0d398a9547d0128936eb76",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.right.003",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 3,
+      "source": "render/Tollmaster/attack/right/003.png",
+      "source_sha256": "895e313a6576fa5fd2a1fa29988c00e7a1dc64793f81973391dc3d544182000c",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.back_right.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Tollmaster/attack/back_right/000.png",
+      "source_sha256": "504b4f5dec3505287615048cdbfa957688d581d24e1a85d1732706b79d9861ae",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.back_right.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Tollmaster/attack/back_right/001.png",
+      "source_sha256": "1058c3fa279d2ee83895352cf9ec1de546532a10905b7ac5a788f80d5e1e9875",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.back_right.002",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/Tollmaster/attack/back_right/002.png",
+      "source_sha256": "62132b9dc616d19f9d42fbf4f1fbe98f4c045d0cb6b310f9d85b4583d606d98f",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.back_right.003",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 3,
+      "source": "render/Tollmaster/attack/back_right/003.png",
+      "source_sha256": "01e154fd785544daa0f95086ba2ba74acdc5149d2e7ff70a27a538931a341f21",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.back.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Tollmaster/attack/back/000.png",
+      "source_sha256": "e724f39b4a3a6adb89be5bc41f28356b84062dfe59e2acbbbeccfc574778239d",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.back.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Tollmaster/attack/back/001.png",
+      "source_sha256": "76be58fd741e48eca675ab84e436e2be1d4443f00e753ef0353c30cf2d8e042c",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.back.002",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/Tollmaster/attack/back/002.png",
+      "source_sha256": "30a18ff77eaa3bf921b734a86abffcf9b73a5ee59a2e5001de5e7b563ce5fd17",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.back.003",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 3,
+      "source": "render/Tollmaster/attack/back/003.png",
+      "source_sha256": "8cffefcc09959759181fa62f97d08b5b69ab2553ee5d429659b95a2cd9bb09e3",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.back_left.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Tollmaster/attack/back_left/000.png",
+      "source_sha256": "3a73a5c83ef4c2b266b274d684050a81b9016c1c7a93144fa356dad66020f0ea",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.back_left.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Tollmaster/attack/back_left/001.png",
+      "source_sha256": "d886db93d9354a2328df2511e57f14b2ae4ccd53d5da8e1735c0318e8ec6b6b8",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.back_left.002",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/Tollmaster/attack/back_left/002.png",
+      "source_sha256": "2dbaf74638739c2864e7820736016fd8e8822deb7dcebcf1d575e7c433d7950e",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.back_left.003",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 3,
+      "source": "render/Tollmaster/attack/back_left/003.png",
+      "source_sha256": "b6e671ecdab14a79fdc094e57b333bcfc30ef7f1b3c112938e495ec7bda58c72",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.left.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Tollmaster/attack/left/000.png",
+      "source_sha256": "0124b34aeb5b75f1ea518245fef9388770d6f2c2d60a6eae51e2476dd9e3e802",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.left.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Tollmaster/attack/left/001.png",
+      "source_sha256": "f3aa4a2f44e5464a46614a10fd37c0f16695c167b1e766cd84606c8c00de2d06",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.left.002",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/Tollmaster/attack/left/002.png",
+      "source_sha256": "2e4620e3edb1cf72d06ded51d783e7f51345a2d7519a7ee4e87b2bef4ef1f901",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.left.003",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 3,
+      "source": "render/Tollmaster/attack/left/003.png",
+      "source_sha256": "20f101bf2bb82c2fec00a1fa1459271324a186b5c45567f0c8038c096f5831d0",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.front_left.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Tollmaster/attack/front_left/000.png",
+      "source_sha256": "6a6d38078ea5fd9051e7b25b2ab78338f8d8950b82bda4136993df98151901aa",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.front_left.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Tollmaster/attack/front_left/001.png",
+      "source_sha256": "bedf22dc9b577fcd5bb8f483fd198b0cd62a186f6ae43aeabbed766f63201434",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.front_left.002",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/Tollmaster/attack/front_left/002.png",
+      "source_sha256": "c5a54c7a5233589ec45d9132eeab6725fc0f37660f6f387a80f89a375129b908",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "Tollmaster.attack.front_left.003",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 3,
+      "source": "render/Tollmaster/attack/front_left/003.png",
+      "source_sha256": "984063fb55fce6fc0f374a98c34df0041905fd35b8e62aa93cb66d05b24b61f2",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.front.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Tollmaster/hit/front/000.png",
+      "source_sha256": "cdb87f790a96c502c895d977f85f90f344e926d80173c939c6fd8f279e870274",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.front.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Tollmaster/hit/front/001.png",
+      "source_sha256": "495ff7b77355e64de46128be9e468bb42d9b340830436747dbd676d8a221083f",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.front_right.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Tollmaster/hit/front_right/000.png",
+      "source_sha256": "decc10d267f73e10cca3b7ec12d6c304fea5c95f53a4f2e03cad7506e4372086",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.front_right.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Tollmaster/hit/front_right/001.png",
+      "source_sha256": "0214685988f490a133637711ccf640e578c5ca553dd66d8deeb45c4381ad201d",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.right.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Tollmaster/hit/right/000.png",
+      "source_sha256": "ab192799010080404f9a43afe09da4163210c94cdc010b6913a03d7c19d93b4e",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.right.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Tollmaster/hit/right/001.png",
+      "source_sha256": "dd72a7c0909b3a9258ec1cbb48d09b1edc2c4634d8c21926cb7810482a669fcb",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.back_right.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Tollmaster/hit/back_right/000.png",
+      "source_sha256": "6f514a39157bbfdff659e0a491fc91748a9f0a7e33d5252c6410665ae67ef9f0",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.back_right.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Tollmaster/hit/back_right/001.png",
+      "source_sha256": "3ccf80336f1dcf940e5e599854d075ea0840bbb7caf5d84707db8a9f6282e235",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.back.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Tollmaster/hit/back/000.png",
+      "source_sha256": "855444f03ea13ede615966abca25dcc0a2de4751cf566979252ed3dfee5b9bb1",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.back.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Tollmaster/hit/back/001.png",
+      "source_sha256": "bb8a30eb30cc0173fdae9d3b10c8c86abaf7b8774fbc63b2e687274e5d0517a4",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.back_left.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Tollmaster/hit/back_left/000.png",
+      "source_sha256": "5c917402dd889906d2227008d33e74b549c37e75f154011bd98f7a707cd02044",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.back_left.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Tollmaster/hit/back_left/001.png",
+      "source_sha256": "f4884bd8f85edb06040fa5034211517945d4d836485263118761a7df4a328de5",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.left.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Tollmaster/hit/left/000.png",
+      "source_sha256": "bd3ffc967f385fac356eee3b06a19a1cd3523a0d238ac89293aff4039b3b6807",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.left.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Tollmaster/hit/left/001.png",
+      "source_sha256": "3dc8844ac77aee26536cce51f8dd0985096570dcf36434cd849c7deb0fe6306b",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.front_left.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Tollmaster/hit/front_left/000.png",
+      "source_sha256": "c12c050a52bdb3323900c010601b8f06a5237a768dcaf75adb691b7c0d0ec462",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "Tollmaster.hit.front_left.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Tollmaster/hit/front_left/001.png",
+      "source_sha256": "d258b3d4153738d1af7121f8f515ecbbaad685aff2d965155f14f2280b9e6444",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.front.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Tollmaster/idle/front/000.png",
+      "source_sha256": "77bfb6c58009254aa28bed9246f617d9c5dd4d0ba68d05ec4500ace63678ccae",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.front.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Tollmaster/idle/front/001.png",
+      "source_sha256": "0c0d7e651af3a6ae37ed4b630f0818ff85602f36b6ac01d7742b110a09b80ad6",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.front_right.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Tollmaster/idle/front_right/000.png",
+      "source_sha256": "025213e8a35cdcc45be84394ec896e2f177245d0a13d5b828827032ed7c3fd51",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.front_right.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Tollmaster/idle/front_right/001.png",
+      "source_sha256": "b7cacd889509d6f7ce8438b7b4cb36796b1a53aff8329e8718d50d891cc215b9",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.right.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Tollmaster/idle/right/000.png",
+      "source_sha256": "114de83b5d2317de9455271a360febfb54fa13f79f7914e86e8d3f26aa4f32c5",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.right.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Tollmaster/idle/right/001.png",
+      "source_sha256": "0038b61ce36cbe7364ff0fb20dd841804040c7d7aec0b98ec2a1fd1ccd2f5c60",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.back_right.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Tollmaster/idle/back_right/000.png",
+      "source_sha256": "8f464468353a23ff0decfda7e2b004fee5e67c670505bb8c3533f5b65ca5cc67",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.back_right.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Tollmaster/idle/back_right/001.png",
+      "source_sha256": "4262c8bf82f4e6702c22646633e3075837f81458c09ec461e832b511ffb8684c",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.back.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Tollmaster/idle/back/000.png",
+      "source_sha256": "15782f698478b9686725d260967a19cb22e61cde9cb9e4c929df239766f9c784",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.back.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Tollmaster/idle/back/001.png",
+      "source_sha256": "835bc605ad6fe86314110d6fd7c9b190ad68fe26ed55c0131cae58f8ab2763f2",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.back_left.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Tollmaster/idle/back_left/000.png",
+      "source_sha256": "0c2ef320b3fbe5267306977df6903a0fb7de71e543aaf5463ef230d9c9c9cbbf",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.back_left.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Tollmaster/idle/back_left/001.png",
+      "source_sha256": "79bd1ee0b01ff38611ba95d977ea7493c9dbe348ac5e22a3abc273d66b110055",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.left.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Tollmaster/idle/left/000.png",
+      "source_sha256": "3af7e255481a3c56dd9ab2140d90f5b8604b5c3626d9e572ddcdf9614d9f8ab6",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.left.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Tollmaster/idle/left/001.png",
+      "source_sha256": "5795c0c82021b3268229be649869bc595cd88e52d2ed5a1e422c2baa7a7494fb",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.front_left.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Tollmaster/idle/front_left/000.png",
+      "source_sha256": "13d44711405b6250edb77fe17c06abe9b1d094987ce2db933fa44f439ff9c00f",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "Tollmaster.idle.front_left.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Tollmaster/idle/front_left/001.png",
+      "source_sha256": "fbce1067628855a91fbe62cd4badc14240a9d4a1f33df73cdf7fdf26f6a56c6a",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.front.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/Tollmaster/walk/front/000.png",
+      "source_sha256": "0640338d40194d491881dec3c787e499942f5bf59dec149ef12ca67252d4a644",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.front.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/Tollmaster/walk/front/001.png",
+      "source_sha256": "4d1fe3d0a896511d2a44fa4b6847752745266ffdabc302667e390782f9f7af15",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.front_right.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/Tollmaster/walk/front_right/000.png",
+      "source_sha256": "cd98d2cf865df2d6753ce184722a6cf218fe9db3693cb742e8bae1dee29248db",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.front_right.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/Tollmaster/walk/front_right/001.png",
+      "source_sha256": "3295608427b3b1108234786d4847de8a9c55744880d0c2981a5c0fcb483851c5",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.right.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/Tollmaster/walk/right/000.png",
+      "source_sha256": "1df691ee75fe5f1e024904bba43d2679c068353d491edbd45f0efb32689adaca",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.right.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/Tollmaster/walk/right/001.png",
+      "source_sha256": "c919258d76c19e21458f1181b4e2a7683070684ac5b6ffe6dbde4b69d42796c8",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.back_right.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/Tollmaster/walk/back_right/000.png",
+      "source_sha256": "0111e8fd477d90bedb23e0619730bc6a8c500512ed775a05b7f0991e6972154d",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.back_right.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/Tollmaster/walk/back_right/001.png",
+      "source_sha256": "8393163a88fe19330d9d29af90a34f44f89f4426b53353b4e37c9dff0411b600",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        7,
+        8
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.back.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/Tollmaster/walk/back/000.png",
+      "source_sha256": "585cd4943f805e823ca211a84f7af32acba6a9079f37f71f1eb532ec5b338e6b",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        0,
+        9
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.back.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/Tollmaster/walk/back/001.png",
+      "source_sha256": "43e19884c0bb2835cacca5924f7fa7abb37a2d313c097d568548d6fea4b028bb",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        1,
+        9
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.back_left.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/Tollmaster/walk/back_left/000.png",
+      "source_sha256": "d6161bc4643f0e5660676c6807d6bebdccdb58617746b9dee204ac2b80145ffb",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        2,
+        9
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.back_left.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/Tollmaster/walk/back_left/001.png",
+      "source_sha256": "9d8b406a50953e577dfa34202d99324179cbc4b0cdd52fd667273a8c20362bd7",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        3,
+        9
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.left.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/Tollmaster/walk/left/000.png",
+      "source_sha256": "7a7fc1007aa3c16975696a9c14d6f7ee2e533e704d8c0695430e5333c15f7b63",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        4,
+        9
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.left.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/Tollmaster/walk/left/001.png",
+      "source_sha256": "cc8bcf12e7af7b4a7bf1cb73f48dbc7fcc1a70b21dd46477f8debd48ee1bae4a",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        5,
+        9
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.front_left.000",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/Tollmaster/walk/front_left/000.png",
+      "source_sha256": "5ce53496f28fef684cd675b10aa31106b46ae70efe317cae555191a893ffbb41",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        6,
+        9
+      ]
+    },
+    {
+      "key": "Tollmaster.walk.front_left.001",
+      "asset_id": "Tollmaster",
+      "kind": "boss",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/Tollmaster/walk/front_left/001.png",
+      "source_sha256": "abfadf1b710d60c3ce1b74da90918c0ec1fb9f1409bcb7b688ee0e918122acd5",
+      "glb_sha256": "ea04d7b4eee26e736f99beae9f2e7ed7f62aa8608aa1bef75109e10ca48801e9",
+      "cell": [
+        7,
+        9
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 80,
+    "file_checked": true
+  }
+}

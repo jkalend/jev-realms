@@ -1,0 +1,44 @@
+{
+  "Keepwarden": {
+    "kind": "player", "calling": "Ward", "weapon": "sword", "shield": true,
+    "head": "helm", "garment": "brigandine", "build_note": "gate garrison",
+    "palette": {"skin": "#C08A5A", "cloth": "#2E5A78", "accent": "#D0A24A", "metal": "#8A97A3"},
+    "clips": {"idle": ["keepwarden_idle"], "walk": ["keepwarden_walk_a", "keepwarden_walk_b"], "attack": ["keepwarden_shield_bash", "keepwarden_thrust", "keepwarden_recover"], "hit": ["keepwarden_hit_recoil"]},
+    "default_action": "keepwarden_idle"
+  },
+  "Gravebound": {
+    "kind": "player", "calling": "Ward", "weapon": "gravedigger", "shield": false,
+    "head": "hood", "garment": "robe", "build_note": "funerary rites",
+    "palette": {"skin": "#D2C9A9", "cloth": "#4A4038", "accent": "#C9C2A0", "metal": "#9A9484"},
+    "clips": {"idle": ["gravebound_idle"], "walk": ["gravebound_walk_a", "gravebound_walk_b"], "attack": ["gravebound_last_vigil", "gravebound_dig", "gravebound_recover"], "hit": ["gravebound_hit_recoil"]},
+    "default_action": "gravebound_idle"
+  },
+  "Redwake": {
+    "kind": "player", "calling": "Hunt", "weapon": "gutterblade", "shield": false,
+    "head": "cap", "garment": "cloak", "build_note": "saltmarsh royalty",
+    "palette": {"skin": "#A76B4B", "cloth": "#7A3035", "accent": "#D3A13B", "metal": "#A7907E"},
+    "clips": {"idle": ["redwake_idle"], "walk": ["redwake_walk_a", "redwake_walk_b"], "attack": ["redwake_tide_slash", "redwake_shift", "redwake_recover"], "hit": ["redwake_hit_recoil"]},
+    "default_action": "redwake_idle"
+  },
+  "Waysworn": {
+    "kind": "player", "calling": "Hunt", "weapon": "oathrod", "shield": false,
+    "head": "hood", "garment": "cloak", "build_note": "oathroad warden",
+    "palette": {"skin": "#B67B58", "cloth": "#6C5A43", "accent": "#C2A35B", "metal": "#93887A"},
+    "clips": {"idle": ["waysworn_idle"], "walk": ["waysworn_walk_a", "waysworn_walk_b"], "attack": ["waysworn_road_sweep", "waysworn_mark", "waysworn_recover"], "hit": ["waysworn_hit_recoil"]},
+    "default_action": "waysworn_idle"
+  },
+  "SigilSworn": {
+    "kind": "player", "calling": "Speaker", "weapon": "sigilfocus", "shield": false,
+    "head": "mitre", "garment": "robe", "build_note": "oracle schismatic",
+    "palette": {"skin": "#B67C5A", "cloth": "#5C3B72", "accent": "#D5B15C", "metal": "#9B8FB8"},
+    "clips": {"idle": ["sigilsworn_idle"], "walk": ["sigilsworn_walk_a", "sigilsworn_walk_b"], "attack": ["sigilsworn_seal_write", "sigilsworn_release", "sigilsworn_recover"], "hit": ["sigilsworn_hit_recoil"]},
+    "default_action": "sigilsworn_idle"
+  },
+  "Fensworn": {
+    "kind": "player", "calling": "Speaker", "weapon": "fenward", "shield": false,
+    "head": "horned", "garment": "vest", "build_note": "hollow folk",
+    "palette": {"skin": "#7C8A6E", "cloth": "#3E4A38", "accent": "#A8C46A", "metal": "#7E8A72"},
+    "clips": {"idle": ["fensworn_idle"], "walk": ["fensworn_walk_a", "fensworn_walk_b"], "attack": ["fensworn_pack_call", "fensworn_glaive_sweep", "fensworn_recover"], "hit": ["fensworn_hit_recoil"]},
+    "default_action": "fensworn_idle"
+  }
+}

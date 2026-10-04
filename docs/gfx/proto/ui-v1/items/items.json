@@ -1,0 +1,235 @@
+{
+  "sheet": "items.png",
+  "cell_size": {
+    "width": 48,
+    "height": 48
+  },
+  "columns": 8,
+  "items": [
+    {
+      "name": "Potion",
+      "col": 0,
+      "row": 0
+    },
+    {
+      "name": "GreaterPotion",
+      "col": 1,
+      "row": 0
+    },
+    {
+      "name": "Ration",
+      "col": 2,
+      "row": 0
+    },
+    {
+      "name": "TravelerRation",
+      "col": 3,
+      "row": 0
+    },
+    {
+      "name": "Torch",
+      "col": 4,
+      "row": 0
+    },
+    {
+      "name": "AntiToxin",
+      "col": 5,
+      "row": 0
+    },
+    {
+      "name": "ManaTonic",
+      "col": 6,
+      "row": 0
+    },
+    {
+      "name": "Essence",
+      "col": 7,
+      "row": 0
+    },
+    {
+      "name": "Weapon.Worn",
+      "col": 0,
+      "row": 1
+    },
+    {
+      "name": "Weapon.Standard",
+      "col": 1,
+      "row": 1
+    },
+    {
+      "name": "Weapon.Fine",
+      "col": 2,
+      "row": 1
+    },
+    {
+      "name": "Weapon.Masterwork",
+      "col": 3,
+      "row": 1
+    },
+    {
+      "name": "Armour.Worn",
+      "col": 4,
+      "row": 1
+    },
+    {
+      "name": "Armour.Standard",
+      "col": 5,
+      "row": 1
+    },
+    {
+      "name": "Armour.Fine",
+      "col": 6,
+      "row": 1
+    },
+    {
+      "name": "Armour.Masterwork",
+      "col": 7,
+      "row": 1
+    },
+    {
+      "name": "Key.Burrow",
+      "col": 0,
+      "row": 2
+    },
+    {
+      "name": "Key.CrimsonHollow",
+      "col": 1,
+      "row": 2
+    },
+    {
+      "name": "Key.Underkeep",
+      "col": 2,
+      "row": 2
+    },
+    {
+      "name": "CaravanGoods",
+      "col": 3,
+      "row": 2
+    },
+    {
+      "name": "Contraband",
+      "col": 4,
+      "row": 2
+    },
+    {
+      "name": "Relic",
+      "col": 5,
+      "row": 2
+    },
+    {
+      "name": "FirstWrit",
+      "col": 6,
+      "row": 2
+    },
+    {
+      "name": "GemDust",
+      "col": 7,
+      "row": 2
+    },
+    {
+      "name": "HerbCluster",
+      "col": 0,
+      "row": 3
+    },
+    {
+      "name": "OreFlake",
+      "col": 1,
+      "row": 3
+    },
+    {
+      "name": "GlyphShard",
+      "col": 2,
+      "row": 3
+    },
+    {
+      "name": "Delivery.Millbrook",
+      "col": 3,
+      "row": 3
+    },
+    {
+      "name": "Delivery.Highgate",
+      "col": 4,
+      "row": 3
+    },
+    {
+      "name": "Delivery.Saltmarsh",
+      "col": 5,
+      "row": 3
+    },
+    {
+      "name": "Glyph.Ash",
+      "col": 6,
+      "row": 3
+    },
+    {
+      "name": "Glyph.Fen",
+      "col": 7,
+      "row": 3
+    },
+    {
+      "name": "Glyph.Gate",
+      "col": 0,
+      "row": 4
+    },
+    {
+      "name": "Glyph.Seal",
+      "col": 1,
+      "row": 4
+    },
+    {
+      "name": "Glyph.Hart",
+      "col": 2,
+      "row": 4
+    },
+    {
+      "name": "Glyph.Crown",
+      "col": 3,
+      "row": 4
+    },
+    {
+      "name": "BossRelic.Rallybreaker",
+      "col": 4,
+      "row": 4
+    },
+    {
+      "name": "BossRelic.Fangmantle",
+      "col": 5,
+      "row": 4
+    },
+    {
+      "name": "BossRelic.Graveglass",
+      "col": 6,
+      "row": 4
+    },
+    {
+      "name": "BossRelic.Saltcrown",
+      "col": 7,
+      "row": 4
+    },
+    {
+      "name": "BossRelic.Stoneheart",
+      "col": 0,
+      "row": 5
+    },
+    {
+      "name": "BossRelic.GnawboneCrown",
+      "col": 1,
+      "row": 5
+    },
+    {
+      "name": "BossRelic.TollcoinCharm",
+      "col": 2,
+      "row": 5
+    },
+    {
+      "name": "BossRelic.WisplightLantern",
+      "col": 3,
+      "row": 5
+    },
+    {
+      "name": "BossRelic.Hartshorn",
+      "col": 4,
+      "row": 5
+    }
+  ]
+}

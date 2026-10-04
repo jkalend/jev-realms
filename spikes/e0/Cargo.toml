@@ -1,0 +1,10 @@
+[package]
+name = "bevy-e0"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+laya-realms = { path = "../../crates/core" }
+bevy = { version = "0.19", default-features = false, features = ["2d", "png", "tonemapping_luts", "zstd_rust"] }
+bevy_light_2d = "0.10"

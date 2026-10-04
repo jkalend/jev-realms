@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laya Realms — Visual v3 Production Gallery</title>
+  <style>
+    @font-face { font-family: Cinzel; src: url("../../../../assets/fonts/Cinzel-Regular.ttf") format("truetype"); font-display: swap; }
+    :root { color-scheme: dark; --ink:#0b0e10; --panel:#14181a; --line:#51452e; --gold:#c5a45d; --gold-bright:#e8c370; --ivory:#e7dec6; --muted:#a6a294; --green:#5cc48a; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; background:var(--ink); }
+    body { margin:0; color:var(--ivory); font:16px/1.6 Georgia,serif; background:radial-gradient(ellipse at top right,#30291c66,transparent 40%),var(--ink); }
+    a { color:var(--gold); text-underline-offset:4px; }
+    a:hover { color:var(--ivory); }
+    a:focus-visible, summary:focus-visible { outline:2px solid var(--gold); outline-offset:5px; }
+    .shell { width:min(1440px,calc(100% - 40px)); margin:auto; }
+    .hero { padding:64px 0 32px; }
+    .kicker { color:var(--gold); font:12px/1.4 Consolas,monospace; letter-spacing:.18em; text-transform:uppercase; }
+    .badge { display:inline-block; padding:3px 8px; border-radius:3px; font:11px/1.2 Consolas,monospace; font-weight:bold; background:#1b3324; color:var(--green); border:1px solid #285438; vertical-align:middle; margin-left:8px; }
+    h1,h2,h3 { font-family:Cinzel,Georgia,serif; font-weight:400; line-height:1.2; }
+    h1 { margin:12px 0; font-size:clamp(36px,6vw,72px); }
+    h2 { margin:0 0 12px; font-size:clamp(26px,3vw,40px); }
+    p { margin:0 0 20px; max-width:900px; color:var(--muted); }
+    nav { display:flex; flex-wrap:wrap; gap:12px 28px; padding:18px 0; border-block:1px solid var(--line); }
+    nav a { font:13px/1.5 Cinzel,Georgia,serif; text-decoration:none; }
+    section { padding:48px 0; border-bottom:1px solid var(--line); scroll-margin-top:20px; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+    .plate { margin:0; min-width:0; background:var(--panel); border:1px solid #3b382e; }
+    .plate figcaption { display:flex; justify-content:space-between; gap:16px; padding:12px 16px; font:13px/1.5 Cinzel,Georgia,serif; }
+    .plate img { display:block; width:100%; height:auto; background:#090c0e; }
+    .plate > a { display:block; }
+    .wide { grid-column:1/-1; }
+    .caption { margin:16px 0 0; font:13px/1.7 Consolas,monospace; }
+    details { margin-top:24px; border:1px solid #3b382e; background:#111518; padding:16px; }
+    summary { cursor:pointer; font:14px/1.5 Cinzel,Georgia,serif; color:var(--gold); }
+    details[open] summary { margin-bottom:20px; }
+    .catalog { margin:0; padding:0; list-style:none; }
+    .catalog li { display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 18px; padding:10px 0; border-bottom:1px solid #292d2b; font:12px/1.6 Consolas,monospace; }
+    .catalog strong { min-width:165px; color:var(--ivory); }
+    .catalog strong .v3-tag { color:var(--green); font-size:10px; margin-left:4px; }
+    .compact { grid-template-columns:repeat(3,minmax(0,1fr)); }
+    footer { padding:28px 0 48px; color:var(--muted); font:12px/1.8 Consolas,monospace; }
+    code { font-family:Consolas,monospace; }
+    @media(max-width:760px) { .shell { width:calc(100% - 24px); } .hero { padding-top:36px; } .grid,.compact { grid-template-columns:1fr; } section { padding:32px 0; } .plate figcaption { padding:10px; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+  </style>
+</head>
+<body>
+  <header class="hero shell">
+    <div class="kicker">Laya Realms / Visual v3 Art Promotion <span class="badge">v3 Active</span></div>
+    <h1>The realms, in game.</h1>
+    <p>Live isometric game captures with the promoted <strong>v3 art overhaul</strong>: refined humanoid facial silhouettes, authenticated medieval headwear drapery, dorsal gear &amp; harnesses, hand-aligned weapon grips, and the reimagined Underkeep Lich boss baked into the production atlas.</p>
+  </header>
+  <nav class="shell" aria-label="Gallery sections">
+    <a href="#ingame">In game</a><a href="#map-architecture">Map Architecture</a><a href="#backdrop-textures">Texture Experiment</a><a href="#v3-overhaul">v3 Overhaul Master Sheets</a><a href="#npc3d">Characters &amp; Sources</a><a href="#environment">Environment &amp; doors</a><a href="#players">Player &amp; gear</a><a href="#gameui">Game UI</a>
+  </nav>
+  <main class="shell">
+    <section id="ingame">
+      <h2>In game</h2>
+      <p>Real seed-42 Bevy isometric engine captures using the newly promoted <strong>v3 atlas</strong> and the new <strong>environmental backdrop system</strong>. The unlit pitch-black void has been replaced with zone-reactive skies, smoldering caldera glow, and astral chasms.</p>
+      <div class="grid" id="world-scenes"></div>
+      <details><summary>All 27 map captures</summary><div class="grid compact" id="map-captures"></div></details>
+      <p class="caption">Regenerate captures: <code>cargo run --bin realmscape -- {iso,water,lich,iso-burrow,levels}</code></p>
+    </section>
+
+    <section id="map-architecture">
+      <h2>Map Architecture &amp; Environmental Backdrops</h2>
+      <p>Important narrative and boss maps have been liberated from rectangular monotony. Each landmark now boasts custom architectural geometry (cathedrals, organic volcanic calderas, fortified bridgeheads, and jutting harbor wharfs) floating over zone-reactive atmospheric horizons.</p>
+      <div class="grid">
+        <figure class="plate">
+          <figcaption><span>Final Trial — The Hall of Verdicts / Grand Cruciform Court</span><a href="../levels/12.png">Full size</a></figcaption>
+          <a href="../levels/12.png"><img loading="lazy" src="../levels/12.png" alt="Grand Cruciform Cathedral with vaulted nave, east-west transept wings, northern apse dais, and celestial astral backdrop"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>Crag Ridge — The Den / Organic Volcanic Caldera Grotto</span><a href="../levels/13.png">Full size</a></figcaption>
+          <a href="../levels/13.png"><img loading="lazy" src="../levels/13.png" alt="Organic elliptical caldera cavern with curved walls, twin northern cub-nest alcoves, and smoldering ember backdrop"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>The Toll-Ford Camp / River Gorge &amp; Fortified Bridgehead</span><a href="../levels/16.png">Full size</a></figcaption>
+          <a href="../levels/16.png"><img loading="lazy" src="../levels/16.png" alt="Meandering river gorge with ancient stone toll bridge, stockade bastions, and daylight horizon"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>Saltmarsh — The Tidemother's Landing / Harbor Pier Wharf</span><a href="../levels/14.png">Full size</a></figcaption>
+          <a href="../levels/14.png"><img loading="lazy" src="../levels/14.png" alt="Jutting wooden pier wharf surrounded on three sides by open water with coastal sea-fog backdrop"></a>
+        </figure>
+      </div>
+    </section>
+
+    <section id="backdrop-textures">
+      <h2>Textured Backdrops Experiment <span class="badge">Experiment Active</span></h2>
+      <p>Evaluating hand-painted, zone-specific environmental textures against flat procedural gradients. Rather than an unlit void or a sterile computer gradient, each biome now features rich painterly depth: soft cloud strata for overworld towns, cyclopean masonry abysses for underkeeps, molten volcanic fissures for calderas, deep ocean swells for coastal piers, and astral celestial nebulae for the high trial court.</p>
+      
+      <div class="grid">
+        <figure class="plate wide">
+          <figcaption><span>Town / Millbrook Overworld — Sky &amp; Cloud Strata (Flat Gradient vs Painterly Sky)</span><a href="comparisons/Backdrop_Millbrook_Comparison.png">Full size</a></figcaption>
+          <a href="comparisons/Backdrop_Millbrook_Comparison.png"><img loading="lazy" src="comparisons/Backdrop_Millbrook_Comparison.png" alt="Before and after comparison of Millbrook town backdrop"></a>
+        </figure>
+        <figure class="plate wide">
+          <figcaption><span>Underkeep Floor 3 (Lich Boss) — Subterranean Cyclopean Chasm &amp; Cyan Moss</span><a href="comparisons/Backdrop_Lich_Comparison.png">Full size</a></figcaption>
+          <a href="comparisons/Backdrop_Lich_Comparison.png"><img loading="lazy" src="comparisons/Backdrop_Lich_Comparison.png" alt="Before and after comparison of Underkeep Lich chamber backdrop"></a>
+        </figure>
+        <figure class="plate wide">
+          <figcaption><span>Crag Ridge (Cragmother) — Volcanic Basalt Caldera &amp; Molten Lava Fissures</span><a href="comparisons/Backdrop_Cragmother_Comparison.png">Full size</a></figcaption>
+          <a href="comparisons/Backdrop_Cragmother_Comparison.png"><img loading="lazy" src="comparisons/Backdrop_Cragmother_Comparison.png" alt="Before and after comparison of Cragmother caldera backdrop"></a>
+        </figure>
+        <figure class="plate wide">
+          <figcaption><span>Final Trial (Adjudicator) — Imperial Astral Void &amp; Golden Constellations</span><a href="comparisons/Backdrop_Adjudicator_Comparison.png">Full size</a></figcaption>
+          <a href="comparisons/Backdrop_Adjudicator_Comparison.png"><img loading="lazy" src="comparisons/Backdrop_Adjudicator_Comparison.png" alt="Before and after comparison of Adjudicator cathedral backdrop"></a>
+        </figure>
+        <figure class="plate wide">
+          <figcaption><span>Saltmarsh (Tidemother) — Deep Oceanic Swells &amp; Coastal Sea Foam</span><a href="comparisons/Backdrop_Tidemother_Comparison.png">Full size</a></figcaption>
+          <a href="comparisons/Backdrop_Tidemother_Comparison.png"><img loading="lazy" src="comparisons/Backdrop_Tidemother_Comparison.png" alt="Before and after comparison of Saltmarsh pier wharf backdrop"></a>
+        </figure>
+        <figure class="plate wide">
+          <figcaption><span>Fen Barrow (Gnaw-Thane) — Damp Slate Chasm &amp; Ethereal Mist</span><a href="comparisons/Backdrop_FenBarrow_Comparison.png">Full size</a></figcaption>
+          <a href="comparisons/Backdrop_FenBarrow_Comparison.png"><img loading="lazy" src="comparisons/Backdrop_FenBarrow_Comparison.png" alt="Before and after comparison of Fen Barrow vermin warren backdrop"></a>
+        </figure>
+      </div>
+
+      <details open>
+        <summary>Authored Environmental Texture Swatches (Shipped in assets/backdrops/)</summary>
+        <div class="grid compact">
+          <figure class="plate">
+            <figcaption><span>Town (Day) / Golden Dusk Strata</span><a href="backdrops/town_day.png">Full size</a></figcaption>
+            <a href="backdrops/town_day.png"><img loading="lazy" src="backdrops/town_day.png" alt="Town daylight sky backdrop texture"></a>
+          </figure>
+          <figure class="plate">
+            <figcaption><span>Town (Night) / Midnight Constellations</span><a href="backdrops/town_night.png">Full size</a></figcaption>
+            <a href="backdrops/town_night.png"><img loading="lazy" src="backdrops/town_night.png" alt="Town nocturnal sky backdrop texture"></a>
+          </figure>
+          <figure class="plate">
+            <figcaption><span>Cave &amp; Ridge / Volcanic Caldera &amp; Magma</span><a href="backdrops/cave.png">Full size</a></figcaption>
+            <a href="backdrops/cave.png"><img loading="lazy" src="backdrops/cave.png" alt="Volcanic cavern chasm backdrop texture"></a>
+          </figure>
+          <figure class="plate">
+            <figcaption><span>Arena &amp; Trial / Imperial Astral Void</span><a href="backdrops/arena.png">Full size</a></figcaption>
+            <a href="backdrops/arena.png"><img loading="lazy" src="backdrops/arena.png" alt="Astral cosmic void backdrop texture"></a>
+          </figure>
+          <figure class="plate">
+            <figcaption><span>Dock &amp; Wharf / Deep Oceanic Swells</span><a href="backdrops/dock.png">Full size</a></figcaption>
+            <a href="backdrops/dock.png"><img loading="lazy" src="backdrops/dock.png" alt="Ocean water backdrop texture"></a>
+          </figure>
+          <figure class="plate">
+            <figcaption><span>Underkeep / Cyclopean Stone &amp; Cyan Moss</span><a href="backdrops/underkeep.png">Full size</a></figcaption>
+            <a href="backdrops/underkeep.png"><img loading="lazy" src="backdrops/underkeep.png" alt="Underkeep chasm backdrop texture"></a>
+          </figure>
+          <figure class="plate">
+            <figcaption><span>Crypt / Damp Slate &amp; Ethereal Mist</span><a href="backdrops/crypt.png">Full size</a></figcaption>
+            <a href="backdrops/crypt.png"><img loading="lazy" src="backdrops/crypt.png" alt="Crypt chasm backdrop texture"></a>
+          </figure>
+          <figure class="plate">
+            <figcaption><span>Sanctum / Celestial Void</span><a href="backdrops/sanctum.png">Full size</a></figcaption>
+            <a href="backdrops/sanctum.png"><img loading="lazy" src="backdrops/sanctum.png" alt="Sanctum celestial backdrop texture"></a>
+          </figure>
+        </div>
+      </details>
+    </section>
+
+    <section id="v3-overhaul">
+      <h2>v3 Overhaul Master Sheets</h2>
+      <p>Side-by-side evaluations comparing production v2 assets against the v3 overhaul. Includes full 360° multi-angle silhouettes (Front, Side, Back) and all combat action frames.</p>
+      <div class="grid">
+        <figure class="plate wide">
+          <figcaption><span>All 17 Humanoid NPCs / 360° Silhouette &amp; Dorsal Evaluation (Front vs Side vs Back)</span><a href="all_humanoids_angles_before_after.png">Full size</a></figcaption>
+          <a href="all_humanoids_angles_before_after.png"><img loading="lazy" src="all_humanoids_angles_before_after.png" alt="Multi-angle comparison of all 17 humanoid NPCs showing front, side and back views"></a>
+        </figure>
+        <figure class="plate wide">
+          <figcaption><span>All 17 Humanoid NPCs / Combat Actions (Idle, Walk, Attack)</span><a href="all_humanoids_before_after.png">Full size</a></figcaption>
+          <a href="all_humanoids_before_after.png"><img loading="lazy" src="all_humanoids_before_after.png" alt="Combat actions comparison across all 17 humanoid NPCs"></a>
+        </figure>
+        <figure class="plate wide">
+          <figcaption><span>Underkeep Hero Boss / Lich v3 Redesign</span><a href="comparisons/Lich_before_after.png">Full size</a></figcaption>
+          <a href="comparisons/Lich_before_after.png"><img loading="lazy" src="comparisons/Lich_before_after.png" alt="Underkeep Lich boss before and after visual overhaul"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>Adjudicator / Unified Sculpted Head &amp; Flush Blindfold</span><a href="comparisons/Adjudicator_angles_before_after.png">Full size</a></figcaption>
+          <a href="comparisons/Adjudicator_angles_before_after.png"><img loading="lazy" src="comparisons/Adjudicator_angles_before_after.png" alt="Adjudicator head and mask unified into single sculpted surface"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>Cragmother / Restored Molten Eyes &amp; Magma Mouth</span><a href="comparisons/Cragmother_before_after.png">Full size</a></figcaption>
+          <a href="comparisons/Cragmother_before_after.png"><img loading="lazy" src="comparisons/Cragmother_before_after.png" alt="Cragmother facial features sculpted with volcanic magma glow"></a>
+        </figure>
+        <figure class="plate wide">
+          <figcaption><span>Tollmaster / 3D Brass Visor Plate &amp; Ocular Slits</span><a href="comparisons/Tollmaster_angles_before_after.png">Full size</a></figcaption>
+          <a href="comparisons/Tollmaster_angles_before_after.png"><img loading="lazy" src="comparisons/Tollmaster_angles_before_after.png" alt="Tollmaster executioner cross visor and glowing eyes"></a>
+        </figure>
+      </div>
+    </section>
+
+    <section id="npc3d">
+      <h2>Characters &amp; Sources</h2>
+      <p>All 26 production NPCs: 17 promoted v3 humanoid models, the reimagined Lich boss, Guard, and the 7 beast/creature forms. Select any character to view multi-angle renders, Blender scenes, and GLB files.</p>
+      <details open><summary>Directional renders, Blender .blend, GLB models &amp; comparison cards</summary><ul class="catalog" id="npc-sources"></ul></details>
+    </section>
+
+    <section id="environment">
+      <h2>Environment &amp; doors</h2>
+      <p>Eight authored material families: town pavers, wet crypt cobbles, sanctum inlays, pale Underkeep flags, cave earth, woodland leaf mould, arena slabs and dock timber.</p>
+      <div class="grid">
+        <figure class="plate wide"><figcaption><span>Zone materials / shipped atlas</span><a href="../visual-v2/environment-quality/pass-2-zones.png">Full size</a></figcaption><a href="../visual-v2/environment-quality/pass-2-zones.png"><img loading="lazy" src="../visual-v2/environment-quality/pass-2-zones.png" alt="Eight distinct wall and floor families assembled from the production atlas"></a></figure>
+      </div>
+      <div class="grid" id="door-scenes"></div>
+      <p class="caption">Door joinery: timber leaves with iron fittings. Passage opens a door automatically; <kbd>E</kbd> toggles adjacent doorway.</p>
+    </section>
+
+    <section id="players">
+      <h2>Player &amp; gear</h2>
+      <p>All six playable orders, both body builds (Male and Female), athletic humanoid silhouette overhaul (continuous tapered limbs, smooth joint weighting, contoured headwear, tailored boots), four weapon and armour tiers, and nine boss relic insignia.</p>
+      <div class="grid">
+        <figure class="plate wide">
+          <figcaption><span>Playable Orders / 3D Humanoid Master Lineup (Male &amp; Female, All Views)</span><a href="all_players_showcase.png">Full size</a></figcaption>
+          <a href="all_players_showcase.png"><img loading="lazy" src="all_players_showcase.png" alt="All six playable orders rendered in Blender 5.1 showing male and female builds across all angles"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>Keepwarden / Combat Actions Overhaul</span><a href="comparisons/Keepwarden_before_after.png">Full size</a></figcaption>
+          <a href="comparisons/Keepwarden_before_after.png"><img loading="lazy" src="comparisons/Keepwarden_before_after.png" alt="Keepwarden player before and after visual overhaul across combat actions"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>Keepwarden / 360° Multi-Angle Silhouette</span><a href="comparisons/Keepwarden_angles_before_after.png">Full size</a></figcaption>
+          <a href="comparisons/Keepwarden_angles_before_after.png"><img loading="lazy" src="comparisons/Keepwarden_angles_before_after.png" alt="Keepwarden player multi-angle silhouette showing seamless joints and fitted belt"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>Gravebound / Monastic Cowl &amp; Flowing Robes</span><a href="comparisons/Gravebound_before_after.png">Full size</a></figcaption>
+          <a href="comparisons/Gravebound_before_after.png"><img loading="lazy" src="comparisons/Gravebound_before_after.png" alt="Gravebound player before and after visual overhaul across combat actions"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>Redwake / Rolled Cap, Cloak &amp; Sabre</span><a href="comparisons/Redwake_before_after.png">Full size</a></figcaption>
+          <a href="comparisons/Redwake_before_after.png"><img loading="lazy" src="comparisons/Redwake_before_after.png" alt="Redwake player before and after visual overhaul across combat actions"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>Waysworn / Traveler Hood &amp; Oathrod</span><a href="comparisons/Waysworn_before_after.png">Full size</a></figcaption>
+          <a href="comparisons/Waysworn_before_after.png"><img loading="lazy" src="comparisons/Waysworn_before_after.png" alt="Waysworn player before and after visual overhaul across combat actions"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>SigilSworn / Papal Mitre &amp; Gemmed Robes</span><a href="comparisons/SigilSworn_before_after.png">Full size</a></figcaption>
+          <a href="comparisons/SigilSworn_before_after.png"><img loading="lazy" src="comparisons/SigilSworn_before_after.png" alt="SigilSworn player before and after visual overhaul across combat actions"></a>
+        </figure>
+        <figure class="plate wide">
+          <figcaption><span>Fensworn / Horned Beast Cowl &amp; Glaive</span><a href="comparisons/Fensworn_before_after.png">Full size</a></figcaption>
+          <a href="comparisons/Fensworn_before_after.png"><img loading="lazy" src="comparisons/Fensworn_before_after.png" alt="Fensworn player before and after visual overhaul across combat actions"></a>
+        </figure>
+        <figure class="plate wide">
+          <figcaption><span>All 12 Player Builds / Shipped Production Atlas (64px Source)</span><a href="../ui-v1/player-roster.png">Full size</a></figcaption>
+          <a href="../ui-v1/player-roster.png"><img loading="lazy" src="../ui-v1/player-roster.png" alt="All twelve player class and build combinations"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>Keepwarden / Equipment Ladder &amp; Relics</span><a href="../ui-v1/gear-ladder.png">Full size</a></figcaption>
+          <a href="../ui-v1/gear-ladder.png"><img loading="lazy" src="../ui-v1/gear-ladder.png" alt="Keepwarden weapon and armour tiers"></a>
+        </figure>
+        <figure class="plate">
+          <figcaption><span>5x In-Game Equipped Close-up / Legacy 64px Armor &amp; Stoneheart Relic</span><a href="../ui-v1/mockups/gear-on-player.png">Full size</a></figcaption>
+          <a href="../ui-v1/mockups/gear-on-player.png"><img loading="lazy" src="../ui-v1/mockups/gear-on-player.png" alt="5x in-game cell comparison showing equipped armor tiers and boss relic"></a>
+        </figure>
+        <figure class="plate wide">
+          <figcaption><span>Boss Unique Weapons &amp; Relics / 9 Distinct Visual Silhouettes Overhaul</span><a href="boss_weapons_lineup.jpg">Full size</a></figcaption>
+          <a href="boss_weapons_lineup.jpg"><img loading="lazy" src="boss_weapons_lineup.jpg" alt="Master lineup of all 9 boss unique weapons and relics equipped on characters with bold silhouette readability"></a>
+        </figure>
+        <figure class="plate wide">
+          <figcaption><span>Boss Gear in Action / High-Readability Isometric Close-Up (Gavel, Antlers, Lantern &amp; Magma Core)</span><a href="boss_gear_ingame.jpg">Full size</a></figcaption>
+          <a href="boss_gear_ingame.jpg"><img loading="lazy" src="boss_gear_ingame.jpg" alt="High readability isometric close-up of player wearing Hartshorn antlers, wielding Adjudicator gavel, carrying Wisplight lantern and infused with Stoneheart molten plate"></a>
+        </figure>
+      </div>
+    </section>
+
+    <section id="gameui">
+      <h2>Game UI</h2>
+      <p>In-game equipment, conversation and illustrated talent screens.</p>
+      <div class="grid compact" id="ui-featured"></div>
+      <details><summary>All UI captures</summary><ul class="catalog" id="ui-sources"></ul></details>
+    </section>
+  </main>
+  <footer class="shell">Visual v3 assets are baked offline into <code>assets/atlas/actors.png</code>; the runtime reads 96×96 cells with composite keys. <a href="../../../ART_3D_PIPELINE.md">Asset pipeline</a> · <a href="../../../NPC_ROSTER_PIPELINE.md">NPC roster pipeline</a></footer>
+  <script>
+    function plate(root, title, src, alt) {
+      const figure = document.createElement("figure");
+      figure.className = "plate";
+      const caption = document.createElement("figcaption");
+      const label = document.createElement("span"); label.textContent = title;
+      const link = document.createElement("a"); link.href = src; link.textContent = "Full size";
+      caption.append(label, link);
+      const imageLink = document.createElement("a"); imageLink.href = src;
+      const image = document.createElement("img"); image.src = src; image.alt = alt; image.loading = "lazy";
+      imageLink.append(image); figure.append(caption, imageLink); root.append(figure);
+    }
+    function sourceRow(root, name, isV3, links) {
+      const row = document.createElement("li");
+      const title = document.createElement("strong");
+      title.textContent = name;
+      if (isV3) {
+        const tag = document.createElement("span");
+        tag.className = "v3-tag";
+        tag.textContent = "[v3]";
+        title.append(tag);
+      }
+      row.append(title);
+      for (const [label, path] of links) {
+        const link = document.createElement("a"); link.href = path; link.textContent = label;
+        if (/\.(blend|glb)$/.test(path)) link.download = "";
+        row.append(link);
+      }
+      root.append(row);
+    }
+
+    const world = document.getElementById("world-scenes");
+    for (const [label, file] of [["Millbrook / town", "e4-iso"], ["Overworld / river ford", "e4-water"], ["Underkeep / Lich", "e4-iso-lich"], ["Burrow / cave", "e4-iso-burrow"]]) {
+      plate(world, label, `../${file}.png`, `${label}: actual isometric gameplay capture`);
+    }
+    const maps = document.getElementById("map-captures");
+    for (let map = 0; map < 27; map++) {
+      const id = String(map).padStart(2, "0"); plate(maps, `Map ${id}`, `../levels/${id}.png`, `Live map ${id}`);
+    }
+    const doors = document.getElementById("door-scenes");
+    plate(doors, "X wall / closed", "../e4-door-wall-x-closed.png", "Wall-height doorway closed");
+    plate(doors, "X wall / open", "../e4-door-wall-x-open.png", "Wall-height doorway open");
+
+    const v3Humanoids = ["Commoner", "Vendor", "Thief", "Traveller", "Bandit", "Smuggler", "Skeleton", "Chief", "Matriarch", "Adjudicator", "Oracle", "Companion", "Tidemother", "Cragmother", "Tollmaster", "Alchemist", "OathlessCurate"];
+    const v2Creatures = ["Wolf", "Bear", "Rat", "GnawThane", "PaleStag", "Mirelight", "FalseGlow"];
+    const npcSources = document.getElementById("npc-sources");
+
+    // 0. Promoted Player Characters v3 (All 6 Classes)
+    const playerClasses = ["Keepwarden", "Gravebound", "Redwake", "Waysworn", "SigilSworn", "Fensworn"];
+    for (const pcls of playerClasses) {
+      sourceRow(npcSources, `Player (${pcls})`, true, [
+        ["Front", `../ui-v1/player/${pcls}.Male/render/${pcls}Male/idle/front/000.png`],
+        ["Side", `../ui-v1/player/${pcls}.Male/render/${pcls}Male/idle/right/000.png`],
+        ["Back", `../ui-v1/player/${pcls}.Male/render/${pcls}Male/idle/back/000.png`],
+        ["Walk", `../ui-v1/player/${pcls}.Male/render/${pcls}Male/walk/front/001.png`],
+        ["Attack", `../ui-v1/player/${pcls}.Male/render/${pcls}Male/attack/front/001.png`],
+        ["360° Angles Card", `comparisons/${pcls}_angles_before_after.png`],
+        ["Actions Card", `comparisons/${pcls}_before_after.png`],
+        ["Blender (Male)", `../ui-v1/player/${pcls}.Male/blender/${pcls}Male.blend`],
+        ["Blender (Female)", `../ui-v1/player/${pcls}.Female/blender/${pcls}Female.blend`]
+      ]);
+    }
+
+    // 1. Promoted Lich v3
+    sourceRow(npcSources, "Lich", true, [
+      ["Front", `lich-blender-5.1/render/Lich/idle/front/000.png`],
+      ["Side", `lich-blender-5.1/render/Lich/idle/right/000.png`],
+      ["Back", `lich-blender-5.1/render/Lich/idle/back/000.png`],
+      ["Attack", `lich-blender-5.1/render/Lich/attack/front/000.png`],
+      ["Before/After", `comparisons/Lich_before_after.png`],
+      ["Blender", `lich-blender-5.1/blender/lich-blender-5.1.blend`],
+      ["GLB", `lich-blender-5.1/source/Lich.glb`]
+    ]);
+
+    // 2. Promoted 17 Humanoids v3
+    for (const name of v3Humanoids) {
+      const root = `npc-roster-v3/${name}`;
+      sourceRow(npcSources, name, true, [
+        ["Front", `${root}/render/${name}/idle/front/000.png`],
+        ["Side", `${root}/render/${name}/idle/right/000.png`],
+        ["Back", `${root}/render/${name}/idle/back/000.png`],
+        ["Walk", `${root}/render/${name}/walk/front/001.png`],
+        ["Attack", `${root}/render/${name}/attack/front/000.png`],
+        ["360° Angles Card", `comparisons/${name}_angles_before_after.png`],
+        ["Actions Card", `comparisons/${name}_before_after.png`],
+        ["Blender", `${root}/blender/${name}.blend`],
+        ["GLB", `${root}/source/${name}.glb`]
+      ]);
+    }
+
+    // 3. Guard & Creatures (v2)
+    sourceRow(npcSources, "Guard", false, [
+      ["Front", `../visual-v2/guard-blender-5.1/render/Guard/idle/front/000.png`],
+      ["Blender", `../visual-v2/guard-blender-5.1/blender/Guard.blend`],
+      ["GLB", `../visual-v2/guard-bl

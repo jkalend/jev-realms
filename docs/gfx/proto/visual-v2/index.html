@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laya Realms — Production Visuals</title>
+  <style>
+    @font-face { font-family: Cinzel; src: url("../../../../assets/fonts/Cinzel-Regular.ttf") format("truetype"); font-display: swap; }
+    :root { color-scheme: dark; --ink:#0b0e10; --panel:#14181a; --line:#51452e; --gold:#c5a45d; --ivory:#e7dec6; --muted:#a6a294; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; background:var(--ink); }
+    body { margin:0; color:var(--ivory); font:16px/1.6 Georgia,serif; background:radial-gradient(ellipse at top right,#30291c66,transparent 40%),var(--ink); }
+    a { color:var(--gold); text-underline-offset:4px; }
+    a:hover { color:var(--ivory); }
+    a:focus-visible, summary:focus-visible { outline:2px solid var(--gold); outline-offset:5px; }
+    .shell { width:min(1440px,calc(100% - 40px)); margin:auto; }
+    .hero { padding:64px 0 32px; }
+    .kicker { color:var(--gold); font:12px/1.4 Consolas,monospace; letter-spacing:.18em; text-transform:uppercase; }
+    h1,h2,h3 { font-family:Cinzel,Georgia,serif; font-weight:400; line-height:1.2; }
+    h1 { margin:12px 0; font-size:clamp(36px,6vw,72px); }
+    h2 { margin:0 0 12px; font-size:clamp(26px,3vw,40px); }
+    p { margin:0 0 20px; max-width:900px; color:var(--muted); }
+    nav { display:flex; flex-wrap:wrap; gap:12px 28px; padding:18px 0; border-block:1px solid var(--line); }
+    nav a { font:13px/1.5 Cinzel,Georgia,serif; text-decoration:none; }
+    section { padding:48px 0; border-bottom:1px solid var(--line); scroll-margin-top:20px; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+    .plate { margin:0; min-width:0; background:var(--panel); border:1px solid #3b382e; }
+    .plate figcaption { display:flex; justify-content:space-between; gap:16px; padding:12px 16px; font:13px/1.5 Cinzel,Georgia,serif; }
+    .plate img { display:block; width:100%; height:auto; background:#090c0e; }
+    .plate > a { display:block; }
+    .wide { grid-column:1/-1; }
+    .caption { margin:16px 0 0; font:13px/1.7 Consolas,monospace; }
+    details { margin-top:24px; border:1px solid #3b382e; background:#111518; padding:16px; }
+    summary { cursor:pointer; font:14px/1.5 Cinzel,Georgia,serif; color:var(--gold); }
+    details[open] summary { margin-bottom:20px; }
+    .catalog { margin:0; padding:0; list-style:none; }
+    .catalog li { display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 18px; padding:10px 0; border-bottom:1px solid #292d2b; font:12px/1.6 Consolas,monospace; }
+    .catalog strong { min-width:165px; color:var(--ivory); }
+    .compact { grid-template-columns:repeat(3,minmax(0,1fr)); }
+    footer { padding:28px 0 48px; color:var(--muted); font:12px/1.8 Consolas,monospace; }
+    code { font-family:Consolas,monospace; }
+    @media(max-width:760px) { .shell { width:calc(100% - 24px); } .hero { padding-top:36px; } .grid,.compact { grid-template-columns:1fr; } section { padding:32px 0; } .plate figcaption { padding:10px; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+  </style>
+</head>
+<body>
+  <header class="hero shell">
+    <div class="kicker">Laya Realms / Current production assets</div>
+    <h1>The realms, in game.</h1>
+    <p>Live isometric captures, authored zone materials, and the Blender characters baked into the shipped atlas. Historical concepts and duplicate roster plates have been removed from this index; their files remain available on disk.</p>
+  </header>
+  <nav class="shell" aria-label="Gallery sections">
+    <a href="#ingame">In game</a><a href="#environment">Environment &amp; doors</a><a href="#npc3d">Characters</a><a href="#players">Player &amp; gear</a><a href="#gameui">Game UI</a>
+  </nav>
+  <main class="shell">
+    <section id="ingame">
+      <h2>In game</h2>
+      <p>Real seed-42 Bevy captures. Walls, actors and props share depth ordering; nearby masonry fades to preserve sightlines.</p>
+      <div class="grid" id="world-scenes"></div>
+      <details><summary>All 27 map captures</summary><div class="grid compact" id="map-captures"></div></details>
+      <p class="caption">Regenerate: <code>realmscape {iso,water,lich,iso-burrow,levels}</code></p>
+    </section>
+    <section id="environment">
+      <h2>Environment &amp; doors</h2>
+      <p>Eight authored material families distinguish town pavers, wet crypt cobbles, sanctum inlays, pale Underkeep flags, cave earth, woodland leaf mould, arena slabs and dock timber. Wall coping is separate from the floor; staggered masonry replaces the stacked-plate appearance.</p>
+      <div class="grid">
+        <figure class="plate wide"><figcaption><span>Zone materials / shipped atlas</span><a href="environment-quality/pass-2-zones.png">Full size</a></figcaption><a href="environment-quality/pass-2-zones.png"><img loading="lazy" src="environment-quality/pass-2-zones.png" alt="Eight distinct wall and floor families assembled from the production atlas"></a></figure>
+      </div>
+      <div class="grid" id="door-scenes"></div>
+      <p class="caption">Door joinery / closed and swung-open timber leaves with iron fittings. Passage opens a door automatically; <kbd>E</kbd> toggles an adjacent clear doorway. Open state is saved, and occupied thresholds cannot be closed. Capture both states: <code>realmscape doors</code>.</p>
+      <details><summary>Quality-pass comparisons</summary><ul class="catalog">
+        <li><strong>Environment</strong><a href="environment-quality/pass-1-zones.png">First pass</a><a href="environment-quality/pass-2-zones.png">Corrective pass</a><a href="environment-quality/runtime-water-correction-run.png">Water correction</a></li>
+        <li><strong>Characters</strong><a href="character-quality-pass1.png">First pass</a><a href="character-quality-pass2.png">Corrective pass</a><a href="character-quality-corrections.png">Corrections</a></li>
+      </ul></details>
+    </section>
+    <section id="npc3d">
+      <h2>Characters</h2>
+      <p>All 26 production NPCs: 24 shared-roster models plus the independently authored Guard and Lich. Directional animation frames are fitted consistently into 96px atlas cells.</p>
+      <div class="grid">
+        <figure class="plate wide"><figcaption><span>Production roster / silhouettes and actions</span><a href="npc-roster-v2-all-contact.png">Full size</a></figcaption><a href="npc-roster-v2-all-contact.png"><img loading="lazy" src="npc-roster-v2-all-contact.png" alt="The 24 production NPC models viewed from front, side and back with walk and attack poses"></a></figure>
+      </div>
+      <details><summary>Directional renders and Blender / GLB sources</summary><ul class="catalog" id="npc-sources"></ul></details>
+    </section>
+    <section id="players">
+      <h2>Player &amp; gear</h2>
+      <p>Six orders, two body builds, four weapon and armour tiers, and nine relic insignia. The plates below read the shipped player atlas, including fitted cuirasses and overlapping lower armour.</p>
+      <div class="grid">
+        <figure class="plate"><figcaption><span>All orders / both builds</span><a href="../ui-v1/player-roster.png">Full size</a></figcaption><a href="../ui-v1/player-roster.png"><img loading="lazy" src="../ui-v1/player-roster.png" alt="All twelve player class and build combinations with bare, leather, steel and masterwork looks"></a></figure>
+        <figure class="plate"><figcaption><span>Keepwarden / equipment ladder</span><a href="../ui-v1/gear-ladder.png">Full size</a></figcaption><a href="../ui-v1/gear-ladder.png"><img loading="lazy" src="../ui-v1/gear-ladder.png" alt="Keepwarden weapon and armour tiers with nine equipped relic overlays"></a></figure>
+      </div>
+      <details><summary>Player animation renders and source models</summary><ul class="catalog" id="player-sources"></ul></details>
+    </section>
+    <section id="gameui">
+      <h2>Game UI</h2>
+      <p>Current in-game equipment, conversation and illustrated talent screens. The remaining modal captures are grouped below rather than repeated as separate showcases.</p>
+      <div class="grid compact" id="ui-featured"></div>
+      <details><summary>All 14 UI captures</summary><ul class="catalog" id="ui-sources"></ul></details>
+      <p class="caption">Regenerate: <code>realmscape ui</code></p>
+    </section>
+  </main>
+  <footer class="shell">Production sources are baked offline into <code>assets/atlas/</code>; the game does not load Blender or GLB files at runtime. <a href="../../../ART_3D_PIPELINE.md">Asset pipeline</a> · <a href="../../../PLAYER_PIPELINE.md">Player pipeline</a></footer>
+  <script>
+    function plate(root, title, src, alt) {
+      const figure = document.createElement("figure");
+      figure.className = "plate";
+      const caption = document.createElement("figcaption");
+      const label = document.createElement("span"); label.textContent = title;
+      const link = document.createElement("a"); link.href = src; link.textContent = "Full size";
+      caption.append(label, link);
+      const imageLink = document.createElement("a"); imageLink.href = src;
+      const image = document.createElement("img"); image.src = src; image.alt = alt; image.loading = "lazy";
+      imageLink.append(image); figure.append(caption, imageLink); root.append(figure);
+    }
+    function sourceRow(root, name, links) {
+      const row = document.createElement("li");
+      const title = document.createElement("strong"); title.textContent = name; row.append(title);
+      for (const [label, path] of links) {
+        const link = document.createElement("a"); link.href = path; link.textContent = label;
+        if (/\.(blend|glb)$/.test(path)) link.download = "";
+        row.append(link);
+      }
+      root.append(row);
+    }
+    const world = document.getElementById("world-scenes");
+    for (const [label, file] of [["Millbrook / town", "e4-iso"], ["Overworld / river ford", "e4-water"], ["Underkeep / Lich", "e4-iso-lich"], ["Burrow / cave", "e4-iso-burrow"]]) {
+      plate(world, label, `../${file}.png`, `${label}: actual isometric gameplay capture`);
+    }
+    const maps = document.getElementById("map-captures");
+    for (let map = 0; map < 27; map++) {
+      const id = String(map).padStart(2, "0"); plate(maps, `Map ${id}`, `../levels/${id}.png`, `Live map ${id}`);
+    }
+    const doors = document.getElementById("door-scenes");
+    plate(doors, "X wall / closed", "../e4-door-wall-x-closed.png", "Wall-height timber-and-iron doorway joined to the x-oriented town walls");
+    plate(doors, "X wall / open", "../e4-door-wall-x-open.png", "The x-oriented doorway with its leaf swung perpendicular to the wall");
+    plate(doors, "Y wall / closed", "../e4-door-wall-y-closed.png", "Wall-height timber-and-iron doorway joined to the y-oriented town walls");
+    plate(doors, "Y wall / open", "../e4-door-wall-y-open.png", "The y-oriented doorway opened through actual passage");
+    const npcSources = document.getElementById("npc-sources");
+    const names = "Commoner Vendor Thief Traveller Bandit Smuggler Skeleton Chief Matriarch Adjudicator Oracle Companion Tidemother Cragmother GnawThane Tollmaster Mirelight PaleStag Alchemist FalseGlow OathlessCurate Wolf Bear Rat".split(" ");
+    for (const name of ["Guard", "Lich", ...names]) {
+      const root = name === "Guard" ? "guard-blender-5.1" : name === "Lich" ? "lich-blender-5.1" : `npc-roster-v2/${name}`;
+      sourceRow(npcSources, name, [["Front", `${root}/render/${name}/idle/front/000.png`], ["Side", `${root}/render/${name}/idle/right/000.png`], ["Back", `${root}/render/${name}/idle/back/000.png`], ["Walk", `${root}/render/${name}/walk/front/001.png`], ["Attack", `${root}/render/${name}/attack/front/000.png`], ["Blender", `${root}/blender/${name}.blend`], ["GLB", `${root}/source/${name}.glb`]]);
+    }
+    const players = document.getElementById("player-sources");
+    for (const order of ["Keepwarden", "Gravebound", "Redwake", "Waysworn", "SigilSworn", "Fensworn"]) {
+      for (const build of ["Male", "Female"]) {
+        const name = order + build, root = `../ui-v1/player/${name}`;
+        sourceRow(players, `${order} / ${build}`, [["Front", `${root}/render/${name}/idle/front/000.png`], ["Walk", `${root}/render/${name}/walk/front/001.png`], ["Attack", `${root}/render/${name}/attack/front/001.png`], ["Blender", `${root}/blender/${name}.blend`], ["GLB", `${root}/source/${name}.glb`]]);
+      }
+    }
+    const cases = [["title", "Title"], ["create-class", "Creation / order"], ["create-build", "Creation / build"], ["create-boon", "Creation / boon"], ["help", "Field guide"], ["pause", "Settings"], ["inventory", "Equipment"], ["journal", "Journal"], ["atlas", "Map"], ["talents", "Talent tree"], ["talk", "Conversation"], ["trade", "Trade"], ["forge", "Forge"], ["oath", "Oath"]];
+    for (const [name, label] of cases) {
+      const src = `../ui-cases/${name}.png`;
+      sourceRow(document.getElementById("ui-sources"), label, [["Capture", src]]);
+      if (["inventory", "talk", "talents"].includes(name)) plate(document.getElementById("ui-featured"), label, src, `${label}: current in-game interface`);
+    }
+  </script>
+</body>
+</html>

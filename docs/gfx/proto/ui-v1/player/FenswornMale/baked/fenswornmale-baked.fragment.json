@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "fenswornmale-baked",
+    "file": "fenswornmale-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "FenswornMale": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "FenswornMale": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "FenswornMale.attack.front.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/FenswornMale/attack/front/000.png",
+      "source_sha256": "9a2c3d61bc8f2f808746d63ed9a763ba9c60acad72a78fc5c5ad69e7fd5ce30c",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.front.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/FenswornMale/attack/front/001.png",
+      "source_sha256": "cc606b2f012dec85a24d4ddf3208689c7b6188c09b09d41605d37e9a06eeaafa",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.front.002",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/FenswornMale/attack/front/002.png",
+      "source_sha256": "998be679b2dd0e76f0ae766405dc21a202a759422cd434e7dad7cf6037b67860",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.front_right.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/FenswornMale/attack/front_right/000.png",
+      "source_sha256": "43988a0527a84384575c7ca203417ceefd148480b278c5ba09733c321dda6090",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.front_right.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/FenswornMale/attack/front_right/001.png",
+      "source_sha256": "4d647ea7ad66eadfb17c385daac5dbba02993cf3b2d7df2a4f1ff028a4966095",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.front_right.002",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/FenswornMale/attack/front_right/002.png",
+      "source_sha256": "ba02119b4e49963e405305de4651d63ce2507b5c3974ddc67d80ed1f7dc5ca76",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.right.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/FenswornMale/attack/right/000.png",
+      "source_sha256": "18ff11f381dddbaca86b2bb784796768a7be12c4885c7f259cec1001888b7fbb",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.right.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/FenswornMale/attack/right/001.png",
+      "source_sha256": "c6acaf54ae020edc2e2e4bd878caad8d72edcae28e62e42167f98ccc12480d8f",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.right.002",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/FenswornMale/attack/right/002.png",
+      "source_sha256": "84f8ab56e2f71f2f239a76badd33878828a97fdc9a7c7ab50894c3ee7b656dc5",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.back_right.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/FenswornMale/attack/back_right/000.png",
+      "source_sha256": "71f09b17d7fe930621d4a8b96990790293d0bae72c6a2f10ffaafd7e836a9ec3",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.back_right.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/FenswornMale/attack/back_right/001.png",
+      "source_sha256": "bfe594dcd61033f73c9d783d390ac780398423b2e99b27d4945307fa1e3758b8",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.back_right.002",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/FenswornMale/attack/back_right/002.png",
+      "source_sha256": "19256e09ecea9961452407438fe6087da9b3a017363c5e0aaca9b82f49f507e2",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.back.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/FenswornMale/attack/back/000.png",
+      "source_sha256": "16de7b9312065a6e54929382b934848663f604b4e566c3d0cd62fd999119b647",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.back.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/FenswornMale/attack/back/001.png",
+      "source_sha256": "7cc0ff36ef88cf48cf3ec91af9b7138297b8c56221d6a03fab46a6453c8f4bb7",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.back.002",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/FenswornMale/attack/back/002.png",
+      "source_sha256": "f4ee8a5ea08b93e1c49f916e7ea8d673ff2f654431f25adf9095af33760c88af",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.back_left.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/FenswornMale/attack/back_left/000.png",
+      "source_sha256": "6d3ac941d7f52344b7f7596e1c8113a2bad73e5644680fdc14c791de43578006",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.back_left.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/FenswornMale/attack/back_left/001.png",
+      "source_sha256": "613d298dfae7739848085f056ea3de8fc04ae152b64d4930f82815d4df9fc30a",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.back_left.002",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/FenswornMale/attack/back_left/002.png",
+      "source_sha256": "99cdf817e04b00d489cc39c46b2ddc168c7f868e545f4f39d79a5421fd90e0a8",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.left.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/FenswornMale/attack/left/000.png",
+      "source_sha256": "edf5392707bd41c708bff9eda1a27a0d44764bd794a88c5f9885559f5a9212dc",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.left.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/FenswornMale/attack/left/001.png",
+      "source_sha256": "ef62e415e9552d18772d2b8a09df59892d73e983af39e2f0d8e28d8d16b0a7f2",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.left.002",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/FenswornMale/attack/left/002.png",
+      "source_sha256": "4d16299f1af7d5a6b8850920e78fc76b38a013e8acff5f174b80e0adbe4707e5",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.front_left.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/FenswornMale/attack/front_left/000.png",
+      "source_sha256": "12699b561c0091b3d17c7458130a65302b85ada0ea9e9fcb5c493f673bf51504",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.front_left.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/FenswornMale/attack/front_left/001.png",
+      "source_sha256": "2a5450adb6d05331d894f73d2f2043cb9cd1cdf78a63ef9d556cc0f6443a531c",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "FenswornMale.attack.front_left.002",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/FenswornMale/attack/front_left/002.png",
+      "source_sha256": "66b033d735a00e7ee766b8e3a47128e74faa72a9624f5f6c68b4faa688362d87",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.front.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/FenswornMale/hit/front/000.png",
+      "source_sha256": "d49bbaf7ff3443f2bd4e05c8ada1a807ae922bd61557310fe1c37a48043fafda",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.front.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/FenswornMale/hit/front/001.png",
+      "source_sha256": "ffec3e0a6bd5d70a3c1df3c745917d91bc1ef3f746d6c88f2ea9af0bc39c95f6",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.front_right.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/FenswornMale/hit/front_right/000.png",
+      "source_sha256": "27a09f9f40eff8293dfdeb8717330c6aea25ef8813fb1497bdea3d3bf23b1675",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.front_right.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/FenswornMale/hit/front_right/001.png",
+      "source_sha256": "e12030a607882ec61af3ae492b1bb6e79ca298147c6b093f09c0c854070ef02f",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.right.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/FenswornMale/hit/right/000.png",
+      "source_sha256": "a2d3b18ecaacbfc3ed4d1fac9c1b28a88d9fcc515d94adac48608fe76b67ff45",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.right.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/FenswornMale/hit/right/001.png",
+      "source_sha256": "4f5d61b0f44e92ceabdeddbe00e470b12d984356359af4a47127fdd809df3c48",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.back_right.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/FenswornMale/hit/back_right/000.png",
+      "source_sha256": "82096c239f165171a99da87ebb41821f6e0a80b20fd7056bc9b9cec56c813dd0",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.back_right.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/FenswornMale/hit/back_right/001.png",
+      "source_sha256": "aa146ac1ab0b3893fb6bbdb8b86a3d02cb6bb379a57643e17228188477ab30d2",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.back.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/FenswornMale/hit/back/000.png",
+      "source_sha256": "ef8b07a9f031ba77abb256b66ffa4b0a84f1e159fa079689912899b25c3b5451",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.back.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/FenswornMale/hit/back/001.png",
+      "source_sha256": "d7b5c43e86b8d8dc8c863526e8def001451e1aab313a75299b6fe326832bf488",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.back_left.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/FenswornMale/hit/back_left/000.png",
+      "source_sha256": "fbcf0f6997c10777e4ad8d3af4b1f466db349c0ba85c214ccf5fdc60bf8a48da",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.back_left.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/FenswornMale/hit/back_left/001.png",
+      "source_sha256": "91e2754ebc587353e6133c923da665cb39d51218e4fa89537849466d3150fb1d",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.left.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/FenswornMale/hit/left/000.png",
+      "source_sha256": "1ce589b5ea779b6e1cdf73c184f37563307cea6cc556d6f6907669f16dae8a4c",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.left.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/FenswornMale/hit/left/001.png",
+      "source_sha256": "cc28e8001298988e3f5f7f732dfa43dc91cc2b57d9ae1ce1274a503ec0d1ef30",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.front_left.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/FenswornMale/hit/front_left/000.png",
+      "source_sha256": "d63293f8d51543c53dd837384ca46c7fd6eaf221601377d14c744151ca07bca6",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "FenswornMale.hit.front_left.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/FenswornMale/hit/front_left/001.png",
+      "source_sha256": "c641e8eecf45071be931b8f74fb479072b0ae06f27d658685b95f0bd93a7b7d1",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.front.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/FenswornMale/idle/front/000.png",
+      "source_sha256": "6d95aa29077206e36281dc0b6e17ce2b8012732b85ec0c894a4d4cb1853ace80",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.front.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/FenswornMale/idle/front/001.png",
+      "source_sha256": "3b65fb0dc4b07c4e78fc04e6f85dca091595b870558125aad8db58bf92cfb8d3",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.front_right.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/FenswornMale/idle/front_right/000.png",
+      "source_sha256": "6457303a3c0a200cc0c197c5b97172128da2f20618cddddae6aa2b1faf5f626e",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.front_right.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/FenswornMale/idle/front_right/001.png",
+      "source_sha256": "256db85ef9db68b3528ab0304ff57cd811c68705d9be34812681d448dcded63e",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.right.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/FenswornMale/idle/right/000.png",
+      "source_sha256": "460a99db87475440de109c8f1eafc38386bfe15f4542dcdbf44403db4ff82832",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.right.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/FenswornMale/idle/right/001.png",
+      "source_sha256": "9841668c18ec7542dac23369901713b1fd105ba5fd0e9c24dca931d152a58f58",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.back_right.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/FenswornMale/idle/back_right/000.png",
+      "source_sha256": "883d57782874c6811f93140ec0c2da18a23de7a43f6f4fcc1158ac8c5bedf9e1",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.back_right.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/FenswornMale/idle/back_right/001.png",
+      "source_sha256": "1d95ee5d5d751b42abb6e355f8a93cf76040ea67ba2261d9361e71bcdc978810",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.back.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/FenswornMale/idle/back/000.png",
+      "source_sha256": "28bf3900ce6c4aac6aeb55b2cf9aa2bd6e61b6306dbf74965ceaf5e858355544",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.back.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/FenswornMale/idle/back/001.png",
+      "source_sha256": "072e5e1be0a58ec02f87752b2a6da97f210b0210c8e47fd216b9e5683a49296f",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.back_left.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/FenswornMale/idle/back_left/000.png",
+      "source_sha256": "39555e3806c309df8cc212cd97c5b71bd2863a66a8f0e6b75dd53ace944c640c",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.back_left.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/FenswornMale/idle/back_left/001.png",
+      "source_sha256": "6287673393405f6100b3b677b7ed1f6fb8310154fe2f69213cf35ce7416d62a8",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.left.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/FenswornMale/idle/left/000.png",
+      "source_sha256": "45d1bb5b26c573c3b04852ef3caed04e5a1e29c4bf7e25000c72b879b835c30d",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.left.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/FenswornMale/idle/left/001.png",
+      "source_sha256": "ef96cab8906be7db546013b916d555a5b2e96adeac477bbcedc391924b0b666d",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.front_left.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/FenswornMale/idle/front_left/000.png",
+      "source_sha256": "a652a916b78393269b244ce0ddbed94d5be80f5339664ee19e43cb4294d5e038",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "FenswornMale.idle.front_left.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/FenswornMale/idle/front_left/001.png",
+      "source_sha256": "b5c3435d1125fb25a7806e457d4163f542f9737ebbc084bb80dcae1ab1300c7c",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.front.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/FenswornMale/walk/front/000.png",
+      "source_sha256": "c4c0f823a2010b91327e06e861a4a02243d3aae0155ef2c28bcb5f4ae385f671",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.front.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/FenswornMale/walk/front/001.png",
+      "source_sha256": "0ad183966c741f18d05725c361ac4001435b0139c595bdac0e4d312f43111e76",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.front_right.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/FenswornMale/walk/front_right/000.png",
+      "source_sha256": "0b708d4a4c46be5c347e7bbcf6b94dcdb7c1bfee6e15ba370d8623b1513bcbf6",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.front_right.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/FenswornMale/walk/front_right/001.png",
+      "source_sha256": "6bd715ecb8a7505d9f1ebe3b081ed0737e2b4ea9c0b99fd82e2b9eb04694df2f",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.right.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/FenswornMale/walk/right/000.png",
+      "source_sha256": "6b36bc3c9ff37c357e4e1e92c5baaea14565a91290fe088d5021ebcc8b68f430",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.right.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/FenswornMale/walk/right/001.png",
+      "source_sha256": "edae041bb2f8f330329f9d407dda766c592c9b59e0edd7da40c5dbdbb488744d",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.back_right.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/FenswornMale/walk/back_right/000.png",
+      "source_sha256": "44ef58d64fdeb92273bfc48d734b63d9da86c1d68897a8eaacb954b1f8de7c29",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.back_right.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/FenswornMale/walk/back_right/001.png",
+      "source_sha256": "b7ebcac1bd810d0c155de1383fd9374f90c45c91bdb8c3c35f59456df3a9ecbf",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.back.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/FenswornMale/walk/back/000.png",
+      "source_sha256": "e33915073286445989ebc3b109f9d3a79edc94535b0cdccccd6dd5ade21670a0",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.back.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/FenswornMale/walk/back/001.png",
+      "source_sha256": "617c39aff470df6af1ed3e8502555f20eea2bf9ce145c680d6fc7905525b4271",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.back_left.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/FenswornMale/walk/back_left/000.png",
+      "source_sha256": "85875bb412826488917b9a3278aef7e812e6152aff0ee6d9da6026fca8a185f8",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.back_left.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/FenswornMale/walk/back_left/001.png",
+      "source_sha256": "641b4ce8ebcd1ee5cf71102fe543956e950497aba965a06181046b0881b3d7c3",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.left.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/FenswornMale/walk/left/000.png",
+      "source_sha256": "fbdea38143ff491f023faade6df6741f50c85b31dd26dac2f53de2536abbcb7d",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.left.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/FenswornMale/walk/left/001.png",
+      "source_sha256": "5cacd3cf9968a5d603aeb39d148293bfd08fb02d4e9343ca76514cc1f99c43ff",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.front_left.000",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/FenswornMale/walk/front_left/000.png",
+      "source_sha256": "8a70ee1e4652de205aa71e9dc4f38b9322649a94922342037b4ec916e77cb8ea",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "FenswornMale.walk.front_left.001",
+      "asset_id": "FenswornMale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/FenswornMale/walk/front_left/001.png",
+      "source_sha256": "9de8ffe6fee50f4ef74013d8ce8d2a40b0feca225187047b2f608b8aacf51c17",
+      "glb_sha256": "80843b449708c84094b58e190fb08fe4251b451b48e722634774d1849e6ac17e",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

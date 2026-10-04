@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "sheet": {
+    "name": "wayswornfemale-baked",
+    "file": "wayswornfemale-baked.png",
+    "cell_size": {
+      "width": 128,
+      "height": 160
+    },
+    "mapping": {
+      "WayswornFemale": [
+        0,
+        0
+      ]
+    },
+    "states": {
+      "WayswornFemale": {
+        "attack": {
+          "front": [
+            2,
+            0
+          ],
+          "front_right": [
+            5,
+            0
+          ],
+          "right": [
+            0,
+            1
+          ],
+          "back_right": [
+            3,
+            1
+          ],
+          "back": [
+            6,
+            1
+          ],
+          "back_left": [
+            1,
+            2
+          ],
+          "left": [
+            4,
+            2
+          ],
+          "front_left": [
+            7,
+            2
+          ]
+        },
+        "hit": {
+          "front": [
+            1,
+            3
+          ],
+          "front_right": [
+            3,
+            3
+          ],
+          "right": [
+            5,
+            3
+          ],
+          "back_right": [
+            7,
+            3
+          ],
+          "back": [
+            1,
+            4
+          ],
+          "back_left": [
+            3,
+            4
+          ],
+          "left": [
+            5,
+            4
+          ],
+          "front_left": [
+            7,
+            4
+          ]
+        },
+        "idle": {
+          "front": [
+            1,
+            5
+          ],
+          "front_right": [
+            3,
+            5
+          ],
+          "right": [
+            5,
+            5
+          ],
+          "back_right": [
+            7,
+            5
+          ],
+          "back": [
+            1,
+            6
+          ],
+          "back_left": [
+            3,
+            6
+          ],
+          "left": [
+            5,
+            6
+          ],
+          "front_left": [
+            7,
+            6
+          ]
+        },
+        "walk": {
+          "front": [
+            1,
+            7
+          ],
+          "front_right": [
+            3,
+            7
+          ],
+          "right": [
+            5,
+            7
+          ],
+          "back_right": [
+            7,
+            7
+          ],
+          "back": [
+            1,
+            8
+          ],
+          "back_left": [
+            3,
+            8
+          ],
+          "left": [
+            5,
+            8
+          ],
+          "front_left": [
+            7,
+            8
+          ]
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "key": "WayswornFemale.attack.front.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/WayswornFemale/attack/front/000.png",
+      "source_sha256": "fb3554e1c466ba555da321802522958f9bf9ccca81a776b3f6c999d14f2b7637",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.front.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/WayswornFemale/attack/front/001.png",
+      "source_sha256": "ed92729bcb24eb8846c552cda1e8537a358ab9776f61de8074ca3f995c275e98",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.front.002",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front",
+      "frame": 2,
+      "source": "render/WayswornFemale/attack/front/002.png",
+      "source_sha256": "7735e74e9208ab21ee09e2f16504555d1cad3c6e5848041d67938bf301018d25",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.front_right.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/WayswornFemale/attack/front_right/000.png",
+      "source_sha256": "dd468939d00fa434a6860bb537ddd20a6a584304f1e5486ef8f6870ca2b3afe4",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.front_right.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/WayswornFemale/attack/front_right/001.png",
+      "source_sha256": "2a83af6840380b25ff6546a0bdb6bfcdc294f02376fe1fc8d86b4b82197b7a72",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        4,
+        0
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.front_right.002",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_right",
+      "frame": 2,
+      "source": "render/WayswornFemale/attack/front_right/002.png",
+      "source_sha256": "f897a8af5a3bcefd0dfe47384a69589425fdcbc2b896123b10d0d6b5fb3a0535",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        5,
+        0
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.right.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/WayswornFemale/attack/right/000.png",
+      "source_sha256": "96ebe529d444820fdc2181f2a2be20b0350450ad96308487ba9ff3055f987464",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        6,
+        0
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.right.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/WayswornFemale/attack/right/001.png",
+      "source_sha256": "9e6749aa7ca24cc969acbcf514f5a3a57cbbccb6a241b8f4dd01abd3cb956bb0",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        7,
+        0
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.right.002",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "right",
+      "frame": 2,
+      "source": "render/WayswornFemale/attack/right/002.png",
+      "source_sha256": "ae4779558607b42432dd64ad8382b52cf3b106254e0ba1fcb685cbcf03b01d64",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.back_right.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/WayswornFemale/attack/back_right/000.png",
+      "source_sha256": "ebbba0d28e4ec380e24e483aef66a5d3aa014cf8e1b92c1df1e1ac649c248e5c",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.back_right.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/WayswornFemale/attack/back_right/001.png",
+      "source_sha256": "c03355f99e1e9a9cfb4d4475690295221b9d2cc674657d2adcd1d1a28cfa8f10",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.back_right.002",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_right",
+      "frame": 2,
+      "source": "render/WayswornFemale/attack/back_right/002.png",
+      "source_sha256": "2b2405995c281f32d62427251f628ebef4e3e0730056bf3f34864510e1fe6ac3",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        3,
+        1
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.back.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/WayswornFemale/attack/back/000.png",
+      "source_sha256": "0ac099266e06ade755c3c61d5d0a3dbc9b13ada14edc5310530a11ad74309a74",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        4,
+        1
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.back.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/WayswornFemale/attack/back/001.png",
+      "source_sha256": "ecef5f0e09a9ef59e0a8d6172f5d5d0d5d2f5b02e0ba00c295ac6005124f80cf",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        5,
+        1
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.back.002",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back",
+      "frame": 2,
+      "source": "render/WayswornFemale/attack/back/002.png",
+      "source_sha256": "d65970e0e3e841e8a8f21886fdfd94f5f2dcfd5f661fff3b073be1d51fa5b373",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        6,
+        1
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.back_left.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/WayswornFemale/attack/back_left/000.png",
+      "source_sha256": "ed4da825462ca70ff76277558fc8ed042bbc1739236ac3ed6cd2e183673d7ab3",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        7,
+        1
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.back_left.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/WayswornFemale/attack/back_left/001.png",
+      "source_sha256": "daab436efc10c5b44c624c249291c78b1747287a05130c21806b0c5ebd1f4984",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.back_left.002",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "back_left",
+      "frame": 2,
+      "source": "render/WayswornFemale/attack/back_left/002.png",
+      "source_sha256": "c526e2db775722dede971ce505d2e4adf6debe4ba958c437176b33c5f8d5d3fa",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        1,
+        2
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.left.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/WayswornFemale/attack/left/000.png",
+      "source_sha256": "c9fde5bfa7301dfbcc7580e0edf6cc0cab6894e089721b934efe2cf107aa00a1",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        2,
+        2
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.left.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/WayswornFemale/attack/left/001.png",
+      "source_sha256": "faa3bd393bf602dcea56e89a87b90d1fecb339dcbd2cba0f108698dee7e2f59c",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.left.002",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "left",
+      "frame": 2,
+      "source": "render/WayswornFemale/attack/left/002.png",
+      "source_sha256": "aaac0aa31ade3514d7b3525d17202c9c1b4ba6495b2f328f772e8200df54e82a",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        4,
+        2
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.front_left.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/WayswornFemale/attack/front_left/000.png",
+      "source_sha256": "0903c98136ffe085b82fed46b0dd967aaa9e39dc99a9a56df6dc1e65766a0c5f",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        5,
+        2
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.front_left.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/WayswornFemale/attack/front_left/001.png",
+      "source_sha256": "434bb78c12d466bb7f0081d67079bcbf880e2730846e7b245acebe09b87ae323",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        6,
+        2
+      ]
+    },
+    {
+      "key": "WayswornFemale.attack.front_left.002",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "attack",
+      "direction": "front_left",
+      "frame": 2,
+      "source": "render/WayswornFemale/attack/front_left/002.png",
+      "source_sha256": "4ff110f22bde332a4324725b2daf264653a661c04f924f7a0890a2055a3cb1bf",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        7,
+        2
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.front.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/WayswornFemale/hit/front/000.png",
+      "source_sha256": "d34dca5450d94fe7c67ebdea783bc29c5f24536330136964ecbd7b79ab38ce60",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        0,
+        3
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.front.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/WayswornFemale/hit/front/001.png",
+      "source_sha256": "0763c29746c29301eda39f7c9dd679631c9db16a8870109d5335fd4bfccb5a71",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.front_right.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/WayswornFemale/hit/front_right/000.png",
+      "source_sha256": "cab8f9f3309d0059b0e78b25d239af5f43455ee30b241d2ee53a1f9aaaf005f7",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        2,
+        3
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.front_right.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/WayswornFemale/hit/front_right/001.png",
+      "source_sha256": "dbe1233c9e3d922fb161e3dc28596469e9bd3096d02cef663f4b9381022f3274",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        3,
+        3
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.right.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/WayswornFemale/hit/right/000.png",
+      "source_sha256": "06bfbc9ddbd7a03a937a553c3b7a3e8a2406b92e052e83dfaf7ee72cdcfa03e6",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        4,
+        3
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.right.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/WayswornFemale/hit/right/001.png",
+      "source_sha256": "5d55cf8a07365377399a12b6f9bb1ed915235d276c6641857d938b4f08b0652d",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        5,
+        3
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.back_right.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/WayswornFemale/hit/back_right/000.png",
+      "source_sha256": "73c27bf09dbd57121bab799c69733e2554712ea7e87d56cc45358de99544fba7",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        6,
+        3
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.back_right.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/WayswornFemale/hit/back_right/001.png",
+      "source_sha256": "61295c730c6d1cea3e6fed325f68c602341abbf984c72dfe2fad92ea86fe96fc",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        7,
+        3
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.back.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/WayswornFemale/hit/back/000.png",
+      "source_sha256": "1e229397ca6a85a28177ccc12de86f8917ca57f1832d4b6c945b6fb792ce6b9e",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        0,
+        4
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.back.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/WayswornFemale/hit/back/001.png",
+      "source_sha256": "0cefe2257f2e981237547f3a33871466c87e1e901d204bf77f7d08b76ea2318f",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.back_left.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/WayswornFemale/hit/back_left/000.png",
+      "source_sha256": "0f10aaf7dc0ddf121c0796c9f0e638a61cc2195d674eefa7578f809cff2525ee",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.back_left.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/WayswornFemale/hit/back_left/001.png",
+      "source_sha256": "c9d0e7b7bee39722dd381d33aa6a002ab80889fb777b5c43a16d4e8985253e04",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        3,
+        4
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.left.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/WayswornFemale/hit/left/000.png",
+      "source_sha256": "c102ba53543ea1ad87b107960acc6ea784b7dece7464f6814459b73723883d9f",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.left.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/WayswornFemale/hit/left/001.png",
+      "source_sha256": "8162a8d7dc0eea1d078eb2489f81b695c7bc82bca130e2682d120ba641de691e",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        5,
+        4
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.front_left.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/WayswornFemale/hit/front_left/000.png",
+      "source_sha256": "c6886d3b8aede29e34ffa34003c06c198421beea9ce379dd1f3f8eb101240144",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        6,
+        4
+      ]
+    },
+    {
+      "key": "WayswornFemale.hit.front_left.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "hit",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/WayswornFemale/hit/front_left/001.png",
+      "source_sha256": "8a8e03486ffcf69d01871df2fbb1d10ea06edb38b9e4ba4d50594bb2ab3ba75b",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        7,
+        4
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.front.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/WayswornFemale/idle/front/000.png",
+      "source_sha256": "6f7f621263a0ee3cbc042f7270e6986ddf0b37a233642da921764aa0d21f52c7",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        0,
+        5
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.front.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/WayswornFemale/idle/front/001.png",
+      "source_sha256": "d395a3647555ab78109f89b080c25be361d1614676bf66fd5697fb3d8c4fb6e0",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        1,
+        5
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.front_right.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/WayswornFemale/idle/front_right/000.png",
+      "source_sha256": "4e0092e08f2a922d53143d5f18d283e5d2e85b1d09114a7e265aaa3b20af04f0",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        2,
+        5
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.front_right.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/WayswornFemale/idle/front_right/001.png",
+      "source_sha256": "b99469f9037e0bbf5175881a3cbe8c9d43616e3bd1d0e75293e868e3b94da9d2",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        3,
+        5
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.right.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/WayswornFemale/idle/right/000.png",
+      "source_sha256": "5b2341763cda902e0a39b12ff817a82643e15608e313f78f36da408048c2d2fa",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        4,
+        5
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.right.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/WayswornFemale/idle/right/001.png",
+      "source_sha256": "64cecaff01dc1bd46dbae4f5c4dd3d6dd943a72accf6baa06a5f41fc9a716e87",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        5,
+        5
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.back_right.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/WayswornFemale/idle/back_right/000.png",
+      "source_sha256": "7874dace33101eadf21ddd3b9499db549965a27df6e8ec88488233518577c133",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        6,
+        5
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.back_right.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/WayswornFemale/idle/back_right/001.png",
+      "source_sha256": "cbc5d37beb383b3fe2acc16102d8fbf36d104a05a406b2d21dc5c9309d3ed9f8",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        7,
+        5
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.back.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/WayswornFemale/idle/back/000.png",
+      "source_sha256": "e648e0e72d74868d1c79c0c29cc6805d2af8d1369653b37a387aa1d6ccc3c725",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        0,
+        6
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.back.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/WayswornFemale/idle/back/001.png",
+      "source_sha256": "fb2af0ca40a03260a3dfec2de32036a403002e35d269dac6f7827ac2bbeb4f2b",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        1,
+        6
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.back_left.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/WayswornFemale/idle/back_left/000.png",
+      "source_sha256": "7c4bec2917a342da90ba551ae118e06728154c51240ab1828ea99366c1bc732e",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        2,
+        6
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.back_left.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/WayswornFemale/idle/back_left/001.png",
+      "source_sha256": "05cb0a4367e08e3348c101ffef703e271ea6e9b0ef9e2fa07e1eb6182bba9585",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        3,
+        6
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.left.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/WayswornFemale/idle/left/000.png",
+      "source_sha256": "d09233de5eb4ff3faf5f37075891c4bad58b78db63b3801c4863fab6cbf71a72",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        4,
+        6
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.left.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/WayswornFemale/idle/left/001.png",
+      "source_sha256": "6e69987e18c59a3e0225b25c889d336372e5b15cc15ab57f42027fc963b30a68",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        5,
+        6
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.front_left.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/WayswornFemale/idle/front_left/000.png",
+      "source_sha256": "dd48b137d3bafed37c393e8adf239302115966f844204fa2e0fe3bf1e9e0c571",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "key": "WayswornFemale.idle.front_left.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "idle",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/WayswornFemale/idle/front_left/001.png",
+      "source_sha256": "c4b9d30462be1954c481bfa5f86543efb8af718ec491840e738f654edb233933",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        7,
+        6
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.front.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 0,
+      "source": "render/WayswornFemale/walk/front/000.png",
+      "source_sha256": "4240179399369c46547327c88ea421cfab1f47c0b7562beec81c7b2a21410de9",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        0,
+        7
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.front.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front",
+      "frame": 1,
+      "source": "render/WayswornFemale/walk/front/001.png",
+      "source_sha256": "9c314065d0646e87803e83c762f3732f3f282f3ae252007021c670a77ac89bb1",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        1,
+        7
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.front_right.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 0,
+      "source": "render/WayswornFemale/walk/front_right/000.png",
+      "source_sha256": "4372a6bb6506051fdf8680770ac1f11ea02b9261f6250e19a087b098c5c838ab",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        2,
+        7
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.front_right.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_right",
+      "frame": 1,
+      "source": "render/WayswornFemale/walk/front_right/001.png",
+      "source_sha256": "57869643736547d838aa2ad165e8d5c5376ce31b6e6055c9154ca60fddf7e303",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        3,
+        7
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.right.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 0,
+      "source": "render/WayswornFemale/walk/right/000.png",
+      "source_sha256": "8faf4f8333d13f910dbbd32aeb5a30e125909ce6939ad4f89fcef38d695bd14d",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        4,
+        7
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.right.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "right",
+      "frame": 1,
+      "source": "render/WayswornFemale/walk/right/001.png",
+      "source_sha256": "d0c525675d067eeb17f9c4f0586759ff398f035e6854d443e01cd9eed7a26cec",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        5,
+        7
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.back_right.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 0,
+      "source": "render/WayswornFemale/walk/back_right/000.png",
+      "source_sha256": "f4a03b71e44759887cbbcdec9ee645fd3ac5fc2e2b3bb4d8420af6296584a511",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        6,
+        7
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.back_right.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_right",
+      "frame": 1,
+      "source": "render/WayswornFemale/walk/back_right/001.png",
+      "source_sha256": "1054c042c858e3696684cc5e6b9681ea828b4d950c8d1e878732e86b28baba1b",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        7,
+        7
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.back.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 0,
+      "source": "render/WayswornFemale/walk/back/000.png",
+      "source_sha256": "7ce3160538d67098dc48254d38411463b64f23b06dd100e1d6251caa0f08edb6",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        0,
+        8
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.back.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back",
+      "frame": 1,
+      "source": "render/WayswornFemale/walk/back/001.png",
+      "source_sha256": "9d8dfc83330b479a9590130ee26b63f8247017c5074bd4b39823382b5e784f9a",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        1,
+        8
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.back_left.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 0,
+      "source": "render/WayswornFemale/walk/back_left/000.png",
+      "source_sha256": "43708ab2c587b95daecd6e0c1f55dd13c19fdb697d20b75b5c547c4d40820408",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        2,
+        8
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.back_left.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "back_left",
+      "frame": 1,
+      "source": "render/WayswornFemale/walk/back_left/001.png",
+      "source_sha256": "48b63c0558456bcdf268c1e705535b60bf4fed12b7b329b179d7a5fa054d708b",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.left.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 0,
+      "source": "render/WayswornFemale/walk/left/000.png",
+      "source_sha256": "2d97d308216695a94f82f2e0c7fc411f527ebc1cb9f77ff0c0d2080675e50044",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        4,
+        8
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.left.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "left",
+      "frame": 1,
+      "source": "render/WayswornFemale/walk/left/001.png",
+      "source_sha256": "fa8bd90f8510c3621fca4abd0f5a0d47e9546031f9d49e6018cf81dc058a1268",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        5,
+        8
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.front_left.000",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 0,
+      "source": "render/WayswornFemale/walk/front_left/000.png",
+      "source_sha256": "afc1cfa4bda480bf2a965dcb497e184914959eb030eb954ba3168ae3b68a2815",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        6,
+        8
+      ]
+    },
+    {
+      "key": "WayswornFemale.walk.front_left.001",
+      "asset_id": "WayswornFemale",
+      "kind": "player",
+      "animation": "walk",
+      "direction": "front_left",
+      "frame": 1,
+      "source": "render/WayswornFemale/walk/front_left/001.png",
+      "source_sha256": "9e63ccb8b4d70de34c5528932d0893159246565a2372440f5c5813114f23438f",
+      "glb_sha256": "9de162321177500862c4bfd0ad74f7eb6886b08593e1514059601a2cccf17727",
+      "cell": [
+        7,
+        8
+      ]
+    }
+  ],
+  "validation": {
+    "version": 1,
+    "assets": 1,
+    "render_files": 72,
+    "file_checked": true
+  }
+}

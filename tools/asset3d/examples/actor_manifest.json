@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "Commoner",
+      "kind": "actor",
+      "source": "source/Commoner.glb",
+      "render_root": "render/Commoner",
+      "cell_size": { "width": 96, "height": 128 },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": { "idle": 1, "walk": 2, "attack": 3, "hit": 1 },
+      "action_profile": {
+        "id": "npc_commoner_unarmed",
+        "weapon": "unarmed",
+        "default_action": "commoner_idle",
+        "clips": {
+          "idle": ["commoner_idle"],
+          "walk": ["commoner_walk_a", "commoner_walk_b"],
+          "attack": ["commoner_shoulder_check"],
+          "hit": ["commoner_hit_recoil"]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "facing": "front is -Z; yaw increases clockwise",
+        "license": "replace with project license/provenance"
+      }
+    },
+    {
+      "id": "Adjudicator",
+      "kind": "boss",
+      "source": "source/Adjudicator.glb",
+      "render_root": "render/Adjudicator",
+      "cell_size": { "width": 128, "height": 160 },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": { "idle": 1, "walk": 2, "attack": 4, "hit": 1 },
+      "action_profile": {
+        "id": "boss_adjudicator_gavel",
+        "weapon": "gavel",
+        "default_action": "adjudicator_gavel_idle",
+        "clips": {
+          "idle": ["adjudicator_gavel_idle"],
+          "walk": ["adjudicator_gavel_walk_a", "adjudicator_gavel_walk_b"],
+          "attack": ["adjudicator_gavel_raise", "adjudicator_gavel_slam", "adjudicator_gavel_recover"],
+          "hit": ["adjudicator_gavel_hit"]
+        },
+        "boss": {
+          "signature": "judgement",
+          "phase_actions": ["adjudicator_phase_declare", "adjudicator_phase_seal"]
+        }
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "facing": "front is -Z; yaw increases clockwise",
+        "phase_markers": "phase geometry stays in the GLB; baked phase rows are added later"
+      }
+    }
+  ]
+}

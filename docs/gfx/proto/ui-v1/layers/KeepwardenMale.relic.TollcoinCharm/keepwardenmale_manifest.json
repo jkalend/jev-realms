@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "KeepwardenMale",
+      "kind": "player",
+      "class": "Keepwarden",
+      "build": "Male",
+      "sprite_key": "Player.Keepwarden.Male",
+      "calling": "Ward",
+      "source": "source/KeepwardenMale.glb",
+      "render_root": "render/KeepwardenMale",
+      "cell_size": {
+        "width": 128,
+        "height": 160
+      },
+      "directions": [
+        "front",
+        "front_right",
+        "right",
+        "back_right",
+        "back",
+        "back_left",
+        "left",
+        "front_left"
+      ],
+      "animations": {
+        "idle": 2,
+        "walk": 2,
+        "hit": 2,
+        "attack": 3
+      },
+      "action_profile": {
+        "id": "player_keepwarden_sword",
+        "weapon": "sword",
+        "default_action": "keepwarden_idle",
+        "clips": {
+          "idle": [
+            "keepwarden_idle"
+          ],
+          "walk": [
+            "keepwarden_walk_a",
+            "keepwarden_walk_b"
+          ],
+          "attack": [
+            "keepwarden_shield_bash",
+            "keepwarden_thrust",
+            "keepwarden_recover"
+          ],
+          "hit": [
+            "keepwarden_hit_recoil"
+          ]
+        },
+        "build": "Male"
+      },
+      "equipped": {
+        "weapon": "sword",
+        "tier": -1,
+        "layer": "none",
+        "relic": "TollcoinCharm"
+      },
+      "uvs": true,
+      "materials": true,
+      "rig": true,
+      "pivot": "feet_center",
+      "metadata": {
+        "source_kind": "blender_5.1_player_v1",
+        "front_axis": "-Y",
+        "sockets": [
+          "weapon.R",
+          "chest",
+          "relic"
+        ]
+      }
+    }
+  ]
+}
