@@ -364,4 +364,23 @@
     sourceRow(npcSources, "Guard", false, [
       ["Front", `../visual-v2/guard-blender-5.1/render/Guard/idle/front/000.png`],
       ["Blender", `../visual-v2/guard-blender-5.1/blender/Guard.blend`],
-      ["GLB", `../visual-v2/guard-bl
+      ["GLB", `../visual-v2/guard-blender-5.1/source/Guard.glb`]
+    ]);
+    for (const name of v2Creatures) {
+      const root = `../visual-v2/npc-roster-v2/${name}`;
+      sourceRow(npcSources, name, false, [
+        ["Front", `${root}/render/${name}/idle/front/000.png`],
+        ["Blender", `${root}/blender/${name}.blend`],
+        ["GLB", `${root}/source/${name}.glb`]
+      ]);
+    }
+
+    const cases = [["title", "Title"], ["create-class", "Creation / order"], ["inventory", "Equipment"], ["journal", "Journal"], ["atlas", "Map"], ["talents", "Talent tree"], ["talk", "Conversation"], ["trade", "Trade"], ["forge", "Forge"]];
+    for (const [name, label] of cases) {
+      const src = `../ui-cases/${name}.png`;
+      sourceRow(document.getElementById("ui-sources"), label, false, [["Capture", src]]);
+      if (["inventory", "talk", "talents"].includes(name)) plate(document.getElementById("ui-featured"), label, src, `${label}: current in-game interface`);
+    }
+  </script>
+</body>
+</html>
